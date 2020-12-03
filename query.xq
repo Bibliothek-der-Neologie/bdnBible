@@ -3,6 +3,8 @@ import module namespace bdn = "http://bdn-edition.de/xquery/bdn" at "modules/bdn
 import module namespace units = "http://bdn-edition.de/xquery/units" at "modules/units.xqm";
 (: import module namespace crit = "http://bdn-edition.de/xquery/crit" at "modules/critical.xqm"; :)
 
+(: Test-Änderung :)
+
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 declare variable $bible := doc("data/bibel_structure.xml");
