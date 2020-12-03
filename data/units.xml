@@ -1,0 +1,828 @@
+<?xml version='1.0' encoding='utf-8'?>
+<units xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="units.xsd">
+  <book name="Gen">
+    <unit from-chapter="1" from-verse="1" to-chapter="2" to-verse="4">Priesterlicher Schöpfungsbericht</unit>
+    <unit from-chapter="2" from-verse="4" to-chapter="3" to-verse="24">Nichtpriesterschriftlicher Schöpfungsbericht</unit>
+  </book>
+  <book name="Ex">
+    <chapter n="20">
+      <unit from-verse="1" to-verse="17">Dekalog</unit>
+    </chapter>
+  </book>
+  <book name="Num">
+    <unit from-chapter="7" from-verse="1" to-chapter="9" to-verse="14">Letzte kultische Handlungen und Anweisungen am Sinai</unit>
+  </book>
+  <book name="Dtn">
+    <chapter n="6">
+      <unit from-verse="4" to-verse="6">Schema Jisrael</unit>
+    </chapter>
+  </book>
+  <book name="Jes">
+    <chapter n="42">
+      <unit from-verse="1" to-verse="4">Erstes Gottesknechtslied</unit>
+    </chapter>
+    <chapter n="49">
+      <unit from-verse="1" to-verse="6">Zweites Gottesknechtslied</unit>
+    </chapter>
+    <chapter n="50">
+      <unit from-verse="4" to-verse="9">Drittes Gottesknechtslied</unit>
+    </chapter>
+    <unit from-chapter="52" from-verse="13" to-chapter="53" to-verse="12">Viertes Gottesknechtslied</unit>
+  </book>
+  <book name="Mt">
+    <unit from-chapter="1" from-verse="1" to-chapter="4" to-verse="22">Vorgeschichte</unit>
+    <chapter n="1">
+      <unit from-verse="1" to-verse="25">Herkunft Jesu ("Urkunde des Ursprungs")</unit>
+      <unit from-verse="18" to-verse="25">Jesu Geburt</unit>
+    </chapter>
+    <chapter n="2">
+      <unit from-verse="1" to-verse="12">Die Weisen aus dem Morgenland</unit>
+      <unit from-verse="13" to-verse="15">Die Flucht nach Ägypten</unit>
+    </chapter>
+    <chapter n="3">
+      <unit from-verse="1" to-verse="17">Auftreten des Täufers und Taufe Jesu</unit>
+      <unit from-verse="1" to-verse="12">Johannes der Täufer</unit>
+      <unit from-verse="13" to-verse="17">Jesu Taufe</unit>
+    </chapter>
+    <unit from-chapter="4" from-verse="23" to-chapter="9" to-verse="35">Jesus als der Messias des Wortes und der Tat</unit>
+    <chapter n="4">
+      <unit from-verse="1" to-verse="11">Jesu Versuchung ("Versuchungsgeschichte")</unit>
+      <unit from-verse="12" to-verse="22">Beginn der Wirksamkeit Jesu</unit>
+      <unit from-verse="12" to-verse="17">Der Beginn des Wirkens Jesu in Galiläa</unit>
+      <unit from-verse="23" to-verse="25">Summarium I</unit>
+    </chapter>
+    <unit from-chapter="5" from-verse="1" to-chapter="7" to-verse="29">Bergpredigt</unit>
+    <chapter n="5">
+      <unit from-verse="1" to-verse="12">Die Seligpreisungen</unit>
+      <unit from-verse="13" to-verse="16">Salz und Licht</unit>
+      <unit from-verse="17" to-verse="20">Jesu Stellung zum Gesetz</unit>
+      <unit from-verse="21" to-verse="26">Vom Töten</unit>
+      <unit from-verse="27" to-verse="32">Vom Ehebrechen</unit>
+      <unit from-verse="33" to-verse="37">Vom Schwören</unit>
+      <unit from-verse="38" to-verse="42">Vom Vergelten</unit>
+      <unit from-verse="43" to-verse="48">Von der Feindesliebe</unit>
+    </chapter>
+    <chapter n="6">
+      <unit from-verse="1" to-verse="4">Vom Almosengeben</unit>
+      <unit from-verse="5" to-verse="15">Vom Beten (Vaterunser)</unit>
+      <unit from-verse="16" to-verse="18">Vom Fasten</unit>
+      <unit from-verse="19" to-verse="34">Vom Schätzesammeln und Sorgen</unit>
+    </chapter>
+    <chapter n="7">
+      <unit from-verse="7" to-verse="11">Von der Zuversicht beim Beten</unit>
+      <unit from-verse="12" to-verse="14">Die Goldene Regel. Von den zwei Wegen</unit>
+      <unit from-verse="15" to-verse="23">Warnung vor den falschen Propheten</unit>
+      <unit from-verse="24" to-verse="29">Vom Hausbau</unit>
+    </chapter>
+    <unit from-chapter="8" from-verse="1" to-chapter="9" to-verse="34">Die Taten Jesu als Ausweis seiner Vollmacht</unit>
+    <chapter n="8">
+      <unit from-verse="5" to-verse="13">Der Hauptmann von Kapernaum</unit>
+      <unit from-verse="18" to-verse="22">Vom Ernst der Nachfolge</unit>
+      <unit from-verse="28" to-verse="34">Die Heilung von zwei besessenen Gadarenern</unit>
+    </chapter>
+    <unit from-chapter="9" from-verse="36" to-chapter="11" to-verse="1">Aussendung der Jünger</unit>
+    <chapter n="9">
+      <unit from-verse="1" to-verse="8">Die Heilung eines Gelähmten</unit>
+      <unit from-verse="35" to-verse="35">Summarium II</unit>
+      <unit from-verse="36" to-verse="38">Jesu Erbarmen über das Volk</unit>
+    </chapter>
+    <unit from-chapter="10" from-verse="5" to-chapter="11" to-verse="1">Aussendungsrede</unit>
+    <chapter n="10">
+      <unit from-verse="1" to-verse="1">Vollmacht für die Jünger</unit>
+      <unit from-verse="2" to-verse="4">Jüngerliste</unit>
+      <unit from-verse="16" to-verse="26">Die Ansage kommender Verfolgungen</unit>
+      <unit from-verse="40" to-verse="42">Aufnahme um Jesu willen</unit>
+    </chapter>
+    <unit from-chapter="11" from-verse="2" to-chapter="16" to-verse="20">Das Entstehen der Gemeinde in der Auseinandersetzung um das Wesen Jesu</unit>
+    <chapter n="11">
+      <unit from-verse="2" to-verse="24">Anfrage des Täufers und Antwort Jesu</unit>
+      <unit from-verse="25" to-verse="30">Jesu Lobpreis ("Werberede"). Der Heilandsruf</unit>
+    </chapter>
+    <chapter n="12">
+      <unit from-verse="1" to-verse="50">Die Lehre Jesu im Widerstreit</unit>
+      <unit from-verse="38" to-verse="45">Die Zeichenforderung der Pharisäer</unit>
+    </chapter>
+    <unit from-chapter="13" from-verse="53" to-chapter="14" to-verse="36">Jesus zwischen Ablehnung in der Vaterstadt und Glauben der Jünger</unit>
+    <chapter n="13">
+      <unit from-verse="1" to-verse="52">Gleichnisrede</unit>
+      <unit from-verse="10" to-verse="17">Vom Sinn der Gleichnisse</unit>
+    </chapter>
+    <unit from-chapter="15" from-verse="1" to-chapter="16" to-verse="12">Auseinandersetzung um die Reinheitsgebote, Wunder und Warnung vor Pharisäern,Sadduzäern</unit>
+    <chapter n="16">
+      <unit from-verse="13" to-verse="20">Petrusbekenntnis in Caesarea Philippi</unit>
+      <unit from-verse="21" to-verse="28">1. Leidensankündigung und Nachfolgeworte</unit>
+    </chapter>
+    <chapter n="17">
+      <unit from-verse="1" to-verse="13">Verklärungsgeschichte</unit>
+      <unit from-verse="14" to-verse="27">Kraft des Glaubens, 2. Leidensankündigung, Tempelsteuer</unit>
+    </chapter>
+    <chapter n="18">
+      <unit from-verse="1" to-verse="35">"Gemeinderegel"</unit>
+    </chapter>
+    <unit from-chapter="19" from-verse="1" to-chapter="20" to-verse="16">Aufbruch nach Jerusalem, Zugang zum Himmelreich</unit>
+    <chapter n="20">
+      <unit from-verse="17" to-verse="34">3. Leidensankündigung, Abschluß der Jüngerbelehrung</unit>
+    </chapter>
+    <unit from-chapter="21" from-verse="1" to-chapter="25" to-verse="46">Wirksamkeit Jesu in Jerusalem</unit>
+    <unit from-chapter="21" from-verse="23" to-chapter="22" to-verse="14">Frage nach der Vollmacht Jesu</unit>
+    <chapter n="21">
+      <unit from-verse="1" to-verse="17">Einzug in Jerusalem und Tempelreinigung</unit>
+      <unit from-verse="18" to-verse="22">Die Macht des Glaubens</unit>
+    </chapter>
+    <chapter n="22">
+      <unit from-verse="15" to-verse="46">Jesus als Lehrer im Tempel</unit>
+    </chapter>
+    <chapter n="23">
+      <unit from-verse="1" to-verse="39">Antipharisäische Rede</unit>
+    </chapter>
+    <unit from-chapter="24" from-verse="1" to-chapter="25" to-verse="46">Ankündigung der Zerstörung des Tempels und Rede von den letzten Dingen</unit>
+    <unit from-chapter="26" from-verse="1" to-chapter="27" to-verse="66">Passionsgeschichte</unit>
+    <unit from-chapter="26" from-verse="57" to-chapter="27" to-verse="2">Verhandlung / Todesurteil des Synedriums</unit>
+    <chapter n="26">
+      <unit from-verse="1" to-verse="5">Letzte Leidensankündigung; Todesbeschluß</unit>
+      <unit from-verse="6" to-verse="16">Salbung in Betanien; Verrat des Judas Iskariot</unit>
+      <unit from-verse="17" to-verse="35">Letztes Mahl Jesu mit den Jüngern; Ansage ihrer Flucht</unit>
+      <unit from-verse="26" to-verse="28">Abendmahlsworte</unit>
+      <unit from-verse="36" to-verse="56">Getsemani Gefangennahme Jesu und Flucht der Jünger</unit>
+    </chapter>
+    <chapter n="27">
+      <unit from-verse="3" to-verse="10">Reue und Selbstmord des Judas</unit>
+      <unit from-verse="11" to-verse="26">Verhandlung vor Pilatus</unit>
+      <unit from-verse="27" to-verse="56">Verspottung durch die Soldaten; Kreuzigung</unit>
+      <unit from-verse="57" to-verse="61">Grablegung</unit>
+      <unit from-verse="62" to-verse="66">Die Wache vor dem Grab</unit>
+    </chapter>
+    <unit from-chapter="28" from-verse="1" to-chapter="28" to-verse="20">Ostergeschichten</unit>
+    <chapter n="28">
+      <unit from-verse="1" to-verse="7">Die Frauen am leeren Grab</unit>
+      <unit from-verse="8" to-verse="10">Der Auferstandene begegnet den Frauen</unit>
+      <unit from-verse="11" to-verse="15">Ursprung des Gerüchts, der Leichnam Jesu sei von den Jüngern gestohlen worden</unit>
+      <unit from-verse="16" to-verse="20">Erscheinung vor den Jüngern</unit>
+      <unit from-verse="18" to-verse="20">Missionsbefehl</unit>
+    </chapter>
+  </book>
+  <book name="Mk">
+    <chapter n="1">
+      <unit from-verse="1" to-verse="1">Überschrift</unit>
+      <unit from-verse="2" to-verse="8">Johannes der Täufer</unit>
+      <unit from-verse="2" to-verse="13">Jesu Taufe und Versuchung</unit>
+      <unit from-verse="14" to-verse="15">Der Beginn des Wirkens Jesu in Galiläa</unit>
+      <unit from-verse="16" to-verse="20">Die Berufung der ersten Jünger</unit>
+      <unit from-verse="21" to-verse="39">Jesus in Kapernaum</unit>
+      <unit from-verse="40" to-verse="45">Die Heilung eines Aussätzigen</unit>
+    </chapter>
+    <chapter n="2">
+      <unit from-verse="1" to-verse="12">Die Heilung eines Gelähmten und die Vollmacht zur Sündenvergebung</unit>
+      <unit from-verse="13" to-verse="17">Die Berufung des Levi und das Mahl mit den Zöllnern</unit>
+      <unit from-verse="18" to-verse="22">Die Frage nach dem Fasten</unit>
+      <unit from-verse="23" to-verse="28">Das Ährenraufen am Sabbat</unit>
+    </chapter>
+    <chapter n="3">
+      <unit from-verse="1" to-verse="6">Die Heilung am Sabbat</unit>
+      <unit from-verse="7" to-verse="12">Andrang des Volkes und viele Heilungen</unit>
+      <unit from-verse="13" to-verse="19">Die Berufung der Zwölf</unit>
+      <unit from-verse="20" to-verse="21">Jesus und seine Verwandten</unit>
+      <unit from-verse="22" to-verse="30">Jesus und die Dämonen</unit>
+      <unit from-verse="31" to-verse="35">Jesu wahre Verwandte</unit>
+    </chapter>
+    <chapter n="4">
+      <unit from-verse="1" to-verse="2">Lehre in Gleichnissen</unit>
+      <unit from-verse="3" to-verse="9">Das Gleichnis vom Sämann</unit>
+      <unit from-verse="10" to-verse="12">Vom Sinn der Gleichnisse</unit>
+      <unit from-verse="13" to-verse="20">Die Deutung des Gleichnisses</unit>
+      <unit from-verse="21" to-verse="25">Vom Licht und vom rechten Maß</unit>
+      <unit from-verse="26" to-verse="29">Das Gleichnis vom Wachsen der Saat</unit>
+      <unit from-verse="30" to-verse="34">Das Gleichnis vom Senfkorn</unit>
+      <unit from-verse="35" to-verse="41">Die Stillung des Sturmes</unit>
+    </chapter>
+    <chapter n="5">
+      <unit from-verse="1" to-verse="20">Der besessene Gerasener</unit>
+      <unit from-verse="21" to-verse="43">Die Heilung einer blutflüssigen Frau und die Auferweckung der Tochter des Jaïrus</unit>
+    </chapter>
+    <chapter n="6">
+      <unit from-verse="1" to-verse="6">Die Ablehnung Jesu in Nazareth</unit>
+      <unit from-verse="7" to-verse="13">Die Aussendung der Zwölf</unit>
+      <unit from-verse="14" to-verse="29">Das Ende Johannes des Täufers</unit>
+      <unit from-verse="30" to-verse="44">Die Speisung der Fünftausend</unit>
+      <unit from-verse="45" to-verse="52">Jesus kommt zu seinen Jüngern auf dem Meer</unit>
+      <unit from-verse="53" to-verse="56">Krankenheilungen in Genezareth</unit>
+    </chapter>
+    <chapter n="7">
+      <unit from-verse="1" to-verse="23">Von unreinen Händen und Herzen</unit>
+      <unit from-verse="24" to-verse="30">Die syrophönizische Frau</unit>
+      <unit from-verse="31" to-verse="37">Die Heilung eines Tauben</unit>
+    </chapter>
+    <chapter n="8">
+      <unit from-verse="1" to-verse="9">Die Speisung der Viertausend</unit>
+      <unit from-verse="10" to-verse="13">Die Zeichenforderung der Pharisäer</unit>
+      <unit from-verse="14" to-verse="21">Das Unverständnis der Jünger</unit>
+      <unit from-verse="22" to-verse="26">Die Heilung eines Blinden</unit>
+      <unit from-verse="27" to-verse="30">Das Bekenntnis des Petrus</unit>
+      <unit from-verse="31" to-verse="33">Die erste Ankündigung von Jesu Leiden und Auferstehung</unit>
+      <unit from-verse="34" to-verse="38">Von der Nachfolge</unit>
+    </chapter>
+    <chapter n="9">
+      <unit from-verse="1" to-verse="1">...</unit>
+      <unit from-verse="2" to-verse="13">Die Verklärung Jesu</unit>
+      <unit from-verse="14" to-verse="29">Die Heilung eines besessenen Knaben</unit>
+      <unit from-verse="30" to-verse="32">Die zweite Ankündigung von Jesu Leiden und Auferstehung</unit>
+      <unit from-verse="33" to-verse="37">Der Rangstreit unter den Jüngern</unit>
+      <unit from-verse="38" to-verse="41">Der fremde Wundertäter</unit>
+      <unit from-verse="42" to-verse="50">Warnung vor Verführung</unit>
+    </chapter>
+    <chapter n="10">
+      <unit from-verse="1" to-verse="12">Von Ehe und Ehescheidung</unit>
+      <unit from-verse="13" to-verse="16">Die Segnung der Kinder</unit>
+      <unit from-verse="17" to-verse="27">Reichtum und Nachfolge</unit>
+      <unit from-verse="28" to-verse="31">Der Lohn der Nachfolge</unit>
+      <unit from-verse="32" to-verse="34">Die dritte Ankündigung von Jesu Leiden und Auferstehung</unit>
+      <unit from-verse="35" to-verse="45">Vom Herrschen und vom Dienen</unit>
+      <unit from-verse="46" to-verse="52">Die Heilung eines Blinden bei Jericho</unit>
+    </chapter>
+    <chapter n="11">
+      <unit from-verse="1" to-verse="11">Jesu Einzug in Jerusalem</unit>
+      <unit from-verse="12" to-verse="26">Der verdorrte Feigenbaum. Jesus im Tempel</unit>
+      <unit from-verse="27" to-verse="33">Die Frage nach Jesu Vollmacht</unit>
+    </chapter>
+    <chapter n="12">
+      <unit from-verse="1" to-verse="12">Von den bösen Weingärtnern</unit>
+      <unit from-verse="13" to-verse="17">Die Frage nach der Steuer (Der Zinsgroschen)</unit>
+      <unit from-verse="18" to-verse="27">Die Frage nach der Auferstehung</unit>
+      <unit from-verse="28" to-verse="34">Die Frage nach dem höchsten Gebot</unit>
+      <unit from-verse="38" to-verse="40">Warnung vor den Schriftgelehrten</unit>
+      <unit from-verse="41" to-verse="44">Das Scherflein der Witwe</unit>
+    </chapter>
+    <chapter n="13">
+      <unit from-verse="1" to-verse="2">Das Ende des Tempels</unit>
+      <unit from-verse="3" to-verse="13">Die Vorzeichen</unit>
+      <unit from-verse="14" to-verse="23">Die große Bedrängnis</unit>
+      <unit from-verse="24" to-verse="27">Das Kommen des Menschensohns</unit>
+      <unit from-verse="28" to-verse="32">Vom Zeitpunkt des Endes</unit>
+      <unit from-verse="33" to-verse="37">Mahnung zur Wachsamkeit</unit>
+    </chapter>
+    <chapter n="14">
+      <unit from-verse="1" to-verse="2">Der Plan der Hohenpriester und der Schriftgelehrten</unit>
+      <unit from-verse="3" to-verse="9">Die Salbung in Betanien</unit>
+      <unit from-verse="10" to-verse="11">Der Verrat des Judas</unit>
+      <unit from-verse="12" to-verse="26">Das Abendmahl</unit>
+      <unit from-verse="27" to-verse="31">Die Ankündigung der Verleugnung des Petrus</unit>
+      <unit from-verse="32" to-verse="42">Jesus in Gethsemane</unit>
+      <unit from-verse="43" to-verse="52">Jesu Gefangennahme</unit>
+      <unit from-verse="53" to-verse="65">Jesus vor dem Hohen Rat</unit>
+      <unit from-verse="66" to-verse="72">Die Verleugnung des Petrus</unit>
+    </chapter>
+    <chapter n="15">
+      <unit from-verse="1" to-verse="5">Jesus vor Pilatus</unit>
+      <unit from-verse="6" to-verse="20">Jesu Verurteilung und Verspottung</unit>
+      <unit from-verse="21" to-verse="41">Jesu Kreuzigung und Tod</unit>
+      <unit from-verse="42" to-verse="47">Jesu Grablegung</unit>
+    </chapter>
+    <chapter n="16">
+      <unit from-verse="1" to-verse="8">Die Botschaft von Jesu Auferstehung</unit>
+      <unit from-verse="9" to-verse="20">Erscheinungen des Auferstandenen und Himmelfahrt</unit>
+    </chapter>
+  </book>
+  <book name="Lk">
+    <unit from-chapter="1" from-verse="5" to-chapter="2" to-verse="52">Geburtsgeschichten</unit>
+    <chapter n="1">
+      <unit from-verse="1" to-verse="4">Proömium</unit>
+      <unit from-verse="5" to-verse="25">Die Ankündigung der Geburt Johannes des Täufers</unit>
+      <unit from-verse="26" to-verse="38">Die Ankündigung der Geburt Jesu</unit>
+      <unit from-verse="39" to-verse="44">Marias Besuch bei Elisabeth (Mariä Heimsuchung)</unit>
+      <unit from-verse="46" to-verse="56">Marias Lobgesang</unit>
+      <unit from-verse="57" to-verse="66">Die Geburt Johannes des Täufers</unit>
+      <unit from-verse="67" to-verse="80">Der Lobgesang des Zacharias</unit>
+    </chapter>
+    <chapter n="2">
+      <unit from-verse="1" to-verse="20">Jesu Geburt</unit>
+      <unit from-verse="21" to-verse="40">Jesu Beschneidung und Darstellung im Tempel</unit>
+      <unit from-verse="41" to-verse="52">Der zwölfjährige Jesus im Tempel</unit>
+    </chapter>
+    <unit from-chapter="3" from-verse="1" to-chapter="4" to-verse="13">Vorbereitung der Wirksamkeit Jesu</unit>
+    <chapter n="3">
+      <unit from-verse="1" to-verse="20">Johannes der Täufer</unit>
+      <unit from-verse="21" to-verse="22">Jesu Taufe</unit>
+      <unit from-verse="23" to-verse="38">Jesu Stammbaum</unit>
+    </chapter>
+    <unit from-chapter="4" from-verse="14" to-chapter="9" to-verse="50">Wirksamkeit Jesu in Galiläa</unit>
+    <chapter n="4">
+      <unit from-verse="1" to-verse="13">Jesu Versuchung</unit>
+      <unit from-verse="14" to-verse="14">Der Beginn des Wirkens Jesu in Galiläa</unit>
+      <unit from-verse="16" to-verse="30">Jesu Predigt in Nazareth</unit>
+      <unit from-verse="31" to-verse="44">Jesus in Kapernaum</unit>
+    </chapter>
+    <chapter n="5">
+      <unit from-verse="1" to-verse="11">Der Fischzug des Petrus</unit>
+      <unit from-verse="12" to-verse="16">Die Heilung eines Aussätzigen</unit>
+      <unit from-verse="17" to-verse="26">Die Heilung eines Gelähmten und die Vollmacht zur Sündenvergebung</unit>
+    </chapter>
+    <chapter n="6">
+      <unit from-verse="1" to-verse="5">Das Ährenraufen am Sabbat</unit>
+      <unit from-verse="6" to-verse="11">Die Heilung eines Mannes am Sabbat</unit>
+      <unit from-verse="12" to-verse="19">Die Berufung der Zwölf auf dem Berg</unit>
+      <unit from-verse="20" to-verse="23">Die Seligpreisungen</unit>
+      <unit from-verse="24" to-verse="26">Die Weherufe</unit>
+      <unit from-verse="27" to-verse="35">Von der Feindesliebe</unit>
+      <unit from-verse="36" to-verse="42">Vom Umgang mit dem Nächsten</unit>
+      <unit from-verse="43" to-verse="46">Vom Baum und seinen Früchten</unit>
+      <unit from-verse="47" to-verse="49">Vom Hausbau</unit>
+    </chapter>
+    <chapter n="7">
+      <unit from-verse="1" to-verse="10">Der Hauptmann von Kapernaum</unit>
+      <unit from-verse="11" to-verse="17">Der Sohn der Witwe zu Nain</unit>
+      <unit from-verse="18" to-verse="23">Die Frage des Täufers</unit>
+      <unit from-verse="24" to-verse="35">Jesu Zeugnis über den Täufer</unit>
+      <unit from-verse="36" to-verse="50">Jesu Salbung durch eine Sünderin</unit>
+    </chapter>
+    <chapter n="8">
+      <unit from-verse="1" to-verse="3">Frauen in der Nachfolge Jesu</unit>
+      <unit from-verse="4" to-verse="8">Vom Sämann</unit>
+      <unit from-verse="9" to-verse="10">Vom Sinn der Gleichnisse</unit>
+      <unit from-verse="11" to-verse="15">Die Deutung des Gleichnisses vom Sämann</unit>
+      <unit from-verse="16" to-verse="18">Vom Licht und vom rechten Hören</unit>
+      <unit from-verse="19" to-verse="21">Jesu wahre Verwandte</unit>
+      <unit from-verse="22" to-verse="25">Die Stillung des Sturms</unit>
+      <unit from-verse="26" to-verse="39">Der besessene Gerasener</unit>
+      <unit from-verse="40" to-verse="56">Die Heilung einer blutflüssigen Frau und die Auferweckung der Tochter des Jaïrus</unit>
+    </chapter>
+    <unit from-chapter="9" from-verse="51" to-chapter="10" to-verse="24">Jüngerbelehrung</unit>
+    <chapter n="9">
+      <unit from-verse="1" to-verse="6">Die Aussendung der Zwölf</unit>
+      <unit from-verse="7" to-verse="9">Herodes Antipas und Jesus</unit>
+      <unit from-verse="10" to-verse="17">Die Rückkehr der Zwölf. Die Speisung der Fünftausend</unit>
+      <unit from-verse="18" to-verse="22">Das Bekenntnis des Petrus. Die erste Leidensankündigung</unit>
+      <unit from-verse="23" to-verse="27">Von der Nachfolge</unit>
+      <unit from-verse="28" to-verse="36">Die Verklärung Jesu</unit>
+      <unit from-verse="37" to-verse="43">Die Heilung eines besessenen Knaben</unit>
+      <unit from-verse="44" to-verse="45">Die zweite Leidensankündigung</unit>
+      <unit from-verse="46" to-verse="48">Rangstreit unter den Jüngern</unit>
+      <unit from-verse="49" to-verse="50">Ein fremder Wundertäter</unit>
+      <unit from-verse="51" to-verse="56">Aufbruch nach Jerusalem. Ablehnung Jesu in einem samaritanischen Dorf</unit>
+      <unit from-verse="57" to-verse="62">Vom Ernst der Nachfolge</unit>
+    </chapter>
+    <unit from-chapter="10" from-verse="25" to-chapter="11" to-verse="36">Jesus als Lehrer</unit>
+    <chapter n="10">
+      <unit from-verse="1" to-verse="12">Die Aussendung der Zwölf</unit>
+      <unit from-verse="13" to-verse="16">Weherufe über galiläische Städte</unit>
+      <unit from-verse="17" to-verse="20">Rückkehr der Zweiundsiebzig</unit>
+      <unit from-verse="21" to-verse="24">Jesu Lobpreis des Vaters</unit>
+      <unit from-verse="25" to-verse="37">Die Frage nach dem ewigen Leben. Der barmherzige Samariter</unit>
+      <unit from-verse="38" to-verse="42">Maria und Marta</unit>
+    </chapter>
+    <unit from-chapter="11" from-verse="37" to-chapter="13" to-verse="9">Redenzyklus: Gerichtsrede gegen Pharisäer und Schriftgelehrte; Mahn- und Trostrede an die Jünger (12,13-21 Warnung vor falscher Sicherheit des Reichtums); Bußpredigt</unit>
+    <chapter n="11">
+      <unit from-verse="1" to-verse="4">Das Vaterunser</unit>
+      <unit from-verse="5" to-verse="8">Der bittende Freund</unit>
+      <unit from-verse="9" to-verse="13">Zuversicht beim Beten</unit>
+      <unit from-verse="14" to-verse="26">Jesus und die Dämonen</unit>
+      <unit from-verse="27" to-verse="28">Zweierlei Seligpreisungen</unit>
+      <unit from-verse="29" to-verse="32">Ablehnung der Zeichenforderung</unit>
+      <unit from-verse="33" to-verse="36">Bildworte vom Licht</unit>
+      <unit from-verse="37" to-verse="54">Weherufe gegen die Pharisäer und die Lehrer des Gesetzes</unit>
+    </chapter>
+
+    <chapter n="12">
+      <unit from-verse="1" to-verse="12">Menschenfurcht und Gottesfurcht</unit>
+      <unit from-verse="13" to-verse="15">Warnung vor Habgier</unit>
+      <unit from-verse="16" to-verse="21">Der reiche Kornbauer</unit>
+      <unit from-verse="22" to-verse="34">Vom falschen und rechten Sorgen</unit>
+      <unit from-verse="35" to-verse="48">Vom Warten auf das Kommen des Herrn</unit>
+      <unit from-verse="49" to-verse="53">Entzweiungen um Jesu willen</unit>
+      <unit from-verse="54" to-verse="59">Die Zeichen der Zeit</unit>
+    </chapter>
+    <chapter n="13">
+      <unit from-verse="1" to-verse="5">Der Untergang der Galiläer. Der Turm von Siloah</unit>
+      <unit from-verse="6" to-verse="9">Das Gleichnis vom Feigenbaum</unit>
+      <unit from-verse="10" to-verse="17">Die Heilung einer verkrümmten Frau am Sabbat</unit>
+      <unit from-verse="18" to-verse="35">Gleichnisse vom Gottesreich, Gerichtsworte über Israel und Jerusalem</unit>
+      <unit from-verse="18" to-verse="21">Vom Senfkorn und vom Sauerteig</unit>
+      <unit from-verse="22" to-verse="30">Die enge Pforte und die verschlossene Tür</unit>
+      <unit from-verse="31" to-verse="33">Die Feindschaft des Herodes Antipas</unit>
+      <unit from-verse="34" to-verse="35">Klage über Jerusalem</unit>
+    </chapter>
+    <chapter n="14">
+      <unit from-verse="1" to-verse="35">Das Wesen der Nachfolge</unit>
+      <unit from-verse="1" to-verse="6">Die Heilung eines Wassersüchtigen am Sabbat</unit>
+      <unit from-verse="7" to-verse="14">Von Rangordnung und Auswahl der Gäste</unit>
+      <unit from-verse="15" to-verse="24">Das große Abendmahl</unit>
+      <unit from-verse="25" to-verse="35">Von der Nachfolge</unit>
+    </chapter>
+    <chapter n="15">
+      <unit from-verse="1" to-verse="32">Gleichnistrilogie vom Verlorenen</unit>
+      <unit from-verse="3" to-verse="7">Vom verlorenen Schaf</unit>
+      <unit from-verse="8" to-verse="10">Vom verlorenen Groschen</unit>
+      <unit from-verse="11" to-verse="32">Vom verlorenen Sohn</unit>
+    </chapter>
+    <chapter n="16">
+      <unit from-verse="1" to-verse="31">Vom Umgang mit dem Reichtum und der Geltung der Heiligen Schrift</unit>
+      <unit from-verse="1" to-verse="13">Vom ungerechten Verwalter</unit>
+      <unit from-verse="14" to-verse="18">Worte an die Pharisäer</unit>
+      <unit from-verse="19" to-verse="31">Vom reichen Mann und armen Lazarus</unit>
+    </chapter>
+    <chapter n="17">
+      <unit from-verse="1" to-verse="4">Warnung vor der Verführung. Von der Vergebung</unit>
+      <unit from-verse="5" to-verse="6">Von der Kraft des Glaubens</unit>
+      <unit from-verse="7" to-verse="10">Von der Pflicht des Knechts</unit>
+      <unit from-verse="11" to-verse="19">Die zehn Aussätzigen</unit>
+      <unit from-verse="20" to-verse="21">Vom Kommen des Gottesreiches</unit>
+      <unit from-verse="22" to-verse="37">Vom Tag des Menschensohns</unit>
+    </chapter>
+    <chapter n="18">
+      <unit from-verse="1" to-verse="8">Der Richter und die Witwe</unit>
+      <unit from-verse="9" to-verse="14">Der Pharisäer und der Zöllner</unit>
+      <unit from-verse="15" to-verse="17">Jesus und die Kinder</unit>
+      <unit from-verse="18" to-verse="27">Reichtum und Nachfolge</unit>
+      <unit from-verse="28" to-verse="30">Der Lohn der Nachfolge</unit>
+      <unit from-verse="31" to-verse="34">Die dritte Ankündigung von Jesu Leiden und Auferstehung</unit>
+      <unit from-verse="35" to-verse="43">Die Heilung eines Blinden bei Jericho</unit>
+    </chapter>
+    <chapter n="19">
+      <unit from-verse="1" to-verse="10">Zachäus</unit>
+      <unit from-verse="11" to-verse="27">Von den anvertrauten Pfunden</unit>
+      <unit from-verse="28" to-verse="40">Jesu Einzug in Jerusalem</unit>
+      <unit from-verse="41" to-verse="44">Jesus weint über Jerusalem</unit>
+      <unit from-verse="45" to-verse="48">Die Tempelreinigung</unit>
+    </chapter>
+    <chapter n="20">
+      <unit from-verse="1" to-verse="8">Die Frage nach Jesu Vollmacht</unit>
+      <unit from-verse="9" to-verse="19">Von den bösen Weingärtnern</unit>
+      <unit from-verse="20" to-verse="26">Die Frage nach der Steuer (Der Zinsgroschen)</unit>
+      <unit from-verse="27" to-verse="40">Die Frage nach der Auferstehung</unit>
+      <unit from-verse="41" to-verse="44">Der Sohn Davids</unit>
+      <unit from-verse="45" to-verse="47">Warnung vor den Schriftgelehrten</unit>
+    </chapter>
+    <chapter n="21">
+      <unit from-verse="1" to-verse="4">Das Scherflein der Witwe</unit>
+      <unit from-verse="5" to-verse="36">Rede von den letzten Dingen</unit>
+      <unit from-verse="5" to-verse="6">Das Ende des Tempels</unit>
+      <unit from-verse="7" to-verse="11">Die Vorzeichen</unit>
+      <unit from-verse="12" to-verse="18">Ankündigung von Verfolgungen</unit>
+      <unit from-verse="20" to-verse="24">Das Ende Jerusalems</unit>
+      <unit from-verse="25" to-verse="28">Das Kommen des Menschensohns</unit>
+      <unit from-verse="29" to-verse="33">Vom Feigenbaum</unit>
+      <unit from-verse="34" to-verse="38">Ermahnung zur Wachsamkeit</unit>
+    </chapter>
+  </book>
+
+  <book name="Joh">
+    <chapter n="1">
+      <unit from-verse="1" to-verse="18">Prolog (Logoshymnus)</unit>
+      <unit from-verse="19" to-verse="34">Der Täufer als Zeuge des Offenbarers</unit>
+      <unit from-verse="35" to-verse="51">Jüngerberufungen</unit>
+    </chapter>
+    <unit from-chapter="2" from-verse="1" to-chapter="12" to-verse="50">Die Offenbarung Jesu vor der Welt</unit>
+    <unit from-chapter="2" from-verse="1" to-chapter="4" to-verse="54">Die Kana-Ringkomposition</unit>
+    <chapter n="2">
+      <unit from-verse="1" to-verse="12">Hochzeit zu Kana</unit>
+      <unit from-verse="13" to-verse="25">Tempelreinigung</unit>
+    </chapter>
+    <chapter n="3">
+      <unit from-verse="1" to-verse="21">Jesus und Nikodemus</unit>
+      <unit from-verse="22" to-verse="36">Das Zeugnis des Täufers über Jesus</unit>
+    </chapter>
+    <chapter n="4">
+      <unit from-verse="1" to-verse="45">Jesus und die Frau aus Samarien</unit>
+      <unit from-verse="46" to-verse="54">Heilung des Sohnes eines königlichen Beamten</unit>
+    </chapter>
+    <chapter n="5">
+      <unit from-verse="1" to-verse="18">Die Heilung des Gelähmten am Teich Betesda</unit>
+      <unit from-verse="19" to-verse="30">Die Vollmacht des Sohnes</unit>
+      <unit from-verse="31" to-verse="47">Die Zeugen für den Sohn</unit>
+    </chapter>
+    <chapter n="6">
+      <unit from-verse="1" to-verse="15">Die Speisung der Fünftausend</unit>
+      <unit from-verse="16" to-verse="20">Seewandel Jesu</unit>
+      <unit from-verse="22" to-verse="59">Brotrede</unit>
+      <unit from-verse="60" to-verse="71">Spaltung unter den Jüngern und das Bekenntnis des Petrus</unit>
+    </chapter>
+    <unit from-chapter="7" from-verse="1" to-chapter="8" to-verse="59">Jesus beim Laubhüttenfest in Jerusalem, Offenbarungsrede vom Licht der Welt und der Sendung Jesu, Streit mit den Juden</unit>
+    <chapter n="7">
+      <unit from-verse="1" to-verse="13">Die Reise zum Laubhüttenfest</unit>
+      <unit from-verse="14" to-verse="39">Jesus auf dem Fest</unit>
+      <unit from-verse="40" to-verse="53">Zwietracht im Volk</unit>
+    </chapter>
+    <chapter n="8">
+      <unit from-verse="2" to-verse="11">Jesus und die Ehebrecherin</unit>
+      <unit from-verse="12" to-verse="20">Das Licht der Welt</unit>
+      <unit from-verse="21" to-verse="30">Jesu Weg zur Erhöhung</unit>
+      <unit from-verse="31" to-verse="36">Die befreiende Wahrheit</unit>
+      <unit from-verse="37" to-verse="45">Streit um Abraham</unit>
+      <unit from-verse="46" to-verse="59">Der Streit um Jesu Ehre</unit>
+    </chapter>
+    <unit from-chapter="9" from-verse="1" to-chapter="10" to-verse="21">Heilung des Blindgeborenen und nachfolgende Auseinandersetzungen </unit>
+    <chapter n="9">
+      <unit from-verse="1" to-verse="41">Die Heilung eines Blindgeborenen</unit>
+    </chapter>
+    <chapter n="10">
+      <unit from-verse="1" to-verse="30">Der gute Hirte (Hirtenrede)</unit>
+      <unit from-verse="22" to-verse="42">Streitgespräch mit den Juden beim Tempelweihfest</unit>
+      <unit from-verse="31" to-verse="42">Der Vorwurf der Gotteslästerung</unit>
+    </chapter>
+    <chapter n="11">
+      <unit from-verse="1" to-verse="45">Auferweckung des Lazarus</unit>
+      <unit from-verse="46" to-verse="57">Todesbeschluß des Hohen Rates</unit>
+    </chapter>
+    <chapter n="12">
+      <unit from-verse="1" to-verse="11">Salbung in Betanien, Todesbeschluß gegen Lazarus</unit>
+      <unit from-verse="12" to-verse="19">Einzug in Jerusalem</unit>
+      <unit from-verse="20" to-verse="36">Die Ankündigung der Verherrlichung</unit>
+      <unit from-verse="37" to-verse="50">Der Unglaube des Volkes</unit>
+    </chapter>
+    <unit from-chapter="13" from-verse="1" to-chapter="17" to-verse="26">Die Offenbarung Jesu vor den Seinen</unit>
+    <unit from-chapter="13" from-verse="31" to-chapter="16" to-verse="33">Abschiedsreden Jesu</unit>
+    <chapter n="13">
+      <unit from-verse="1" to-verse="20">Das letzte Mahl Jesu mit seinen Jüngern (Fußwaschung)</unit>
+      <unit from-verse="21" to-verse="30">Jesus, der Lieblingsjünger und der Verräter</unit>
+      <unit from-verse="31" to-verse="35">Die Verherrlichung und das neue Gebot</unit>
+      <unit from-verse="36" to-verse="38">Die Ankündigung der Verleugnung des Petrus</unit>
+    </chapter>
+    <chapter n="14">
+      <unit from-verse="1" to-verse="14">Jesus, der Weg zum Vater</unit>
+      <unit from-verse="15" to-verse="26">Die Verheißung des Heiligen Geistes</unit>
+      <unit from-verse="27" to-verse="31">Der Friede Christi</unit>
+    </chapter>
+    <chapter n="15">
+      <unit from-verse="1" to-verse="8">Der wahre Weinstock</unit>
+      <unit from-verse="9" to-verse="17">Das Gebot der Liebe</unit>
+      <unit from-verse="18" to-verse="27">Der Hass der Welt</unit>
+    </chapter>
+    <chapter n="16">
+      <unit from-verse="5" to-verse="15">Das Werk des Heiligen Geistes</unit>
+      <unit from-verse="16" to-verse="33">Trauer und Hoffnung bei Jesu Abschied</unit>
+    </chapter>
+    <chapter n="17">
+      <unit from-verse="1" to-verse="26">Das hohepriesterliche Gebet</unit>
+    </chapter>
+    <unit from-chapter="18" from-verse="1" to-chapter="20" to-verse="29">Die Erhöhung und Verherrlichung des Offenbarers (Passion und Auferstehung)</unit>
+    <unit from-chapter="18" from-verse="28" to-chapter="19" to-verse="16">Verhandlung vor Pilatus</unit>
+    <chapter n="18">
+      <unit from-verse="1" to-verse="11">Gefangennahme Jesu</unit>
+      <unit from-verse="12" to-verse="27">Jesu Verhör vor Hannas und Kaiphas und die Verleugnung des Petrus</unit>
+      <unit from-verse="28" to-verse="40">Jesu Verhör vor Pilatus</unit>
+    </chapter>
+    <chapter n="19">
+      <unit from-verse="1" to-verse="5">Jesu Geißelung und Verspottung</unit>
+      <unit from-verse="6" to-verse="16">Jesu Verurteilung</unit>
+      <unit from-verse="17" to-verse="37">Jesu Kreuzigung und Tod</unit>
+      <unit from-verse="38" to-verse="42">Jesu Grablegung</unit>
+    </chapter>
+    <chapter n="20">
+      <unit from-verse="1" to-verse="10">Maria Magdalena und die Jünger am leeren Grab</unit>
+      <unit from-verse="11" to-verse="18">Erscheinung vor Maria Magdalena</unit>
+      <unit from-verse="19" to-verse="23">Die Vollmacht der Jünger</unit>
+      <unit from-verse="24" to-verse="31">Ungläubiger Thomas, Zweck des Evangeliums (1. Evangelienschluss)</unit>      
+    </chapter>
+    <chapter n="21">
+      <unit from-verse="1" to-verse="25">Nachtragskapitel der Redaktion</unit>
+      <unit from-verse="1" to-verse="14">Erscheinung am See von Tiberias</unit>
+      <unit from-verse="15" to-verse="23">Petrus und der Lieblingsjünger</unit>
+      <unit from-verse="24" to-verse="24">Zeugnis der Redaktion über den Lieblingsjünger</unit>
+      <unit from-verse="25" to-verse="25">2. Evangelienschluss</unit>
+    </chapter>
+  </book>
+  <book name="Apg">
+    <chapter n="1">
+      <unit from-verse="1" to-verse="14">Christi Himmelfahrt</unit>
+      <unit from-verse="15" to-verse="26">Die Nachwahl des zwölften Apostels</unit>
+    </chapter>
+    <chapter n="2">
+      <unit from-verse="1" to-verse="13">Das Pfingstwunder</unit>
+      <unit from-verse="14" to-verse="36">Die Pfingstpredigt des Petrus</unit>
+      <unit from-verse="37" to-verse="47">Die erste Gemeinde</unit>
+    </chapter>
+    <chapter n="3">
+      <unit from-verse="1" to-verse="26">Die Heilung des Gelähmten</unit>
+    </chapter>
+    <chapter n="4">
+      <unit from-verse="1" to-verse="22">Petrus und Johannes vor dem Hohen Rat</unit>
+      <unit from-verse="23" to-verse="31">Das Gebet der Gemeinde</unit>
+      <unit from-verse="32" to-verse="37">Die Gütergemeinschaft der ersten Christen</unit>
+    </chapter>
+    <chapter n="5">
+      <unit from-verse="1" to-verse="11">Hananias und Saphira</unit>
+      <unit from-verse="12" to-verse="16">Wundertaten der Apostel</unit>
+      <unit from-verse="17" to-verse="33">Die Apostel vor dem Hohen Rat</unit>
+      <unit from-verse="34" to-verse="42">Der Rat des Gamaliel</unit>
+    </chapter>
+    <chapter n="6">
+      <unit from-verse="1" to-verse="7">Die Wahl der sieben Diakone</unit>
+      <unit from-verse="8" to-verse="15">Stephanus vor dem Hohen Rat</unit>
+    </chapter>
+    <chapter n="7">
+      <unit from-verse="1" to-verse="53">Die Rede des Stephanus</unit>
+      <unit from-verse="54" to-verse="60">Der Tod des Stephanus</unit>
+    </chapter>
+    <chapter n="8">
+      <unit from-verse="2" to-verse="3">Die Verfolgung der Gemeinde in Jerusalem</unit>
+      <unit from-verse="4" to-verse="25">Philippus in Samarien</unit>
+      <unit from-verse="26" to-verse="40">Der Kämmerer aus Äthiopien</unit>
+    </chapter>
+    <chapter n="9">
+      <unit from-verse="1" to-verse="19">Die Bekehrung des Saulus</unit>
+      <unit from-verse="20" to-verse="31">Saulus in Damaskus und Jerusalem</unit>
+      <unit from-verse="32" to-verse="35">Petrus in Lydda</unit>
+      <unit from-verse="36" to-verse="43">Die Auferweckung der Tabita</unit>
+    </chapter>
+    <chapter n="10">
+      <unit from-verse="1" to-verse="48">Der Hauptmann Kornelius</unit>
+    </chapter>
+    <chapter n="11">
+      <unit from-verse="1" to-verse="18">Petrus in Jerusalem</unit>
+      <unit from-verse="19" to-verse="30">Erste Christen in Antiochia</unit>
+    </chapter>
+    <chapter n="12">
+      <unit from-verse="1" to-verse="17">Der Tod des Jakobus und die Befreiung des Petrus</unit>
+      <unit from-verse="18" to-verse="25">Das Ende des Herodes Agrippa</unit>
+    </chapter>
+    <chapter n="13">
+      <unit from-verse="1" to-verse="3">Der Beginn der ersten Missionsreise</unit>
+      <unit from-verse="4" to-verse="12">Auf der Insel Zypern</unit>
+      <unit from-verse="13" to-verse="52">In Antiochia in Pisidien</unit>
+    </chapter>
+    <chapter n="14">
+      <unit from-verse="1" to-verse="6">In Ikonion</unit>
+      <unit from-verse="8" to-verse="20">In Lystra</unit>
+      <unit from-verse="21" to-verse="28">Die Rückkehr nach Antiochia in Syrien</unit>
+    </chapter>
+    <chapter n="15">
+      <unit from-verse="1" to-verse="21">Die Apostelversammlung in Jerusalem</unit>
+      <unit from-verse="22" to-verse="29">Die Beschlüsse der Apostelversammlung</unit>
+      <unit from-verse="30" to-verse="35">Die Benachrichtigung der Gemeinde in Antiochia</unit>
+      <unit from-verse="36" to-verse="41">Der Beginn der zweiten Missionsreise</unit>
+    </chapter>
+    <chapter n="16">
+      <unit from-verse="1" to-verse="8">In Kleinasien</unit>
+      <unit from-verse="9" to-verse="10">Der Ruf nach Makedonien</unit>
+      <unit from-verse="11" to-verse="13">In Philippi</unit>
+      <unit from-verse="14" to-verse="15">Die Bekehrung der Lydia</unit>
+      <unit from-verse="16" to-verse="22">Die Magd mit dem Wahrsagegeist</unit>
+      <unit from-verse="23" to-verse="40">Paulus und Silas im Gefängnis</unit>      
+    </chapter>
+    <chapter n="17">
+      <unit from-verse="1" to-verse="9">In Thessalonich</unit>
+      <unit from-verse="10" to-verse="15">In Beröa</unit>
+      <unit from-verse="16" to-verse="34">In Athen</unit></chapter>
+    <chapter n="18">
+      <unit from-verse="1" to-verse="17">In Korinth</unit>
+      <unit from-verse="18" to-verse="22">Die Rückkehr nach Antiochia</unit>
+      <unit from-verse="23" to-verse="23">Der Beginn der dritten Missionsreise</unit>
+      <unit from-verse="24" to-verse="28">Apollos in Ephesus</unit>  
+    </chapter>
+    <chapter n="19">
+      <unit from-verse="1" to-verse="22">Paulus in Ephesus</unit>
+      <unit from-verse="23" to-verse="40">Der Aufruhr des Demetrius</unit>
+    </chapter>
+    <chapter n="20">
+      <unit from-verse="1" to-verse="12">Paulus in Griechenland und Troas</unit>
+      <unit from-verse="13" to-verse="16">Die Reise nach Milet</unit>
+      <unit from-verse="17" to-verse="38">Die Abschiedsrede des Paulus an die Ältesten von Ephesus</unit>
+    </chapter>
+    <chapter n="21">
+      <unit from-verse="1" to-verse="14">Von Milet nach Cäsarea</unit>
+      <unit from-verse="15" to-verse="26">Die Ankunft in Jerusalem</unit>
+      <unit from-verse="27" to-verse="40">Die Verhaftung des Paulus</unit>     
+    </chapter>
+    <chapter n="22">
+      <unit from-verse="1" to-verse="22">Die Verteidigungsrede des Paulus</unit>
+      <unit from-verse="23" to-verse="30">Paulus vor dem römischen Oberst</unit>
+    </chapter>
+    <chapter n="23">
+      <unit from-verse="1" to-verse="11">Paulus vor dem Hohen Rat</unit>
+      <unit from-verse="12" to-verse="22">Eine Verschwörung gegen Paulus</unit>
+      <unit from-verse="23" to-verse="35">Die Überführung des Paulus nach Cäsarea</unit>
+    </chapter>
+    <chapter n="24">
+      <unit from-verse="1" to-verse="21">Vor dem Statthalter Felix</unit>
+      <unit from-verse="22" to-verse="27">Die Verschleppung des Prozesses</unit>
+    </chapter>
+    <chapter n="25">
+      <unit from-verse="1" to-verse="7">Die Verhandlung vor Festus</unit>
+      <unit from-verse="9" to-verse="12">Paulus beruft sich auf den Kaiser</unit>
+      <unit from-verse="13" to-verse="27">Agrippa und Berenike bei Festus</unit>
+    </chapter>
+    <chapter n="26">
+      <unit from-verse="1" to-verse="32">Die Verteidigungsrede des Paulus</unit>
+    </chapter>
+    <chapter n="27">
+      <unit from-verse="1" to-verse="12">Paulus auf der Fahrt nach Rom</unit>
+      <unit from-verse="13" to-verse="44">Seesturm und Schiffbruch</unit>
+    </chapter>
+    <chapter n="28">
+      <unit from-verse="1" to-verse="10">Auf der Insel Malta</unit>
+      <unit from-verse="11" to-verse="16">Von Malta nach Rom</unit>
+      <unit from-verse="17" to-verse="31">Paulus in Rom</unit>
+    </chapter>
+      
+      
+        
+    
+  </book>
+  <book name="Röm">
+    <unit from-chapter="1" from-verse="18" to-chapter="3" to-verse="20">Die Universalität der Sünde</unit>
+    <chapter n="1"/>
+    <unit from-verse="1" to-verse="7">Präskript</unit>
+    <unit from-verse="8" to-verse="17">Proömium</unit>
+    <unit from-verse="18" to-verse="18">Überschrift</unit>
+    <unit from-verse="19" to-verse="32">Die Gottlosigkeit und Ungerechtigkeit der Menschen</unit>
+    <unit from-chapter="2" from-verse="12" to-chapter="3" to-verse="20">Juden und Heiden sind unter der Sünde</unit>
+    <chapter n="2">
+      <unit from-verse="1" to-verse="16">Das Gericht Gottes ohne Ansehen der Person</unit>
+      <unit from-verse="17" to-verse="29">Fragen an die Juden</unit>
+    </chapter>
+    <unit from-chapter="3" from-verse="21" to-chapter="5" to-verse="21">Die Universalität des Heils</unit>
+    <chapter n="3">
+      <unit from-verse="1" to-verse="8">Auseinandersetzung mit Einwänden</unit>
+      <unit from-verse="9" to-verse="20">Zusammenfassung</unit>
+      <unit from-verse="21" to-verse="26">Die Erlösung der Glaubenden durch Jesu Tod</unit>
+      <unit from-verse="27" to-verse="31">Das "Gesetz" des Glaubens</unit>
+    </chapter>
+    <chapter n="4">
+      <unit from-verse="1" to-verse="25">Schriftbeweis (Abrahams Verheißung)</unit>
+    </chapter>
+    <chapter n="5">
+      <unit from-verse="1" to-verse="11">Die Versöhnung durch Christus als Grund zukünftigen Heils</unit>
+      <unit from-verse="12" to-verse="21">Adam-Christus-Typologie</unit>
+    </chapter>
+    <unit from-chapter="6" from-verse="1" to-chapter="8" to-verse="39">Die neue Existenz der Christen</unit>
+    <chapter n="6">
+      <unit from-verse="1" to-verse="23">Freiheit von der Sünde verpflichtet zum Tun der Gerechtigkeit</unit>
+    </chapter>
+    <chapter n="7">
+      <unit from-verse="1" to-verse="6">Freiheit vom Gesetz</unit>
+      <unit from-verse="7" to-verse="25">Der Mensch unter dem Gesetz</unit>
+    </chapter>
+    <chapter n="8">
+      <unit from-verse="1" to-verse="17">Das neue Leben im Geist</unit>
+      <unit from-verse="18" to-verse="22">Hoffnung für die Schöpfung</unit>
+      <unit from-verse="23" to-verse="39">Die Gewissheit des Heils</unit>
+    </chapter>
+    <unit from-chapter="9" from-verse="1" to-chapter="11" to-verse="36">Gerechtigkeit Gottes und Israel</unit>
+    <unit from-chapter="9" from-verse="30" to-chapter="10" to-verse="21">Der Ungehorsam des empirischen Israel</unit>
+    <chapter n="9">
+      <unit from-verse="1" to-verse="5">Problemanzeige</unit>
+      <unit from-verse="6" to-verse="13">Kinder der Verheißung</unit>
+      <unit from-verse="14" to-verse="29">Gottes Gnadenwahl</unit>
+      <unit from-verse="30" to-verse="33">Die Suche nach Gerechtigkeit</unit>
+    </chapter>
+    <chapter n="10">
+      <unit from-verse="1" to-verse="21">Der Ungehorsam des empirischen Israel</unit>
+    </chapter>
+    <chapter n="11">
+      <unit from-verse="1" to-verse="36">Das Geheimnis der Heilsgeschichte und die Rettung Israels</unit>
+    </chapter>
+    <unit from-chapter="12" from-verse="1" to-chapter="13" to-verse="14">Mahnungen zum Gemeindeleben</unit>
+    <chapter n="12">
+      <unit from-verse="1" to-verse="2">Das Leben als Gottesdienst</unit>
+      <unit from-verse="3" to-verse="8">Die Gnadengaben im Dienst der Gemeinde</unit>
+      <unit from-verse="9" to-verse="21">Das Leben der Gemeinde</unit>
+    </chapter>
+    <chapter n="13">
+      <unit from-verse="1" to-verse="7">Das Verhältnis zur staatlichen Gewalt</unit>
+      <unit from-verse="8" to-verse="10">Die Liebe, des Gesetzes Erfüllung</unit>
+      <unit from-verse="11" to-verse="14">Leben im Licht des anbrechenden Tages</unit>
+    </chapter>
+    <chapter n="14">
+      <unit from-verse="1" to-verse="23">"Starke" und "Schwache" in der römischen Gemeinde</unit>
+    </chapter>
+    <chapter n="15">
+      <unit from-verse="1" to-verse="13">"Starke" und "Schwache" in der römischen Gemeinde (Fortsetzung)</unit>
+      <unit from-verse="14" to-verse="13">Schlußparänese</unit>
+    </chapter>
+    <chapter n="16">
+      <unit from-verse="1" to-verse="24">Postskript</unit>
+      <unit from-verse="25" to-verse="27">Später angefügter Schlußhymnus</unit>
+    </chapter>
+  </book>
+  <book name="1Kor">
+    <unit from-chapter="1" from-verse="18" to-chapter="2" to-verse="5">Das Wort vom Kreuz als Grundlage christlicher Existenz</unit>
+    <chapter n="1"/>
+  </book>
+  <book name="Gal">
+    <unit from-chapter="3" from-verse="6" to-chapter="4" to-verse="7">Die Christen sind Gottes Kinder durch den Glauben an Jesus Christus</unit>
+    <chapter n="3"/>
+  </book>
+  <book name="Phil">
+    <chapter n="2">
+      <unit from-verse="5" to-verse="11">Philipperhymnus</unit>
+    </chapter>
+  </book>
+  <book name="2Tim">
+    <chapter n="3">
+      <unit from-verse="10" to-verse="17">Timotheus als Nachfolger des Apostels</unit>
+    </chapter>
+  </book>
+  <book name="2Petr">
+    <chapter n="1">
+      <unit from-verse="3" to-verse="11">Proömium</unit>
+    </chapter>
+  </book>
+  <book name="Hebr">
+    <unit from-chapter="7" from-verse="1" to-chapter="10" to-verse="18">Hohepriester-Christologie</unit>
+    <unit from-chapter="10" from-verse="19" to-chapter="13" to-verse="21">Mahnung zur Bewährung des Glaubens (peroratio)</unit>
+    <chapter n="10"> </chapter>
+    <chapter n="13">
+      <unit from-verse="22" to-verse="25">Briefschluß</unit>
+    </chapter>
+  </book>
+</units>
