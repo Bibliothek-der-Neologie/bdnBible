@@ -19,8 +19,7 @@ declare function bdn:convert($node) as item()* {
   case element(tei:title) return bdn:edition($node)
   case element(tei:listWit) return bdn:listWit($node)
   case element(tei:front) return ()
-  case element(tei:div) return bdn:div($node)
-  case element(tei:head) return bdn:head($node)
+  case element(tei:div) return bdn:div($node)  
   case element(tei:bibl) return bdn:bibl($node)
   case element(tei:citedRange) return bdn:citedRange($node)
   default return bdn:passthru($node)
@@ -36,6 +35,7 @@ declare function bdn:convert($node) as item()* {
  : 
  : @version 0.2 (2020-12-01)
  : @author Marco Stallmann, Uwe Sikora
+ : @note (MS): passthru auf Sicht und Kindknoten in der Konversion direkt ansteuern?
  :)
 declare function bdn:passthru
   ($nodes as node()*) as item()* {
@@ -85,7 +85,7 @@ declare function bdn:edition
  : 
  : @version 0.2 (2020-12-01)
  : @author Marco Stallmann, Uwe Sikora
- : @note: Ich habe das witness element mal mit einem element constructor geschrieben, damit ihr seht, wie das aussieht. Das bietet sich bei der Konstruktion von komplexen XML strukturen an.
+ : @note (US): Ich habe das witness element mal mit einem element constructor geschrieben, damit ihr seht, wie das aussieht. Das bietet sich bei der Konstruktion von komplexen XML strukturen an.
  :)
 declare function bdn:listWit
   ( $node as element(tei:listWit) ) as element(listWit) {
@@ -115,9 +115,10 @@ declare function bdn:listWit
  : 
  : @version 0.2 (2020-12-01)
  : @author Marco Stallmann, Uwe Sikora
- : @note:
+ : @note (US):
      (1) der ursprüngliche test "$node//tei:bibl/@type = "biblical-reference" ist nicht ganz korrekt. Damit testest du nicht, sondern holst dir gleich einen wert. Ein test würde so aussehen: $node//tei:bibl[@type = "biblical-reference"]
      (2) der passthru ist von der Konvertierungslogik unsauber. Besser du gibst die Kindknoten einfach an die ursprüngliche Konversion zurück, also bdn:convert( $node/node() )
+ : @note (MS): Beides einleuchtend! Todo: Ersetzen von bdn:passthru durch bdn:convert( $node/node() )
  :)
 declare function bdn:div
   ($node as node()*) as node()* {
@@ -134,23 +135,6 @@ declare function bdn:div
 
 
 (:~
- : bdn:convert > bdn:head()
- : TEMPLATE: node "head" of bdn:convert(). 
- :
- : @param $node a set of nodes
- : @return a node head (no xmlns) providing the xml:id of a tei:head of a tei:div of the converted TEI resource.
- : 
- : @version 0.2 (2020-12-01)
- : @author Marco Stallmann, Uwe Sikora
- : @note: Die Funktion ergibt für mich keinen Sinn.
- :)
-declare function bdn:head
-  ($node as node()*) as element() {
-  <head>{$node/@xml:id}</head>
-  };
-
-
-(:~
  : bdn:convert > bdn:app()
  : TEMPLATE: node "app" of bdn:convert(). 
  :
@@ -159,7 +143,8 @@ declare function bdn:head
  : 
  : @version 0.2 (2020-12-01)
  : @author Marco Stallmann, Uwe Sikora
- : @note: ich habe die Konversion der apparats einträge in einem let zusammengefast, da wir hier ja das gleiche machen, daher brauchen wir eigentlich auch nur diesen einen aufruf. Ich habe auch hier nicht auf passthru sondern wieder direkt auf convert geleitet nach dem gleichen prinzip wie oben: "Für jeden Knoten beginne die Konversion im Haupttemplate". Dann ist der Konversionseinstieg standardisiert und immer eindeutig.
+ : @note (US): ich habe die Konversion der apparats einträge in einem let zusammengefast, da wir hier ja das gleiche machen, daher brauchen wir eigentlich auch nur diesen einen aufruf. Ich habe auch hier nicht auf passthru sondern wieder direkt auf convert geleitet nach dem gleichen prinzip wie oben: "Für jeden Knoten beginne die Konversion im Haupttemplate". Dann ist der Konversionseinstieg standardisiert und immer eindeutig.
+ : @note (MS): Diese Funktion wird aktuell in der Konversion bdn:convert nicht angewendet wegen bdn:bibl und bdn:profile. Optional!
  :)
 declare function bdn:app
   ($node as node()*) {  
@@ -196,7 +181,8 @@ declare function bdn:app
  : 
  : @version 0.2 (2020-12-01)
  : @author Marco Stallmann, Uwe Sikora
- : @note: Hier verstehe ich nicht, warum die nochmal durch den passthru muss
+ : @note (US): Hier verstehe ich nicht, warum die nochmal durch den passthru muss
+ : @note (MS): Es soll der Inhalt der Bibelreferenz weiterverarbeitet und daneben für diese Referenz ein textkritisches Profil (profile) angelegt werden
  :)
 declare function bdn:bibl
   ($node) as element(bibl) {
@@ -246,13 +232,13 @@ declare function bdn:is-in($bible-ref, $w) (: GEHT! :)
     if ($bible-ref/ancestor::tei:lem)
     then
       if ($bible-ref/ancestor::tei:app/tei:rdg[fn:contains(@wit, $w/@xml:id) and not(.//* = $bible-ref)])
-      then "false1"
-      else "true2"
+      then "false"
+      else "true"
     else 
       if ($bible-ref/ancestor::tei:rdg/@wit/contains(., $w/@xml:id))
-      then "true3"   
-      else "false4"
-  else "true5"   
+      then "true"   
+      else "false"
+  else "true"   
 };
 
 
@@ -266,6 +252,7 @@ declare function bdn:is-in($bible-ref, $w) (: GEHT! :)
  : 
  : @version 0.2 (2020-12-01)
  : @author Marco Stallmann
+ : @note (MS): Todo: Wiederholtes fn:tokenize über let vermeiden.
  :)
 declare function bdn:citedRange
   ( $node as element(tei:citedRange) ) {
