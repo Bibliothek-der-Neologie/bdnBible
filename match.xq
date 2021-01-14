@@ -4,7 +4,14 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 declare variable $node := doc("data/sack_4_5_a70-92.xml");
 declare variable $bible := doc("data/bibel_luther_1912_apo.xml");
 
-(: Konversion: In einem Textparagraphen wird jeder Satz in ein phrase-Element geschrieben, um darin "contains text" zu testen. :)
+(:~ 
+:
+: Konversion: In einem Textparagraphen wird jeder Satz in ein phrase-Element geschrieben, um darin "contains text" zu testen.
+: Todo: vgl. die Arbeiten von Marco Büchner zu den Themen "Text Re-Use" / "Paraphrasierung" / "Zitat-Findung"; Umwandlung in Modul
+: @author BdN
+: @version 1.0
+:)
+
 
 declare function local:convert($node){
   typeswitch($node)  
@@ -14,6 +21,14 @@ declare function local:convert($node){
   case element(bibl) return local:bibl($node)
   default return local:passthru($node)
 };
+
+(:~ 
+:
+: Tokenisierung
+: Todo: Umwandlung in small-caps, Eliminierung von Satzzeichen, Tokenliste pro Satz
+: @author BdN
+: @version 1.0
+:)
 
 declare function local:phrases($node) 
 {
@@ -34,8 +49,13 @@ declare function local:passthru
 };
 
 
+(:~ 
+: Diese Funktion sucht einen vorgegebenen Bibelvers $book, $chapter, $verse in der Lutherbibel und gibt den Text aus.
+:
+: @author BdN
+: @version 1.0
+::)
 
-(: Bestimmten Vers in der Lutherbibel 1912 suchen und tokenisieren! :)
 
 declare function local:search($book, $chapter, $verse)
 {
@@ -59,7 +79,12 @@ declare function local:score($node, $book, $chapter, $verse)
 };
 
 
-(: Neuer Versuch mit fn:contains() :)
+(:~ 
+: Diese Funktion durchsucht die Sätze eines Textabschnitts nach Entsprechungen in der Lutherbibel.
+:
+: @author BdN
+: @version 1.0
+::)
 
 declare function local:score2($node, $book, $chapter, $verse)
 {
@@ -74,7 +99,7 @@ declare function local:score2($node, $book, $chapter, $verse)
   return <line count="{$count}" rel="{$count div $word-count}">{$line}</line> 
 };
 
-local:convert($node)
+(: local:convert($node) :)
 
 (: 10.2 contains text :)
 
@@ -129,7 +154,7 @@ return $line :)
 
 (: Neuer Versuch mit fn:contains() :)
 
-(: local:score2($node, "Ps", 145, 8) :)
+local:score2($node, "Ps", 145, 8)
 
 
 (: Erinnerung: Konvertierter Paragpraph! Jede angegebene Bibelstelle mit jedem Satz vergleichen? :)
