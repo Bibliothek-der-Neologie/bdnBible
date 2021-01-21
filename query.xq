@@ -1,7 +1,7 @@
 xquery version "3.1";
 import module namespace bdn = "http://bdn-edition.de/xquery/bdn" at "modules/bdn.xqm";
 import module namespace units = "http://bdn-edition.de/xquery/units" at "modules/units.xqm";
-(: import module namespace frequency = "http://bdn-edition.de/xquery/crit" at "modules/frequency.xqm"; :)
+import module namespace freq = "http://bdn-edition.de/xquery/crit" at "modules/frequency.xqm";
 (: import module namespace crit = "http://bdn-edition.de/xquery/crit" at "modules/critical.xqm"; :)
 
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
@@ -11,6 +11,7 @@ declare variable $units := doc("data/units.xml");
 declare variable $equalunits := units:equalunits($units, $bible);
 
 declare variable $gr := doc("data/griesbach_full.xml");
+declare variable $gr_small := doc("data/griesbach_small.xml");
 declare variable $gr_converted := bdn:convert($gr);
 declare variable $gr_items := units:listitems($gr_converted, $equalunits);
 declare variable $gr_unit_groups := units:group($gr_items);
@@ -53,4 +54,6 @@ return units:find($ref, $equalunits) :)
 
 (: bdn:convert($gr, $gr_listWit) :)
 
-units:compare ($collection, "verse")
+(: units:compare ($collection, "verse") :)
+
+freq:table($gr)

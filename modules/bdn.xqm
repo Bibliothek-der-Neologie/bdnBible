@@ -4,14 +4,17 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 (:~
  : bdn:convert()
- : [description] 
  :
- : @return a set of nodes according to the conversion
+ : Converts TEI data into a div-structured set of elements "bibl". Each of these
+ : represent a given tei:bibl[@type="biblical-reference"] in the TEI source.
+ : It has two child elements: 1) "ref" contains Information about the biblical 
+ : Metadata which is contained in tei:citedRange, 2) "profile" gives information
+ : about the text versions, the biblical references do appear in (tei:app).
  : 
- : @version 0.2 (2020-12-01)
+ : @version 0.3 (2021-12-21)
  : @author Marco Stallmann, Uwe Sikora
  :)
-declare function bdn:convert($node) as item()* {
+declare function bdn:convert($node as node()*) as item()* {
   typeswitch($node)
   case text() return ()
   case comment() return ()
@@ -28,14 +31,16 @@ declare function bdn:convert($node) as item()* {
 
 (:~
  : bdn:convert > bdn:passthru()
- : TEMPLATE: Default function of bdn:convert to return a node's children aka. ignore the node and work on it's children instead   
+ : TEMPLATE: Default function of bdn:convert to return a node's children aka.
+ : ignore the node and work on it's children instead.   
  :
  : @param $nodes a set of nodes
  : @return a set nodes (children of the input node)
  : 
  : @version 0.2 (2020-12-01)
  : @author Marco Stallmann, Uwe Sikora
- : @note (MS): passthru auf Sicht und Kindknoten in der Konversion direkt ansteuern?
+ : @note (MS): passthru auf Sicht und Kindknoten in der Konversion direkt 
+ : ansteuern?
  :)
 declare function bdn:passthru
   ($nodes as node()*) as item()* {
@@ -45,7 +50,8 @@ declare function bdn:passthru
 
 (:~
  : bdn:convert > bdn:data() ( former: bdn:tei() )
- : TEMPLATE: Root node of bdn:convert to provide the conversion with root-node "data"   
+ : TEMPLATE: Root node of bdn:convert to provide the conversion with root-node 
+ : "data"   
  :
  : @param $nodes a set of nodes
  : @return a node data (no xmlns) providing the converted data
@@ -55,7 +61,7 @@ declare function bdn:passthru
  :)
 declare function bdn:data
   ($node as node()*) as node() {
-  <data>{ bdn:passthru($node) }</data>
+  <data>{ bdn:convert($node/node()) }</data>
 };
 
 
@@ -64,7 +70,8 @@ declare function bdn:data
  : TEMPLATE: title node "edition" of bdn:convert   
  :
  : @param $nodes a set of nodes
- : @return a node edition (no xmlns) providing the title of the converted resource
+ : @return a node edition (no xmlns) providing the title of the converted 
+ : resource
  : 
  : @version 0.2 (2020-12-01)
  : @author Marco Stallmann, Uwe Sikora
@@ -78,14 +85,18 @@ declare function bdn:edition
 
 (:~
  : bdn:convert > bdn:listWit()
- : TEMPLATE: node "listWit" of bdn:convert(). It provides all witness-IDs and identifies the base-text.   
+ : TEMPLATE: node "listWit" of bdn:convert(). It provides all witness-IDs and 
+ : identifies the base-text.   
  :
  : @param $node a set of nodes
- : @return a node listWit (no xmlns) providing all witnesses of the converted TEI resource
+ : @return a node listWit (no xmlns) providing all witnesses of the converted 
+ : TEI resource
  : 
  : @version 0.2 (2020-12-01)
  : @author Marco Stallmann, Uwe Sikora
- : @note (US): Ich habe das witness element mal mit einem element constructor geschrieben, damit ihr seht, wie das aussieht. Das bietet sich bei der Konstruktion von komplexen XML strukturen an.
+ : @note (US): Ich habe das witness element mal mit einem element constructor
+ : geschrieben, damit ihr seht, wie das aussieht. Das bietet sich bei der 
+ : Konstruktion von komplexen XML strukturen an.
  :)
 declare function bdn:listWit
   ( $node as element(tei:listWit) ) as element(listWit) {
@@ -108,17 +119,19 @@ declare function bdn:listWit
 
 (:~
  : bdn:convert > bdn:div()
- : TEMPLATE: node "div" of bdn:convert(). It ignores all tei:div that don't include tei:bibl[@type ="biblical reference"].  
+ : TEMPLATE: node "div" of bdn:convert(). It ignores all tei:div that don't 
+ : include tei:bibl[@type ="biblical reference"].  
  :
  : @param $node a set of nodes
- : @return a node div (no xmlns) providing all biblical references of a tei:div of the converted TEI resource.
+ : @return a node div (no xmlns) providing all biblical references of a tei:div 
+ : of the converted TEI resource.
  : 
  : @version 0.2 (2020-12-01)
  : @author Marco Stallmann, Uwe Sikora
  : @note (US):
      (1) der ursprüngliche test "$node//tei:bibl/@type = "biblical-reference" ist nicht ganz korrekt. Damit testest du nicht, sondern holst dir gleich einen wert. Ein test würde so aussehen: $node//tei:bibl[@type = "biblical-reference"]
      (2) der passthru ist von der Konvertierungslogik unsauber. Besser du gibst die Kindknoten einfach an die ursprüngliche Konversion zurück, also bdn:convert( $node/node() )
- : @note (MS): Beides einleuchtend! Todo: Ersetzen von bdn:passthru durch bdn:convert( $node/node() )
+ : @note (MS): Beides einleuchtend und bereits umgesetzt. Note löschen?
  :)
 declare function bdn:div
   ($node as node()*) as node()* {
@@ -224,8 +237,9 @@ declare function bdn:profile
  : 
  : @version 0.2 (2020-12-01)
  : @author Marco Stallmann
+ : @note (MS): bdn:is-in scheint zu funktionieren. Ergebnis prüfen!
  :)
-declare function bdn:is-in($bible-ref, $w) (: GEHT! :)
+declare function bdn:is-in($bible-ref, $w) 
 {
   if ($bible-ref/ancestor::tei:app)
   then 
