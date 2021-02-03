@@ -56,4 +56,8 @@ return units:find($ref, $equalunits) :)
 
 (: units:compare ($collection, "verse") :)
 
-freq:table($gr)
+(: freq:table($gr) :)
+
+(: freq:count(bdn:convert($gr)) :)
+
+freq:count($st_converted)

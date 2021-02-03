@@ -135,12 +135,16 @@ declare function bdn:listWit
  :)
 declare function bdn:div
   ($node as node()*) as node()* {
-  let $bibl-refs := $node//tei:bibl[@type = "biblical-reference"]   
+  let $bibl-refs := $node//tei:bibl[@type = "biblical-reference"] 
+  let $column-title := $node//tei:supplied[@reason = "column-title"]
   return 
     if ( $bibl-refs ) then (
       element {"div"}{
         attribute {"type"}{ data($node/@type) },
-        attribute {"id"}{ data($node/@xml:id) },
+        attribute {"id"}{ data($node/@xml:id) }, 
+          if ( $column-title ) 
+          then element {"head"}{$column-title/data() => fn:normalize-space()}
+          else (),
         bdn:convert( $node/node() )
       }
     ) else ()

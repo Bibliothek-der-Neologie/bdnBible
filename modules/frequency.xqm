@@ -3,7 +3,30 @@ module namespace freq = "http://bdn-edition.de/xquery/crit";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 (:~
-: Zählt die absoluten und relativen Häufigkeiten von Bibelreferenzen 
+: Counts the number of bible references per chapter and returns a map. 
+: To do: JSON Output, XQuery-Application in JavaScript (e.g. XQIB)
+:
+: @version 0.3 (2021-02-03)
+: @author Marco Stallmann
+:
+:)
+
+declare function freq:count($converted as node()){
+  let $edition := $converted//edition/text()
+  let $chapters := $converted//div[@type = "chapter"]/head
+  let $counts := 
+    for $chapter in $converted//div[@type = "chapter"]
+    return fn:count($chapter//ref)
+  return
+  map {
+   "edition": $edition,
+   "chapters": array{$chapters/data()},
+   "counts": array{$counts}
+   } 
+};
+
+(:~
+: ALTE VERSION! Zählt die absoluten und relativen Häufigkeiten von Bibelreferenzen 
 : tei:citedRange in einem gegebenen Dokument (hier: Griesbach-Gesamtdatei).
 :
 : Todo: 
@@ -14,7 +37,7 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 :   von „rdg“ / „choice“ / … ?)
 : - Erarbeitung von Alternativlösungen für die Berechnung von relativen 
 :   Häufigkeiten
-: - Verbesserung der HTML-Tabellendarstellung 
+: - Verbesserung der HTML-Tabellendarstellung / Elementkonstruktion
 : - Hinzufügung einer graphischen Darstellung (ggf. Umwandlung in JSON / 
 :   Ausgabe mithilfe der Open-Source-Datenvisualisierung Chart.js)
 :
@@ -23,12 +46,6 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 :
 :)
 
-declare function freq:word-count
-  ( $arg as xs:string? )  as xs:integer {
-   count(tokenize($arg, '\W+')[. != ''])
- } ;
- 
- 
 declare function freq:table($doc){
  <html>
     <head></head>
@@ -75,3 +92,8 @@ declare function freq:table($doc){
     </p>
 </body>
 </html>};
+
+declare function freq:word-count
+  ( $arg as xs:string? )  as xs:integer {
+   count(tokenize($arg, '\W+')[. != ''])
+ } ; 
