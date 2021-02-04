@@ -52,7 +52,8 @@
       <unit from-verse="12" to-verse="17">Der Beginn des Wirkens Jesu in Galiläa</unit>
       <unit from-verse="23" to-verse="25">Summarium I</unit>
     </chapter>
-    <unit from-chapter="5" from-verse="1" to-chapter="7" to-verse="29">Bergpredigt</unit>
+    <unit from-chapter="5" from-verse="1" to-chapter="7" to-verse="29">Bergpredigt<!-- wird gängig auch bis 8,1 gezogen -->
+</unit>
     <chapter n="5">
       <unit from-verse="1" to-verse="12">Die Seligpreisungen</unit>
       <unit from-verse="13" to-verse="16">Salz und Licht</unit>
