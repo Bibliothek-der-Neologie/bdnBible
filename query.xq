@@ -54,10 +54,12 @@ return units:find($ref, $equalunits) :)
 
 (: bdn:convert($gr, $gr_listWit) :)
 
-(: units:compare ($collection, "verse") :)
+units:compare ($collection, "verse")
 
 (: freq:table($gr) :)
 
 (: freq:count(bdn:convert($gr)) :)
 
-freq:count($st_converted)
+(: freq:count($st_converted) :)
+
+(: $noe_converted :)

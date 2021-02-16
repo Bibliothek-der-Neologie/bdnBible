@@ -142,9 +142,9 @@ declare function bdn:div
       element {"div"}{
         attribute {"type"}{ data($node/@type) },
         attribute {"id"}{ data($node/@xml:id) }, 
-          if ( $column-title ) 
+          (: if ( $column-title ) 
           then element {"head"}{$column-title/data() => fn:normalize-space()}
-          else (),
+          else (), :) (: Dies klappt nicht mit Nösselt! Warum? :)
         bdn:convert( $node/node() )
       }
     ) else ()
