@@ -43,23 +43,18 @@ declare variable $st_unit_groups := units:group($st_items);
 
 declare variable $collection := <collection>{($noe_items, $gr_items, $bs_items, $le_items, $te_items, $st_items)}</collection>;
 
-(: let $ref := <ref book="Mt" chapter="6" verse="5"/>
-return units:find($ref, $equalunits) :)
+(: a) Verweishäufigkeiten und Verwendungskontexte von biblischen Sinneinheiten :)
 
-(: $gr_converted :)
+units:compare($collection, "verse")
 
-(: $gr_items :)
+(: b) Bibelstellendichte und relative Häufigkeiten :)
 
-(: units:group($gr_items) :)
-
-(: bdn:convert($gr, $gr_listWit) :)
-
-units:compare ($collection, "verse")
+(: let $doc := doc("data/griesbach_converted.xml")
+return
+freq:table2($doc, $bible) :)
 
 (: freq:table($gr) :)
 
-(: freq:count(bdn:convert($gr)) :)
+(: c) Bibelstellen und Textvarianz :)
 
-(: freq:count($st_converted) :)
-
-(: $noe_converted :)
+(: ... :)

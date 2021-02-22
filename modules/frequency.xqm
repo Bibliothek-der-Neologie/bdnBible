@@ -2,6 +2,84 @@ xquery version "3.1";
 module namespace freq = "http://bdn-edition.de/xquery/crit";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
+
+(:~
+: Creates HTML-table with Bible-books (from $bible) and its frequency in
+: converted (!) XML-Document $doc.
+:
+: This is not the "Bibelstellenspannungsbogen", that counts the frequency
+: dependent on edition chapters.
+:
+: @version 0.1 (2021-02-22)
+: @author Marco Stallmann
+:
+:)
+
+declare function freq:table2($doc, $bible){
+let $books := $bible//tei:bibl/@ana
+let $max-chapters := max($bible//tei:bibl/@n)
+return
+ <html>
+    <head>
+        <title>Bibelstellenstatistik</title>
+    </head>
+    <body>
+   <table>
+  <tr>
+    <td>Kap.</td>
+    {
+      for $book in $books
+      where freq:test-book($book, $doc) = 1
+      return <td>{$book/data()}</td>
+    }
+  </tr>  
+    {
+      for $n in (1 to 50)
+      return 
+       <tr>
+       <td>{$n}</td>
+        { 
+          for $book in $books
+          where freq:test-book($book, $doc) = 1
+          return <td>{freq:bible-book-stats($book, $n, $doc)}</td>}
+    </tr>}  
+</table>
+   </body>
+</html>
+};
+
+
+(:~
+: Counts Bible-references in XML-Document with "book" and "chapter".
+:
+: @version 0.1 (2021-02-22)
+: @author Marco Stallmann
+:
+:)
+
+declare function freq:bible-book-stats($book, $chapter, $doc)
+{
+  let $refs := $doc//ref[@*[1] = $book and @*[2] = $chapter]
+  let $count := fn:count($refs)
+  return $count
+};
+
+
+(:~
+: Tests if (converted!) XML-Document has Bible-references with "book"
+:
+: @version 0.1 (2021-02-22)
+: @author Marco Stallmann
+:
+:)
+
+declare function freq:test-book($book, $doc)
+{
+  if ($doc//ref[@*[1] = $book])
+  then 1
+  else 0
+};
+
 (:~
 : Counts the number of bible references per chapter and returns a map. 
 : To do: JSON Output, XQuery-Application in JavaScript (e.g. XQIB)
