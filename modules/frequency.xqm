@@ -4,6 +4,7 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 
 (:~
+:
 : Erstellt eine HTML-Tabelle auf Basis des konvertierten XML-Dokuments: 
 : Für jedes biblische Buch, das in der edierten Quellenschrift vorkommt, wird 
 : die Häufigkeit der Bibelreferenz ausgegeben.
@@ -11,6 +12,8 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 : Dies ist ein anderer Ansatz als der "Bibelstellenspannungsbogen"
 : (s. unten freq:table), wo die Häufigkeiten ausgehend von den einzelnen Kapiteln
 : der edierten Quellenschrift ermittelt werden.
+:
+: Überlegung (Hannah): Kombination mit "Spannungsbogen" als weitere Funktion
 :
 : @version 0.1 (2021-02-22)
 : @author ..., Marco Stallmann
