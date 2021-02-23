@@ -1,17 +1,19 @@
 xquery version "3.1";
-module namespace freq = "http://bdn-edition.de/xquery/crit";
+module namespace freq = "http://bdn-edition.de/xquery/freq";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 
 (:~
-: Creates HTML-table with Bible-books (from $bible) and its frequency in
-: converted (!) XML-Document $doc.
+: Erstellt eine HTML-Tabelle auf Basis des konvertierten XML-Dokuments: 
+: Für jedes biblische Buch, das in der edierten Quellenschrift vorkommt, wird 
+: die Häufigkeit der Bibelreferenz ausgegeben.
 :
-: This is not the "Bibelstellenspannungsbogen", that counts the frequency
-: dependent on edition chapters.
+: Dies ist ein anderer Ansatz als der "Bibelstellenspannungsbogen"
+: (s. unten freq:table), wo die Häufigkeiten ausgehend von den einzelnen Kapiteln
+: der edierten Quellenschrift ermittelt werden.
 :
 : @version 0.1 (2021-02-22)
-: @author Marco Stallmann
+: @author ..., Marco Stallmann
 :
 :)
 

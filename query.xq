@@ -1,8 +1,8 @@
 xquery version "3.1";
 import module namespace bdn = "http://bdn-edition.de/xquery/bdn" at "modules/bdn.xqm";
 import module namespace units = "http://bdn-edition.de/xquery/units" at "modules/units.xqm";
-import module namespace freq = "http://bdn-edition.de/xquery/crit" at "modules/frequency.xqm";
-(: import module namespace crit = "http://bdn-edition.de/xquery/crit" at "modules/critical.xqm"; :)
+import module namespace freq = "http://bdn-edition.de/xquery/freq" at "modules/frequency.xqm";
+import module namespace crit = "http://bdn-edition.de/xquery/crit" at "modules/crit.xqm";
 
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
@@ -12,7 +12,8 @@ declare variable $equalunits := units:equalunits($units, $bible);
 
 declare variable $gr := doc("data/griesbach_full.xml");
 declare variable $gr_small := doc("data/griesbach_small.xml");
-declare variable $gr_converted := bdn:convert($gr);
+declare variable $gr_converted_calc := bdn:convert($gr);
+declare variable $gr_converted := doc("data/converted/griesbach.xml"); (: bdn:convert($gr) als XML abgespeichert. :)
 declare variable $gr_items := units:listitems($gr_converted, $equalunits);
 declare variable $gr_unit_groups := units:group($gr_items);
 
@@ -47,14 +48,14 @@ declare variable $collection := <collection>{($noe_items, $gr_items, $bs_items, 
 
 units:compare($collection, "verse")
 
+
 (: b) Bibelstellendichte und relative Häufigkeiten :)
 
-(: let $doc := doc("data/griesbach_converted.xml")
-return
-freq:table2($doc, $bible) :)
+(: freq:table2($gr_converted, $bible) :)
 
 (: freq:table($gr) :)
 
+
 (: c) Bibelstellen und Textvarianz :)
 
-(: ... :)
+(: crit:window($gr_converted) :)

@@ -2,7 +2,16 @@ xquery version "3.1";
 module namespace units = "http://bdn-edition.de/xquery/units";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
-
+(:~
+: Wandelt die Sinneinheiten-Datei (units.xml) in eine Liste von gleichartigen
+Elementen "unit" um, die vergleichbar sind.
+:
+: Erklären: Wo wird dies unten benötigt?
+:
+: @version 0.1 (2020)
+: @author ..., Marco Stallmann
+:
+:)
 declare function units:equalunits($units, $bible)
 {
   for $u in $units//unit
@@ -19,6 +28,17 @@ declare function units:equalunits($units, $bible)
   return <unit from-book="{$from-book}" from-chapter="{$from-chapter}" from-verse="{$from-verse}" to-book="{$to-book}" to-chapter="{$to-chapter}" to-verse="{$to-verse}"
     verses="{$verse-count}">{$u/data()}</unit>
 };
+
+(:~
+: Nimmt ein gegebenes Element "ref" aus der konvertieren Quellenschrift-XML
+: und sucht in der Liste "equalunits" diejenigen Elemente heraus, die zu dem
+: "ref" passen. Diese sog. "matches" werden dann zusammen mit dem "ref" in
+: einem Element "item" ausgegeben. Vgl. dann die Funktion units:listitems
+:
+: @version 0.1 (2020)
+: @author ..., Marco Stallmann
+:
+:)
 
 declare function units:find($ref, $equalunits) (: Todo: Datentypen! :)
 {
@@ -73,6 +93,17 @@ declare function units:find($ref, $equalunits) (: Todo: Datentypen! :)
      return <item>{($ref, $matches)}</item>     
    };
    
+(:~
+: Diese Funktion führt die oben beschriebene Funktion units:find für jedes "ref"
+: aus der konvertierten Quellenschrift-XML aus und schreibt die daraus
+: hervorgehenden "items" in eine Liste. Außerdem wird die Überschrift "edition"
+: hinzugefügt.
+:
+: @version 0.1 (2020)
+: @author ..., Marco Stallmann
+:
+:)
+   
 declare function units:listitems($doc, $equalunits)
 {
   <list>
@@ -83,14 +114,9 @@ declare function units:listitems($doc, $equalunits)
 }</list>
 };
 
-declare function units:is-node-in-sequence-deep-equal ( $node as node()? , $seq as node()* ) as xs:boolean {
-   some $nodeInSeq in $seq satisfies deep-equal($nodeInSeq,$node)
-};
 
-declare function units:distinct-deep ( $nodes as node()* )  as node()* {
-    for $seq in (1 to count($nodes))
-    return $nodes[$seq][not(units:is-node-in-sequence-deep-equal(.,$nodes[position() < $seq]))]
-};
+
+
 
 declare function units:group($items)
 {
@@ -99,9 +125,7 @@ declare function units:group($items)
   return
   <list>        
     <VERSE-LEVEL>{
-      for $u in $verse-units
-  
-      
+      for $u in $verse-units      
       let $u-refs := for $p in $items//ref[$u = ./following-sibling::*] (: Dies wie unten auf distinct-deep umstellen. Oder anders lösen.:)
         order by $p/@*[1], $p/@*[2], $p/@*[3]
         return $p
@@ -124,6 +148,16 @@ declare function units:group($items)
     }</CHAPTER-LEVEL>
 </list>
 };
+
+
+(:~
+: Hauptfunktion! Gibt eine Tabelle aus mit den meistverwendeten Bibelstellen
+: bzw. Sinneinheiten in einer Kollektion (zur "collection" vgl. query.xq).
+:
+: @version 0.1 (2020)
+: @author ..., Marco Stallmann
+:
+:)
 
 declare function units:compare($collection as node()*, $level)
 {
@@ -207,4 +241,36 @@ declare function units:compare($collection as node()*, $level)
           </tr>         
       }  
     </table>  
+};
+
+(:~
+: Hilfsfunktion für units:group! 
+: Vgl. http://www.xqueryfunctions.com/xq/functx_is-node-in-sequence-deep-equal.html
+: Wurde im Modul-Namensraum deklariert, weil kein Modul in ein Modul importiert
+: werden kann (oder doch? andere Lösung?)
+:
+: @version 0.1 (2020)
+: @author ..., Marco Stallmann
+:
+:)
+
+declare function units:is-node-in-sequence-deep-equal ( $node as node()? , $seq as node()* ) as xs:boolean {
+   some $nodeInSeq in $seq satisfies deep-equal($nodeInSeq,$node)
+};
+
+
+(:~
+: Ebenfalls Hilfsfunktion für units:group! 
+: Vgl. http://www.xqueryfunctions.com/xq/functx_distinct-deep.html
+: Wurde im Modul-Namensraum deklariert, weil kein Modul in ein Modul importiert
+: werden kann (oder doch? andere Lösung?)
+:
+: @version 0.1 (2020)
+: @author ..., Marco Stallmann
+:
+:)
+
+declare function units:distinct-deep ( $nodes as node()* )  as node()* {
+    for $seq in (1 to count($nodes))
+    return $nodes[$seq][not(units:is-node-in-sequence-deep-equal(.,$nodes[position() < $seq]))]
 };
