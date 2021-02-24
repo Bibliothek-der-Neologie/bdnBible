@@ -1,0 +1,183 @@
+<xqdoc:xqdoc xmlns:xqdoc="http://www.xqdoc.org/1.0">
+  <xqdoc:control>
+    <xqdoc:date>2021-02-24T21:08:49.696+01:00</xqdoc:date>
+    <xqdoc:version>1.1</xqdoc:version>
+  </xqdoc:control>
+  <xqdoc:module type="library">
+    <xqdoc:uri>http://bdn-edition.de/xquery/units</xqdoc:uri>
+    <xqdoc:name>units.xqm</xqdoc:name>
+    <xqdoc:comment>
+      <xqdoc:description>Wandelt die Sinneinheiten-Datei (units.xml) in eine Liste von gleichartigen
+Elementen "unit" um, die vergleichbar sind.
+
+Erklären: Wo wird dies unten benötigt?</xqdoc:description>
+      <xqdoc:version>0.1 (2020)</xqdoc:version>
+      <xqdoc:author>..., Marco Stallmann</xqdoc:author>
+    </xqdoc:comment>
+  </xqdoc:module>
+  <xqdoc:imports/>
+  <xqdoc:namespaces>
+    <xqdoc:namespace prefix="units" uri="http://bdn-edition.de/xquery/units"/>
+    <xqdoc:namespace prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
+  </xqdoc:namespaces>
+  <xqdoc:variables/>
+  <xqdoc:functions>
+    <xqdoc:function arity="2">
+      <xqdoc:comment>
+        <xqdoc:description>Wandelt die Sinneinheiten-Datei (units.xml) in eine Liste von gleichartigen
+Elementen "unit" um, die vergleichbar sind.
+
+Erklären: Wo wird dies unten benötigt?</xqdoc:description>
+        <xqdoc:version>0.1 (2020)</xqdoc:version>
+        <xqdoc:author>..., Marco Stallmann</xqdoc:author>
+      </xqdoc:comment>
+      <xqdoc:name>units:equalunits</xqdoc:name>
+      <xqdoc:signature>declare function units:equalunits($units as item()* , $bible as item()*) as item()*</xqdoc:signature>
+      <xqdoc:parameters>
+        <xqdoc:parameter>
+          <xqdoc:name>units</xqdoc:name>
+          <xqdoc:type occurrence="*">item()</xqdoc:type>
+        </xqdoc:parameter>
+        <xqdoc:parameter>
+          <xqdoc:name>bible</xqdoc:name>
+          <xqdoc:type occurrence="*">item()</xqdoc:type>
+        </xqdoc:parameter>
+      </xqdoc:parameters>
+      <xqdoc:return>
+        <xqdoc:type occurrence="*">item()</xqdoc:type>
+      </xqdoc:return>
+    </xqdoc:function>
+    <xqdoc:function arity="2">
+      <xqdoc:comment>
+        <xqdoc:description>Nimmt ein gegebenes Element "ref" aus der konvertieren Quellenschrift-XML
+und sucht in der Liste "equalunits" diejenigen Elemente heraus, die zu dem
+"ref" passen. Diese sog. "matches" werden dann zusammen mit dem "ref" in
+einem Element "item" ausgegeben. Vgl. dann die Funktion units:listitems</xqdoc:description>
+        <xqdoc:version>0.1 (2020)</xqdoc:version>
+        <xqdoc:author>..., Marco Stallmann</xqdoc:author>
+      </xqdoc:comment>
+      <xqdoc:name>units:find</xqdoc:name>
+      <xqdoc:signature>declare function units:find($ref as item()* , $equalunits as item()*) as item()*</xqdoc:signature>
+      <xqdoc:parameters>
+        <xqdoc:parameter>
+          <xqdoc:name>ref</xqdoc:name>
+          <xqdoc:type occurrence="*">item()</xqdoc:type>
+        </xqdoc:parameter>
+        <xqdoc:parameter>
+          <xqdoc:name>equalunits</xqdoc:name>
+          <xqdoc:type occurrence="*">item()</xqdoc:type>
+        </xqdoc:parameter>
+      </xqdoc:parameters>
+      <xqdoc:return>
+        <xqdoc:type occurrence="*">item()</xqdoc:type>
+      </xqdoc:return>
+    </xqdoc:function>
+    <xqdoc:function arity="2">
+      <xqdoc:comment>
+        <xqdoc:description>Diese Funktion führt die oben beschriebene Funktion units:find für jedes "ref"
+aus der konvertierten Quellenschrift-XML aus und schreibt die daraus
+hervorgehenden "items" in eine Liste. Außerdem wird die Überschrift "edition"
+hinzugefügt.</xqdoc:description>
+        <xqdoc:version>0.1 (2020)</xqdoc:version>
+        <xqdoc:author>..., Marco Stallmann</xqdoc:author>
+      </xqdoc:comment>
+      <xqdoc:name>units:listitems</xqdoc:name>
+      <xqdoc:signature>declare function units:listitems($doc as item()* , $equalunits as item()*) as item()*</xqdoc:signature>
+      <xqdoc:parameters>
+        <xqdoc:parameter>
+          <xqdoc:name>doc</xqdoc:name>
+          <xqdoc:type occurrence="*">item()</xqdoc:type>
+        </xqdoc:parameter>
+        <xqdoc:parameter>
+          <xqdoc:name>equalunits</xqdoc:name>
+          <xqdoc:type occurrence="*">item()</xqdoc:type>
+        </xqdoc:parameter>
+      </xqdoc:parameters>
+      <xqdoc:return>
+        <xqdoc:type>element()</xqdoc:type>
+      </xqdoc:return>
+    </xqdoc:function>
+    <xqdoc:function arity="1">
+      <xqdoc:name>units:group</xqdoc:name>
+      <xqdoc:signature>declare function units:group($items as item()*) as item()*</xqdoc:signature>
+      <xqdoc:parameters>
+        <xqdoc:parameter>
+          <xqdoc:name>items</xqdoc:name>
+          <xqdoc:type occurrence="*">item()</xqdoc:type>
+        </xqdoc:parameter>
+      </xqdoc:parameters>
+      <xqdoc:return>
+        <xqdoc:type occurrence="*">item()</xqdoc:type>
+      </xqdoc:return>
+    </xqdoc:function>
+    <xqdoc:function arity="2">
+      <xqdoc:comment>
+        <xqdoc:description>Hauptfunktion! Gibt eine Tabelle aus mit den meistverwendeten Bibelstellen
+bzw. Sinneinheiten in einer Kollektion (zur "collection" vgl. query.xq).</xqdoc:description>
+        <xqdoc:version>0.1 (2020)</xqdoc:version>
+        <xqdoc:author>..., Marco Stallmann</xqdoc:author>
+      </xqdoc:comment>
+      <xqdoc:name>units:compare</xqdoc:name>
+      <xqdoc:signature>declare function units:compare($collection as node()* , $level as item()*) as item()*</xqdoc:signature>
+      <xqdoc:parameters>
+        <xqdoc:parameter>
+          <xqdoc:name>collection</xqdoc:name>
+          <xqdoc:type occurrence="*">node()</xqdoc:type>
+        </xqdoc:parameter>
+        <xqdoc:parameter>
+          <xqdoc:name>level</xqdoc:name>
+          <xqdoc:type occurrence="*">item()</xqdoc:type>
+        </xqdoc:parameter>
+      </xqdoc:parameters>
+      <xqdoc:return>
+        <xqdoc:type occurrence="*">item()</xqdoc:type>
+      </xqdoc:return>
+    </xqdoc:function>
+    <xqdoc:function arity="2">
+      <xqdoc:comment>
+        <xqdoc:description>Hilfsfunktion für units:group! 
+Vgl. http://www.xqueryfunctions.com/xq/functx_is-node-in-sequence-deep-equal.html
+Wurde im Modul-Namensraum deklariert, weil kein Modul in ein Modul importiert
+werden kann (oder doch? andere Lösung?)</xqdoc:description>
+        <xqdoc:version>0.1 (2020)</xqdoc:version>
+        <xqdoc:author>..., Marco Stallmann</xqdoc:author>
+      </xqdoc:comment>
+      <xqdoc:name>units:is-node-in-sequence-deep-equal</xqdoc:name>
+      <xqdoc:signature>declare function units:is-node-in-sequence-deep-equal($node as node()? , $seq as node()*) as xs:boolean</xqdoc:signature>
+      <xqdoc:parameters>
+        <xqdoc:parameter>
+          <xqdoc:name>node</xqdoc:name>
+          <xqdoc:type occurrence="?">node()</xqdoc:type>
+        </xqdoc:parameter>
+        <xqdoc:parameter>
+          <xqdoc:name>seq</xqdoc:name>
+          <xqdoc:type occurrence="*">node()</xqdoc:type>
+        </xqdoc:parameter>
+      </xqdoc:parameters>
+      <xqdoc:return>
+        <xqdoc:type>xs:boolean</xqdoc:type>
+      </xqdoc:return>
+    </xqdoc:function>
+    <xqdoc:function arity="1">
+      <xqdoc:comment>
+        <xqdoc:description>Ebenfalls Hilfsfunktion für units:group! 
+Vgl. http://www.xqueryfunctions.com/xq/functx_distinct-deep.html
+Wurde im Modul-Namensraum deklariert, weil kein Modul in ein Modul importiert
+werden kann (oder doch? andere Lösung?)</xqdoc:description>
+        <xqdoc:version>0.1 (2020)</xqdoc:version>
+        <xqdoc:author>..., Marco Stallmann</xqdoc:author>
+      </xqdoc:comment>
+      <xqdoc:name>units:distinct-deep</xqdoc:name>
+      <xqdoc:signature>declare function units:distinct-deep($nodes as node()*) as node()*</xqdoc:signature>
+      <xqdoc:parameters>
+        <xqdoc:parameter>
+          <xqdoc:name>nodes</xqdoc:name>
+          <xqdoc:type occurrence="*">node()</xqdoc:type>
+        </xqdoc:parameter>
+      </xqdoc:parameters>
+      <xqdoc:return>
+        <xqdoc:type occurrence="*">node()</xqdoc:type>
+      </xqdoc:return>
+    </xqdoc:function>
+  </xqdoc:functions>
+</xqdoc:xqdoc>
