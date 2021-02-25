@@ -15,6 +15,8 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 :
 : Überlegung (Hannah): Kombination mit "Spannungsbogen" als weitere Funktion
 :
+: Todo: Ergebnis in Datei schreiben (mit file:write ??)
+:
 : @version 0.1 (2021-02-22)
 : @author ..., Marco Stallmann
 :
