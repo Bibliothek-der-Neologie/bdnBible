@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Documentation</title>
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+  </head>
+  <body>
+    <div class="right">
+      <img width="104" src="basex.svg"></img>
+    </div>
+    <h2>Library Module: units.xqm</h2>
+    <table>
+      <tr>
+        <td>
+          <b>URI:</b>
+        </td>
+        <td>
+          <code>http://bdn-edition.de/xquery/units</code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>Wandelt die Sinneinheiten-Datei (units.xml) in eine Liste von gleichartigen
+Elementen "unit" um, die vergleichbar sind.
+
+Erklären: Wo wird dies unten benötigt?</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.1 (2020)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>..., Marco Stallmann</td>
+      </tr>
+    </table>
+    <h2>Functions</h2>
+    <a name="compare#2">
+      <h3>compare($collection, $level)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$collection</code>
+              </td>
+              <td>
+                <code>node()*</code>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <code>$level</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>Hauptfunktion! Gibt eine Tabelle aus mit den meistverwendeten Bibelstellen
+bzw. Sinneinheiten in einer Kollektion (zur "collection" vgl. query.xq).</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.1 (2020)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>..., Marco Stallmann</td>
+      </tr>
+    </table>
+    <a name="distinct-deep#1">
+      <h3>distinct-deep($nodes)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$nodes</code>
+              </td>
+              <td>
+                <code>node()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>node()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>Ebenfalls Hilfsfunktion für units:group! 
+Vgl. http://www.xqueryfunctions.com/xq/functx_distinct-deep.html
+Wurde im Modul-Namensraum deklariert, weil kein Modul in ein Modul importiert
+werden kann (oder doch? andere Lösung?)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.1 (2020)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>..., Marco Stallmann</td>
+      </tr>
+    </table>
+    <a name="equalunits#2">
+      <h3>equalunits($units, $bible)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$units</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <code>$bible</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>Wandelt die Sinneinheiten-Datei (units.xml) in eine Liste von gleichartigen
+Elementen "unit" um, die vergleichbar sind.
+
+Erklären: Wo wird dies unten benötigt?</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.1 (2020)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>..., Marco Stallmann</td>
+      </tr>
+    </table>
+    <a name="find#2">
+      <h3>find($ref, $equalunits)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$ref</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <code>$equalunits</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>Nimmt ein gegebenes Element "ref" aus der konvertieren Quellenschrift-XML
+und sucht in der Liste "equalunits" diejenigen Elemente heraus, die zu dem
+"ref" passen. Diese sog. "matches" werden dann zusammen mit dem "ref" in
+einem Element "item" ausgegeben. Vgl. dann die Funktion units:listitems</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.1 (2020)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>..., Marco Stallmann</td>
+      </tr>
+    </table>
+    <a name="group#1">
+      <h3>group($items)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$items</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>Erstellt eine geordnete Liste der Sinneinheiten nach Häufigkeit und ordnet
+die entsprechenden "refs" jeweils darunter an. Vers- und Kapitelebene werden
+untereinander aufgelistet.
+
+Die Häufigkeiten werden (etwas versteckt) in Elementen "abs" und "rel"
+ausgegeben.</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.1 (2020)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>..., Marco Stallmann</td>
+      </tr>
+    </table>
+    <a name="is-node-in-sequence-deep-equal#2">
+      <h3>is-node-in-sequence-deep-equal($node, $seq)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$node</code>
+              </td>
+              <td>
+                <code>node()?</code>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <code>$seq</code>
+              </td>
+              <td>
+                <code>node()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>xs:boolean</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>Hilfsfunktion für units:group! 
+Vgl. http://www.xqueryfunctions.com/xq/functx_is-node-in-sequence-deep-equal.html
+Wurde im Modul-Namensraum deklariert, weil kein Modul in ein Modul importiert
+werden kann (oder doch? andere Lösung?)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.1 (2020)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>..., Marco Stallmann</td>
+      </tr>
+    </table>
+    <a name="listitems#2">
+      <h3>listitems($doc, $equalunits)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$doc</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <code>$equalunits</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>element()</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>Führt die oben beschriebene Funktion units:find für jedes "ref"
+aus der konvertierten Quellenschrift-XML aus und schreibt die daraus
+hervorgehenden "items" in eine Liste. Außerdem wird die Überschrift "edition"
+hinzugefügt.</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.1 (2020)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>..., Marco Stallmann</td>
+      </tr>
+    </table>
+  </body>
+</html>

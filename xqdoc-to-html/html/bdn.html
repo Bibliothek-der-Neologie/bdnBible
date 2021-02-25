@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Documentation</title>
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+  </head>
+  <body>
+    <div class="right">
+      <img width="104" src="basex.svg"></img>
+    </div>
+    <h2>Library Module: bdn.xqm</h2>
+    <table>
+      <tr>
+        <td>
+          <b>URI:</b>
+        </td>
+        <td>
+          <code>http://bdn-edition.de/xquery/bdn</code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>bdn:convert()
+
+Converts TEI data into a div-structured set of elements "bibl". Each of these
+represent a given tei:bibl[@type="biblical-reference"] in the TEI source.
+It has two child elements: 1) "ref" contains Information about the biblical 
+Metadata which is contained in tei:citedRange, 2) "profile" gives information
+about the text versions, the biblical references do appear in (tei:app).</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.3 (2021-12-21)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>Marco Stallmann, Uwe Sikora</td>
+      </tr>
+    </table>
+    <h2>Functions</h2>
+    <a name="app#1">
+      <h3>app($node)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$node</code>
+              </td>
+              <td>
+                <code>node()*</code>
+              </td>
+              <td>a set of nodes</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td>a node app (no xmlns) providing the different apparatus entries and their bibel-refs</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>bdn:convert &gt; bdn:app()
+TEMPLATE: node "app" of bdn:convert().</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.2 (2020-12-01)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>Marco Stallmann, Uwe Sikora</td>
+      </tr>
+    </table>
+    <a name="bibl#1">
+      <h3>bibl($node)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$node</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td>a set of nodes</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>element(bibl)</code>
+              </td>
+              <td>a node bibl (no xmlns) providing a bibl entry</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>bdn:convert &gt; bdn:bibl()
+TEMPLATE: node "bibl" of bdn:convert().</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.2 (2020-12-01)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>Marco Stallmann, Uwe Sikora</td>
+      </tr>
+    </table>
+    <a name="citedRange#1">
+      <h3>citedRange($node)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$node</code>
+              </td>
+              <td>
+                <code>element(tei:citedRange)</code>
+              </td>
+              <td>a tei:citedRange element</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td>a node ref (no xmlns) providing all necessary information about a bibel-ref</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>bdn:citedRange()
+TEMPLATE: node "ref" of bdn:convert(). ...</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.2 (2020-12-01)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>Marco Stallmann</td>
+      </tr>
+    </table>
+    <a name="convert#1">
+      <h3>convert($node)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$node</code>
+              </td>
+              <td>
+                <code>node()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>bdn:convert()
+
+Converts TEI data into a div-structured set of elements "bibl". Each of these
+represent a given tei:bibl[@type="biblical-reference"] in the TEI source.
+It has two child elements: 1) "ref" contains Information about the biblical 
+Metadata which is contained in tei:citedRange, 2) "profile" gives information
+about the text versions, the biblical references do appear in (tei:app).</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.3 (2021-12-21)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>Marco Stallmann, Uwe Sikora</td>
+      </tr>
+    </table>
+    <a name="data#1">
+      <h3>data($node)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$node</code>
+              </td>
+              <td>
+                <code>node()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>node()</code>
+              </td>
+              <td>a node data (no xmlns) providing the converted data</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>bdn:convert &gt; bdn:data() ( former: bdn:tei() )
+TEMPLATE: Root node of bdn:convert to provide the conversion with root-node 
+"data"</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.2 (2020-12-01)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>Marco Stallmann, Uwe Sikora</td>
+      </tr>
+    </table>
+    <a name="div#1">
+      <h3>div($node)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$node</code>
+              </td>
+              <td>
+                <code>node()*</code>
+              </td>
+              <td>a set of nodes</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>node()*</code>
+              </td>
+              <td>a node div (no xmlns) providing all biblical references of a tei:div 
+of the converted TEI resource.</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>bdn:convert &gt; bdn:div()
+TEMPLATE: node "div" of bdn:convert(). It ignores all tei:div that don't 
+include tei:bibl[@type ="biblical reference"].</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.2 (2020-12-01)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>Marco Stallmann, Uwe Sikora</td>
+      </tr>
+    </table>
+    <a name="edition#1">
+      <h3>edition($node)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$node</code>
+              </td>
+              <td>
+                <code>node()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>node()*</code>
+              </td>
+              <td>a node edition (no xmlns) providing the title of the converted 
+resource</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>bdn:convert &gt; bdn:edition()
+TEMPLATE: title node "edition" of bdn:convert</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.2 (2020-12-01)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>Marco Stallmann, Uwe Sikora</td>
+      </tr>
+    </table>
+    <a name="is-in#2">
+      <h3>is-in($bible-ref, $w)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$bible-ref</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td>a tei:bibl element</td>
+            </tr>
+            <tr>
+              <td>
+                <code>$w</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td>a xsd:boolean (??)</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>bdn:is-in()
+function to check whether a bibel-ref is of a specific witness [?] ...</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.2 (2020-12-01)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>Marco Stallmann</td>
+      </tr>
+    </table>
+    <a name="listWit#1">
+      <h3>listWit($node)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$node</code>
+              </td>
+              <td>
+                <code>element(tei:listWit)</code>
+              </td>
+              <td>a set of nodes</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>element(listWit)</code>
+              </td>
+              <td>a node listWit (no xmlns) providing all witnesses of the converted 
+TEI resource</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>bdn:convert &gt; bdn:listWit()
+TEMPLATE: node "listWit" of bdn:convert(). It provides all witness-IDs and 
+identifies the base-text.</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.2 (2020-12-01)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>Marco Stallmann, Uwe Sikora</td>
+      </tr>
+    </table>
+    <a name="passthru#1">
+      <h3>passthru($nodes)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$nodes</code>
+              </td>
+              <td>
+                <code>node()*</code>
+              </td>
+              <td>a set of nodes</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td>a set nodes (children of the input node)</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>bdn:convert &gt; bdn:passthru()
+TEMPLATE: Default function of bdn:convert to return a node's children aka.
+ignore the node and work on it's children instead.</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.2 (2020-12-01)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>Marco Stallmann, Uwe Sikora</td>
+      </tr>
+    </table>
+    <a name="profile#1">
+      <h3>profile($bibl)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$bibl</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>element(profile)</code>
+              </td>
+              <td>a node profile (no xmlns)</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>bdn:convert &gt; bdn:profile()
+TEMPLATE: node "profile" of bdn:convert(). The profile is ...</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.2 (2020-12-01)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>Marco Stallmann, Uwe Sikora</td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Documentation</title>
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+  </head>
+  <body>
+    <div class="right">
+      <img width="104" src="basex.svg"></img>
+    </div>
+    <h2>Library Module: frequency.xqm</h2>
+    <table>
+      <tr>
+        <td>
+          <b>URI:</b>
+        </td>
+        <td>
+          <code>http://bdn-edition.de/xquery/freq</code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>Erstellt eine HTML-Tabelle auf Basis des konvertierten XML-Dokuments: 
+Für jedes biblische Buch, das in der edierten Quellenschrift vorkommt, wird 
+die Häufigkeit der Bibelreferenz ausgegeben.
+
+Dies ist ein anderer Ansatz als der "Bibelstellenspannungsbogen"
+(s. unten freq:table), wo die Häufigkeiten ausgehend von den einzelnen Kapiteln
+der edierten Quellenschrift ermittelt werden.
+
+Überlegung (Hannah): Kombination mit "Spannungsbogen" als weitere Funktion
+
+Todo: Ergebnis in Datei schreiben (mit file:write ??)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.1 (2021-02-22)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>..., Marco Stallmann</td>
+      </tr>
+    </table>
+    <h2>Functions</h2>
+    <a name="bible-book-stats#3">
+      <h3>bible-book-stats($book, $chapter, $doc)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$book</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <code>$chapter</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <code>$doc</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>Counts Bible-references in XML-Document with "book" and "chapter".</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.1 (2021-02-22)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>Marco Stallmann</td>
+      </tr>
+    </table>
+    <a name="count#1">
+      <h3>count($converted)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$converted</code>
+              </td>
+              <td>
+                <code>node()</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>Counts the number of bible references per chapter and returns a map. 
+To do: JSON Output, XQuery-Application in JavaScript (e.g. XQIB)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.3 (2021-02-03)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>Marco Stallmann</td>
+      </tr>
+    </table>
+    <a name="table#1">
+      <h3>table($doc)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$doc</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>element()</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>ALTE VERSION! Zählt die absoluten und relativen Häufigkeiten von Bibelreferenzen 
+tei:citedRange in einem gegebenen Dokument (hier: Griesbach-Gesamtdatei).
+
+Todo: 
+- Weitere Gliederungsebenen berücksichtigen
+- Für DHd-Bewerbung: (Manuelle) Erarbeitung von Beispielen/Zwischenergebnissen
+(ggf. mithilfe des Printregisters oder der Oxygen-Suchfunktion)
+- Überprüfung und Präzisierung der Wortzählung (Berücksichtigung 
+von „rdg“ / „choice“ / … ?)
+- Erarbeitung von Alternativlösungen für die Berechnung von relativen 
+Häufigkeiten
+- Verbesserung der HTML-Tabellendarstellung / Elementkonstruktion
+- Hinzufügung einer graphischen Darstellung (ggf. Umwandlung in JSON / 
+Ausgabe mithilfe der Open-Source-Datenvisualisierung Chart.js)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.2 (2021-12-21)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>Marco Stallmann</td>
+      </tr>
+    </table>
+    <a name="table2#2">
+      <h3>table2($doc, $bible)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$doc</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <code>$bible</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>Erstellt eine HTML-Tabelle auf Basis des konvertierten XML-Dokuments: 
+Für jedes biblische Buch, das in der edierten Quellenschrift vorkommt, wird 
+die Häufigkeit der Bibelreferenz ausgegeben.
+
+Dies ist ein anderer Ansatz als der "Bibelstellenspannungsbogen"
+(s. unten freq:table), wo die Häufigkeiten ausgehend von den einzelnen Kapiteln
+der edierten Quellenschrift ermittelt werden.
+
+Überlegung (Hannah): Kombination mit "Spannungsbogen" als weitere Funktion
+
+Todo: Ergebnis in Datei schreiben (mit file:write ??)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.1 (2021-02-22)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>..., Marco Stallmann</td>
+      </tr>
+    </table>
+    <a name="test-book#2">
+      <h3>test-book($book, $doc)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$book</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <code>$doc</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>Tests if (converted!) XML-Document has Bible-references with "book"</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.1 (2021-02-22)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>Marco Stallmann</td>
+      </tr>
+    </table>
+    <a name="word-count#1">
+      <h3>word-count($arg)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$arg</code>
+              </td>
+              <td>
+                <code>xs:string?</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>xs:integer</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

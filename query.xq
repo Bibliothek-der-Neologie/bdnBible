@@ -3,7 +3,10 @@ import module namespace bdn = "http://bdn-edition.de/xquery/bdn" at "modules/bdn
 import module namespace units = "http://bdn-edition.de/xquery/units" at "modules/units.xqm";
 import module namespace freq = "http://bdn-edition.de/xquery/freq" at "modules/frequency.xqm";
 import module namespace crit = "http://bdn-edition.de/xquery/crit" at "modules/crit.xqm";
-import module namespace display = "xqdoc/xqdoc-display" at "xqdoc-display.xqy";
+import module namespace xqdoc-to-html = 'http://basex.org/modules/xqdoc-to-html' at "xqdoc-to-html/xqdoc-to-html.xqm";
+
+
+
 
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
@@ -48,20 +51,30 @@ declare variable $collection := <collection>{($noe_items, $gr_items, $bs_items, 
 (: a) Verweishäufigkeiten und Verwendungskontexte von biblischen Sinneinheiten :)
 
 (: units:compare($collection, "verse") :)
-
-units:group($gr_items)
+(: units:group($gr_items) :)
 
 
 (: b) Bibelstellendichte und relative Häufigkeiten :)
 
 (: freq:table2($gr_converted, $bible) :)
-
 (: freq:table($gr) :)
 
 
 (: c) Bibelstellen und Textvarianz :)
 
 (: crit:window($gr_converted) :)
+
+
+
+(: HTML-Dokumentation erzeugen :)
+
+xqdoc-to-html:create(
+  file:base-dir() || 'modules/',
+  file:base-dir() || 'documentation/',
+  'Documentation',
+  false()
+)
+
 
 
 
