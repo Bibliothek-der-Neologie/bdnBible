@@ -29,6 +29,7 @@ declare function units:equalunits($units, $bible)
     verses="{$verse-count}">{$u/data()}</unit>
 };
 
+
 (:~
 : Nimmt ein gegebenes Element "ref" aus der konvertieren Quellenschrift-XML
 : und sucht in der Liste "equalunits" diejenigen Elemente heraus, die zu dem
@@ -93,8 +94,9 @@ declare function units:find($ref, $equalunits) (: Todo: Datentypen! :)
      return <item>{($ref, $matches)}</item>     
    };
    
+   
 (:~
-: Diese Funktion führt die oben beschriebene Funktion units:find für jedes "ref"
+: Führt die oben beschriebene Funktion units:find für jedes "ref"
 : aus der konvertierten Quellenschrift-XML aus und schreibt die daraus
 : hervorgehenden "items" in eine Liste. Außerdem wird die Überschrift "edition"
 : hinzugefügt.
@@ -116,7 +118,15 @@ declare function units:listitems($doc, $equalunits)
 
 
 
-
+(:~
+: Erstellt eine geordnete Liste der Sinneinheiten nach Häufigkeit und ordnet
+: die entsprechenden "refs" jeweils darunter an. Vers- und Kapitelebene werden
+: untereinander aufgelistet.
+:
+: @version 0.1 (2020)
+: @author ..., Marco Stallmann
+:
+:)
 
 declare function units:group($items)
 {
@@ -153,6 +163,9 @@ declare function units:group($items)
 (:~
 : Hauptfunktion! Gibt eine Tabelle aus mit den meistverwendeten Bibelstellen
 : bzw. Sinneinheiten in einer Kollektion (zur "collection" vgl. query.xq).
+:
+: Die Häufigkeiten werden (etwas versteckt) in Elementen "abs" und "rel"
+: ausgegeben.
 :
 : @version 0.1 (2020)
 : @author ..., Marco Stallmann
