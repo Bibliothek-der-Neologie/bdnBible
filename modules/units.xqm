@@ -123,6 +123,9 @@ declare function units:listitems($doc, $equalunits)
 : die entsprechenden "refs" jeweils darunter an. Vers- und Kapitelebene werden
 : untereinander aufgelistet.
 :
+: Die Häufigkeiten werden (etwas versteckt) in Elementen "abs" und "rel"
+: ausgegeben.
+:
 : @version 0.1 (2020)
 : @author ..., Marco Stallmann
 :
@@ -164,8 +167,6 @@ declare function units:group($items)
 : Hauptfunktion! Gibt eine Tabelle aus mit den meistverwendeten Bibelstellen
 : bzw. Sinneinheiten in einer Kollektion (zur "collection" vgl. query.xq).
 :
-: Die Häufigkeiten werden (etwas versteckt) in Elementen "abs" und "rel"
-: ausgegeben.
 :
 : @version 0.1 (2020)
 : @author ..., Marco Stallmann
