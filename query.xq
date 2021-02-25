@@ -49,6 +49,8 @@ declare variable $collection := <collection>{($noe_items, $gr_items, $bs_items, 
 
 (: units:compare($collection, "verse") :)
 
+units:group($gr_items)
+
 
 (: b) Bibelstellendichte und relative Häufigkeiten :)
 
@@ -61,6 +63,5 @@ declare variable $collection := <collection>{($noe_items, $gr_items, $bs_items, 
 
 (: crit:window($gr_converted) :)
 
-display:get-default-html(false()) 
 
 
