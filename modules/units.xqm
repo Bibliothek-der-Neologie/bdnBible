@@ -4,9 +4,12 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 (:~
 : Wandelt die Sinneinheiten-Datei (units.xml) in eine Liste von gleichartigen
-Elementen "unit" um, die vergleichbar sind.
+: Elementen "unit" um, die vergleichbar sind. Diese Liste kann in der
+: Funktion units:find zugrundegelegt werden (vgl. dort die Variable "equalunits").
 :
-: Erklären: Wo wird dies unten benötigt?
+: Todo: Generell ist im Modul "units" zu überlegen, ob die Hintereinander-
+: schaltung der Funktionen 1) verständlich und 2) zielführend ist oder ob es
+: alternative Möglichkeiten gibt.
 :
 : @version 0.1 (2020)
 : @author ..., Marco Stallmann
@@ -35,6 +38,10 @@ declare function units:equalunits($units, $bible)
 : und sucht in der Liste "equalunits" diejenigen Elemente heraus, die zu dem
 : "ref" passen. Diese sog. "matches" werden dann zusammen mit dem "ref" in
 : einem Element "item" ausgegeben. Vgl. dann die Funktion units:listitems
+:
+: Todo: 
+: - Datentypen in der Funktionsdefinition ergänzen
+: - match-Bedingungen überprüfen (evtl. aufsplitten in mehrere Einzelbedingungen)
 :
 : @version 0.1 (2020)
 : @author ..., Marco Stallmann
@@ -100,6 +107,8 @@ declare function units:find($ref, $equalunits) (: Todo: Datentypen! :)
 : aus der konvertierten Quellenschrift-XML aus und schreibt die daraus
 : hervorgehenden "items" in eine Liste. Außerdem wird die Überschrift "edition"
 : hinzugefügt.
+: 
+: Todo: Datentypen in Funktionsdeklaration ergänzen
 :
 : @version 0.1 (2020)
 : @author ..., Marco Stallmann
@@ -119,12 +128,15 @@ declare function units:listitems($doc, $equalunits)
 
 
 (:~
-: Erstellt eine geordnete Liste der Sinneinheiten nach Häufigkeit und ordnet
-: die entsprechenden "refs" jeweils darunter an. Vers- und Kapitelebene werden
-: untereinander aufgelistet.
+: Diese Funktion soll auf die durch unit:listitems erstellte Liste angewendet 
+: werden. Sie erstellt dann eine neue, geordnete Liste der Sinneinheiten nach 
+: Häufigkeit und ordnet die entsprechenden "refs" jeweils darunter an. Vers- und 
+: Kapitelebene werden untereinander aufgelistet.
 :
-: Die Häufigkeiten werden (etwas versteckt) in Elementen "abs" und "rel"
-: ausgegeben.
+: Todo:
+: - Die Häufigkeiten werden (etwas versteckt) in Elementen "abs" und "rel"
+: ausgegeben. Hervorheben?
+: - Datentypen in Funktionsdeklaration ergänzen
 :
 : @version 0.1 (2020)
 : @author ..., Marco Stallmann
@@ -164,9 +176,15 @@ declare function units:group($items)
 
 
 (:~
-: Hauptfunktion! Gibt eine Tabelle aus mit den meistverwendeten Bibelstellen
-: bzw. Sinneinheiten in einer Kollektion (zur "collection" vgl. query.xq).
+: Hauptfunktion! Wird auf die in query.xq erstellte "collection" angewendet und
+: gibt eine Tabelle aus mit den meistverwendeten Bibelstellen
+: bzw. Sinneinheiten in dieser Kollektion.
 :
+: Todo: 
+: - Die Funktion ist bislang sehr unübersichtlich und zudem redundant
+: ("then" und "else" sind fast gleich). Verschlankung möglich?
+: - Verbesserung der relativen Ausgabe?
+: - Datentypen in Funktionsdeklaration ergänzen
 :
 : @version 0.1 (2020)
 : @author ..., Marco Stallmann
@@ -262,6 +280,8 @@ declare function units:compare($collection as node()*, $level)
 : Vgl. http://www.xqueryfunctions.com/xq/functx_is-node-in-sequence-deep-equal.html
 : Wurde im Modul-Namensraum deklariert, weil kein Modul in ein Modul importiert
 : werden kann (oder doch? andere Lösung?)
+:
+: Todo: Geht es ohne diese Hilfsfunktion(en)?
 :
 : @version 0.1 (2020)
 : @author ..., Marco Stallmann
