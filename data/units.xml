@@ -4,8 +4,37 @@
   <book name="Gen">
     <unit from-chapter="1" from-verse="1" to-chapter="2" to-verse="4">Priesterlicher Schöpfungsbericht</unit>
     <unit from-chapter="2" from-verse="4" to-chapter="3" to-verse="24">Nichtpriesterschriftlicher Schöpfungsbericht</unit>
+    <chapter n="11">
+    <unit from-verse="1" to-verse="9">Der Turmbau zu Babel</unit>
+    </chapter>
+    <chapter n="12">
+    <unit from-verse="1" to-verse="9">Abrams Berufung</unit>
+    </chapter>
+    <chapter n="17">
+    <unit from-verse="1" to-verse="27">Der ewige Bunde mit Abraham</unit>
+    </chapter>
+    <chapter n="18">
+    <unit from-verse="1" to-verse="15">Der Herr bei Abraham und Sara in Mamre</unit>
+    <unit from-verse="16" to-verse="33">Abrahams Fürbitte für Sodom</unit>
+    </chapter>
+    <chapter n="22">
+    <unit from-verse="1" to-verse="19">Das Opfer Abrahams / Bindung Isaaks</unit>
+    </chapter>
+    <chapter n="28">
+    <unit from-verse="10" to-verse="22">Jakob schaut die Himmelsleiter</unit>
+    </chapter>
+    <chapter n="32">
+    <unit from-verse="23" to-verse="33">Jakobs Kampf am Jabbok</unit>
+    </chapter>
+    <unit from-chapter="37" from-verse="1" to-chapter="50" to-verse="26">Josefs-Novelle<!-- kann man Kapitel 38 aussparen? -->
+</unit>  
   </book>
   <book name="Ex">
+    <unit from-chapter="3" from-verse="1" to-chapter="4" to-verse="17">Moses Berufung</unit>
+    <chapter n="3">
+      <unit verse="14">Offenbarung des Gottesnamens (JHWH)<!-- Einzelvers? -->
+</unit>
+    </chapter>
     <chapter n="20">
       <unit from-verse="1" to-verse="17">Dekalog</unit>
     </chapter>
@@ -464,6 +493,31 @@
       <unit from-verse="29" to-verse="33">Vom Feigenbaum</unit>
       <unit from-verse="34" to-verse="38">Ermahnung zur Wachsamkeit</unit>
     </chapter>
+    <unit from-chapter="22" from-verse="1" to-chapter="24" to-verse="53">Jesu Leiden, Sterben und Auferstehung</unit>
+    <chapter n="22">
+      <unit from-verse="3" to-verse="6">Der Verrat des Judas</unit>
+      <unit from-verse="7" to-verse="23">Das Abendmahl</unit>
+      <unit from-verse="24" to-verse="38">Gespräche mit den Jüngern</unit>
+      <unit from-verse="39" to-verse="46">Jesus in Gethsemane</unit>
+      <unit from-verse="47" to-verse="53">Jesu Gefangennahme</unit>
+      <unit from-verse="54" to-verse="62">Die Verleugnung des Petrus</unit>
+      <unit from-verse="63" to-verse="65">Jesu Verspottung</unit>
+      <unit from-verse="66" to-verse="71">Jesus vor dem Hohen Rat</unit>
+    </chapter>
+    <chapter n="23">
+      <unit from-verse="1" to-verse="5">Jesus vor Pilatus</unit>
+      <unit from-verse="6" to-verse="12">Jesus vor Herodes Antipas</unit>
+      <unit from-verse="13" to-verse="25">Jesu Verurteilung</unit>
+      <unit from-verse="26" to-verse="31">Jesu Weg nach Golgatha</unit>
+      <unit from-verse="32" to-verse="49">Jesu Kreuzigung und Tod</unit>
+      <unit from-verse="50" to-verse="56">Jesu Grablegung</unit>
+    </chapter>
+    <chapter n="24">
+      <unit from-verse="1" to-verse="12">Jesu Auferstehung</unit>
+      <unit from-verse="13" to-verse="35">Die Emmausjünger</unit>
+      <unit from-verse="36" to-verse="49">Jesus Erscheinung vor den Jüngern</unit>
+      <unit from-verse="50" to-verse="53">Jesu Himmelfahrt</unit>
+    </chapter>
   </book>
 
   <book name="Joh">
@@ -796,8 +850,71 @@
     </chapter>
   </book>
   <book name="1Kor">
+    <unit from-chapter="1" from-verse="1" to-chapter="4" to-verse="21">Kreuz und Weisheit / Spaltungen in der Gemeinde</unit>
     <unit from-chapter="1" from-verse="18" to-chapter="2" to-verse="5">Das Wort vom Kreuz als Grundlage christlicher Existenz</unit>
-    <chapter n="1"/>
+    <chapter n="1">
+    <unit from-verse="4" to-verse="17">Parteiungen in der Gemeinde (Paulus, Kephas, Apollos, Christus)</unit>
+    </chapter>
+    <chapter n="2">
+    <unit from-verse="6" to-verse="16">Von der Weisheit Gottes</unit>
+    </chapter>
+    <chapter n="3">
+    <unit from-verse="1" to-verse="4">Die Unmündigkeit der Korinther</unit>
+    <unit from-verse="5" to-verse="17">Mitarbeiter Gottes</unit>
+    <unit from-verse="18" to-verse="23">Kein Grund zum Rühmen</unit>
+    </chapter>
+    <chapter n="4">
+    <unit from-verse="1" to-verse="5">Kein Recht zum Richten</unit>
+    <unit from-verse="6" to-verse="13">Gegen die Überheblichkeit der Korinther</unit>
+    <unit from-verse="14" to-verse="21">Paulus, als Vater der Gemeinde in Korinth</unit>
+    </chapter>
+    <unit from-chapter="5" from-verse="1" to-chapter="6" to-verse="20">Sittliche Missstände in der Gemeinde</unit>
+    <chapter n="5">
+    <unit from-verse="1" to-verse="13">Gemeindeausschluss bei einem Fall von Blutschande</unit>
+    </chapter>
+    <chapter n="6">
+    <unit from-verse="1" to-verse="11">Das Prozessieren unter Christen vor heidnischen Gerichten</unit>
+    <unit from-verse="12" to-verse="20">Warnung vor Unzucht / Der Leib als Tempel des Heiligen Geistes</unit>
+    </chapter>
+    <chapter n="7">
+    <unit from-verse="1" to-verse="40">Vpn Ehe und Ehelosigkeit</unit>
+    </chapter>
+    <unit from-chapter="8" from-verse="1" to-chapter="11" to-verse="1">Grenzen christlicher Freiheit</unit>
+    <chapter n="8">
+    <unit from-verse="8" to-verse="13">Vom Essen des Götzenopferfleisches</unit>
+    </chapter>
+    <chapter n="9">
+    <unit from-verse="1" to-verse="27">Das Beispiel des Apostels für den Freiheitsverzicht</unit>
+    </chapter>
+    <unit from-chapter="10" from-verse="23" to-chapter="11" to-verse="1">Rücksicht auf das Gewissen</unit>
+    <chapter n="10">
+    <unit from-verse="1" to-verse="22">Das warnende Beispiel Israels</unit>
+    </chapter>
+    <chapter n="11">
+    <unit from-verse="2" to-verse="16">Frauen und Männer im Gottesdienst</unit>
+    <unit from-verse="17" to-verse="34">Missstände bei der Herrenmahlfeier</unit>
+    </chapter>
+    <unit from-chapter="12" from-verse="1" to-chapter="14" to-verse="40">Rücksicht auf das Gewissen</unit>
+    <chapter n="12">
+    <unit from-verse="1" to-verse="11">Viele Gaben - Ein Geist</unit>
+    <unit from-verse="12" to-verse="31">Viele Glieder - Ein Leib</unit>
+    </chapter>
+    <chapter n="13">
+    <unit from-verse="1" to-verse="13">Das Hohelied der Liebe (Liebe als höchste Geistesgabe)</unit>
+    </chapter>
+    <chapter n="14">
+    <unit from-verse="1" to-verse="40">Zungenrede und prophetische Rede</unit>
+    </chapter>
+    <chapter n="15">
+    <unit from-verse="1" to-verse="58">Die Auferweckung von den Toten</unit>
+    <unit from-verse="3" to-verse="5">Vorpaulinisches Christusbekenntnis<!-- geht das so? -->
+    <chapter n="16">
+    <unit from-verse="1" to-verse="4">Geldsammlungen für Jerusalem</unit>
+    <unit from-verse="5" to-verse="12">Reisepläne des Apostels</unit>
+    <unit from-verse="13" to-verse="23">Ermahnungen und Grüße</unit>
+    </chapter>
+</unit>
+    </chapter>
   </book>
   <book name="Gal">
     <unit from-chapter="3" from-verse="6" to-chapter="4" to-verse="7">Die Christen sind Gottes Kinder durch den Glauben an Jesus Christus</unit>
