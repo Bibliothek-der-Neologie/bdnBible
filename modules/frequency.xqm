@@ -15,7 +15,9 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 :
 : Überlegung (Hannah): Kombination mit "Spannungsbogen" als weitere Funktion
 :
-: Todo: Ergebnis in Datei schreiben (mit file:write ??)
+: Todo: 
+: - Ergebnis in Datei schreiben (mit file:write ??)
+: - Übersichtlichkeit verbessern
 :
 : @version 0.1 (2021-02-22)
 : @author ..., Marco Stallmann
@@ -89,6 +91,7 @@ declare function freq:test-book($book, $doc)
 
 (:~
 : Counts the number of bible references per chapter and returns a map. 
+:
 : To do: JSON Output, XQuery-Application in JavaScript (e.g. XQIB)
 :
 : @version 0.3 (2021-02-03)
@@ -112,9 +115,10 @@ declare function freq:count($converted as node()){
 
 (:~
 : ALTE VERSION! Zählt die absoluten und relativen Häufigkeiten von Bibelreferenzen 
-: tei:citedRange in einem gegebenen Dokument (hier: Griesbach-Gesamtdatei).
+: tei:citedRange in einem gegebenen Dokument (hier: Griesbach-Gesamtdatei). 
+: Diese Funktion läuft noch ohne Zwischenformat (bdn.xqm).
 :
-: Todo: 
+: Todo (evtl. hinfällig):
 : - Weitere Gliederungsebenen berücksichtigen
 : - Für DHd-Bewerbung: (Manuelle) Erarbeitung von Beispielen/Zwischenergebnissen
 :   (ggf. mithilfe des Printregisters oder der Oxygen-Suchfunktion)
