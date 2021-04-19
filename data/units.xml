@@ -11,7 +11,7 @@
     <unit from-verse="1" to-verse="9">Abrams Berufung</unit>
     </chapter>
     <chapter n="17">
-    <unit from-verse="1" to-verse="27">Der ewige Bunde mit Abraham</unit>
+    <unit from-verse="1" to-verse="27">Der ewige Bund mit Abraham</unit>
     </chapter>
     <chapter n="18">
     <unit from-verse="1" to-verse="15">Der Herr bei Abraham und Sara in Mamre</unit>
@@ -916,13 +916,107 @@
 </unit>
     </chapter>
   </book>
+  <book name="2Kor">
+    <unit from-chapter="1" from-verse="12" to-chapter="2" to-verse="4">Gegen den Vorwurf der Unredlichkeit</unit>
+    <chapter n="1">
+    <unit from-verse="3" to-verse="11">Lob Gottes für Trost in Bedrängnis</unit>
+    </chapter>
+    <unit from-chapter="2" from-verse="12" to-chapter="3" to-verse="3">Der Dienst des Paulus für die Verkündigung Christi</unit>
+    <chapter n="2">
+    <unit from-verse="5" to-verse="11">Vergebung für ein Gemeindemitglied</unit>
+    </chapter>
+    <chapter n="3">
+    <unit from-verse="4" to-verse="18">Die Herrlichkeit des Dienstes im Neuen Bund</unit>
+    </chapter>
+    <chapter n="4">
+    <unit from-verse="1" to-verse="6">Der Auftrag des Paulus</unit>
+    <unit from-verse="7" to-verse="18">Leidensgemeinschaft mit Christus</unit>
+   </chapter>
+    <unit from-chapter="5" from-verse="11" to-chapter="6" to-verse="2">Botschafter der Versöhnung</unit>
+    <chapter n="5">
+    <unit from-verse="1" to-verse="10">Sehnsucht nach der himmlischen Heimat</unit>
+    </chapter>
+    <unit from-chapter="6" from-verse="11" to-chapter="7" to-verse="4">Werbung um die Gemeinde und Warnung vor Götzendienst</unit>
+    <chapter n="6">
+    <unit from-verse="3" to-verse="10">Die Bewährung des Apostels in seinem Dienst</unit>
+    </chapter>
+    <chapter n="7">
+    <unit from-verse="5" to-verse="16">Freude über die Umkehr der Gemeinde</unit>
+    </chapter>
+    <chapter n="8">
+    <unit from-verse="1" to-verse="24">Die Geldsammlung für die Gemeinde in Jerusalem</unit>
+    </chapter>
+    <chapter n="9">
+    <unit from-verse="1" to-verse="15">Der Segen des Gebens</unit>
+    </chapter>
+    <chapter n="10">
+    <unit from-verse="1" to-verse="11">Verteidigung des Apostels gegen persönliche Angriffe</unit>
+    <unit from-verse="12" to-verse="18">Der Maßstab für die Beurteilung des Apostels</unit>
+    </chapter>
+    <chapter n="11">
+    <unit from-verse="1" to-verse="11">Der Einsatz des Paulus für die Gemeinde</unit>
+    <unit from-verse="12" to-verse="15">Gegen falsche Apostel in Korinth</unit>
+    <unit from-verse="16" to-verse="33">Paulus in der Rolle des Narren</unit>
+    </chapter>
+    <unit from-chapter="12" from-verse="19" to-chapter="13" to-verse="10">Mahnungen für den dritten Besuch des Paulus in Korinth</unit>
+    <chapter n="12">
+    <unit from-verse="1" to-verse="10">Offenbarungen des Herrn und die Schwachheit des Paulus</unit>
+    <unit from-verse="11" to-verse="18">Der Dienst des Apostels für seine Gemeinde</unit>
+    </chapter>
+    <chapter n="13">
+    <unit from-verse="11" to-verse="13">Grüße und Segenswunsch</unit>
+    </chapter>
+  </book>
   <book name="Gal">
-    <unit from-chapter="3" from-verse="6" to-chapter="4" to-verse="7">Die Christen sind Gottes Kinder durch den Glauben an Jesus Christus</unit>
-    <chapter n="3"/>
+  <chapter n="1">
+  <unit from-verse="6" to-verse="9">Kein anderes Evangelium als das von Christus</unit>
+  <unit from-verse="10" to-verse="24">Bekehrung und Berufung des Paulus</unit>
+  </chapter>
+  <chapter n="2">
+  <unit from-verse="1" to-verse="10">Apostelkonvent in Jerusalem</unit>
+  <unit from-verse="11" to-verse="21">Antiochenischer Zwischenfall</unit>
+  </chapter>
+  <unit from-chapter="3" from-verse="6" to-chapter="4" to-verse="7">Die Christen sind Gottes Kinder durch den Glauben an Jesus Christus</unit>
+  <chapter n="3">
+  <unit from-verse="1" to-verse="18">Die Gerechtigkeit aus Glauben</unit>
+  <unit from-verse="19" to-verse="24">Der Sinn des Gesetzes</unit>
+  </chapter>
+  <chapter n="4">
+  <unit from-verse="8" to-verse="20">Werbung um die Gemeinden</unit>
+  <unit from-verse="21" to-verse="31">Knechtschaft und Freiheit</unit>
+  </chapter>
+  <chapter n="5">
+  <unit from-verse="1" to-verse="15">Freiheit in Christus</unit>
+  <unit from-verse="16" to-verse="26">Das Leben im Geist</unit>
+  </chapter>
+  <chapter n="6">
+  <unit from-verse="1" to-verse="10">Mahnung zur Brüderlichkeit</unit>
+  <unit from-verse="11" to-verse="18">Eigenhändiger Briefschluss</unit>
+  </chapter>
+  </book>
+  <book name="Eph">
+    <chapter n="1">
+    </chapter>
+    <chapter n="2">
+    </chapter>
+    <chapter n="3">
+    </chapter>
+    <chapter n="4">
+    </chapter>
+    <chapter n="5">
+    </chapter>
+    <chapter n="6">
+    </chapter>
   </book>
   <book name="Phil">
+  <chapter n="1">
+    </chapter>
     <chapter n="2">
       <unit from-verse="5" to-verse="11">Philipperhymnus</unit>
+    </chapter>
+    <chapter n="3">
+    </chapter>
+    <chapter n="4">
     </chapter>
   </book>
   <book name="2Tim">
