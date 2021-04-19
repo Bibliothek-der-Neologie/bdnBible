@@ -186,3 +186,83 @@ declare function freq:word-count
   ( $arg as xs:string? )  as xs:integer {
    count(tokenize($arg, '\W+')[. != ''])
  } ; 
+
+
+
+(: Zählt die absoluten und relativen Häufigkeiten der Bibelstellen mit Verwendung des Zwischenformats, 
+Kapitelbezeichnungen müssen jedoch aus der unkonvertierten Gesamtdatei gewonnen werden und erstellt eine html-Tabelle :)
+declare function freq:table_all($doc, $doc_unconverted, $bible) 
+{
+<html>
+<body>
+<table>
+<tr>
+<td>Kapitel</td><td>absolut</td><td>relativ</td></tr>
+
+{
+let $chapters_un := $doc_unconverted//tei:div[@type ="chapter"]//tei:head//tei:supplied[@reason="column-title"]
+let $chapters := $doc//div[@type ="chapter"]
+let $nr := count($chapters_un)
+for $n in (1 to $nr)
+return
+<tr>
+<td>{$chapters_un[$n]/text()}</td>
+<td>{count($chapters[$n]//ref)}</td>
+<td>{count($chapters[$n]//ref) div freq:word-count($doc_unconverted//tei:div[@type="chapter"][$n])}</td>
+</tr>
+}
+</table>
+</body>
+</html>
+};
+
+
+(: Zählt die absoluten und relativen (in Relation zu der Gesamtanzahl aller Bibelstellen in einem Kapitel) Häufigkeiten 
+eines bestimmten Bibelbuchs und erstellt eine html-Tabelle :)
+
+declare variable $book := "Röm";
+declare function freq:table_spec($doc, $bible, $book)
+{
+<html>
+<body>
+<table>
+<tr>
+<td>Kapitel/{$book}</td><td>absolut</td><td>relativ</td></tr>
+{
+let $chapters_un := $doc_unconverted//tei:div[@type ="chapter"]//tei:head//tei:supplied[@reason="column-title"]
+let $chapters := $doc//div[@type ="chapter"]
+let $nr := count($chapters)
+for $n in (1 to $nr)
+return
+<tr>
+<td>{$chapters_un[$n]/text()}</td>
+<td>{count($chapters[$n]//ref[@book = $book])}</td>
+<td>{count($chapters[$n]//ref [@book = $book]) div count($chapters[$n]//ref)}</td>
+</tr>
+}
+</table>
+</body>
+</html>};
+
+
+
+(: Erstellt eine map, die als keys, die Kapitelüberschriften, die absoluten Häufigkeiten aller Bibelstellen eines Kapitels 
+und die absoluten Häufigkeiten der Bibelstellen eines bestimmten Buchs innerhalb eines Kapitels enthält:)
+
+
+declare function freq:count_spec ($book, $chapters, $chapters_un, $count) {
+let $book := "Röm"
+let $chapters := $doc//div[@type ="chapter"]
+let $chapters_un := $doc_unconverted//tei:div[@type ="chapter"]//tei:head//tei:supplied[@reason="column-title"]/text()
+let $count := 
+for $c in $chapters return fn:count($c//ref)
+let $count_spec := 
+for $c in $chapters return fn:count($c//ref[@book = $book])
+
+return
+map {
+"items": array{$chapters_un},
+"chapters_count": array{$count},
+"chapters_count_spec": array{$count_spec}
+}
+};
