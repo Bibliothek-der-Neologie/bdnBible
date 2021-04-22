@@ -21,7 +21,7 @@ declare function bdn:convert($node as node()*) as item()* {
   case element(tei:TEI) return bdn:data($node)
   case element(tei:title) return bdn:edition($node)
   case element(tei:listWit) return bdn:listWit($node)
-  case element(tei:front) return ()
+  (: case element(tei:front) return () :)
   case element(tei:div) return bdn:div($node)  
   case element(tei:bibl) return bdn:bibl($node)
   case element(tei:citedRange) return bdn:citedRange($node)
@@ -135,19 +135,30 @@ declare function bdn:listWit
  :)
 declare function bdn:div
   ($node as node()*) as node()* {
-  let $bibl-refs := $node//tei:bibl[@type = "biblical-reference"] 
-  let $column-title := $node//tei:supplied[@reason = "column-title"]
-  return 
-    if ( $bibl-refs ) then (
-      element {"div"}{
+  
+ 
+    
+    let $column-title := $node/tei:head//tei:supplied[@reason = "column-title"]
+    return   
+      element {"div"}
+      {
         attribute {"type"}{ data($node/@type) },
         attribute {"id"}{ data($node/@xml:id) }, 
-          (: if ( $column-title ) 
-          then element {"head"}{$column-title/data() => fn:normalize-space()}
-          else (), :) (: Dies klappt nicht mit Nösselt! Warum? :)
-        bdn:convert( $node/node() )
-      }
-    ) else ()
+        if ($column-title) then attribute {"column-title"}{ $column-title/data() => fn:normalize-space() } else (),                 
+        
+        if ($node//tei:bibl[@type = "biblical-reference"] )
+  then bdn:convert( $node/node() )
+       else " – "
+       
+         
+     
+        
+          
+       }
+       
+       
+        
+        
 };
 
 

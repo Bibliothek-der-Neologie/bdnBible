@@ -6,8 +6,6 @@ import module namespace crit = "http://bdn-edition.de/xquery/crit" at "modules/c
 import module namespace xqdoc-to-html = 'http://basex.org/modules/xqdoc-to-html' at "xqdoc-to-html/xqdoc-to-html.xqm";
 
 
-
-
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 declare variable $bible := doc("data/bibel_structure.xml");
@@ -16,8 +14,8 @@ declare variable $equalunits := units:equalunits($units, $bible);
 
 declare variable $gr := doc("data/griesbach_full.xml");
 declare variable $gr_small := doc("data/griesbach_small.xml");
-declare variable $gr_converted_calc := bdn:convert($gr);
-declare variable $gr_converted := doc("data/converted/griesbach.xml"); (: bdn:convert($gr) als XML abgespeichert. :)
+declare variable $gr_converted := bdn:convert($gr);
+declare variable $gr_converted_doc := doc("data/converted/griesbach.xml"); (: bdn:convert($gr) als XML abgespeichert. :)
 declare variable $gr_items := units:listitems($gr_converted, $equalunits);
 declare variable $gr_unit_groups := units:group($gr_items);
 
@@ -59,6 +57,8 @@ declare variable $collection := <collection>{($noe_items, $gr_items, $bs_items, 
 (: freq:table2($gr_converted, $bible) :)
 (: freq:table($gr) :)
 
+freq:table_spec($gr_converted, $bible, "Röm")
+
 
 (: c) Bibelstellen und Textvarianz :)
 
@@ -68,12 +68,12 @@ declare variable $collection := <collection>{($noe_items, $gr_items, $bs_items, 
 
 (: HTML-Dokumentation erzeugen :)
 
-xqdoc-to-html:create(
+(: xqdoc-to-html:create(
   file:base-dir() || 'modules/',
   file:base-dir() || 'documentation/',
   'Documentation',
   false()
-)
+) :)
 
 
 
