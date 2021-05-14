@@ -218,7 +218,7 @@ return
 </html>
 };
 
-(:speziell für Nösselt und Leß:)
+(:speziell für Leß "section", für Nösselt "part", für Sack "chapter":)
 
 declare function freq:count_sec ($doc_unconverted)
 {
@@ -228,7 +228,7 @@ let $count_sec := for $s in $sections return count(tokenize($s, '\W+')[. != ''])
 return $count_sec 
 };
 
-(:für Leß "section", für Nösselt "part":)
+(:für Leß "section", für Nösselt "part", für Sack "chapter":)
 
 declare function freq:table_all_less($doc, $bible) 
 {
@@ -259,7 +259,7 @@ return
 (: Zählt die absoluten und relativen (in Relation zu der Gesamtanzahl aller Bibelstellen in einem Kapitel) Häufigkeiten 
 eines bestimmten Bibelbuchs und erstellt eine html-Tabelle :)
 
-(:für Griesbach, Steinbart "chapter", für Teller "letter", für Leß "section", für Nösselt "part":)
+(:für Griesbach, Steinbart, Sack "chapter", für Teller "letter", für Leß "section", für Nösselt "part":)
 declare function freq:table_spec($doc, $bible, $book)
 {
 <html>
@@ -297,7 +297,7 @@ else
 und die absoluten Häufigkeiten der Bibelstellen eines bestimmten Buchs innerhalb eines Kapitels enthält:)
 
 
-(:für Griesbach, Steinbart "chapter", für Teller "letter", für Leß "section", für Nösselt "part":)
+(:für Griesbach, Steinbart, Sack "chapter", für Teller "letter", für Leß "section", für Nösselt "part":)
 declare function freq:count_spec($book) {
 let $chapters := $doc//div[@type ="section"]
 let $titles := data($doc//div[@type ="section"]/@column-title)
