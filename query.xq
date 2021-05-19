@@ -1,7 +1,7 @@
 xquery version "3.1";
 import module namespace bdn = "http://bdn-edition.de/xquery/bdn" at "modules/bdn.xqm";
 import module namespace units = "http://bdn-edition.de/xquery/units" at "modules/units.xqm";
-(: import module namespace freq = "http://bdn-edition.de/xquery/freq" at "modules/frequency.xqm"; :)
+import module namespace freq = "http://bdn-edition.de/xquery/freq" at "modules/frequency.xqm";
 import module namespace crit = "http://bdn-edition.de/xquery/crit" at "modules/crit.xqm";
 import module namespace xqdoc-to-html = 'http://basex.org/modules/xqdoc-to-html' at "xqdoc-to-html/xqdoc-to-html.xqm";
 
@@ -62,7 +62,11 @@ declare variable $collection := <collection>{($noe_items, $gr_items, $bs_items, 
 (: freq:table2($gr_converted, $bible) :)
 (: freq:table($gr) :)
 
-(: freq:table_spec($gr_converted, $bible, "Röm") :)
+(: freq:table_all($st_converted, $bible) :) 
+
+(: freq:table_spec($te_converted, $bible, "Röm") :)
+
+freq:count_spec($gr_converted, "Röm")
 
 
 (: c) Bibelstellen und Textvarianz :)
@@ -79,9 +83,6 @@ declare variable $collection := <collection>{($noe_items, $gr_items, $bs_items, 
   'Documentation',
   false()
 ) :)
-
-$sa_converted
-
 
 
 
