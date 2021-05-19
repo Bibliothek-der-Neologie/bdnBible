@@ -135,31 +135,41 @@ declare function bdn:listWit
  :)
 declare function bdn:div
   ($node as node()*) as node()* {
-  
- 
-    
+     
     let $column-title := $node/tei:head//tei:supplied[@reason = "column-title"]
+    let $bible-ref := $node//tei:bibl[@type = "biblical-reference"]
     return   
       element {"div"}
       {
         attribute {"type"}{ data($node/@type) },
-        attribute {"id"}{ data($node/@xml:id) }, 
-        if ($column-title) then attribute {"column-title"}{ $column-title/data() => fn:normalize-space() } else (),                 
+        attribute {"id"}{ data($node/@xml:id) },
         
-        if ($node//tei:bibl[@type = "biblical-reference"] )
-  then bdn:convert( $node/node() )
-       else " – "
-       
+        if ( $bible-ref )
+        then attribute {"words"}{ bdn:word-count($node) }
+        else (),       
          
-     
-        
-          
+        if ( $column-title ) 
+        then attribute {"column-title"}{ $column-title/data() => fn:normalize-space() } 
+        else (), 
+                               
+        if ( $bible-ref )
+        then bdn:convert( $node/node() )
+        else " – "
+           
        }
-       
-       
-        
-        
+      
 };
+
+(:~
+ : Zählt die Wörter in einem vorgegebenem Knoten. Die Funktion ist bisher noch sehr einfach gehalten!
+ : 
+ : @version 0.1 (2021-05-01)
+ : @author Marco Stallmann
+ :)
+declare function bdn:word-count
+  ( $node as xs:string? )  as xs:integer {
+   count(tokenize($node, '\W+')[. != ''])
+ } ; 
 
 
 (:~

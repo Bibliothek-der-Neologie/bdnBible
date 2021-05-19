@@ -1,7 +1,7 @@
 xquery version "3.1";
 import module namespace bdn = "http://bdn-edition.de/xquery/bdn" at "modules/bdn.xqm";
 import module namespace units = "http://bdn-edition.de/xquery/units" at "modules/units.xqm";
-import module namespace freq = "http://bdn-edition.de/xquery/freq" at "modules/frequency.xqm";
+(: import module namespace freq = "http://bdn-edition.de/xquery/freq" at "modules/frequency.xqm"; :)
 import module namespace crit = "http://bdn-edition.de/xquery/crit" at "modules/crit.xqm";
 import module namespace xqdoc-to-html = 'http://basex.org/modules/xqdoc-to-html' at "xqdoc-to-html/xqdoc-to-html.xqm";
 
@@ -44,6 +44,11 @@ declare variable $st_converted := bdn:convert($st);
 declare variable $st_items := units:listitems($st_converted, $equalunits);
 declare variable $st_unit_groups := units:group($st_items);
 
+declare variable $sa := doc("data/sack_test.xml");
+declare variable $sa_converted := bdn:convert($sa);
+declare variable $sa_items := units:listitems($sa_converted, $equalunits);
+declare variable $sa_unit_groups := units:group($sa_items);
+
 declare variable $collection := <collection>{($noe_items, $gr_items, $bs_items, $le_items, $te_items, $st_items)}</collection>;
 
 (: a) Verweishäufigkeiten und Verwendungskontexte von biblischen Sinneinheiten :)
@@ -57,7 +62,7 @@ declare variable $collection := <collection>{($noe_items, $gr_items, $bs_items, 
 (: freq:table2($gr_converted, $bible) :)
 (: freq:table($gr) :)
 
-freq:table_spec($gr_converted, $bible, "Röm")
+(: freq:table_spec($gr_converted, $bible, "Röm") :)
 
 
 (: c) Bibelstellen und Textvarianz :)
@@ -74,6 +79,8 @@ freq:table_spec($gr_converted, $bible, "Röm")
   'Documentation',
   false()
 ) :)
+
+$sa_converted
 
 
 
