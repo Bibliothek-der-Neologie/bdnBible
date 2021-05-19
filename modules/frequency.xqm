@@ -192,8 +192,7 @@ declare function freq:word-count
 (: Zählt die absoluten und relativen Häufigkeiten der Bibelstellen mit Verwendung des Zwischenformats, 
 Kapitelbezeichnungen müssen jedoch aus der unkonvertierten Gesamtdatei gewonnen werden und erstellt eine html-Tabelle :)
 
-declare variable $doc := bdn:convert(fn:doc("griesbach_full.xml")) (: oder alternativ alle anderen xml-Dateien der Bände :);
-declare variable $bible := fn:doc("bibel_structure.xml");
+
 
 (:für Griesbach, Steinbart, Sack "chapter", für Teller "letter", für Leß "section", für Nösselt "part" :)
 declare function freq:table_all($doc, $bible) 
@@ -266,7 +265,7 @@ und die absoluten Häufigkeiten der Bibelstellen eines bestimmten Buchs innerhal
 
 
 (:für Griesbach, Steinbart, Sack "chapter", für Teller "letter", für Leß "section", für Nösselt "part":)
-declare function freq:count_spec($book) {
+declare function freq:count_spec($doc, $book) {
 let $chapters := $doc//div[@type ="section"]
 let $titles := data($doc//div[@type ="section"]/@column-title)
 let $count := 
