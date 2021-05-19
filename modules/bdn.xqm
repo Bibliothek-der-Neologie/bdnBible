@@ -142,11 +142,8 @@ declare function bdn:div
       element {"div"}
       {
         attribute {"type"}{ data($node/@type) },
-        attribute {"id"}{ data($node/@xml:id) },
-        
-        if ( $bible-ref )
-        then attribute {"words"}{ bdn:word-count($node) }
-        else (),       
+        attribute {"id"}{ data($node/@xml:id) },     
+        attribute {"words"}{ bdn:word-count($node) },       
          
         if ( $column-title ) 
         then attribute {"column-title"}{ $column-title/data() => fn:normalize-space() } 
