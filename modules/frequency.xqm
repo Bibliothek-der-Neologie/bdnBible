@@ -192,7 +192,8 @@ declare function freq:word-count
 (: Zählt die absoluten und relativen Häufigkeiten der Bibelstellen mit Verwendung des Zwischenformats, 
 Kapitelbezeichnungen müssen jedoch aus der unkonvertierten Gesamtdatei gewonnen werden und erstellt eine html-Tabelle :)
 
-(:für Griesbach, Steinbart "chapter", für Teller "letter":)
+
+(:für Griesbach, Steinbart, Sack "chapter", für Teller "letter", für Leß "section", für Nösselt "part" :)
 declare function freq:table_all($doc, $bible) 
 {
 <html>
@@ -204,13 +205,14 @@ declare function freq:table_all($doc, $bible)
 {
 let $titles := $doc//div[@type = "chapter"]/@column-title 
 let $chapters := $doc//div[@type = "chapter"]
+let $words := $doc//div[@type = "chapter"]/@words
 let $nr := count($titles)
 for $n in (1 to $nr)
 return
 <tr>
 <td>{data($titles[$n])}</td>
 <td>{count($chapters[$n]//ref)}</td>
-<td>{count($chapters[$n]//ref) div freq:word-count($doc_unconverted//tei:div[@type= "chapter"][$n])}</td>
+<td>{count($chapters[$n]//ref) div (data($words))[$n]}</td>
 </tr>
 }
 </table>
@@ -218,42 +220,6 @@ return
 </html>
 };
 
-(:speziell für Leß "section", für Nösselt "part", für Sack "chapter":)
-
-declare function freq:count_sec ($doc_unconverted)
-{
- 
-let $sections := $doc_unconverted//tei:div[@type = "section"]
-let $count_sec := for $s in $sections return count(tokenize($s, '\W+')[. != ''])
-return $count_sec 
-};
-
-(:für Leß "section", für Nösselt "part", für Sack "chapter":)
-
-declare function freq:table_all_less($doc, $bible) 
-{
-<html>
-<body>
-<table>
-<tr>
-<td>Kapitel</td><td>absolut</td><td>relativ</td></tr>
-
-{
-let $titles := $doc//div[@type = "section"]/@column-title 
-let $chapters := $doc//div[@type = "section"]
-let $nr := count($titles)
-for $n in (1 to $nr)
-return
-<tr>
-<td>{data($titles[$n])}</td>
-<td>{count($chapters[$n]//ref)}</td>
-<td>{count($chapters[$n]//ref) div (freq:count_sec($doc_unconverted)[$n])}</td>
-</tr>
-}
-</table>
-</body>
-</html>
-};
 
 
 (: Zählt die absoluten und relativen (in Relation zu der Gesamtanzahl aller Bibelstellen in einem Kapitel) Häufigkeiten 
