@@ -9,6 +9,8 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 : zusammengefasst werden, die im Zwischenformat das gleiche Bibelstellenprofil 
 : aufweisen. Das funktioniert aber noch nicht vollständig ...
 :
+: Todo: Eingrenzen auf Hinzufügungen und Löschungen.
+:
 : @version 0.1 (2021-02-23)
 : @author ..., Marco Stallmann
 :
