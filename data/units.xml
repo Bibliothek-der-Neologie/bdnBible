@@ -1,6 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <units xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:noNamespaceSchemaLocation="units.xsd">
+<description>
+<title>Sinneinheiten (units) zur Bibel</title>
+<p>Die folgenden Sinneinheiten wurden anhand der Perikopenüberschriften der revidierten Lutherbibel 2017 (Deutsche Bibelgesellschaft) und David C. Bienert, Bibelkunde des Neuen Testaments, 2. Aufl., 2018, Gütersloh bzw. Martin Rösel, Bibelkunde des Alten Testaments. Die kanonischen und apokryphen Schriften. Mit Lernübersichten von Dirk Schwiderski, 10. Aufl., 2018, Göttingen erarbeitet.
+</p>
+</description>
   <book name="Gen">
     <unit from-chapter="1" from-verse="1" to-chapter="2" to-verse="4">Priesterlicher Schöpfungsbericht</unit>
     <unit from-chapter="2" from-verse="4" to-chapter="3" to-verse="24">Nichtpriesterschriftlicher Schöpfungsbericht</unit>
