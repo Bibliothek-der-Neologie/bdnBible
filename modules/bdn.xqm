@@ -136,7 +136,7 @@ declare function bdn:listWit
 declare function bdn:div
   ($node as node()*) as node()* {
      
-    let $column-title := $node/tei:head//tei:supplied[@reason = "column-title"]
+    let $column-title := $node/tei:head/tei:choice/tei:supplied[@reason = "column-title"]
     let $bible-ref := $node//tei:bibl[@type = "biblical-reference"]
     return   
       element {"div"}
@@ -149,9 +149,11 @@ declare function bdn:div
         then attribute {"column-title"}{ $column-title/data() => fn:normalize-space() } 
         else (), 
                                
-        if ( $bible-ref )
+        (: if ( $bible-ref )
         then bdn:convert( $node/node() )
-        else " – "
+        else " – " :)
+        
+        bdn:convert( $node/node() )
            
        }
       

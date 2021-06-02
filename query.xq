@@ -66,12 +66,14 @@ declare variable $collection := <collection>{($noe_items, $gr_items, $bs_items, 
 
 (: freq:table_spec($te_converted, $bible, "Röm") :)
 
-freq:count_spec($gr_converted, "Röm")
+(: freq:count_spec($gr_converted, "Röm") :)
 
 
 (: c) Bibelstellen und Textvarianz :)
 
 (: crit:window($gr_converted) :)
+
+bdn:convert($noe)
 
 
 
