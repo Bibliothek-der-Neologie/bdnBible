@@ -190,7 +190,12 @@ declare function freq:word-count
 
 
 (: Zählt die absoluten und relativen Häufigkeiten der Bibelstellen mit Verwendung des Zwischenformats, 
-Kapitelbezeichnungen müssen jedoch aus der unkonvertierten Gesamtdatei gewonnen werden und erstellt eine html-Tabelle :)
+Kapitelbezeichnungen müssen jedoch aus der unkonvertierten Gesamtdatei gewonnen werden und erstellt eine html-Tabelle 
+
+@version 1.2 (2021-05-19)
+@author Hannah Kreß
+
+:)
 
 
 
@@ -224,7 +229,12 @@ return
 
 
 (: Zählt die absoluten und relativen (in Relation zu der Gesamtanzahl aller Bibelstellen in einem Kapitel) Häufigkeiten 
-eines bestimmten Bibelbuchs und erstellt eine html-Tabelle :)
+eines bestimmten Bibelbuchs und erstellt eine html-Tabelle 
+
+@version 1.2 (2021-05-19)
+@author Hannah Kreß
+
+:)
 
 (:für Griesbach, Steinbart, Sack "chapter", für Teller "letter", für Leß "section", für Nösselt "part":)
 declare function freq:table_spec($doc, $bible, $book)
@@ -261,7 +271,14 @@ else
 
 
 (: Erstellt eine map, die als keys, die Kapitelüberschriften, die absoluten Häufigkeiten aller Bibelstellen eines Kapitels 
-und die absoluten Häufigkeiten der Bibelstellen eines bestimmten Buchs innerhalb eines Kapitels enthält:)
+und die absoluten Häufigkeiten der Bibelstellen eines bestimmten Buchs innerhalb eines Kapitels enthält
+
+@version 1.1 (2021-04-21)
+@author Hannah Kreß
+
+ToDo: gewünschte Visualisierung
+
+:)
 
 
 (:für Griesbach, Steinbart, Sack "chapter", für Teller "letter", für Leß "section", für Nösselt "part":)
