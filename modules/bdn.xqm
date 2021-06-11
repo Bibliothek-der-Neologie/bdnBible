@@ -153,7 +153,9 @@ declare function bdn:div
         then bdn:convert( $node/node() )
         else " – " :)
         
-        bdn:convert( $node/node() )
+        (: bdn:convert( $node/node() ) :)
+        
+        bdn:passthru($node)
            
        }
       

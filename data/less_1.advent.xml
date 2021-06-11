@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://bdn-edition.de/bdnCorrection/bdnCorrection.xsl"?>
+<?xml-model href="textgrid:24z7b" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="textgrid:24z7b" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="textgrid:3pw6q" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="textgrid:3pw6r" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">
+                    <title type="main">Bibliothek der Neologie (BdN)</title>
+                    <title type="sub">Kommentierte kritische Auswahledition in zehn Bänden</title>
+                </title>
+                <title level="a">BdN IV: Gottfried Leß, Sontags-Evangelia übersezt, erklärt, und zur
+                    Erbauung angewandt (1. Aufl. 1776; 2. Aufl. 1777; 3. Aufl. 1781)</title>
+                <author>
+                    <persName>Leß, Gottfried</persName>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date/>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="base-text" xml:id="a">
+                        <label> 1. Aufl. 1776</label>
+                        <bibl>Sontags-Evangelia übersezt, erklärt, und zur Erbauung angewandt von
+                            Gottfried Leß D. und Pr. der Theol. Göttingen, im Verlag der Wittwe
+                            Vandenhoek, 1776, [VI], 1–701 S.</bibl>
+                    </witness>
+                    <witness xml:id="b">
+                        <label>2. Aufl. 1777</label>
+                        <bibl>Sontags-Evangelia übersezt, erklärt, und zur Erbauung angewandt von
+                            Gottfried Leß D. und Pr. der Theol. Zweite Auflage. Göttingen, im Verlag
+                            der Wittwe Vandenhöck, 1777, [VI], 1–678 S.</bibl>
+                    </witness>
+                    <witness xml:id="c">
+                        <label>3. Aufl. 1781</label>
+                        <bibl>Sontags-Evangelia übersezt, erklärt, und zur Erbauung angewandt von
+                            Gottfried Leß D. und Pr. der Theol. Dritte, sehr vermehrte Auflage. Mit
+                            Röm. Kayserl. allergnädigster Freyheit. Göttingen, im Verlag der Wittwe
+                            Vandenhöck, 1781, [VIII], 1–715 S.</bibl>
+                    </witness>
+                    <witness xml:id="z">
+                        <label>Zusäze 1781</label>
+                        <bibl> Zusäze, aus der dritten Ausgabe von den erklärten Sonntags-Evangelien
+                            von D. Gottfried Leß für die Besizer der beyden erstern Ausgaben
+                            besonders abgedruckt. Mit allergnädigster Röm. Kayserlicher Freyheit.
+                            Göttingen, im Verlag der Witwe Vandenhoeck, 1781, [II], 1–75 S.</bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change>
+                <name/>
+                <date/>
+            </change>
+            <change when="2018-04-09">changed during global data revision 1</change>
+            <change when="2018-04-11">deleted @anchored on tei:note</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="section-group" xml:id="less_1_AdvSo">
+                <app>
+                    <lem><div type="section" xml:id="less_section_1advso">
+                            <head type="main"><pb edRef="#a" type="sp" n="357" xml:id="less_357"/>
+                                <pb edRef="#b" n="335"/>
+                                <pb edRef="#c" n="349"/>
+                                <choice>
+                                    <orig>Evangelium am 1. <app>
+                                            <lem>Advents-Sontage</lem>
+                                            <rdg wit="#b #c" type="v">Advents-Sontage.</rdg>
+                                        </app></orig>
+                                    <supplied reason="toc-title">1. Adventssonntag (Mt 21,1–9 + Mk
+                                        11,1–10; Lk 19,29–40; Joh 12,12–19)</supplied>
+                                    <supplied reason="column-title">1. Adventssonntag (Mt 21,1–9
+                                        parr. + Joh 12,12–19)</supplied>
+                                </choice></head>
+                            <head type="sub"><bibl type="biblical-reference"><citedRange
+                                        from="Mt:21:1" to="Mt:21:9"><hi>Matthäi</hi> 21,
+                                        1–9.</citedRange></bibl> verglichen mit <bibl
+                                    type="biblical-reference"><citedRange from="Mk:11:1"
+                                        to="Mk:11:10"><hi>Marci</hi> 11, <app>
+                                            <lem>1–10</lem>
+                                            <rdg wit="#c" type="v">1—10.</rdg>
+                                        </app></citedRange></bibl>
+                                <bibl type="biblical-reference"><citedRange from="Lk:19:29"
+                                        to="Lk:19:40"><hi>Lucä</hi> 19, <app>
+                                            <lem>29–40</lem>
+                                            <rdg wit="#c" type="v">29–40.</rdg>
+                                        </app></citedRange></bibl> und <bibl
+                                    type="biblical-reference"><citedRange from="Joh:12:12"
+                                        to="Joh:12:19"><hi>Johannis</hi> 12,
+                                    12–19.</citedRange></bibl></head>
+                            <p><hi><hi rend="spaced-out">Dies</hi></hi> war der Einzug <index
+                                    indexName="persons-index">
+                                    <term>Christus, s. Jesus Christus</term>
+                                    <term>Jesus Christus</term>
+                                </index>
+                                <persName ref="textgrid:255cd"><hi>Jesu</hi></persName> zu seinem
+                                Leiden! Sonst war er immer nur im Stillen, ohne alles Aufsehen nach
+                                    <hi>Jerusalem</hi> gekommen. Jezt aber, wenige Tage vor seinem
+                                peinlichen Leiden und <index indexName="subjects-index">
+                                    <term>Tod</term>
+                                </index>Tode, am <hi>Montage</hi>, ziehet er so froh, so feierlich
+                                in die Stadt ein wo, wie er wuste, ihn Marter und Todt erwartete.
+                                Aus Liebe zu <app>
+                                    <lem>Gott</lem>
+                                    <rdg wit="#c" type="v"><hi>Gott</hi></rdg>
+                                </app> und der Welt sehen wir ihn hier, so ruhig, so froh, so <index
+                                    indexName="subjects-index">
+                                    <term>triumphierend</term>
+                                </index>triumphirend dem <index indexName="subjects-index">
+                                    <term>schreckliches Leiden</term>
+                                </index>schrecklichen Leiden entgegen gehen, welches <app>
+                                    <lem>Gottes</lem>
+                                    <rdg wit="#c" type="v"><hi>Gottes</hi></rdg>
+                                </app> Wille verhängete, und das Wohl der Welt forderte! – Dies
+                                flösse auch uns, <hi>Christen!</hi> den unsrer <app>
+                                    <lem>erhabenen</lem>
+                                    <rdg wit="#b" type="v">erhabnen</rdg>
+                                </app> Würde gemässen Muth ein! Wenn der ehrenvolle Dienst der
+                                Wahrheit und Tugend uns zu Leiden auffordert: da lasset uns, <seg
+                                    type="margin"><bibl type="biblical-reference"><citedRange
+                                            n="Röm:8:17">Römer 8, 17.</citedRange></bibl></seg>
+                                <hi>wie</hi>
+                                <index indexName="persons-index">
+                                    <term>Christus, s. Jesus Christus</term>
+                                    <term>Jesus Christus</term>
+                                </index>
+                                <persName ref="textgrid:255cd"><hi>Jesus</hi></persName> leiden. So
+                                werden wir auch, wie Er, mit Ruhm und Glück gekrönet werden!</p>
+                            <p><pb n="358" edRef="#a"/>
+                                <seg type="margin"><bibl type="biblical-reference"><citedRange
+                                            from="Mt:21:1" to="Mt:21:3"><app>
+                                                <lem>vers <app>
+                                                  <lem>1–3</lem>
+                                                  <rdg wit="#b" type="v">1–3.</rdg>
+                                                  </app></lem>
+                                                <rdg wit="#c" type="pp">v. 1–3.</rdg>
+                                            </app></citedRange></bibl></seg>
+                                <app>
+                                    <lem><hi><hi rend="spaced-out">Als</hi></hi></lem>
+                                    <rdg wit="#c" type="v"><hi>Als</hi></rdg>
+                                </app>
+                                <hi>sie sich Jerusalem näherten;</hi> (oder, nach <bibl
+                                    type="biblical-reference"><citedRange n="Joh:12:1"
+                                            ><hi>Johanne</hi> 12, 1</citedRange></bibl>
+                                <choice>
+                                    <abbr>vergl.</abbr>
+                                    <expan>vergleiche</expan>
+                                    <expan>verglichen</expan>
+                                </choice>
+                                <bibl type="biblical-reference"><citedRange n="Joh:12:12">vers
+                                        12</citedRange></bibl>, „Als <index
+                                    indexName="persons-index">
+                                    <term>Christus, s. Jesus Christus</term>
+                                    <term>Jesus Christus</term>
+                                </index>
+                                <persName ref="textgrid:255cd"><hi>Jesus</hi></persName> aus
+                                Bethanien, einem Flecken etwa eine halbe Stunde von <app>
+                                    <lem>Jerusalem</lem>
+                                    <rdg wit="#c" type="v"><hi>Jerusalem</hi></rdg>
+                                </app>, nach der Stadt gieng.“) <hi>und nach Bethphage</hi>, nämlich
+                                nahe herbei, <hi>kamen,</hi> (ein Flecken, der zwischen
+                                    <hi>Bethanien</hi> und <hi>Jerusalem</hi>, auf dem Oelberge lag)
+                                    <pb edRef="#b" n="336"/>
+                                <pb edRef="#c" n="350"/>
+                                <hi>an den Oelberg:</hi> (ein hoher Berg, nahe bei
+                                    <hi>Jerusalem</hi>. Er hat seinen Nahmen von den <index
+                                    indexName="subjects-index">
+                                    <term>Olivenbaum</term>
+                                </index><app>
+                                    <lem>Oliven Bäumen</lem>
+                                    <rdg wit="#c" type="pp">Oel-Bäumen</rdg>
+                                </app> mit denen er noch jezo bewachsen ist) – <hi>da sandte</hi>
+                                <index indexName="persons-index">
+                                    <term>Christus, s. Jesus Christus</term>
+                                    <term>Jesus Christus</term>
+                                </index>
+                                <persName ref="textgrid:255cd"><hi>Jesus</hi></persName>
+                                <app>
+                                    <lem><hi>zwey</hi></lem>
+                                    <rdg wit="#c" type="v"><hi>zwei</hi></rdg>
+                                </app>
+                                <hi>seiner Jünger, mit dem Befehl,</hi>
+                                <app>
+                                    <lem><hi>Gehet</hi></lem>
+                                    <rdg wit="#b #c" type="v"><hi>gehet</hi></rdg>
+                                </app>
+                                <hi>hin in den Flecken der vor euch liegt,</hi> (nach Bethphage)
+                                    <hi>und bald</hi> (gleich nach dem Eintritt in den Flecken Siehe
+                                    <bibl type="biblical-reference"><citedRange n="Mk:11:2"
+                                            ><hi>Marci</hi>
+                                        <app>
+                                            <lem>vers 2</lem>
+                                            <rdg wit="#c" type="pp"><hi>vers</hi> 2.</rdg>
+                                        </app></citedRange></bibl>) <hi>werdet ihr eine <index
+                                        indexName="subjects-index">
+                                            <term>Esel/Eselin</term>
+                                    </index>Eselin finden angebunden nebst einem <index
+                                        indexName="subjects-index">
+                                        <term>Füllen (Fohlen)</term>
+                                    </index>Füllen bei ihr. Löset sie ab und bringet sie zu mir.
+                                    Wenn aber jemand euch etwas darüber saget, so sprechet, der Herr
+                                    bedarf ihr: so wird er sie euch so gleich abfolgen
+                                lassen.</hi></p>
+                            <p><seg type="margin"><bibl type="biblical-reference"><citedRange
+                                            n="Mt:21:4 Mt:21:5"><app>
+                                                <lem>vers</lem>
+                                                <rdg wit="#c" type="v">v.</rdg>
+                                            </app> 4. <app>
+                                                <lem>5</lem>
+                                                <rdg wit="#b #c" type="v">5.</rdg>
+                                            </app></citedRange></bibl></seg>
+                                <hi><hi rend="spaced-out">Dies</hi> alles aber geschahe, damit
+                                    erfüllet würde, was von dem Propheten</hi> (nämlich <ptr
+                                    target="#adv1_erl_7" type="editorial-commentary"/><bibl
+                                    type="biblical-reference"><citedRange n="Sach:9:9 Sach:9:10"
+                                            ><hi>Zacharias</hi>, <choice>
+                                            <abbr>Kapit.</abbr>
+                                            <expan>Kapitel</expan>
+                                        </choice> 9, <app>
+                                            <lem><choice>
+                                                  <sic>9,</sic>
+                                                  <corr type="editorial">9.</corr>
+                                                </choice></lem>
+                                            <rdg wit="#c" type="typo-correction">9.</rdg>
+                                        </app>
+                                        <app>
+                                            <lem>10</lem>
+                                            <rdg wit="#c" type="v">10.</rdg>
+                                        </app></citedRange></bibl>) <hi>gesagt worden: Saget der
+                                    Tochter Sion,</hi>
+                                <app>
+                                    <lem>(genauer</lem>
+                                    <rdg wit="#c" type="v">(„genauer</rdg>
+                                </app>, <hi>der Stadt Sion</hi>; das ist; der Stadt Jerusalem, die
+                                auf dem Berge Sion erbauet <app>
+                                    <lem>war</lem>
+                                    <rdg wit="#c" type="v">war“</rdg>
+                                </app>) <hi>Siehe! dein König kömt zu dir,</hi>
+                                <app>
+                                    <lem><hi>sanftmütig</hi></lem>
+                                    <rdg wit="#b" type="typo-correction"><choice>
+                                            <sic><hi>sanfmütig</hi></sic>
+                                            <corr type="editorial"><hi>sanftmütig</hi></corr>
+                                        </choice></rdg>
+                                </app><hi>. Er reitet auf einem <index indexName="subjects-index">
+                                        <term>Esel/Eselin</term>
+                                    </index>Esel; nämlich dem Füllen einer lastbaren Eselin.</hi> –
+                                Im <index indexName="subjects-index">
+                                    <term>Orient</term>
+                                </index>Orient bedienen sich auch die Vornehmsten der Esel, so wie
+                                wir der <index indexName="subjects-index">
+                                    <term>Pferd</term>
+                                </index>Pferde. Diese werden dort, nur im Kriege gebraucht. In
+                                Friedenszeiten aber reiten auch Fürsten auf Eseln. Noch jezo halten
+                                die Gesandten <index indexName="subjects-index">
+                                    <term>Mächte, europäische</term>
+                                </index>europäischer Mäch<pb n="359" edRef="#a" xml:id="less_359"
+                                />te, ihren Einzug auf Eseln. <ptr target="#adv1_erl_8"
+                                    type="editorial-commentary"/>Auf gleiche <app>
+                                    <lem>Art</lem>
+                                    <rdg wit="#c" type="v">Weise</rdg>
+                                </app> hielte auch <index indexName="persons-index">
+                                    <term>Christus, s. Jesus Christus</term>
+                                    <term>Jesus Christus</term>
+                                </index>
+                                <persName ref="textgrid:255cd"><hi>Jesus</hi></persName> hier, nach
+                                der dortigen <index indexName="subjects-index">
+                                    <term>Landesart</term>
+                                </index>Landesart, seinen Einzug auf einem Esel. Und diejenigen,
+                                welche hierüber lachen, zeigen entweder einen schlechten Verstand,
+                                oder ein schlechtes Herz. Ueber Gebräuche fremder Völker lachen, die
+                                denen <pb edRef="#b" n="337"/>
+                                <pb edRef="#c" n="351"/> zuwider sind, an welche wir, bei unsern
+                                Müttern und in unsern Winkeln uns gewönet <app>
+                                    <lem/>
+                                    <rdg wit="#c" type="pt">haben</rdg>
+                                </app>, ist <app>
+                                    <lem>kindisch</lem>
+                                    <rdg wit="#c" type="v"><hi>kindisch</hi></rdg>
+                                </app>. Ueber Dinge lachen die zu einer Religion gehören, welche so
+                                viele <app>
+                                    <lem>Tausend</lem>
+                                    <rdg wit="#b #c" type="v">tausend</rdg>
+                                </app> der weisesten, ehrwürdigsten Menschen als ihr Kleinod
+                                verehren, ist im höchsten Grade <app>
+                                    <lem>unverschämt</lem>
+                                    <rdg wit="#c" type="v"><hi>unverschämt</hi></rdg>
+                                </app> und <index indexName="subjects-index">
+                                    <term>menschenfeindlich</term>
+                                </index><index indexName="subjects-index">
+                                    <term>menschenfeindlich</term>
+                                </index><app>
+                                    <lem>menschenfeindlich</lem>
+                                    <rdg wit="#c" type="v"><hi>menschenfeindlich</hi></rdg>
+                                </app>.</p>
+                            <p><hi><hi rend="spaced-out">Warum</hi></hi> aber hielte <index
+                                    indexName="persons-index">
+                                    <term>Christus, s. Jesus Christus</term>
+                                    <term>Jesus Christus</term>
+                                </index>
+                                <persName ref="textgrid:255cd"><hi>Jesus</hi></persName> seinen
+                                feierlichen Einzug auf einem Esel? Und warum füren alle <index
+                                    indexName="subjects-index">
+                                    <term>Evangelist</term>
+                                </index>Evangelisten dies als etwas Merkwürdiges an? – – – <index
+                                    indexName="persons-index">
+                                    <term>Christus, s. Jesus Christus</term>
+                                    <term>Jesus Christus</term>
+                                </index>
+                                <persName ref="textgrid:255cd"><hi>Jesus</hi></persName> zeigete
+                                sich dadurch der Welt, <hi>als den Friede und Glück bringenden
+                                    König</hi>. <ptr target="#adv1_erl_3"
+                                    type="editorial-commentary"/>Ein <index
+                                    indexName="subjects-index">
+                                    <term>Beweis</term>
+                                </index>Beweis seiner Demuth, oder freiwilligen Armuth kan es nicht
+                                seyn: denn, wie gesagt, auch die Vornehmsten reiten dort auf Eseln.
+                                Weil man aber, sich der Pferde nur im Kriege, und der Esel zu
+                                    <hi>Friedens-Zeiten</hi> bedienete: so war dieser Einzug <index
+                                    indexName="persons-index">
+                                    <term>Christus, s. Jesus Christus</term>
+                                    <term>Jesus Christus</term>
+                                </index>
+                                <persName ref="textgrid:255cd"><hi>Jesu</hi></persName>, eine <app>
+                                    <lem><hi>sinliche</hi></lem>
+                                    <rdg wit="#c" type="v"><hi>sinnliche</hi></rdg>
+                                </app>, in die Augen fallende <hi>Lehre</hi>, daß Er der Beglücker
+                                der Welt (der Messias) sey. So erkläret es uns <index
+                                    indexName="persons-index">
+                                    <term>Zacharias, s. Sacharja</term>
+                                    <term>Sacharja</term>
+                                </index>
+                                <persName ref="textgrid:255cd"><hi>Zacharias</hi></persName> selbst,
+                                aus dem <app>
+                                    <lem>diese</lem>
+                                    <rdg wit="#b #c" type="v">die</rdg>
+                                </app> Stelle genommen. <hi>Und ich werde</hi>, <app>
+                                    <lem>färet</lem>
+                                    <rdg wit="#c" type="v">(färet</rdg>
+                                </app> er, unmittelbahr darnach fort im <bibl
+                                    type="biblical-reference"><citedRange n="Sach:9:10"
+                                        >10</citedRange></bibl>
+                                <app>
+                                    <lem><hi>vers</hi>,</lem>
+                                    <rdg wit="#c" type="v"><hi>vers</hi>,)</rdg>
+                                </app>
+                                <hi>die Streit-Wagen aus Ephraim und die Pferde von Jerusalem
+                                    entfernen. Der</hi>
+                                <app>
+                                    <lem><hi>Streit Bogen</hi></lem>
+                                    <rdg wit="#c" type="pp"><hi>Streit-Bogen</hi></rdg>
+                                </app>
+                                <hi>wird zerbrochen werden. Denn Er wird Friede den Völkern
+                                    gebiethen; und seine Herrschaft wird reichen von</hi>
+                                <pb n="360" edRef="#a"/>
+                                <hi>Meer zu Meer, und vom grossen Fluß</hi> (dem Euphrat) <hi>bis an
+                                    das Ende der Erde.</hi></p>
+                            <p><seg type="margin"><bibl type="biblical-reference"><citedRange
+                                            n="Mt:21:6"><app>
+                                                <lem>vers 6</lem>
+                                                <rdg wit="#c" type="pp">v. 6.</rdg>
+                                            </app></citedRange></bibl></seg>
+                                <hi><hi rend="spaced-out">Die</hi> Jünger nun giengen hin, und
+                                    thaten wie ihnen</hi>
+                                <index indexName="persons-index">
+                                    <term>Christus, s. Jesus Christus</term>
+                                    <term>Jesus Christus</term>
+                                </index>
+                                <persName ref="textgrid:255cd"><hi>Jesus</hi></persName>
+                                <hi>befohlen hatte.</hi> „Sie kamen nämlich
+                                    dahin<supplied>“</supplied>, <ptr target="#adv1_erl_4"
+                                    type="editorial-commentary"/>so erzälen <index
+                                    indexName="persons-index">
+                                    <term>Markus</term>
+                                </index>
+                                <persName ref="textgrid:2z6t5"><app>
+                                        <lem><hi>Marcus</hi></lem>
+                                        <rdg wit="#c" type="v"><hi>Markus</hi></rdg>
+                                    </app></persName> und <pb edRef="#b" n="338"/>
+                                <pb edRef="#c" n="352"/>
+                                <index indexName="persons-index">
+                                    <term>Lukas</term>
+                                </index>
+                                <persName ref="textgrid:2z6t4"><app>
+                                        <lem><hi>Lucas</hi></lem>
+                                        <rdg wit="#c" type="v"><hi>Lukas</hi></rdg>
+                                    </app></persName> es vollständiger, „und fanden ein Füllen
+                                angebunden, an der Thüre, am Kreuzwege. <hi>Nun</hi>
+                                <app>
+                                    <lem>lösen</lem>
+                                    <rdg wit="#c" type="v">löseten</rdg>
+                                </app> sie es <app>
+                                    <lem>ab,</lem>
+                                    <rdg wit="#b #c" type="v">ab.</rdg>
+                                </app>
+                                <hi>Einige</hi> aber die dabei stunden, sprachen, warum löset ihr
+                                das Füllen ab? <hi>Sie</hi> antworteten, wie ihnen <index
+                                    indexName="persons-index">
+                                    <term>Christus, s. Jesus Christus</term>
+                                    <term>Jesus Christus</term>
+                                </index>
+                                <persName ref="textgrid:255cd">Jesus</persName> befohlen. Und nun
+                                ließ man es abfolgen.“ – So kleine Umstände! Und so <index
+                                    indexName="subjects-index">
+                                    <term>Punkt für Punkt</term>
+                                </index><app>
+                                    <lem>Punct</lem>
+                                    <rdg wit="#c" type="v">Punkt</rdg>
+                                </app> vor <app>
+                                    <lem>Punct</lem>
+                                    <rdg wit="#c" type="v">Punkt</rdg>
+                                </app> trift alles ein! Ein Beweis, daß – <index
+                                    indexName="persons-index">
+                                    <term>Christus, s. Jesus Christus</term>
+                                    <term>Jesus Christus</term>
+                                </index>
+                                <persName ref="textgrid:255cd"><hi>Jesus</hi></persName> die
+                                genaueste Kentniß der Zukunft hatte; also das war wofür er sich
+                                angab, ein Gesandter <app>
+                                    <lem>Gottes</lem>
+                                    <rdg wit="#c" type="v"><hi>Gottes</hi></rdg>
+                                </app>, und der Heiland der Welt!</p>
+                            <p><ptr target="#adv1_erl_5" type="editorial-commentary"/><seg
+                                    type="margin"><bibl type="biblical-reference"><citedRange
+                                            from="Mt:21:7" to="Mt:21:9"><app>
+                                                <lem>vers 7–9</lem>
+                                                <rdg wit="#c" type="pp">v. 7–9.</rdg>
+                                            </app></citedRange></bibl>
+                                    <choice>
+                                        <abbr>vergl.</abbr>
+                                        <expan>vergleiche</expan>
+                                        <expan>verglichen</expan>
+                                    </choice> bei <bibl type="biblical-reference"><citedRange
+                                            n="Mk:11:7"><app>
+                                                <lem>Marco vers</lem>
+                                                <rdg wit="#c" type="pp">Marko v.</rdg>
+                                            </app> 7.</citedRange></bibl>
+                                    <app>
+                                        <lem><app>
+                                                <lem>und</lem>
+                                                <rdg wit="#b" type="v">u.</rdg>
+                                            </app> Luca vers</lem>
+                                        <rdg wit="#c" type="pp">u. Luka v.</rdg>
+                                    </app>
+                                    <bibl type="biblical-reference"><citedRange n="Lk:19:35"
+                                            >35.</citedRange></bibl></seg>
+                                <hi><hi rend="spaced-out">Und</hi> brachten die Eselin nebst dem
+                                    Füllen, und legten ihre Kleider darauf. Er aber sezte sich auf
+                                    das Füllen. Eine sehr grosse Menge Volks aber breitete die
+                                    Kleider auf den</hi>
+                                <app>
+                                    <lem><hi>Weg. Andre</hi></lem>
+                                    <rdg wit="#b #c" type="pp"><hi>Weg, andre</hi></rdg>
+                                </app>
+                                <hi>hieben Zweige von den Bäumen und bestreueten damit den Weg.
+                                    Beides aber die Menge die vorangieng und nachfolgete, rief, –
+                                    Hosanna dem Sohne</hi>
+                                <index indexName="persons-index">
+                                    <term>David</term>
+                                </index><persName ref="textgrid:2z6t1"
+                                    ><hi>David</hi></persName><hi>!</hi> (ein <index
+                                    indexName="subjects-index">
+                                    <term>hebräisches Wort</term>
+                                </index>hebräisches Wort, auf <index indexName="subjects-index">
+                                    <term>Deutsch/deutsch</term>
+                                </index>deutsch: <hi>Heil dem Könige!</hi> Siehe bei <bibl
+                                    type="biblical-reference"><citedRange n="Joh:12:13">Johanne vers
+                                        13</citedRange></bibl>.) – <hi>Beglückt sey der Gesandte
+                                    Gottes! – Gieb Heil, Allerhöchster!</hi></p>
+                            <p><ptr target="#adv1_erl_6" type="editorial-commentary"/><seg
+                                    type="margin">Siehe bei <bibl type="biblical-reference"
+                                            ><citedRange n="Lk:19:40"><app>
+                                                <lem>Luca vers <app>
+                                                  <lem>40</lem>
+                                                  <rdg wit="#b" type="v">40.</rdg>
+                                                  </app></lem>
+                                                <rdg wit="#c" type="pp">Luk. v. 40.</rdg>
+                                            </app></citedRange></bibl></seg>
+                                <hi><hi rend="spaced-out">Einige</hi> der <index
+                                        indexName="subjects-index">
+                                        <term>Pharisäer</term>
+                                    </index>Pharisäer aber, die unter der Menge waren, sagten
+                                    zu</hi>
+                                <index indexName="persons-index">
+                                    <term>Christus, s. Jesus Christus</term>
+                                    <term>Jesus Christus</term>
+                                </index>
+                                <persName ref="textgrid:255cd"><hi>Jesu</hi></persName><hi>, Herr
+                                    verweise es doch deinen Jüngern.</hi> In der That war es der
+                                Neid der aus ihnen sprach. Sie stelleten sich aber an, als wenn dies
+                                ein Verbrechen <pb n="361" edRef="#a"/> sey, <index
+                                    indexName="persons-index">
+                                    <term>Christus, s. Jesus Christus</term>
+                                    <term>Jesus Christus</term>
+                                </index>
+                                <persName ref="textgrid:255cd"><hi>Jesum</hi></persName> als den
+                                Messias auszurufen. Denn nichts, weder <index
+                                    indexName="subjects-index">
+                                    <term>Religion</term>
+                                </index>Religion, noch <index indexName="subjects-index">
+                                    <term>Eidschwur</term>
+                                </index>Eidschwur, noch Gottheit, ist dem Neide zu ehrwürdig. Kein
+                                    <pb edRef="#b" n="339"/>
+                                <pb edRef="#c" n="353"/> Verbrechen ist zu denken, wozu nicht dieses
+                                    <index indexName="subjects-index">
+                                    <term>Laster, höllische</term>
+                                </index>höllische Laster, die Menschen füren könte, und tausend
+                                Menschen schon <app>
+                                    <lem>gefüret</lem>
+                                    <rdg wit="#b" type="v">geführet</rdg>
+                                </app> hat, und tausend noch täglich füret! <index
+                                    indexName="persons-index">
+                                    <term>Christus, s. Jesus Christus</term>
+                                    <term>Jesus Christus</term>
+                                </index>
+                                <persName ref="textgrid:255cd"><hi>Jesus</hi></persName>
+                                <hi>aber antwortete ihnen, Ich versichere euch, wenn diese schwiegen
+                                    so würden die Steine schreien.</hi> Mit andern Worten, „Diese
+                                Wahrheit <hi>muß</hi> der Welt bekandt gemacht werden. Eher würde <app>
+                                    <lem>Gott</lem>
+                                    <rdg wit="#c" type="v"><hi>Gott</hi></rdg>
+                                </app> die Steine beleben, als gestatten daß die Lehre von mir dem
+                                Welt-Heiland, verborgen bliebe.“ – Und Dank sey der göttlichen Güte!
+                                Schon seit mehr als <app>
+                                    <lem>siebzehn Jahrhunderten</lem>
+                                    <rdg wit="#c" type="pp"><hi>siebzehn Jahrhundert</hi></rdg>
+                                </app> ist sie, in alle <index indexName="subjects-index">
+                                    <term>Weltteil</term>
+                                </index><app>
+                                    <lem>Welt Theile</lem>
+                                    <rdg wit="#c" type="pp">Welt-Theile</rdg>
+                                </app> erschollen. Und wer kan die Summe der Wohlthaten aussprechen,
+                                welche die Welt dadurch empfangen?</p>
+                            <p><hi><hi rend="spaced-out">Auch</hi></hi> uns wird nun seine Zukunft
+                                in die Welt, abermahls in <app>
+                                    <lem>diesen</lem>
+                                    <rdg type="typo-correction" wit="#b"><choice>
+                                            <sic>dieses</sic>
+                                            <corr type="editorial">diesen</corr>
+                                        </choice></rdg>
+                                </app> ihrem Andenken gewidmeten Wochen geprediget. Auch uns ruft
+                                man zu, <hi>Siehe! dein König komt!</hi>
+                                <seg type="margin"><bibl type="biblical-reference"><citedRange
+                                            from="Joh:18:33" to="Joh:18:37">Johannis 18, <app>
+                                                <lem>33–37</lem>
+                                                <rdg wit="#b #c" type="v">33–37.</rdg>
+                                            </app></citedRange></bibl></seg> Ein König der durch
+                                    <hi>Wahrheit</hi> und <hi>Tugend</hi> über uns herrschet, oder
+                                welches einerlei ist, uns beglücket. <hi>Wahrheit</hi> also, <index
+                                    indexName="subjects-index">
+                                    <term>Aufklärung des Verstandes</term>
+                                </index><hi>Aufklärung unsers Verstandes</hi>, richtige Begriffe,
+                                würdige Grundsäze über Glück und Unglück, und den <index
+                                    indexName="subjects-index">
+                                    <term>Wert der Dinge</term>
+                                </index>Werth der Dinge; und <hi>Tugend</hi>, Bildung aller unsrer
+                                Begierden, Gesinnungen und Handlungen nach jenen richtigen, edlen
+                                Grundsäzen; das ist es, wodurch Er uns beglücket; was wir bei Ihm
+                                suchen und von Ihm begierig annehmen müssen. <seg type="margin"
+                                        ><bibl type="biblical-reference"><citedRange from="Joh:8:31"
+                                            to="Joh:8:36"><app>
+                                                <lem>Johannis</lem>
+                                                <rdg wit="#b #c" type="v">Joh.</rdg>
+                                            </app> 8,</citedRange></bibl>
+                                    <app>
+                                        <lem>31–36 Apostelgeschicht</lem>
+                                        <rdg wit="#b #c" type="pp">31–36. Apost. Gesch.</rdg>
+                                    </app>
+                                    <bibl type="biblical-reference"><citedRange
+                                            n="Apg:3:18 Apg:3:19">3, 18.
+                                    19.</citedRange></bibl></seg> Darohne ist seine Zukunft für uns
+                                ohne Nuzen, verstärket gar unsre Strafe. Darohne ist für uns –
+                                    <hi>kein Erlöser</hi>. – – – <pb n="362" edRef="#a"/>
+                                <hi>Bessert euch und werdet andre Menschen; so werden eure Sünden
+                                    ausgelöschet; so <pb edRef="#b" n="340"/>
+                                    <pb edRef="#c" n="354"/> wird die Zeit der Erquickung für euch
+                                    kommen; so wird Gott – euch</hi>
+                                <index indexName="persons-index">
+                                    <term>Christus, s. Jesus Christus</term>
+                                    <term>Jesus Christus</term>
+                                </index>
+                                <persName ref="textgrid:255cd"><hi>Jesum</hi></persName>
+                                <hi>den Erlöser senden.</hi></p>
+                            <p><hi><hi rend="spaced-out">Alles</hi></hi> unser <hi>Elend</hi> ist
+                                die <index indexName="subjects-index">
+                                    <term>Frucht der Sünde</term>
+                                </index>Frucht der <hi>Sünde</hi>; und alle unsre Sünden entspringen
+                                aus den <hi>verkehrten Vorstellungen</hi> unsers Verstandes. Mit
+                                einem Wort, die <index indexName="subjects-index">
+                                    <term>unvernünftige Sinnlichkeit</term>
+                                </index><hi>Unvernünftige Sinnlichkeit</hi>, welche uns unser ganzes
+                                und höchstes Glück, in Befriedigung unsrer Triebe und dem Besiz der
+                                    <index indexName="subjects-index">
+                                    <term>irdische Güter</term>
+                                </index>irrdischen Güter suchen lehret; welche kein andres oder doch
+                                kein höheres <hi>Glück</hi> kennet als <index
+                                    indexName="subjects-index">
+                                    <term>Reichtum und Ansehen</term>
+                                </index>Reichthum, Ruhm und Ansehen vor der Welt und andre Güter der
+                                Erde; und kein andres <app>
+                                    <lem>oder</lem>
+                                    <rdg wit="#b #c" type="v">und</rdg>
+                                </app> grösseres <hi>Unglück</hi>, als <index
+                                    indexName="subjects-index">
+                                    <term>Reichtum und Niedrigkeit</term>
+                                </index>Armuth, Niedrigkeit <app>
+                                    <lem>und</lem>
+                                    <rdg type="typo-correction" wit="#b"><choice>
+                                            <sic>uud</sic>
+                                            <corr type="editorial">und</corr>
+                                        </choice></rdg>
+                                </app> andre Leiden dieses Lebens. Diesem uns schändenden und ins
+                                Unglück stürzenden <app>
+                                    <lem>Irthum</lem>
+                                    <rdg wit="#c" type="v">Irrthum</rdg>
+                                </app>, uns zu entreissen; <seg type="margin"><bibl
+                                        type="biblical-reference"><citedRange n="2Kor:4:18">2 <app>
+                                                <lem>Corinther</lem>
+                                                <rdg wit="#c" type="v">Korinther</rdg>
+                                            </app> 4, <app>
+                                                <lem>18</lem>
+                                                <rdg wit="#b #c" type="v">18.</rdg>
+                                            </app></citedRange></bibl></seg>
+                                <hi>unser Augenmerk von dem Sichtbahren, Vergänglichen, auf das
+                                    Unsichtbahre, Ewige zu lenken</hi>, das ist der <index
+                                    indexName="subjects-index">
+                                    <term>Zweck</term>
+                                </index>Zweck des ganzen Christenthums. – Und dazu kan uns auch die
+                                Geschichte von <index indexName="persons-index">
+                                    <term>Christus, s. Jesus Christus</term>
+                                    <term>Jesus Christus</term>
+                                </index>
+                                <persName ref="textgrid:255cd"><hi>Jesu</hi></persName> Einzuge zu
+                                Jerusalem dienen.</p>
+                            <p><hi><hi rend="spaced-out">Sie</hi></hi> lehret, oder vielmehr sie
+                                    <hi>zeiget</hi> uns; daß <hi>Ruhm und Beifall der Welt
+                                    unsrer</hi> BESTEN <hi>Wünsche unwerth ist</hi>. – BESTEN <app>
+                                    <lem>sage</lem>
+                                    <rdg wit="#c" type="v">sagte</rdg>
+                                </app> ich. Denn ihn ganz verachten, sich über alle Urtheile der
+                                Welt hinaussezen, ist das sicherste Kenzeichen eines
+                                    <hi>niederträchtigen, weggeworfenen</hi> Gemüts. Tief, tief
+                                unter der edlen erhabenen <index indexName="subjects-index">
+                                    <term>Denkungsart</term>
+                                </index>Denkungsart welche das Christenthum dem Menschen einflösset!
+                                Aber an der andern Seite ist es nicht weniger, ein sicheres
+                                Kenzeichen eines <pb n="363" edRef="#a" xml:id="less_363"/>
+                                <pb edRef="#b" n="341"/>
+                                <pb edRef="#c" n="355"/>
+                                <hi>schwachen</hi> Gemüts; wenn man darauf <hi>alle</hi>, oder doch
+                                seine <hi>vornehmsten</hi> Wünsche und Bestrebungen richtet; wenn
+                                man seine <hi>wahre Ehre</hi> den Urtheilen der Welt unterwirft.
+                                Denn wer sind gemeiniglich die, welche diesen Ruhm austheilen? <seg
+                                    type="margin"><bibl type="biblical-reference"><citedRange
+                                            n="Mt:21:8 Mt:21:9">vers 8. <app>
+                                                <lem>9</lem>
+                                                <rdg wit="#b #c" type="v">9.</rdg>
+                                            </app></citedRange></bibl></seg>
+                                <index indexName="subjects-index">
+                                    <term>Pöbel</term>
+                                </index><hi>Pöbel</hi> war es, der hier alles in Unruhe sezte, und
+                                Stadt und Feld mit dem Geschrei erfüllete, <hi>Heil dem Gesandten
+                                    Gottes! Beglückt sey der kommende König!</hi> Und <hi>Pöbel</hi>
+                                niedriger und vornehmer, <index indexName="subjects-index">
+                                    <term>gelehrt</term>
+                                </index>gelehrter und <index indexName="subjects-index">
+                                    <term>ungelehrt</term>
+                                </index>ungelehrter, ist es auch ofte, dessen Ausspruch den
+                                irrdischen Ruhm bestimmet: <index indexName="subjects-index">
+                                    <term>Menschen ohne Kopf und Charakter</term>
+                                </index>Menschen ohne Kopf und <app>
+                                    <lem>Character</lem>
+                                    <rdg wit="#c" type="v">Charakter</rdg>
+                                </app>, die nichts weniger verstehen als das, wovon sie sich zu
+                                urtheilen anmaassen, und nur darauf ausgehen Partheien, <ptr
+                                    target="#adv1_erl_1" type="editorial-commentary"/><index
+                                    indexName="subjects-index">
+                                    <term>Faktion</term>
+                                </index><app>
+                                    <lem>Factionen</lem>
+                                    <rdg wit="#c" type="pp">und Faktionen</rdg>
+                                </app> zu stiften. Die <hi>Menge</hi> ist es ja, die den grösten,
+                                lautesten Ruhm in der Welt giebt. Aber die Menge sind unstreitig
+                                Thoren. <hi>Von nichtswürdigen</hi> also, <hi>hängt gemeiniglich der
+                                        <index indexName="subjects-index">
+                                        <term>irdischer Ruhm und Beifall</term>
+                                    </index>irrdische Ruhm und Beifall ab</hi>. Und ferner – <app>
+                                    <lem><hi><hi rend="spaced-out">Wie</hi></hi></lem>
+                                    <rdg wit="#b #c" type="v"><hi>Wie</hi></rdg>
+                                </app>
+                                <hi>Leichtsinnig und Partheiisch ist er?</hi> Die meisten von denen
+                                die hier das Lob <index indexName="persons-index">
+                                    <term>Christus, s. Jesus Christus</term>
+                                    <term>Jesus Christus</term>
+                                </index>
+                                <persName ref="textgrid:255cd"><hi>Jesu</hi></persName> ausschrien, <app>
+                                    <lem>verstunden</lem>
+                                    <rdg wit="#c" type="v">verstanden</rdg>
+                                </app> nichts von der Sache die sie lobten. <ptr
+                                    target="#adv1_erl_9" type="editorial-commentary"/>Sie lobten gar
+                                gerade das an <index indexName="persons-index">
+                                    <term>Christus, s. Jesus Christus</term>
+                                    <term>Jesus Christus</term>
+                                </index>
+                                <persName ref="textgrid:255cd"><hi>Jesu</hi></persName>, was für
+                                    <hi>Ihn</hi> eine Schande gewesen seyn würde; nämlich <app>
+                                    <lem>ein Armseeliger, <index indexName="subjects-index">
+                                            <term>irdischer König</term>
+                                        </index><hi>Irrdischer</hi> König</lem>
+                                    <rdg wit="#c" type="pp">einer der Armseeligen
+                                            <hi>Irrdischen</hi> Könige</rdg>
+                                </app> zu seyn. Der gröste Theil wuste gar nicht <pb n="364"
+                                    edRef="#a"/> einmahl wovon die Rede war; einige stimmeten das
+                                Lob <index indexName="persons-index">
+                                    <term>Christus, s. Jesus Christus</term>
+                                    <term>Jesus Christus</term>
+                                </index>
+                                <persName ref="textgrid:255cd"><hi>Jesu</hi></persName> an, und nun
+                                schalleten alle andre, <ptr target="#adv1_erl_10"
+                                    type="editorial-commentary"/>gleich einer tönenden <index
+                                    indexName="subjects-index">
+                                    <term>Materie</term>
+                                </index>Materie, es wieder: <app>
+                                    <lem><seg type="margin"><bibl type="biblical-reference"
+                                                  ><citedRange n="Mt:21:15">vers
+                                                15</citedRange></bibl></seg></lem>
+                                    <rdg wit="#c" type="om"/>
+                                </app> auch <index indexName="subjects-index">
+                                    <term>Knabe</term>
+                                </index><hi>Knaben</hi> schrien das <hi>Hosanna</hi>. Alle aber ohne
+                                Ausnahme thaten es aus Eigennuz: Siege, Gesundmachungen und andre
+                                    <index indexName="subjects-index">
+                                    <term>irdische Güter</term>
+                                </index>irrdische Güter hoften sie von <index
+                                    indexName="persons-index">
+                                    <term>Christus, s. Jesus Christus</term>
+                                    <term>Jesus Christus</term>
+                                </index>
+                                <persName ref="textgrid:255cd"><hi>Jesu</hi></persName>. – Die
+                                Anwendung auf <pb edRef="#b" n="342"/>
+                                <pb edRef="#c" n="356"/> unsre, und jede andre Zeit ist leicht.
+                                Allenthalben und Immer; <ptr target="#adv1_erl_11"
+                                    type="editorial-commentary"/>am Hofe und auf dem Felde hinter
+                                den Heerden, vor tausend Jahren und jezo, sind sich die Menschen
+                                gleich: von eben denselben Leidenschaften geblendet und beherrscht.
+                                Der ganze Unterschied bestehet in gewissen Gestalten, die ihnen
+                                    <index indexName="subjects-index">
+                                    <term>Erziehung</term>
+                                </index>Erziehung und Umgang geben: in der Sache selbst ist der
+                                    <hi>Hirte</hi> hinter seiner Heerde, ganz vollkommen derselbe
+                                Mensch als der <index indexName="subjects-index">
+                                    <term>Staatsminister</term>
+                                </index><app>
+                                    <lem><hi>Staats Minister</hi></lem>
+                                    <rdg wit="#c" type="pp"><hi>Staats-Minister</hi></rdg>
+                                </app> am Hofe. – – <hi><hi rend="spaced-out">Darum</hi></hi> ist
+                                denn auch, dieser irrdische Ruhm und Beifall <hi>so höchst
+                                    veränderlich</hi>. Eben dieses Volk welches hier <index
+                                    indexName="persons-index">
+                                    <term>Christus, s. Jesus Christus</term>
+                                    <term>Jesus Christus</term>
+                                </index>
+                                <persName ref="textgrid:255cd"><hi>Jesu</hi></persName> entgegen
+                                strömete, die Kleider vor ihm her breitete, Seinen Weg mit Blumen
+                                bestreuete, und Ihn voll Begeisterung unter Jauchzen und
+                                Glückwünschen in die Stadt und durch die Stadt begleitete: <ptr
+                                    target="#adv1_erl_12" type="editorial-commentary"/>eben diese
+                                Menge sezte <app>
+                                    <lem>Ihn</lem>
+                                    <rdg wit="#b #c" type="v">ihn</rdg>
+                                </app> vier Tage nachher einem <index indexName="subjects-index">
+                                    <term>Mörder</term>
+                                </index>Mörder nach, schrie <hi>Kreuzige ihn!</hi> und ruhete nicht <app>
+                                    <lem>ehr</lem>
+                                    <rdg wit="#c" type="v">eher</rdg>
+                                </app> als bis sie ihn am Kreuz sahe. <pb n="365" edRef="#a"
+                                    xml:id="less_365"/> – Aber lasset uns auch die vortheilhaftesten
+                                Umstände setzen. Unser Ruhm sey der Lobspruch <index
+                                    indexName="subjects-index">
+                                    <term>vernünftige Männer</term>
+                                </index>vernünftiger Männer, sey auf Prüfung und Wahrheit gebauet,
+                                und gegen alle <index indexName="subjects-index">
+                                    <term>Zufall</term>
+                                </index>Zufälle gesichert, so ist doch <hi>aller</hi>
+                                <app>
+                                    <lem><hi>irrdische</hi></lem>
+                                    <rdg wit="#b #c" type="v"><hi>Irrdische</hi></rdg>
+                                </app>
+                                <hi>Ruhm, In Sich Selbst nur sehr wenig bedeutend</hi>. Zwanzig
+                                loben uns, aber <app>
+                                    <lem>dreyssig</lem>
+                                    <rdg wit="#b #c" type="v">dreissig</rdg>
+                                </app> vielleicht tadeln uns; und Tausenden sind wir gleichgültig;
+                                    <ptr target="#adv1_erl_2" type="editorial-commentary"/>und
+                                Millionen wissen nicht einmahl unsern Nahmen. Und alles dieses Lob,
+                                auch wenn ihr wollet von Millionen, bloß für sich betrachtet,
+                                abgesondert von den guten christlichen Thaten wodurch wir es etwa
+                                verdienet oder wozu wir es gebrauchen, kan uns auf dem <index
+                                    indexName="subjects-index">
+                                    <term>Krankenlager</term>
+                                </index>Krankenlager, noch weniger auf dem <index
+                                    indexName="subjects-index">
+                                    <term>Sterbebett</term>
+                                </index>Sterbebette <pb edRef="#b" n="343"/>
+                                <pb edRef="#c" n="357"/> erquicken, und am wenigsten über das <index
+                                    indexName="subjects-index">
+                                    <term>Grab</term>
+                                </index>Grab hinaus in die Ewigkeit nachfolgen. – Und der Schluß aus
+                                diesem allen? – <hi><hi rend="spaced-out">Den</hi></hi> Ruhm der
+                                Welt, <app>
+                                    <lem>bloß</lem>
+                                    <rdg wit="#c" type="v"><hi>bloß</hi></rdg>
+                                </app> um sein selbst willen suchen; <app>
+                                    <lem>ihn</lem>
+                                    <rdg wit="#c" type="v"><hi>ihn</hi></rdg>
+                                </app> ängstlich <app>
+                                    <lem>rastloos</lem>
+                                    <rdg wit="#b #c" type="v">rastlos</rdg>
+                                </app> suchen; <app>
+                                    <lem>ihn</lem>
+                                    <rdg wit="#c" type="v"><hi>ihn</hi></rdg>
+                                </app> gar mit Sünden erkaufen: das ist nicht <hi>Ehrbegierde</hi>.
+                                Das ist <index indexName="subjects-index">
+                                    <term>Ruhmsucht</term>
+                                </index><hi>Ruhmsucht, kindische Eitelkeit</hi>; folglich <hi>wahre
+                                    Niederträchtigkeit</hi>. – – Unsre einzige <hi>Wahre</hi> und
+                                    <hi>Allerhöchste Ehre</hi>, bestehet in dem Beifall des
+                                    <hi>Unendlichen Verstandes</hi> der nie <app>
+                                    <lem>irret,</lem>
+                                    <rdg wit="#c" type="v">irret;</rdg>
+                                </app> des <hi>Unpartheiischen</hi> den nichts blendet; <app>
+                                    <lem>des</lem>
+                                    <rdg wit="#b" type="typo-correction"><choice>
+                                            <sic>den</sic>
+                                            <corr type="editorial">des</corr>
+                                        </choice></rdg>
+                                </app>
+                                <hi>Unwandelbahren</hi> der sich nie ändert; <app>
+                                    <lem><hi>des</hi></lem>
+                                    <rdg wit="#c" type="v">des</rdg>
+                                </app>
+                                <hi>Ewigen</hi> der nie <app>
+                                    <lem>stirbt,</lem>
+                                    <rdg wit="#c" type="v">stirbt;</rdg>
+                                </app>
+                                <pb n="366" edRef="#a"/> und des <hi>Allmächtigen</hi>, der seinen
+                                Beifall durch Millionen Welten wirksam machen kan. Diesen Beifall
+                                des <hi>Unendlichen</hi> und <hi>Ewigen über alles andre</hi>
+                                suchen, oder vielmehr, <hi>nur ihn</hi>
+                                <app>
+                                    <lem><hi>alleine</hi></lem>
+                                    <rdg wit="#c" type="v"><hi>allein</hi></rdg>
+                                </app>, und den irrdischen Ruhm nur in so ferne suchen als er uns zu
+                                jenem <app>
+                                    <lem>füret. Das</lem>
+                                    <rdg wit="#c" type="pp">füret: das</rdg>
+                                </app> ist <hi>ächte Ehrbegierde</hi>, das ist <app>
+                                    <lem/>
+                                    <rdg wit="#c" type="pt"><hi>wahre</hi></rdg>
+                                </app>
+                                <hi>Grösse des <index indexName="subjects-index">
+                                        <term>Geist</term>
+                                    </index>Geistes</hi>! <bibl type="biblical-reference"
+                                        ><citedRange from="1Kor:3:21" to="1Kor:3:23">1 <app>
+                                            <lem><hi>Corinther</hi></lem>
+                                            <rdg wit="#b" type="typo-correction"><choice>
+                                                  <sic><hi>Corinher</hi></sic>
+                                                  <corr type="editorial"><hi>Corinther</hi></corr>
+                                                </choice></rdg>
+                                            <rdg wit="#c" type="v"><hi>Korinther</hi></rdg>
+                                        </app> 3, <app>
+                                            <lem>21–23</lem>
+                                            <rdg wit="#b #c" type="v">21–23.</rdg>
+                                        </app></citedRange></bibl>
+                                <bibl type="biblical-reference"><citedRange n="1Kor:7:23"
+                                            ><hi>Kapitel</hi> 7, 23.</citedRange></bibl></p>
+                        </div></lem>
+                    <rdg type="om" wit="#z"/>
+                </app>
+                <note type="editorial-commentary" place="end" xml:id="adv1_erl_1"
+                        ><label>Factionen</label>
+                    <p>Vgl. <ptr type="page-ref" target="textgrid:259rk.5#sontr5_erl_22"
+                    />.</p></note>
+                <note type="editorial-commentary" place="end" xml:id="adv1_erl_2"><label>und
+                        Millionen wissen nicht einmahl unsern Nahmen</label>
+                    <p>Vgl. <ptr type="page-ref" target="textgrid:259rp.5#sontr7_erl_9"
+                    />.</p></note>
+                <note type="editorial-commentary" place="end" xml:id="adv1_erl_3"><label>Ein Beweis
+                        seiner Demuth, oder freiwilligen Armuth kan es nicht seyn</label>
+                    <p>Die von Jesus geübte oder gelehrte Demut besteht laut Leß nicht darin,
+                        Handlungen zu verrichten, die nicht standesgemäß sind (vgl. <ref
+                            target="textgrid:25dgf.5#less_645">a645</ref>). Dies gilt als falsche
+                        Form der Demut (vgl. G. Leß, Christliche Moral, 1777, 138 [= §
+                    95]).</p></note>
+                <note type="editorial-commentary" place="end" xml:id="adv1_erl_4"><label>so erzälen
+                        Marcus und Lucas es vollständiger</label>
+                    <p>Vgl. Mk 11,4–6; Lk 19,32–34.</p></note>
+                <note type="editorial-commentary" place="end" xml:id="adv1_erl_5"><label>{vers 7–9
+                        vergl. bei Marco vers 7. und Luca vers 35.}</label>
+                    <p>Mt 21,7–9 entspricht Mk 11, 7–10; Lk 19,35–38.</p></note>
+                <note type="editorial-commentary" place="end" xml:id="adv1_erl_6"><label>{Siehe bei
+                        Luca vers 40} Einige der Pharisäer aber [...] die Steine schreien.</label>
+                    <p>Wiedergegeben wird Lk 19,39f.</p></note>
+                <note type="editorial-commentary" place="end" xml:id="adv1_erl_7"><label>Zacharias,
+                        Kapit. 9, 9. 10</label>
+                    <p>In Mt 21,5 wird Sach 9,9 wiedergegeben (zu Sach 9,10 vgl. <ref
+                            target="#less_359">a359</ref>).</p></note>
+                <note type="editorial-commentary" place="end" xml:id="adv1_erl_8"><label>Auf gleiche
+                        Art hielte auch Jesus hier [...] ist kindisch.</label>
+                    <p>G. Leß, Auferstehungs-Geschichte Jesu nach allen vier Evangelisten, 1779,
+                        87f. bietet im Zusammenhang des Einzugs Jesu auf einem Esel mehrere
+                        Beispiele für Gebräuche fremder Völker, die aus europäischem Blickwinkel
+                        seltsam anmuten, aber weder zu tadeln noch zu verspotten seien. Z.B. findet
+                        der „Hottentott [...] ein Menschen-Gesicht mit Schweins-Fett bestrichen
+                        schön; wir, äußerst ekelhaft“ (aaO 88).</p></note>
+                <note type="editorial-commentary" place="end" xml:id="adv1_erl_9"><label>Sie lobten
+                        gar gerade das an Jesu [...] nämlich ein Armseeliger, Irrdischer König zu
+                        seyn.</label>
+                    <p>Zur Messiaserwartung der Juden vgl. <ptr type="page-ref"
+                            target="textgrid:259s9.5#sontr18_erl_4"/>.</p></note>
+                <note type="editorial-commentary" place="end" xml:id="adv1_erl_10"><label>gleich
+                        einer tönenden Materie</label>
+                    <p>Hier handelt es sich um eine Anspielung auf 1Kor 13,1 (vgl. <ref
+                            target="textgrid:259s9.5#less_253">a253</ref>).</p></note>
+                <note type="editorial-commentary" place="end" xml:id="adv1_erl_11"><label>am Hofe
+                        [...] sind sich die Menschen gleich: von eben denselben Leidenschaften
+                        geblendet und beherrscht</label>
+                    <p>Zum Begriff „Hofkunst“ vgl. <ptr type="page-ref"
+                            target="textgrid:259sh.5#sontr23_erl_12"/>.</p></note>
+                <note type="editorial-commentary" place="end" xml:id="adv1_erl_12"><label>sezte Ihn
+                        vier Tage nachher einem Mörder nach, schrie Kreuzige ihn!</label>
+                    <p>Vgl. Mk 15,6–20 parr.; Joh 19,6–16 (vgl. <ref
+                            target="textgrid:25dg6.5#less_571">a571</ref>).</p></note>
+            </div>
+        </body>
+    </text>
+</TEI>
