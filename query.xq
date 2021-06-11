@@ -53,7 +53,7 @@ declare variable $collection := <collection>{($noe_items, $gr_items, $bs_items, 
 
 (: Zwischenformat generieren :)
 
-bdn:convert($noe)
+bdn:convert($le)
 
 (: a) Verweishäufigkeiten und Verwendungskontexte von biblischen Sinneinheiten :)
 
