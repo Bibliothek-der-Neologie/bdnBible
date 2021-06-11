@@ -51,6 +51,10 @@ declare variable $sa_unit_groups := units:group($sa_items);
 
 declare variable $collection := <collection>{($noe_items, $gr_items, $bs_items, $le_items, $te_items, $st_items)}</collection>;
 
+(: Zwischenformat generieren :)
+
+bdn:convert($noe)
+
 (: a) Verweishäufigkeiten und Verwendungskontexte von biblischen Sinneinheiten :)
 
 (: units:compare($collection, "verse") :)
@@ -73,7 +77,7 @@ declare variable $collection := <collection>{($noe_items, $gr_items, $bs_items, 
 
 (: crit:window($gr_converted) :)
 
-bdn:convert($noe)
+
 
 
 
