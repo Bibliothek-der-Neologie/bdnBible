@@ -16,7 +16,7 @@ declare variable $sa_conv := doc("data/converted/sack.xml");
 
 
 (: Zwischenformat generieren :)
-(: doc("data/sack_full_11-06-2021.xml") => bdn:convert() :)
+doc("data/sack_full_11-06-2021.xml") => bdn:convert()
 
 
 (: a) Verweishäufigkeiten und Verwendungskontexte von biblischen Sinneinheiten :)
