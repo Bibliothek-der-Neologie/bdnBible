@@ -1,0 +1,38 @@
+declare variable $gr := doc("data/griesbach_full.xml");
+declare variable $gr_small := doc("data/griesbach_small.xml");
+declare variable $gr_converted := bdn:convert($gr);
+declare variable $gr_converted_doc := doc("data/converted/griesbach.xml"); (: bdn:convert($gr) als XML abgespeichert. :)
+(: declare variable $gr_items := units:listitems($gr_converted, $equalunits); :)
+declare variable $gr_unit_groups := units:group($gr_items);
+
+declare variable $noe := doc("data/nösselt_full.xml");
+declare variable $noe_converted := bdn:convert($noe);
+(: declare variable $noe_items := units:listitems($noe_converted, $equalunits); :)
+declare variable $noe_unit_groups := units:group($gr_items);
+
+declare variable $bs := doc("data/bahrdtsemler_full.xml");
+declare variable $bs_converted := bdn:convert($bs);
+(: declare variable $bs_items := units:listitems($bs_converted, $equalunits); :)
+declare variable $bs_unit_groups := units:group($bs_items);
+
+declare variable $le := doc("data/less_full.xml");
+declare variable $le_converted := bdn:convert($le);
+(: declare variable $le_items := units:listitems($le_converted, $equalunits); :)
+declare variable $le_unit_groups := units:group($le_items);
+
+declare variable $te := doc("data/teller_full.xml");
+declare variable $te_converted := bdn:convert($te);
+(: declare variable $te_items := units:listitems($te_converted, $equalunits); :)
+declare variable $te_unit_groups := units:group($te_items);
+
+declare variable $st := doc("data/steinbart_full.xml");
+declare variable $st_converted := bdn:convert($st);
+(: declare variable $st_items := units:listitems($st_converted, $equalunits); :)
+declare variable $st_unit_groups := units:group($st_items);
+
+declare variable $sa := doc("data/sack_test.xml");
+declare variable $sa_converted := bdn:convert($sa);
+(: declare variable $sa_items := units:listitems($sa_converted, $equalunits); :)
+declare variable $sa_unit_groups := units:group($sa_items);
+
+declare variable $collection := <collection>{($noe_items, $gr_items, $bs_items, $le_items, $te_items, $st_items)}</collection>;

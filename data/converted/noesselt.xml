@@ -1,0 +1,4855 @@
+<data>
+  <edition>Nösselt, Anweisung zur Bildung angehender Theologen,1786/89–1818/19</edition>
+  <listWit>
+    <witness id="a" lem="false"/>
+    <witness id="b" lem="true"/>
+    <witness id="c" lem="false"/>
+  </listWit>
+  <div type="preface" id="noe_preface_print" words="332"/>
+  <div type="contents" id="" words="1"/>
+  <div type="editorial" id="noe_editorial" words="3372">
+    <div type="" id="" words="147"/>
+    <div type="" id="" words="321"/>
+    <div type="" id="" words="177"/>
+    <div type="" id="" words="1026"/>
+    <div type="" id="" words="611"/>
+    <div type="" id="" words="389"/>
+    <div type="" id="" words="515"/>
+    <div type="" id="" words="182"/>
+    <div type="" id="" words="2"/>
+  </div>
+  <div type="introduction" id="noe_introduction_print" words="2373">
+    <div type="" id="" words="496"/>
+    <div type="" id="" words="517"/>
+    <div type="" id="" words="633"/>
+    <div type="" id="" words="725"/>
+  </div>
+  <div type="section-group" id="section_1_0-1" words="6746">
+    <div type="preface" id="preface_1_1_c" words="1689" column-title="I. Vorrede des Herausgebers (c)"/>
+    <div type="preface" id="preface_1_1" words="1614" column-title="I. Vorrede der ersten Ausgabe"/>
+    <div type="preface" id="preface_1_2" words="528" column-title="I. Vorrede zur zweyten Ausgabe"/>
+    <div type="preface" id="preface_1_2_c" words="0"/>
+    <div type="contents" id="contents_1_1" words="1866" column-title="I. Innhalt des ganzen Buchs"/>
+    <div type="contents" id="contents_1_1_c" words="795" column-title="I. Inhalt des ersten Theils (c)"/>
+    <div type="corrigenda" id="corrigenda_1_1" words="47" column-title="I. Druckfehler"/>
+    <div type="corrigenda" id="corrigenda_1_1_a" words="69" column-title="I. Erheblichere Druckfehler (a)"/>
+  </div>
+  <div type="section-group" id="c_tp_1" words="5"/>
+  <div type="introduction" id="part_1_1" words="12136" column-title="I. Einleitung">
+    <div type="section-group" id="section_1_1-23" words="4950">
+      <div type="section" id="section_1_1" words="78"/>
+      <div type="section" id="section_1_2" words="103"/>
+      <div type="section" id="section_1_3" words="1238"/>
+      <div type="section" id="section_1_4" words="357"/>
+      <div type="section" id="section_1_5" words="111"/>
+      <div type="section" id="section_1_6" words="81"/>
+      <div type="section" id="section_1_7" words="305"/>
+      <div type="section" id="section_1_8" words="248"/>
+      <div type="section" id="section_1_9" words="415"/>
+      <div type="section" id="section_1_10" words="188">
+        <bibl>
+          <ref book="1Kor" chapter="8" verse="1"/>
+          <profile>
+            <wit in="a" is="true"/>
+            <wit in="b" is="true"/>
+            <wit in="c" is="true"/>
+          </profile>
+        </bibl>
+      </div>
+      <div type="section" id="section_1_11" words="129">
+        <bibl>
+          <ref book="Mt" chapter="12" verse="44"/>
+          <ref book="Mt" chapter="12" verse="45"/>
+          <profile>
+            <wit in="a" is="true"/>
+            <wit in="b" is="true"/>
+            <wit in="c" is="true"/>
+          </profile>
+        </bibl>
+      </div>
+      <div type="section" id="section_1_12" words="125"/>
+      <div type="section" id="section_1_13" words="97"/>
+      <div type="section" id="section_1_14" words="64"/>
+      <div type="section" id="section_1_15" words="153"/>
+      <div type="section" id="section_1_16" words="101"/>
+      <div type="section" id="section_1_17" words="118"/>
+      <div type="section" id="section_1_18" words="311"/>
+      <div type="section" id="section_1_19" words="288"/>
+      <div type="section" id="section_1_20" words="81"/>
+      <div type="section" id="section_1_21" words="119"/>
+      <div type="section" id="section_1_22" words="104"/>
+      <div type="section" id="section_1_23" words="137"/>
+    </div>
+    <div type="section-group" id="section_1_24-43" words="4884">
+      <div type="section" id="section_1_24" words="105"/>
+      <div type="section" id="section_1_25" words="85"/>
+      <div type="section" id="section_1_26" words="92"/>
+      <div type="section" id="section_1_27" words="100"/>
+      <div type="section" id="section_1_28" words="130"/>
+      <div type="section" id="section_1_29" words="159"/>
+      <div type="section" id="section_1_30" words="361"/>
+      <div type="section" id="section_1_31" words="281"/>
+      <div type="section" id="section_1_32" words="178"/>
+      <div type="section" id="section_1_33" words="447"/>
+      <div type="section" id="section_1_34" words="131"/>
+      <div type="section" id="section_1_35" words="265"/>
+      <div type="section" id="section_1_36" words="290"/>
+      <div type="section" id="section_1_37" words="260"/>
+      <div type="section" id="section_1_38" words="138"/>
+      <div type="section" id="section_1_39" words="238"/>
+      <div type="section" id="section_1_40" words="568"/>
+      <div type="section" id="section_1_41" words="139"/>
+      <div type="section" id="section_1_42" words="322"/>
+      <div type="section" id="section_1_43" words="597"/>
+    </div>
+    <div type="section-group" id="section_1_44-52" words="2300">
+      <div type="section" id="section_1_44" words="219"/>
+      <div type="section" id="section_1_45" words="112"/>
+      <div type="section" id="section_1_46" words="99"/>
+      <div type="section" id="section_1_47" words="61"/>
+      <div type="section" id="section_1_48" words="280"/>
+      <div type="section" id="section_1_49" words="510"/>
+      <div type="section" id="section_1_50" words="151"/>
+      <div type="section" id="section_1_51" words="714"/>
+      <div type="section" id="section_1_52" words="154"/>
+    </div>
+  </div>
+  <div type="part" id="part_1_2" words="94618" column-title="I. [Einleitung]">
+    <div type="section-group" id="section_1_53-54" words="720">
+      <div type="section" id="section_1_53" words="452"/>
+      <div type="section" id="section_1_54" words="268"/>
+    </div>
+    <div type="chapter" id="chapter_1_1" words="43164" column-title="I.1. Philologie">
+      <div type="section-group" id="section_1_55-67" words="5473">
+        <div type="section" id="section_1_55" words="284"/>
+        <div type="section" id="section_1_56" words="1000"/>
+        <div type="section" id="section_1_57" words="143"/>
+        <div type="section" id="section_1_58" words="184"/>
+        <div type="section" id="section_1_59" words="145"/>
+        <div type="section" id="section_1_60" words="867">
+          <bibl>
+            <ref book="Phil" chapter="1" verse="7"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Phil" chapter="1" verse="29"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Phil" chapter="4" verse="14"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="6" verse="1"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="6" verse="14"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Lev" chapter="19" verse="19"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Phil" chapter="4" verse="14"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Phil" chapter="1" verse="21"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Phil" from-chapter="1" from-verse="22" to-book="Phil" to-chapter="1" to-verse="24"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="2Kor" from-chapter="3" from-verse="6" to-book="2Kor" to-chapter="3" to-verse="ff"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="4" verse="12"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_1_61" words="349"/>
+        <div type="section" id="section_1_62" words="236">
+          <bibl>
+            <ref book="Röm" chapter="9" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="11" verse="27"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="11" verse="29"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="3" verse="8"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="8" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="14" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Apg" chapter="13" verse="29"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Apg" chapter="1" verse="18"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="6" verse="45"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Tim" chapter="3" verse="16"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_1_63" words="488">
+          <bibl>
+            <ref book="Röm" chapter="5" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Eph" chapter="2" verse="3"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_1_64" words="965"/>
+        <div type="section" id="section_1_65" words="145"/>
+        <div type="section" id="section_1_66" words="266"/>
+        <div type="section" id="section_1_67" words="402"/>
+      </div>
+      <div type="section-group" id="section_1_68-75" words="2092">
+        <div type="section" id="section_1_68" words="84"/>
+        <div type="section" id="section_1_69" words="414"/>
+        <div type="section" id="section_1_68_c" words="0"/>
+        <div type="section" id="section_1_69_c" words="0"/>
+        <div type="section" id="section_1_70" words="211"/>
+        <div type="section" id="section_1_71" words="162"/>
+        <div type="section" id="section_1_72" words="157"/>
+        <div type="section" id="section_1_73" words="664"/>
+        <div type="section" id="section_1_74" words="149"/>
+        <div type="section" id="section_1_75" words="251"/>
+      </div>
+      <div type="section-group" id="section_1_76-114" words="11449">
+        <div type="section" id="section_1_76" words="487"/>
+        <div type="section" id="section_1_77" words="251">
+          <bibl>
+            <ref book="Hebr" chapter="11" verse="1"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="7" verse="10"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="7" verse="11"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="10" verse="4"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="9" verse="18"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="10" verse="24"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="10" verse="23"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Petr" chapter="5" verse="8"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Petr" chapter="5" verse="9"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Thess" chapter="2" verse="14"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="9" verse="1"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Lk" chapter="18" verse="1"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Lk" from-chapter="18" from-verse="2" to-book="Lk" to-chapter="18" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Lk" chapter="15" verse="10"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Lk" from-chapter="15" from-verse="11" to-book="Lk" to-chapter="15" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Eph" chapter="2" verse="1"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Eph" chapter="2" verse="3"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="8" verse="33"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="8" verse="28"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="10" verse="6"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="10" verse="15"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_1_78" words="59"/>
+        <div type="section" id="section_1_79" words="277">
+          <bibl>
+            <ref book="Mt" chapter="27" verse="27"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Phil" chapter="1" verse="13"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Apg" chapter="19" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Hebr" chapter="2" verse="5"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_1_80" words="403">
+          <bibl>
+            <ref book="Lk" chapter="21" verse="19"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Lk" chapter="12" verse="21"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="6" verse="7"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Kol" chapter="2" verse="20"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="9" verse="16"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="9" verse="17"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="9" verse="18"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Lk" chapter="6" verse="34"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="10" verse="29"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="10" verse="30"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Lk" chapter="1" verse="69"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="13" verse="14"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="6" verse="22"/>
+            <ref book="Mt" chapter="6" verse="23"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Joh" from-chapter="4" from-verse="35" to-book="Joh" to-chapter="4" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_1_81" words="134"/>
+        <div type="section" id="section_1_82" words="250"/>
+        <div type="section" id="section_1_83" words="167"/>
+        <div type="section" id="section_1_84" words="239"/>
+        <div type="section" id="section_1_85" words="143"/>
+        <div type="section" id="section_1_86" words="239"/>
+        <div type="section" id="section_1_87" words="336"/>
+        <div type="section" id="section_1_88" words="297"/>
+        <div type="section" id="section_1_89" words="113"/>
+        <div type="section" id="section_1_90" words="1801"/>
+        <div type="section" id="section_1_91" words="188"/>
+        <div type="section" id="section_1_92" words="391"/>
+        <div type="section" id="section_1_93" words="215"/>
+        <div type="section" id="section_1_94" words="342"/>
+        <div type="section" id="section_1_95" words="294"/>
+        <div type="section" id="section_1_96" words="167"/>
+        <div type="section" id="section_1_97" words="81"/>
+        <div type="section" id="section_1_98" words="603"/>
+        <div type="section" id="section_1_99" words="284"/>
+        <div type="section" id="section_1_100" words="394"/>
+        <div type="section" id="section_1_101" words="111"/>
+        <div type="section" id="section_1_102" words="251"/>
+        <div type="section" id="section_1_103" words="115"/>
+        <div type="section" id="section_1_104" words="134"/>
+        <div type="section" id="section_1_105" words="317"/>
+        <div type="section" id="section_1_106" words="174"/>
+        <div type="section" id="section_1_107" words="132"/>
+        <div type="section" id="section_1_108" words="433"/>
+        <div type="section" id="section_1_109" words="311"/>
+        <div type="section" id="section_1_110" words="57"/>
+        <div type="section" id="section_1_111" words="108"/>
+        <div type="section" id="section_1_112" words="916"/>
+        <div type="section" id="section_1_113" words="171"/>
+        <div type="section" id="section_1_114" words="65"/>
+      </div>
+      <div type="section-group" id="section_1_115-150" words="16468">
+        <div type="section" id="section_1_115" words="321"/>
+        <div type="section" id="section_1_116" words="162"/>
+        <div type="section" id="section_1_117" words="164"/>
+        <div type="section" id="section_1_118" words="503">
+          <bibl>
+            <ref book="1Kor" chapter="7" verse="29"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Lk" chapter="11" verse="13"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Lk" chapter="8" verse="18"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="24" verse="29"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="4" verse="9"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Joh" chapter="2" verse="20"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_1_119" words="82"/>
+        <div type="section" id="section_1_120" words="403"/>
+        <div type="section" id="section_1_121" words="134"/>
+        <div type="section" id="section_1_122" words="107"/>
+        <div type="section" id="section_1_123" words="112"/>
+        <div type="section" id="section_1_124" words="507"/>
+        <div type="section" id="section_1_125" words="307"/>
+        <div type="section" id="section_1_126" words="715"/>
+        <div type="section" id="section_1_127" words="149"/>
+        <div type="section" id="section_1_128" words="1120"/>
+        <div type="section" id="section_1_129" words="837"/>
+        <div type="section" id="section_1_130" words="300"/>
+        <div type="section" id="section_1_131" words="209"/>
+        <div type="section" id="section_1_132" words="639"/>
+        <div type="section" id="section_1_133" words="425"/>
+        <div type="section" id="section_1_134" words="864"/>
+        <div type="section" id="section_1_135" words="268"/>
+        <div type="section" id="section_1_136" words="1127"/>
+        <div type="section" id="section_1_137" words="87"/>
+        <div type="section" id="section_1_138" words="677"/>
+        <div type="section" id="section_1_139" words="134"/>
+        <div type="section" id="section_1_140" words="542"/>
+        <div type="section" id="section_1_141" words="771"/>
+        <div type="section" id="section_1_142" words="566"/>
+        <div type="section" id="section_1_143" words="277"/>
+        <div type="section" id="section_1_144" words="120"/>
+        <div type="section" id="section_1_145" words="152"/>
+        <div type="section" id="section_1_146" words="2227"/>
+        <div type="section" id="section_1_147" words="103"/>
+        <div type="section" id="section_1_148" words="353"/>
+        <div type="section" id="section_1_149" words="906"/>
+        <div type="section" id="section_1_150" words="100"/>
+      </div>
+      <div type="section-group" id="section_1_151-165" words="7677">
+        <div type="section" id="section_1_151" words="176"/>
+        <div type="section" id="section_1_152" words="177"/>
+        <div type="section" id="section_1_153" words="89"/>
+        <div type="section" id="section_1_154" words="502"/>
+        <div type="section" id="section_1_155" words="352"/>
+        <div type="section" id="section_1_156" words="449"/>
+        <div type="section" id="section_1_157" words="2126"/>
+        <div type="section" id="section_1_158" words="363"/>
+        <div type="section" id="section_1_159" words="892"/>
+        <div type="section" id="section_1_160" words="780"/>
+        <div type="section" id="section_1_161" words="475"/>
+        <div type="section" id="section_1_162" words="312"/>
+        <div type="section" id="section_1_163" words="374"/>
+        <div type="section" id="section_1_164" words="436"/>
+        <div type="section" id="section_1_165" words="174"/>
+      </div>
+    </div>
+    <div type="chapter" id="chapter_1_2" words="25928" column-title="I.2. Philosophie">
+      <div type="section-group" id="section_1_166-177" words="3981">
+        <div type="section" id="section_1_166" words="276"/>
+        <div type="section" id="section_1_167" words="474"/>
+        <div type="section" id="section_1_168" words="226"/>
+        <div type="section" id="section_1_169" words="134"/>
+        <div type="section" id="section_1_170" words="177"/>
+        <div type="section" id="section_1_171" words="100"/>
+        <div type="section" id="section_1_172" words="165"/>
+        <div type="section" id="section_1_173" words="77"/>
+        <div type="section" id="section_1_174" words="184"/>
+        <div type="section" id="section_1_175" words="473"/>
+        <div type="section" id="section_1_176" words="432"/>
+        <div type="section" id="section_a_1_172" words="258"/>
+        <div type="section" id="section_a_1_173" words="54"/>
+        <div type="section" id="section_1_177" words="739"/>
+        <div type="section" id="section_a_1_174" words="213"/>
+      </div>
+      <div type="section-group" id="section_1_178-193" words="5840">
+        <div type="section" id="section_1_178" words="657"/>
+        <div type="section" id="section_1_179" words="282"/>
+        <div type="section" id="section_a_1_175" words="151"/>
+        <div type="section" id="section_1_180" words="369"/>
+        <div type="section" id="section_1_181" words="585"/>
+        <div type="section" id="section_a_1_176" words="0"/>
+        <div type="section" id="section_1_182" words="142"/>
+        <div type="section" id="section_1_183" words="290"/>
+        <div type="section" id="section_a_1_177" words="129"/>
+        <div type="section" id="section_a_1_178" words="101"/>
+        <div type="section" id="section_a_1_179" words="118"/>
+        <div type="section" id="section_1_184" words="234"/>
+        <div type="section" id="section_1_185" words="411"/>
+        <div type="section" id="section_a_1_181" words="0"/>
+        <div type="section" id="section_a_1_182" words="0"/>
+        <div type="section" id="section_1_186" words="483"/>
+        <div type="section" id="section_a_1_183" words="0"/>
+        <div type="section" id="section_a_1_184" words="0"/>
+        <div type="section" id="section_1_187" words="454"/>
+        <div type="section" id="section_1_188" words="183"/>
+        <div type="section" id="section_a_1_185" words="140"/>
+        <div type="section" id="section_1_189" words="106"/>
+        <div type="section" id="section_1_190" words="432"/>
+        <div type="section" id="section_1_191" words="236"/>
+        <div type="section" id="section_1_192" words="135"/>
+        <div type="section" id="section_1_193" words="202"/>
+      </div>
+      <div type="section-group" id="section_1_194-215" words="16101">
+        <div type="section" id="section_1_194" words="136"/>
+        <div type="section" id="section_1_195" words="120"/>
+        <div type="section" id="section_1_196" words="1181"/>
+        <div type="section" id="section_1_197" words="452"/>
+        <div type="section" id="section_1_198" words="632"/>
+        <div type="section" id="section_1_199" words="810"/>
+        <div type="section" id="section_1_200" words="391"/>
+        <div type="section" id="section_a_1_194" words="334">
+          <bibl>
+            <ref book="Hebr" chapter="11" verse="11"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_a_1_195" words="116"/>
+        <div type="section" id="section_a_1_196" words="186"/>
+        <div type="section" id="section_1_201" words="1076"/>
+        <div type="section" id="section_a_1_197" words="0"/>
+        <div type="section" id="section_a_1_198" words="0"/>
+        <div type="section" id="section_1_202" words="99"/>
+        <div type="section" id="section_a_1_199" words="275"/>
+        <div type="section" id="section_1_203" words="407"/>
+        <div type="section" id="section_1_204" words="721"/>
+        <div type="section" id="section_1_205" words="307"/>
+        <div type="section" id="section_a_1_201" words="89"/>
+        <div type="section" id="section_a_1_202" words="131"/>
+        <div type="section" id="section_1_206" words="467"/>
+        <div type="section" id="section_1_207" words="964"/>
+        <div type="section" id="section_1_208" words="1651"/>
+        <div type="section" id="section_a_1_206" words="191"/>
+        <div type="section" id="section_a_1_207" words="277"/>
+        <div type="section" id="section_a_1_208" words="335"/>
+        <div type="section" id="section_a_1_209" words="418"/>
+        <div type="section" id="section_a_1_210" words="200"/>
+        <div type="section" id="section_a_1_211" words="334"/>
+        <div type="section" id="section_1_209" words="630"/>
+        <div type="section" id="section_1_210" words="499"/>
+        <div type="section" id="section_a_1_213" words="340"/>
+        <div type="section" id="section_1_211" words="485"/>
+        <div type="section" id="section_1_212" words="249"/>
+        <div type="section" id="section_1_213" words="966"/>
+        <div type="section" id="section_1_214" words="120"/>
+        <div type="section" id="section_1_215" words="513"/>
+        <div type="section" id="section_1_213_c" words="0"/>
+        <div type="section" id="section_1_214_c" words="0"/>
+        <div type="section" id="section_1_215_c" words="0"/>
+      </div>
+    </div>
+    <div type="chapter" id="chapter_1_3" words="15762" column-title="I.3. Geschichte">
+      <div type="section-group" id="section_1_216-249" words="11751">
+        <div type="section" id="section_1_216" words="116"/>
+        <div type="section" id="section_1_217" words="110"/>
+        <div type="section" id="section_1_218" words="145"/>
+        <div type="section" id="section_1_219" words="305"/>
+        <div type="section" id="section_1_220" words="196"/>
+        <div type="section" id="section_1_221" words="206"/>
+        <div type="section" id="section_1_222" words="180"/>
+        <div type="section" id="section_1_223" words="215"/>
+        <div type="section" id="section_1_224" words="74"/>
+        <div type="section" id="section_1_225" words="527"/>
+        <div type="section" id="section_1_226" words="120"/>
+        <div type="section" id="section_1_227" words="131"/>
+        <div type="section" id="section_1_228" words="230"/>
+        <div type="section" id="section_1_229" words="1398"/>
+        <div type="section" id="section_1_230" words="404"/>
+        <div type="section" id="section_1_231" words="1000"/>
+        <div type="section" id="section_1_232" words="301"/>
+        <div type="section" id="section_1_233" words="79"/>
+        <div type="section" id="section_1_234" words="391"/>
+        <div type="section" id="section_1_235" words="883"/>
+        <div type="section" id="section_1_236" words="484"/>
+        <div type="section" id="section_1_237" words="345"/>
+        <div type="section" id="section_1_236_c" words="0"/>
+        <div type="section" id="section_1_237_c" words="0"/>
+        <div type="section" id="section_1_238" words="93"/>
+        <div type="section" id="section_1_239" words="201"/>
+        <div type="section" id="section_1_238_c" words="0"/>
+        <div type="section" id="section_1_239_c" words="0"/>
+        <div type="section" id="section_1_240" words="298"/>
+        <div type="section" id="section_1_241" words="855"/>
+        <div type="section" id="section_1_242" words="331"/>
+        <div type="section" id="section_1_243" words="482"/>
+        <div type="section" id="section_1_244" words="702"/>
+        <div type="section" id="section_1_245" words="250"/>
+        <div type="section" id="section_1_246" words="77"/>
+        <div type="section" id="section_1_247" words="187"/>
+        <div type="section" id="section_1_248" words="192"/>
+        <div type="section" id="section_1_249" words="243"/>
+      </div>
+      <div type="section-group" id="section_1_250-261" words="4002">
+        <div type="section" id="section_1_250" words="374"/>
+        <div type="section" id="section_1_251" words="91"/>
+        <div type="section" id="section_1_252" words="132"/>
+        <div type="section" id="section_1_253" words="243"/>
+        <div type="section" id="section_1_254" words="196"/>
+        <div type="section" id="section_1_255" words="673"/>
+        <div type="section" id="section_1_256" words="612"/>
+        <div type="section" id="section_1_257" words="303"/>
+        <div type="section" id="section_1_258" words="344"/>
+        <div type="section" id="section_1_259" words="722"/>
+        <div type="section" id="section_1_260" words="204"/>
+        <div type="section" id="section_1_261" words="108"/>
+      </div>
+    </div>
+    <div type="chapter" id="chapter_1_4" words="9025">
+      <div type="pseudo-container" id="var_3_4_abschnitt" words="9015">
+        <div type="section-group" id="section_1_262-266" words="1778">
+          <div type="section" id="section_1_262" words="551"/>
+          <div type="section" id="section_1_263" words="393"/>
+          <div type="section" id="section_1_264" words="533"/>
+          <div type="section" id="section_1_265" words="175"/>
+          <div type="section" id="section_1_266" words="126"/>
+        </div>
+        <div type="section-group" id="section_1_267-285" words="7237">
+          <div type="section" id="section_1_267" words="183"/>
+          <div type="section" id="section_1_268" words="260"/>
+          <div type="section" id="section_1_269" words="120"/>
+          <div type="section" id="section_1_270" words="248"/>
+          <div type="section" id="section_1_271" words="314"/>
+          <div type="section" id="section_1_272" words="344"/>
+          <div type="section" id="section_1_273" words="155"/>
+          <div type="section" id="section_1_274" words="221"/>
+          <div type="section" id="section_1_275" words="282"/>
+          <div type="section" id="section_1_276" words="123"/>
+          <div type="section" id="section_1_277" words="291"/>
+          <div type="section" id="section_1_278" words="94"/>
+          <div type="section" id="section_1_279" words="575"/>
+          <div type="section" id="section_1_280" words="62"/>
+          <div type="section" id="section_1_281" words="105"/>
+          <div type="section" id="section_1_282" words="165"/>
+          <div type="section" id="section_1_283" words="2548"/>
+          <div type="section" id="section_1_284" words="582"/>
+          <div type="section" id="section_1_285" words="565"/>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div type="section-group" id="section_2_0-1" words="1232">
+    <div type="preface" id="preface_2_1_a" words="257" column-title="II. Vorerinnerung (a)"/>
+    <div type="preface" id="preface_2_1_c" words="320" column-title="II. Vorrede des Herausgebers (c)"/>
+    <div type="contents" id="contents_2_1_c" words="549" column-title="II. Inhalt des zweiten Theils (c)"/>
+  </div>
+  <div type="section-group" id="c_tp_2" words="5"/>
+  <div type="part" id="part_2_1" words="97549" column-title="II. [Einleitung]">
+    <div type="section-group" id="section_2_1-4" words="714">
+      <div type="section" id="section_2_1" words="132"/>
+      <div type="section" id="section_2_2" words="259"/>
+      <div type="section" id="section_2_3" words="74"/>
+      <div type="section" id="section_2_4" words="249"/>
+    </div>
+    <div type="chapter" id="chapter_2_1" words="25867" column-title="II.1. Exegetische Theologie">
+      <div type="section-group" id="section_2_5-5" words="235">
+        <div type="section" id="section_2_5" words="235"/>
+      </div>
+      <div type="section-group" id="section_2_6-21" words="5513">
+        <div type="section" id="section_2_6" words="276"/>
+        <div type="section" id="section_2_7" words="114">
+          <bibl>
+            <ref book="1Kor" chapter="4" verse="1"/>
+            <ref book="1Kor" chapter="4" verse="2"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_8" words="477">
+          <bibl>
+            <ref book="Röm" chapter="14" verse="12"/>
+            <ref book="Röm" chapter="14" verse="22"/>
+            <ref book="Röm" chapter="14" verse="4"/>
+            <ref book="Röm" chapter="14" verse="5"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Joh" chapter="3" verse="22"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_9" words="211"/>
+        <div type="section" id="section_2_10" words="151"/>
+        <div type="section" id="section_2_11" words="276"/>
+        <div type="section" id="section_2_12" words="173"/>
+        <div type="section" id="section_2_13" words="207">
+          <bibl>
+            <ref from-book="1Kor" from-chapter="15" from-verse="1" to-book="1Kor" to-chapter="15" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="20" verse="30"/>
+            <ref book="Joh" chapter="20" verse="31"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Apg" from-chapter="4" from-verse="9" to-book="Apg" to-chapter="4" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Apg" from-chapter="4" from-verse="18" to-book="Apg" to-chapter="4" to-verse="20"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_14" words="244"/>
+        <div type="section" id="section_2_15" words="379"/>
+        <div type="section" id="section_2_16" words="200"/>
+        <div type="section" id="section_2_17" words="279"/>
+        <div type="section" id="section_2_18" words="202"/>
+        <div type="section" id="section_2_19" words="1871"/>
+        <div type="section" id="section_2_20" words="189"/>
+        <div type="section" id="section_2_21" words="264"/>
+      </div>
+      <div type="section-group" id="section_2_22-62" words="15233">
+        <div type="section" id="section_2_22" words="278"/>
+        <div type="section" id="section_2_23" words="207"/>
+        <div type="section" id="section_2_24" words="155">
+          <bibl>
+            <ref book="1Joh" chapter="5" verse="7"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Tim" chapter="3" verse="16"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Joh" from-chapter="7" from-verse="53" to-book="Joh" to-chapter="8" to-verse="11"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Apg" chapter="20" verse="28"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_25" words="146"/>
+        <div type="section" id="section_2_26" words="117"/>
+        <div type="section" id="section_2_27" words="490"/>
+        <div type="section" id="section_2_28" words="127"/>
+        <div type="section" id="section_2_29" words="86"/>
+        <div type="section" id="section_2_30" words="422"/>
+        <div type="section" id="section_2_31" words="497"/>
+        <div type="section" id="section_2_32" words="310">
+          <bibl>
+            <ref book="Lk" chapter="19" verse="38"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Lk" chapter="2" verse="14"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Offb" chapter="16" verse="18"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_33" words="297"/>
+        <div type="section" id="section_2_34" words="1291"/>
+        <div type="section" id="section_2_35" words="1313"/>
+        <div type="section" id="section_2_36" words="132"/>
+        <div type="section" id="section_2_37" words="393"/>
+        <div type="section" id="section_2_38" words="201"/>
+        <div type="section" id="section_2_39" words="697"/>
+        <div type="section" id="section_2_40" words="1324"/>
+        <div type="section" id="section_2_41" words="172"/>
+        <div type="section" id="section_2_42" words="396">
+          <bibl>
+            <ref from-book="Ijob" from-chapter="1" from-verse="6" to-book="Ijob" to-chapter="1" to-verse="ff"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Mt" from-chapter="12" from-verse="43" to-book="Mt" to-chapter="12" to-verse="45"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Tob" chapter="8" verse="3"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Gal" from-chapter="4" from-verse="24" to-book="Gal" to-chapter="4" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="12" verse="27"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Lk" from-chapter="24" from-verse="37" to-book="Lk" to-chapter="24" to-verse="40"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_43" words="182"/>
+        <div type="section" id="section_2_44" words="410">
+          <bibl>
+            <ref book="1Kor" chapter="3" verse="22"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_45" words="147"/>
+        <div type="section" id="section_2_46" words="134"/>
+        <div type="section" id="section_2_47" words="451"/>
+        <div type="section" id="section_2_48" words="323"/>
+        <div type="section" id="section_2_49" words="201"/>
+        <div type="section" id="section_2_50" words="139"/>
+        <div type="section" id="section_2_51" words="620"/>
+        <div type="section" id="section_2_52" words="331"/>
+        <div type="section" id="section_2_53" words="53"/>
+        <div type="section" id="section_2_54" words="185"/>
+        <div type="section" id="section_2_55" words="388"/>
+        <div type="section" id="section_2_56" words="943"/>
+        <div type="section" id="section_2_57" words="179"/>
+        <div type="section" id="section_2_58" words="77"/>
+        <div type="section" id="section_2_59" words="200"/>
+        <div type="section" id="section_2_60" words="163"/>
+        <div type="section" id="section_2_61" words="65"/>
+        <div type="section" id="section_2_62" words="991"/>
+      </div>
+      <div type="section-group" id="section_2_63-77" words="4876">
+        <div type="section" id="section_2_63" words="641"/>
+        <div type="section" id="section_2_64" words="193"/>
+        <div type="section" id="section_2_65" words="159"/>
+        <div type="section" id="section_2_66" words="373"/>
+        <div type="section" id="section_2_67" words="261">
+          <bibl>
+            <ref book="Phil" chapter="2" verse="12"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Phil" chapter="2" verse="12"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Phil" chapter="2" verse="3"/>
+            <ref book="Phil" chapter="2" verse="4"/>
+            <ref book="Phil" chapter="2" verse="13"/>
+            <ref book="Phil" chapter="2" verse="14"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Phil" chapter="2" verse="3"/>
+            <ref book="Phil" chapter="2" verse="4"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Phil" chapter="2" verse="14"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Lk" chapter="21" verse="19"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Phil" chapter="2" verse="19"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="10" verse="22"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="10" verse="39"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Thess" chapter="4" verse="4"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Phil" chapter="2" verse="3"/>
+            <ref book="Phil" chapter="2" verse="4"/>
+            <ref book="Phil" chapter="2" verse="13"/>
+            <ref book="Phil" chapter="2" verse="14"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Joh" chapter="5" verse="1"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Phlm" chapter="10" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="5" verse="45"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Joh" chapter="3" verse="2"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Gal" chapter="5" verse="11"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Gal" chapter="6" verse="12"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="1" verse="17"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="1" verse="18"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Joh" chapter="3" verse="9"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Joh" chapter="5" verse="18"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_68" words="516">
+          <bibl>
+            <ref book="Phil" chapter="2" verse="7"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Phil" chapter="2" verse="8"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Gal" chapter="4" verse="13"/>
+            <ref book="Gal" chapter="4" verse="3"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Gal" chapter="4" verse="9"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Hebr" chapter="9" verse="9"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Lk" chapter="1" verse="53"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Ri" chapter="11" verse="3"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Kol" chapter="2" verse="20"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="1" verse="18"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="1" verse="21"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Jes" chapter="10" verse="21"/>
+            <ref book="Jes" chapter="10" verse="22"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="4" verse="3"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="4" verse="4"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="8" verse="11"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Hebr" chapter="6" verse="6"/>
+            <ref book="Hebr" chapter="6" verse="5"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Hebr" chapter="2" verse="5"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="1" verse="16"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Kol" chapter="3" verse="5"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="5" verse="29"/>
+            <ref book="Mt" chapter="5" verse="30"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="6" verse="6"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="6" verse="12"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="8" verse="11"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_69" words="355"/>
+        <div type="section" id="section_2_70" words="305"/>
+        <div type="section" id="section_2_71" words="102"/>
+        <div type="section" id="section_2_72" words="108"/>
+        <div type="section" id="section_2_73" words="308"/>
+        <div type="section" id="section_2_74" words="133"/>
+        <div type="section" id="section_2_75" words="269"/>
+        <div type="section" id="section_2_76" words="307"/>
+        <div type="section" id="section_2_77" words="102"/>
+        <div type="section" id="section_2_77_zusatz" words="744">
+          <bibl>
+            <ref book="Röm" chapter="12" verse="20"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+      </div>
+    </div>
+    <div type="chapter" id="chapter_2_2" words="36465" column-title="II.2. Historische Theologie">
+      <div type="section-group" id="section_2_78-96" words="8182">
+        <div type="section" id="section_2_78" words="208"/>
+        <div type="section" id="section_2_79" words="499"/>
+        <div type="section" id="section_2_80" words="148"/>
+        <div type="section" id="section_2_81" words="199"/>
+        <div type="section" id="section_2_82" words="114"/>
+        <div type="section" id="section_2_83" words="2532"/>
+        <div type="section" id="section_2_84" words="218"/>
+        <div type="section" id="section_2_85" words="887">
+          <bibl>
+            <ref book="1Tim" chapter="3" verse="16"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Joh" chapter="5" verse="7"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="8" verse="11"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="27" verse="49"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="19" verse="34"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Spr" chapter="8" verse="22"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Ps" chapter="110" verse="3"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="16" verse="18"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="16" verse="26"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Apg" chapter="3" verse="21"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="12" verse="6"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="2" verse="14"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_86" words="202"/>
+        <div type="section" id="section_2_87" words="138"/>
+        <div type="section" id="section_2_88" words="442"/>
+        <div type="section" id="section_2_89" words="313"/>
+        <div type="section" id="section_2_90" words="878"/>
+        <div type="section" id="section_2_91" words="264"/>
+        <div type="section" id="section_2_92" words="337"/>
+        <div type="section" id="section_2_93" words="65"/>
+        <div type="section" id="section_2_94" words="264"/>
+        <div type="section" id="section_2_95" words="227"/>
+        <div type="section" id="section_2_96" words="247"/>
+      </div>
+      <div type="section-group" id="section_2_97-108" words="11899">
+        <div type="section" id="section_2_97" words="192"/>
+        <div type="section" id="section_2_98" words="4076"/>
+        <div type="section" id="section_2_99" words="507"/>
+        <div type="section" id="section_2_100" words="104"/>
+        <div type="section" id="section_2_101" words="512"/>
+        <div type="section" id="section_2_102" words="2257"/>
+        <div type="section" id="section_2_103" words="1137"/>
+        <div type="section" id="section_2_104" words="2172"/>
+        <div type="section" id="section_2_105" words="178"/>
+        <div type="section" id="section_2_106" words="486"/>
+        <div type="section" id="section_2_107" words="141"/>
+        <div type="section" id="section_2_108" words="137"/>
+      </div>
+      <div type="section-group" id="section_2_109-117" words="9400">
+        <div type="section" id="section_2_109" words="449"/>
+        <div type="section" id="section_2_110" words="745"/>
+        <div type="section" id="section_2_111" words="324"/>
+        <div type="section" id="section_2_112" words="569"/>
+        <div type="section" id="section_2_113" words="2729">
+          <bibl>
+            <ref book="Joh" chapter="14" verse="28"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="9" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Eph" chapter="5" verse="32"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Hebr" chapter="2" verse="16"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Apg" chapter="3" verse="21"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_114" words="811"/>
+        <div type="section" id="section_2_115" words="3523"/>
+        <div type="section" id="section_2_116" words="174"/>
+        <div type="section" id="section_2_117" words="76"/>
+      </div>
+      <div type="section-group" id="section_2_118-131" words="6975">
+        <div type="section" id="section_2_118" words="209"/>
+        <div type="section" id="section_2_119" words="366"/>
+        <div type="section" id="section_2_120" words="278"/>
+        <div type="section" id="section_2_121" words="650"/>
+        <div type="section" id="section_2_122" words="739"/>
+        <div type="section" id="section_2_123" words="167"/>
+        <div type="section" id="section_2_124" words="500"/>
+        <div type="section" id="section_2_125" words="155"/>
+        <div type="section" id="section_2_126" words="339"/>
+        <div type="section" id="section_2_127" words="218"/>
+        <div type="section" id="section_2_128" words="2081"/>
+        <div type="section" id="section_2_129" words="941">
+          <bibl>
+            <ref book="1Tim" chapter="4" verse="5"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_130" words="100"/>
+        <div type="section" id="section_2_131" words="233"/>
+      </div>
+    </div>
+    <div type="chapter" id="chapter_2_3" words="30925" column-title="II.3. Systematische Theologie">
+      <div type="section-group" id="section_2_132-143" words="4785">
+        <div type="section" id="section_2_132" words="352">
+          <bibl>
+            <ref book="Joh" chapter="7" verse="17"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="13" verse="12"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Mt" from-chapter="25" from-verse="14" to-book="Mt" to-chapter="25" to-verse="ff"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="1Kor" from-chapter="3" from-verse="11" to-book="1Kor" to-chapter="3" to-verse="ff"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Eph" from-chapter="4" from-verse="12" to-book="Eph" to-chapter="4" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Hebr" from-chapter="5" from-verse="11" to-book="Hebr" to-chapter="5" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_133" words="74"/>
+        <div type="section" id="section_2_134" words="307">
+          <bibl>
+            <ref book="Joh" chapter="5" verse="23"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="14" verse="28"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Röm" from-chapter="3" from-verse="23" to-book="Röm" to-chapter="3" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Röm" from-chapter="2" from-verse="6" to-book="Röm" to-chapter="2" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="6" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Jak" chapter="1" verse="25"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Jak" chapter="2" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Tim" chapter="2" verse="4"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="20" verse="16"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_135" words="235"/>
+        <div type="section" id="section_2_136" words="306">
+          <bibl>
+            <ref book="Mt" chapter="19" verse="21"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Apg" chapter="15" verse="20"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="6" verse="25"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="3" verse="19"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="7" verse="6"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="10" verse="27"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_137" words="172"/>
+        <div type="section" id="section_2_138" words="683">
+          <bibl>
+            <ref from-book="Röm" from-chapter="5" from-verse="12" to-book="Röm" to-chapter="5" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Gen" chapter="3" verse="14"/>
+            <ref book="Gen" chapter="3" verse="16"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Gen" from-chapter="3" from-verse="17" to-book="Gen" to-chapter="3" to-verse="19"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Gen" from-chapter="9" from-verse="12" to-book="Gen" to-chapter="9" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Ez" chapter="18" verse="20"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Gen" chapter="2" verse="17"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Gen" chapter="3" verse="19"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Gen" chapter="3" verse="15"/>
+            <ref book="Gen" chapter="3" verse="16"/>
+            <ref book="Gen" chapter="3" verse="17"/>
+            <ref book="Gen" chapter="3" verse="18"/>
+            <ref book="Gen" chapter="3" verse="19"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Joh" chapter="3" verse="6"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Joh" chapter="3" verse="9"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Joh" chapter="1" verse="8"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Joh" chapter="5" verse="18"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Joh" chapter="3" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Apg" chapter="13" verse="29"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Apg" chapter="1" verse="18"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_139" words="559">
+          <bibl>
+            <ref from-book="Röm" from-chapter="2" from-verse="11" to-book="Röm" to-chapter="2" to-verse="15"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="2" verse="26"/>
+            <ref book="Röm" chapter="2" verse="27"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_140" words="677"/>
+        <div type="section" id="section_2_141" words="271"/>
+        <div type="section" id="section_2_142" words="304"/>
+        <div type="section" id="section_2_143" words="845"/>
+      </div>
+      <div type="section-group" id="section_2_144-153" words="4854">
+        <div type="section" id="section_2_144" words="195"/>
+        <div type="section" id="section_2_145" words="340">
+          <bibl>
+            <ref from-book="Lk" from-chapter="9" from-verse="54" to-book="Lk" to-chapter="9" to-verse="56"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="1" verse="17"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Gal" from-chapter="3" from-verse="23" to-book="Gal" to-chapter="3" to-verse="25"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Gal" from-chapter="4" from-verse="9" to-book="Gal" to-chapter="4" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Hebr" chapter="8" verse="6"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Hebr" from-chapter="12" from-verse="18" to-book="Hebr" to-chapter="12" to-verse="24"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="8" verse="11"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="5" verse="22"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="5" verse="4"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_146" words="380"/>
+        <div type="section" id="section_2_147" words="828"/>
+        <div type="section" id="section_2_148" words="723">
+          <bibl>
+            <ref book="2Petr" chapter="1" verse="4"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Eph" chapter="5" verse="27"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Eph" chapter="5" verse="30"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Eph" chapter="2" verse="22"/>
+            <ref book="Eph" chapter="4" verse="14"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Eph" chapter="3" verse="17"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Tim" chapter="1" verse="15"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Kol" chapter="3" verse="16"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="12" verse="1"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Hebr" chapter="13" verse="15"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Kol" chapter="2" verse="11"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="5" verse="12"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Gen" chapter="2" verse="17"/>
+            <ref book="Gen" chapter="3" verse="19"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="8" verse="44"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Hebr" chapter="2" verse="14"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Gen" chapter="3" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Petr" chapter="5" verse="8"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Petr" chapter="5" verse="9"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Joh" from-chapter="5" from-verse="21" to-book="Joh" to-chapter="5" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="5" verse="22"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="5" verse="28"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="6" verse="8"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="8" verse="10"/>
+            <ref book="Röm" chapter="8" verse="11"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Eph" from-chapter="2" from-verse="5" to-book="Eph" to-chapter="2" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="4" verse="6"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="4" verse="4"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="4" verse="3"/>
+            <ref book="2Kor" chapter="4" verse="4"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="6" verse="6"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="6" verse="12"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="6" verse="13"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="7" verse="24"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Kol" chapter="3" verse="5"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="5" verse="29"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="5" verse="30"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="5" verse="29"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="5" verse="30"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="5" verse="28"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Gen" chapter="3" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="8" verse="1"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="8" verse="16"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="9" verse="14"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Hebr" chapter="2" verse="14"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="13" verse="2"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Apg" chapter="5" verse="3"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="12" verse="7"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Petr" chapter="5" verse="8"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Petr" chapter="5" verse="9"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Apg" chapter="5" verse="4"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Apg" chapter="7" verse="51"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Apg" chapter="7" verse="52"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_149" words="672">
+          <bibl>
+            <ref book="Röm" chapter="7" verse="22"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="7" verse="23"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="5" verse="1"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="5" verse="9"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="5" verse="9"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="5" verse="10"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="5" verse="9"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="5" verse="8"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="5" verse="10"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="5" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="5" verse="19"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="5" verse="21"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="5" verse="21"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="5" verse="19"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="5" verse="19"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="11" verse="15"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="11" verse="28"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="11" verse="28"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="5" verse="10"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Eph" chapter="2" verse="1"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Eph" chapter="2" verse="5"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Eph" chapter="2" verse="3"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Kol" chapter="2" verse="13"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="5" verse="45"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Joh" chapter="2" verse="29"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Joh" chapter="4" verse="6"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Joh" chapter="3" verse="1"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="8" verse="17"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Petr" chapter="1" verse="4"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="3" verse="3"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mk" chapter="10" verse="15"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="14" verse="23"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="14" verse="22"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="14" verse="26"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="14" verse="16"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="14" verse="17"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="14" verse="17"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="15" verse="7"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Kol" chapter="3" verse="16"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Eph" from-chapter="3" from-verse="17" to-book="Eph" to-chapter="3" to-verse="19"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="15" verse="3"/>
+            <ref book="Joh" chapter="15" verse="7"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Joh" from-chapter="15" from-verse="1" to-book="Joh" to-chapter="15" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_150" words="533">
+          <bibl>
+            <ref book="Eph" chapter="2" verse="5"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Eph" chapter="2" verse="4"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="2" verse="14"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Röm" from-chapter="5" from-verse="12" to-book="Röm" to-chapter="5" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="25" verse="46"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mk" chapter="9" verse="46"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="15" verse="26"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="16" verse="28"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="22" verse="37"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Gal" from-chapter="5" from-verse="19" to-book="Gal" to-chapter="5" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Röm" from-chapter="3" from-verse="20" to-book="Röm" to-chapter="3" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Röm" from-chapter="7" from-verse="14" to-book="Röm" to-chapter="7" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="6" verse="44"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="5" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_151" words="153"/>
+        <div type="section" id="section_2_152" words="510">
+          <bibl>
+            <ref book="Ijob" chapter="36" verse="10"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Jes" chapter="30" verse="15"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Dtn" chapter="30" verse="10"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Phil" chapter="2" verse="12"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Petr" chapter="3" verse="15"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Petr" chapter="2" verse="10"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="2" verse="2"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="10" verse="10"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="8" verse="15"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="7" verse="14"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="8" verse="12"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Hebr" chapter="6" verse="4"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Hebr" chapter="6" verse="8"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="19" verse="26"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="19" verse="23"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="18" verse="36"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mk" chapter="1" verse="15"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Apg" from-chapter="1" from-verse="7" to-book="Apg" to-chapter="1" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="14" verse="30"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="16" verse="33"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Lk" chapter="10" verse="18"/>
+            <ref book="Lk" chapter="10" verse="19"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="16" verse="20"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="16" verse="17"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="6" verse="39"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="6" verse="37"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Joh" chapter="2" verse="3"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Joh" chapter="4" verse="6"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="6" verse="25"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Lk" from-chapter="15" from-verse="11" to-book="Lk" to-chapter="15" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Lk" chapter="15" verse="10"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="3" verse="14"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="3" verse="15"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="3" verse="16"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Joh" from-chapter="6" from-verse="44" to-book="Joh" to-chapter="6" to-verse="46"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_153" words="520">
+          <bibl>
+            <ref book="Mt" chapter="18" verse="6"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="9" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Phil" chapter="2" verse="12"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Joh" from-chapter="14" from-verse="" to-book="Joh" to-chapter="16" to-verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="20" verse="22"/>
+            <ref book="Joh" chapter="20" verse="23"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="3" verse="5"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="18" verse="3"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Mt" from-chapter="5" from-verse="3" to-book="Mt" to-chapter="5" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Lk" from-chapter="6" from-verse="20" to-book="Lk" to-chapter="6" to-verse="26"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="19" verse="23"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="19" verse="29"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="19" verse="22"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="19" verse="21"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Tim" chapter="3" verse="16"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Tim" chapter="4" verse="16"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Tim" chapter="3" verse="15"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="28" verse="19"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="28" verse="20"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Apg" chapter="2" verse="37"/>
+            <ref book="Apg" chapter="2" verse="38"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Apg" chapter="2" verse="42"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+      </div>
+      <div type="section-group" id="section_2_154-164" words="4231">
+        <div type="section" id="section_2_154" words="1116">
+          <bibl>
+            <ref book="Joh" chapter="18" verse="23"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Apg" chapter="16" verse="37"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Phil" from-chapter="3" from-verse="4" to-book="Phil" to-chapter="3" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Mt" from-chapter="5" from-verse="39" to-book="Mt" to-chapter="5" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mk" chapter="16" verse="16"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mk" chapter="16" verse="11"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="3" verse="18"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="3" verse="19"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="20" verse="27"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Apg" chapter="19" verse="9"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Hebr" chapter="11" verse="1"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mk" chapter="1" verse="15"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mk" chapter="16" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="28" verse="20"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="21" verse="21"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Mt" from-chapter="8" from-verse="5" to-book="Mt" to-chapter="8" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="3" verse="16"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="3" verse="14"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="3" verse="25"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Hebr" chapter="11" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="14" verse="2"/>
+            <ref book="Röm" chapter="14" verse="22"/>
+            <ref book="Röm" chapter="14" verse="23"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Mt" from-chapter="15" from-verse="25" to-book="Mt" to-chapter="15" to-verse="28"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Joh" from-chapter="9" from-verse="35" to-book="Joh" to-chapter="9" to-verse="38"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="9" verse="16"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="15" verse="28"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="3" verse="18"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="4" verse="6"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="16" verse="12"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_155" words="703">
+          <bibl>
+            <ref from-book="Mt" from-chapter="12" from-verse="43" to-book="Mt" to-chapter="12" to-verse="45"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Tob" chapter="8" verse="3"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Jes" chapter="13" verse="21"/>
+            <ref book="Jes" chapter="13" verse="22"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="8" verse="11"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="11" verse="14"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="18" verse="10"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="7" verse="37"/>
+            <ref book="Joh" chapter="7" verse="38"/>
+            <ref book="Joh" chapter="14" verse="30"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Petr" chapter="2" verse="4"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Gal" chapter="4" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="3" verse="16"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Eph" chapter="2" verse="5"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="3" verse="23"/>
+            <ref book="Röm" chapter="3" verse="24"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Kol" chapter="1" verse="12"/>
+            <ref book="Kol" chapter="1" verse="13"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="1Joh" from-chapter="1" from-verse="5" to-book="1Joh" to-chapter="1" to-verse="7"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Thess" chapter="1" verse="9"/>
+            <ref book="1Thess" chapter="1" verse="10"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Tit" chapter="2" verse="11"/>
+            <ref book="Tit" chapter="2" verse="12"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Tit" chapter="3" verse="4"/>
+            <ref book="Tit" chapter="3" verse="7"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="3" verse="11"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Joh" chapter="5" verse="1"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="28" verse="20"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_156" words="270"/>
+        <div type="section" id="section_2_157" words="767">
+          <bibl>
+            <ref book="Joh" chapter="3" verse="16"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="5" verse="8"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="4" verse="4"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Phlm" chapter="9" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="1Kor" from-chapter="2" from-verse="1" to-book="1Kor" to-chapter="2" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Lk" chapter="1" verse="2"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="19" verse="35"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="4" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Lk" chapter="4" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="3" verse="24"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Jak" from-chapter="2" from-verse="14" to-book="Jak" to-chapter="2" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="2" verse="7"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Eph" chapter="2" verse="10"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Eph" chapter="2" verse="13"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="8" verse="3"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Röm" from-chapter="7" from-verse="14" to-book="Röm" to-chapter="7" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="2" verse="15"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="6" verse="29"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Eph" chapter="2" verse="15"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="6" verse="19"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="6" verse="31"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Apg" chapter="4" verse="12"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Joh" chapter="5" verse="12"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="3" verse="5"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Thess" chapter="3" verse="10"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Joh" chapter="1" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="15" verse="28"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="15" verse="24"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Joh" chapter="9" verse="16"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Joh" from-chapter="9" from-verse="35" to-book="Joh" to-chapter="9" to-verse="38"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Mk" from-chapter="9" from-verse="38" to-book="Mk" to-chapter="9" to-verse="42"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Tim" chapter="3" verse="4"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Tim" chapter="4" verse="10"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Joh" chapter="2" verse="2"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_158" words="93"/>
+        <div type="section" id="section_2_159" words="97"/>
+        <div type="section" id="section_2_160" words="145"/>
+        <div type="section" id="section_2_161" words="177">
+          <bibl>
+            <ref book="Mt" chapter="26" verse="11"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_162" words="192">
+          <bibl>
+            <ref from-book="1Kor" from-chapter="12" from-verse="14" to-book="1Kor" to-chapter="12" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_163" words="185"/>
+        <div type="section" id="section_2_164" words="486">
+          <bibl>
+            <ref from-book="Lk" from-chapter="5" from-verse="37" to-book="Lk" to-chapter="5" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="13" verse="39"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="13" verse="29"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="3" verse="11"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="3" verse="12"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="3" verse="13"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Eph" from-chapter="4" from-verse="11" to-book="Eph" to-chapter="4" to-verse="15"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="1Kor" from-chapter="13" from-verse="9" to-book="1Kor" to-chapter="13" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Hebr" from-chapter="5" from-verse="12" to-book="Hebr" to-chapter="5" to-verse="14"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="1Kor" from-chapter="3" from-verse="21" to-book="1Kor" to-chapter="3" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+      </div>
+      <div type="section-group" id="section_2_165-175" words="4577">
+        <div type="section" id="section_2_165" words="411"/>
+        <div type="section" id="section_2_166" words="170"/>
+        <div type="section" id="section_2_167" words="154"/>
+        <div type="section" id="section_2_168" words="144"/>
+        <div type="section" id="section_2_169" words="442"/>
+        <div type="section" id="section_2_170" words="762">
+          <bibl>
+            <ref from-book="Lk" from-chapter="15" from-verse="11" to-book="Lk" to-chapter="15" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Lk" from-chapter="18" from-verse="10" to-book="Lk" to-chapter="18" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_171" words="255"/>
+        <div type="section" id="section_2_172" words="854"/>
+        <div type="section" id="section_2_173" words="303"/>
+        <div type="section" id="section_2_174" words="948"/>
+        <div type="section" id="section_2_175" words="135"/>
+      </div>
+      <div type="section-group" id="section_2_176-209" words="12469">
+        <div type="section" id="section_2_176" words="377">
+          <bibl>
+            <ref book="Joh" chapter="7" verse="17"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_177" words="473"/>
+        <div type="section" id="section_2_178" words="381"/>
+        <div type="section" id="section_2_179" words="333"/>
+        <div type="section" id="section_2_180" words="204"/>
+        <div type="section" id="section_2_181" words="127"/>
+        <div type="section" id="section_2_182" words="124"/>
+        <div type="section" id="section_2_183" words="488"/>
+        <div type="section" id="section_2_184" words="809"/>
+        <div type="section" id="section_2_185" words="368">
+          <bibl>
+            <ref book="Mt" chapter="5" verse="17"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Mt" from-chapter="6" from-verse="24" to-book="Mt" to-chapter="6" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Mt" chapter="19" verse="21"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_2_186" words="928"/>
+        <div type="section" id="section_2_187" words="66"/>
+        <div type="section" id="section_2_188" words="373"/>
+        <div type="section" id="section_2_189" words="398"/>
+        <div type="section" id="section_2_190" words="649"/>
+        <div type="section" id="section_2_191" words="415"/>
+        <div type="section" id="section_2_192" words="175"/>
+        <div type="section" id="section_2_193" words="119"/>
+        <div type="section" id="section_2_194" words="189"/>
+        <div type="section" id="section_2_195" words="425"/>
+        <div type="section" id="section_2_196" words="198"/>
+        <div type="section" id="section_2_197" words="103"/>
+        <div type="section" id="section_2_198" words="612"/>
+        <div type="section" id="section_2_199" words="352"/>
+        <div type="section" id="section_2_200" words="276"/>
+        <div type="section" id="section_2_201" words="248"/>
+        <div type="section" id="section_2_202" words="90"/>
+        <div type="section" id="section_2_203" words="313"/>
+        <div type="section" id="section_2_204" words="194"/>
+        <div type="section" id="section_2_204_zusatz" words="1187"/>
+        <div type="section" id="section_2_205" words="232"/>
+        <div type="section" id="section_2_206" words="291"/>
+        <div type="section" id="section_2_207" words="378"/>
+        <div type="section" id="section_2_208" words="200"/>
+        <div type="section" id="section_2_209" words="375"/>
+      </div>
+    </div>
+    <div type="chapter" id="chapter_2_4" words="3554" column-title="II.4. Symbolische Theologie">
+      <div type="section-group" id="section_2_210-215" words="3545">
+        <div type="section" id="section_2_210" words="280"/>
+        <div type="section" id="section_2_211" words="1070"/>
+        <div type="section" id="section_2_212" words="1278"/>
+        <div type="section" id="section_2_213" words="402"/>
+        <div type="section" id="section_2_214" words="372"/>
+        <div type="section" id="section_2_215" words="143"/>
+      </div>
+    </div>
+  </div>
+  <div type="section-group" id="section_3_0-1" words="2833">
+    <div type="preface" id="preface_3_1_a" words="315" column-title="III. Vorrede (a)"/>
+    <div type="preface" id="preface_3_1_c" words="563" column-title="III. Vorrede des Herausgebers (c)"/>
+    <div type="contents" id="contents_3_1_a" words="1324" column-title="III. Inhalt des ganzen Buchs (a)"/>
+    <div type="contents" id="contents_3_1_c" words="521">
+      <div type="" id="" words="284" column-title="III. Inhalt des dritten Theils (c)"/>
+      <div type="" id="" words="237"/>
+    </div>
+  </div>
+  <div type="section-group" id="c_tp_3" words="5"/>
+  <div type="part" id="part_3_1" words="33607" column-title="III. [Einleitung]">
+    <div type="section-group" id="section_3_1-12" words="2854">
+      <div type="section" id="section_3_1" words="97"/>
+      <div type="section" id="section_3_2" words="409"/>
+      <div type="section" id="section_3_3" words="165"/>
+      <div type="section" id="section_3_4" words="205"/>
+      <div type="section" id="section_3_5" words="371"/>
+      <div type="section" id="section_3_6" words="296"/>
+      <div type="section" id="section_3_7" words="193"/>
+      <div type="section" id="section_3_8" words="144"/>
+      <div type="section" id="section_3_9" words="117"/>
+      <div type="section" id="section_3_10" words="193"/>
+      <div type="section" id="section_3_11" words="569"/>
+      <div type="section" id="section_3_12" words="96"/>
+    </div>
+    <div type="chapter" id="chapter_3_1" words="22659" column-title="III.1. Homiletik und Katechetik">
+      <div type="section-group" id="section_3_13-26" words="4464">
+        <div type="section" id="section_3_13" words="313"/>
+        <div type="section" id="section_3_14" words="116"/>
+        <div type="section" id="section_3_15" words="364"/>
+        <div type="section" id="section_3_16" words="201"/>
+        <div type="section" id="section_3_17" words="277"/>
+        <div type="section" id="section_3_18" words="131"/>
+        <div type="section" id="section_3_19" words="633">
+          <bibl>
+            <ref book="1Kor" chapter="1" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="2" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Tim" chapter="4" verse="3"/>
+            <ref book="2Tim" chapter="4" verse="4"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_3_20" words="194"/>
+        <div type="section" id="section_3_21" words="111"/>
+        <div type="section" id="section_3_22" words="425"/>
+        <div type="section" id="section_3_23" words="607"/>
+        <div type="section" id="section_3_24" words="126"/>
+        <div type="section" id="section_3_25" words="304"/>
+        <div type="section" id="section_3_26" words="663"/>
+      </div>
+      <div type="section-group" id="section_3_27-40" words="4404">
+        <div type="section" id="section_3_27" words="361"/>
+        <div type="section" id="section_3_28" words="211"/>
+        <div type="section" id="section_3_29" words="237"/>
+        <div type="section" id="section_3_30" words="345"/>
+        <div type="section" id="section_3_31" words="662">
+          <bibl>
+            <ref book="Apg" chapter="20" verse="32"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Eph" chapter="21" verse="22"/>
+            <ref book="Eph" chapter="21" verse="23"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Jud" chapter="20" verse=""/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="14" verse="5"/>
+            <ref book="1Kor" chapter="14" verse="26"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="14" verse="3"/>
+            <ref book="1Kor" chapter="14" verse="26"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_3_32" words="403"/>
+        <div type="section" id="section_3_33" words="359"/>
+        <div type="section" id="section_3_34" words="317"/>
+        <div type="section" id="section_3_35" words="166"/>
+        <div type="section" id="section_3_36" words="390"/>
+        <div type="section" id="section_3_37" words="298"/>
+        <div type="section" id="section_3_38" words="111"/>
+        <div type="section" id="section_3_39" words="344"/>
+        <div type="section" id="section_3_40" words="201"/>
+      </div>
+      <div type="section-group" id="section_3_41-54" words="6411">
+        <div type="section" id="section_3_41" words="346"/>
+        <div type="section" id="section_3_42" words="107"/>
+        <div type="section" id="section_3_43" words="536"/>
+        <div type="section" id="section_3_44" words="436"/>
+        <div type="section" id="section_3_45" words="262"/>
+        <div type="section" id="section_3_46" words="288"/>
+        <div type="section" id="section_3_47" words="519"/>
+        <div type="section" id="section_3_48" words="221"/>
+        <div type="section" id="section_3_49" words="216"/>
+        <div type="section" id="section_3_50" words="300"/>
+        <div type="section" id="section_3_51" words="599">
+          <bibl>
+            <ref book="Jona" chapter="4" verse="10"/>
+            <ref book="Jona" chapter="4" verse="11"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="Mt" from-chapter="18" from-verse="11" to-book="Mt" to-chapter="18" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Tim" chapter="1" verse="15"/>
+            <ref book="1Tim" chapter="1" verse="16"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="12" verse="15"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Tim" chapter="5" verse="1"/>
+            <ref book="1Tim" chapter="5" verse="2"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_3_52" words="456"/>
+        <div type="section" id="section_3_53" words="622"/>
+        <div type="section" id="section_3_54" words="1504">
+          <bibl>
+            <ref from-book="Mk" from-chapter="9" from-verse="38" to-book="Mk" to-chapter="9" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Kor" chapter="7" verse="23"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref from-book="1Kor" from-chapter="8" from-verse="1" to-book="1Kor" to-chapter="8" to-verse="f"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+        </div>
+      </div>
+      <div type="section-group" id="section_3_55-67" words="7368">
+        <div type="section" id="section_3_55" words="416">
+          <bibl>
+            <ref book="1Joh" chapter="2" verse="20"/>
+            <ref book="1Joh" chapter="2" verse="27"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Apg" chapter="10" verse="38"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="1" verse="21"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_3_56" words="193"/>
+        <div type="section" id="section_3_57" words="768"/>
+        <div type="section" id="section_3_58" words="325"/>
+        <div type="section" id="section_3_59" words="965"/>
+        <div type="section" id="section_3_60" words="146"/>
+        <div type="section" id="section_3_61" words="195"/>
+        <div type="section" id="section_3_62" words="595">
+          <bibl>
+            <ref book="Mt" chapter="9" verse="36"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="1Tim" chapter="4" verse="12"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="Röm" chapter="2" verse="24"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_3_63" words="320"/>
+        <div type="section" id="section_3_64" words="1293"/>
+        <div type="section" id="section_3_65" words="949"/>
+        <div type="section" id="section_3_66" words="548"/>
+        <div type="section" id="section_3_67" words="332"/>
+        <div type="section" id="section_3_67_zusatz" words="323"/>
+      </div>
+    </div>
+    <div type="chapter" id="chapter_3_2" words="8066" column-title="III.2. Pastoraltheologie und Kirchenrecht">
+      <div type="section-group" id="section_3_68-85" words="4923">
+        <div type="section" id="section_3_68" words="128"/>
+        <div type="section" id="section_3_69" words="261"/>
+        <div type="section" id="section_3_70" words="422"/>
+        <div type="section" id="section_3_71" words="276"/>
+        <div type="section" id="section_3_72" words="317">
+          <bibl>
+            <ref book="Phil" chapter="1" verse="18"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref book="2Kor" chapter="13" verse="7"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+        </div>
+        <div type="section" id="section_3_73" words="557"/>
+        <div type="section" id="section_3_74" words="66"/>
+        <div type="section" id="section_3_75" words="304"/>
+        <div type="section" id="section_3_76" words="108"/>
+        <div type="section" id="section_3_77" words="589"/>
+        <div type="section" id="section_3_78" words="276"/>
+        <div type="section" id="section_3_79" words="457"/>
+        <div type="section" id="section_3_80" words="75"/>
+        <div type="section" id="section_3_81" words="320"/>
+        <div type="section" id="section_3_82" words="133"/>
+        <div type="section" id="section_3_83" words="215"/>
+        <div type="section" id="section_3_84" words="154"/>
+        <div type="section" id="section_3_85" words="265"/>
+      </div>
+      <div type="section-group" id="section_3_86-90" words="3132">
+        <div type="section" id="section_3_86" words="329"/>
+        <div type="section" id="section_3_87" words="289"/>
+        <div type="section" id="section_3_88" words="158"/>
+        <div type="section" id="section_3_89" words="1013"/>
+        <div type="section" id="section_3_90" words="535"/>
+        <div type="section" id="section_3_90_zusatz" words="808"/>
+      </div>
+    </div>
+  </div>
+  <div type="part" id="part_3_2" words="21153" column-title="IV. [Einleitung]">
+    <div type="section-group" id="section_3_91-93" words="670">
+      <div type="section" id="section_3_91" words="125"/>
+      <div type="section" id="section_3_92" words="206"/>
+      <div type="section" id="section_3_93" words="339"/>
+    </div>
+    <div type="chapter" id="chapter_4_1" words="7449" column-title="IV.1. Fähigkeiten eines künftigen Lehrers">
+      <div type="section-group" id="section_3_94-116" words="7428">
+        <div type="section" id="section_3_94" words="267"/>
+        <div type="section" id="section_3_95" words="213"/>
+        <div type="section" id="section_3_96" words="495"/>
+        <div type="section" id="section_3_97" words="494"/>
+        <div type="section" id="section_3_98" words="162"/>
+        <div type="section" id="section_3_99" words="139"/>
+        <div type="section" id="section_3_100" words="223"/>
+        <div type="section" id="section_3_101" words="128"/>
+        <div type="section" id="section_3_102" words="255"/>
+        <div type="section" id="section_3_103" words="223"/>
+        <div type="section" id="section_3_104" words="111"/>
+        <div type="section" id="section_3_105" words="551"/>
+        <div type="section" id="section_3_106" words="464"/>
+        <div type="section" id="section_3_107" words="88"/>
+        <div type="section" id="section_3_108" words="400"/>
+        <div type="section" id="section_3_109" words="314"/>
+        <div type="section" id="section_3_110" words="1190"/>
+        <div type="section" id="section_3_111" words="256"/>
+        <div type="section" id="section_3_112" words="113"/>
+        <div type="section" id="section_3_113" words="207"/>
+        <div type="section" id="section_3_114" words="120"/>
+        <div type="section" id="section_3_115" words="274"/>
+        <div type="section" id="section_3_116" words="741"/>
+      </div>
+    </div>
+    <div type="chapter" id="chapter_4_2" words="12992" column-title="IV.2. Allgemeinere Anstalten und Uebungen">
+      <div type="section-group" id="section_3_117-141" words="7983">
+        <div type="section" id="section_3_117" words="214"/>
+        <div type="section" id="section_3_118" words="329"/>
+        <div type="section" id="section_3_119" words="242"/>
+        <div type="section" id="section_3_120" words="228"/>
+        <div type="section" id="section_3_121" words="298"/>
+        <div type="section" id="section_3_122" words="228"/>
+        <div type="section" id="section_3_123" words="282"/>
+        <div type="section" id="section_3_124" words="219"/>
+        <div type="section" id="section_3_125" words="268"/>
+        <div type="section" id="section_3_126" words="149"/>
+        <div type="section" id="section_3_127" words="438"/>
+        <div type="section" id="section_3_128" words="400"/>
+        <div type="section" id="section_3_129" words="355"/>
+        <div type="section" id="section_3_130" words="258"/>
+        <div type="section" id="section_3_131" words="610"/>
+        <div type="section" id="section_3_132" words="217"/>
+        <div type="section" id="section_3_133" words="186"/>
+        <div type="section" id="section_3_134" words="701"/>
+        <div type="section" id="section_3_135" words="249"/>
+        <div type="section" id="section_3_136" words="423"/>
+        <div type="section" id="section_3_137" words="848"/>
+        <div type="section" id="section_3_138" words="230"/>
+        <div type="section" id="section_3_139" words="328"/>
+        <div type="section" id="section_3_140" words="120"/>
+        <div type="section" id="section_3_141" words="163"/>
+      </div>
+      <div type="section-group" id="section_3_142-158" words="4977">
+        <div type="section" id="section_3_142" words="130"/>
+        <div type="section" id="section_3_143" words="81"/>
+        <div type="section" id="section_3_144" words="166"/>
+        <div type="section" id="section_3_145" words="94"/>
+        <div type="section" id="section_3_146" words="130"/>
+        <div type="section" id="section_3_147" words="224"/>
+        <div type="section" id="section_3_148" words="320"/>
+        <div type="section" id="section_3_149" words="269"/>
+        <div type="section" id="section_3_150" words="252"/>
+        <div type="section" id="section_3_151" words="666"/>
+        <div type="section" id="section_3_152" words="155"/>
+        <div type="section" id="section_3_153" words="377"/>
+        <div type="section" id="section_3_154" words="438"/>
+        <div type="section" id="section_3_155" words="429"/>
+        <div type="section" id="section_3_156" words="241"/>
+        <div type="section" id="section_3_157" words="173"/>
+        <div type="section" id="section_3_158" words="835"/>
+      </div>
+    </div>
+  </div>
+  <div type="section-group" id="section_3_corr" words="26">
+    <div type="corrigenda" id="corrigenda_3_1_a" words="26" column-title="IV. Druckfehler (a)"/>
+  </div>
+  <div type="editorial-notes" id="" words="60"/>
+  <div type="index" id="" words="85">
+    <div type="" id="" words="1"/>
+    <div type="" id="" words="1"/>
+    <div type="" id="" words="2"/>
+    <div type="" id="" words="1"/>
+  </div>
+</data>

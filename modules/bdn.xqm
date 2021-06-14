@@ -136,7 +136,7 @@ declare function bdn:listWit
 declare function bdn:div
   ($node as node()*) as node()* {
      
-    let $column-title := $node/tei:head/tei:choice/tei:supplied[@reason = "column-title"]
+    let $column-title := $node/tei:head//tei:choice/tei:supplied[@reason = "column-title"]
     let $bible-ref := $node//tei:bibl[@type = "biblical-reference"]
     return   
       element {"div"}

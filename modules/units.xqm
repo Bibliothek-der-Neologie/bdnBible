@@ -48,8 +48,9 @@ declare function units:equalunits($units, $bible)
 :
 :)
 
-declare function units:find($ref, $equalunits) (: Todo: Datentypen! :)
+declare function units:find($ref as item()*) as item()
 {
+  let $equalunits := doc("../data/units_equal.xml")
   let $ref-from-book := ($ref/@from-book, $ref/@book)
   let $ref-to-book := ($ref/@to-book, $ref/@book)
   let $ref-from-chapter := ($ref/@from-chapter, $ref/@chapter)  
@@ -57,7 +58,7 @@ declare function units:find($ref, $equalunits) (: Todo: Datentypen! :)
   let $ref-from-verse := ($ref/@from-verse, $ref/@verse)
   let $ref-to-verse := ($ref/@to-verse, $ref/@verse)
   
-  let $matches := $equalunits[
+  let $matches := $equalunits//unit[
     (
       @from-book/data() eq $ref-from-book and
       @to-book/data() eq $ref-to-book
@@ -115,13 +116,13 @@ declare function units:find($ref, $equalunits) (: Todo: Datentypen! :)
 :
 :)
    
-declare function units:listitems($doc, $equalunits)
+declare function units:listitems($doc)
 {
   <list>
-  <edition>{normalize-space($doc/edition/text())}</edition>
+  <edition>{normalize-space($doc//edition/text())}</edition>
   {
   for $ref in $doc//ref 
-  return units:find($ref, $equalunits) 
+  return units:find($ref) 
 }</list>
 };
 
@@ -191,14 +192,67 @@ declare function units:group($items)
 :
 :)
 
-declare function units:compare($collection as node()*, $level)
+declare function units:compare($node as item()+ ) as item()
 {
+  let $collection := <collection>{for $data in $node/data return units:listitems($data)}</collection>
+  let $chapter-units := units:distinct-deep($collection//unit[@from-chapter/data() lt @to-chapter/data()])
+  let $verse-units := units:distinct-deep($collection//unit[@from-chapter/data() eq @to-chapter/data()])
+  let $lists := $collection//list
+  let $editions := $collection//edition 
+  return     
+    <table>
+      <tr>
+        <td>"VERSE-LEVEL"</td>
+        {for $e in $editions return <td><td>{normalize-space($e/text())}</td></td>}
+        <td>"Absolut"</td><td>"Relativ z. Versanzahl"</td>
+      </tr>{
+        for $u in $verse-units 
+        let $u-refs := $collection//ref/following-sibling::*[fn:count(units:distinct-deep((., $u))) = 1]
+        let $u-refs-count := fn:count($u-refs)
+        let $u-refs-count-rel := $u-refs-count div ($u/@to-verse - $u/@from-verse + 1)
+        order by $u-refs-count descending
+        return <tr>
+          <td>{
+           fn:concat(
+             $u/@from-book/data(), " ", 
+             $u/@from-chapter/data(), ",", 
+             $u/@from-verse/data(), "–", 
+             $u/@to-verse/data(), ": ", 
+             $u/text())
+          }</td>
+          {
+            for $l in $lists
+            let $u-refs := $l//ref[$u = ./following-sibling::*]
+            let $u-refs-count := fn:count($u-refs)
+            return <td><td>{$u-refs-count}</td></td> (: <td>{round-half-to-even(fn:count($u-refs) div fn:count($l//ref) * 100, 2), "%"}</td> :)
+          }
+          <td>{            
+            $u-refs-count
+          }</td>
+          <td>{            
+           $u-refs-count-rel
+          }</td>
+          </tr>         
+      }  
+    </table>  
+};
+
+(:~
+: Das gleiche für Chapter-Level!
+: @version 0.1 (2020)
+: @author ..., Marco Stallmann
+:
+:)
+
+declare function units:compare_chapter($node as item()+ ) as item()
+{
+  let $collection := <collection>{for $data in $node/data return units:listitems($data)}</collection>
   let $chapter-units := units:distinct-deep($collection//unit[@from-chapter/data() lt @to-chapter/data()])
   let $verse-units := units:distinct-deep($collection//unit[@from-chapter/data() eq @to-chapter/data()])
   let $lists := $collection//list
   let $editions := $collection//edition 
    
-  return if ($level = "chapter") then
+  return 
     <table>
       <tr>
         <td>"CHAPTER-LEVEL"</td>
@@ -236,43 +290,6 @@ declare function units:compare($collection as node()*, $level)
           </tr>         
       }  
     </table>    
-    
-    else
-    <table>
-      <tr>
-        <td>"VERSE-LEVEL"</td>
-        {for $e in $editions return <td><td>{normalize-space($e/text())}</td></td>}
-        <td>"Absolut"</td><td>"Relativ z. Versanzahl"</td>
-      </tr>{
-        for $u in $verse-units 
-        let $u-refs := $collection//ref/following-sibling::*[fn:count(units:distinct-deep((., $u))) = 1]
-        let $u-refs-count := fn:count($u-refs)
-        let $u-refs-count-rel := $u-refs-count div ($u/@to-verse - $u/@from-verse + 1)
-        order by $u-refs-count descending
-        return <tr>
-          <td>{
-           fn:concat(
-             $u/@from-book/data(), " ", 
-             $u/@from-chapter/data(), ",", 
-             $u/@from-verse/data(), "–", 
-             $u/@to-verse/data(), ": ", 
-             $u/text())
-          }</td>
-          {
-            for $l in $lists
-            let $u-refs := $l//ref[$u = ./following-sibling::*]
-            let $u-refs-count := fn:count($u-refs)
-            return <td><td>{$u-refs-count}</td></td> (: <td>{round-half-to-even(fn:count($u-refs) div fn:count($l//ref) * 100, 2), "%"}</td> :)
-          }
-          <td>{            
-            $u-refs-count
-          }</td>
-          <td>{            
-           $u-refs-count-rel
-          }</td>
-          </tr>         
-      }  
-    </table>  
 };
 
 (:~
