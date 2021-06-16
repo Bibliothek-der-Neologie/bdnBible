@@ -1,43 +1,46 @@
 <?xml version='1.0' encoding='utf-8'?>
 <units xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:noNamespaceSchemaLocation="units.xsd">
-<description>
-<title>Sinneinheiten (units) zur Bibel</title>
-<p>Die folgenden Sinneinheiten wurden anhand der Perikopenüberschriften der revidierten Lutherbibel 2017 (Deutsche Bibelgesellschaft) und David C. Bienert, Bibelkunde des Neuen Testaments, 2. Aufl., 2018, Gütersloh bzw. Martin Rösel, Bibelkunde des Alten Testaments. Die kanonischen und apokryphen Schriften. Mit Lernübersichten von Dirk Schwiderski, 10. Aufl., 2018, Göttingen erarbeitet.
-</p>
-</description>
+  <description>
+    <title>Sinneinheiten (units) zur Bibel</title>
+    <p>Die folgenden Sinneinheiten wurden anhand der Perikopenüberschriften der revidierten
+      Lutherbibel 2017 (Deutsche Bibelgesellschaft) und David C. Bienert, Bibelkunde des Neuen
+      Testaments, 2. Aufl., 2018, Gütersloh bzw. Martin Rösel, Bibelkunde des Alten Testaments. Die
+      kanonischen und apokryphen Schriften. Mit Lernübersichten von Dirk Schwiderski, 10. Aufl.,
+      2018, Göttingen erarbeitet. </p>
+  </description>
   <book name="Gen">
     <unit from-chapter="1" from-verse="1" to-chapter="2" to-verse="4">Priesterlicher Schöpfungsbericht</unit>
     <unit from-chapter="2" from-verse="4" to-chapter="3" to-verse="24">Nichtpriesterschriftlicher Schöpfungsbericht</unit>
     <chapter n="11">
-    <unit from-verse="1" to-verse="9">Der Turmbau zu Babel</unit>
+      <unit from-verse="1" to-verse="9">Der Turmbau zu Babel</unit>
     </chapter>
     <chapter n="12">
-    <unit from-verse="1" to-verse="9">Abrams Berufung</unit>
+      <unit from-verse="1" to-verse="9">Abrams Berufung</unit>
     </chapter>
     <chapter n="17">
-    <unit from-verse="1" to-verse="27">Der ewige Bund mit Abraham</unit>
+      <unit from-verse="1" to-verse="27">Der ewige Bund mit Abraham</unit>
     </chapter>
     <chapter n="18">
-    <unit from-verse="1" to-verse="15">Der Herr bei Abraham und Sara in Mamre</unit>
-    <unit from-verse="16" to-verse="33">Abrahams Fürbitte für Sodom</unit>
+      <unit from-verse="1" to-verse="15">Der Herr bei Abraham und Sara in Mamre</unit>
+      <unit from-verse="16" to-verse="33">Abrahams Fürbitte für Sodom</unit>
     </chapter>
     <chapter n="22">
-    <unit from-verse="1" to-verse="19">Das Opfer Abrahams / Bindung Isaaks</unit>
+      <unit from-verse="1" to-verse="19">Das Opfer Abrahams / Bindung Isaaks</unit>
     </chapter>
     <chapter n="28">
-    <unit from-verse="10" to-verse="22">Jakob schaut die Himmelsleiter</unit>
+      <unit from-verse="10" to-verse="22">Jakob schaut die Himmelsleiter</unit>
     </chapter>
     <chapter n="32">
-    <unit from-verse="23" to-verse="33">Jakobs Kampf am Jabbok</unit>
+      <unit from-verse="23" to-verse="33">Jakobs Kampf am Jabbok</unit>
     </chapter>
     <unit from-chapter="37" from-verse="1" to-chapter="50" to-verse="26">Josefs-Novelle<!-- kann man Kapitel 38 aussparen? -->
-</unit>  
+</unit>
   </book>
   <book name="Ex">
     <unit from-chapter="3" from-verse="1" to-chapter="4" to-verse="17">Moses Berufung</unit>
     <chapter n="3">
-      <unit verse="14">Offenbarung des Gottesnamens (JHWH)<!-- Einzelvers? -->
+      <unit from-verse="14" to-verse="14">Offenbarung des Gottesnamens (JHWH)<!-- Einzelvers? -->
 </unit>
     </chapter>
     <chapter n="20">
@@ -84,7 +87,7 @@
       <unit from-verse="1" to-verse="11">Jesu Versuchung ("Versuchungsgeschichte")</unit>
       <unit from-verse="12" to-verse="22">Beginn der Wirksamkeit Jesu</unit>
       <unit from-verse="12" to-verse="17">Der Beginn des Wirkens Jesu in Galiläa</unit>
-      <unit from-verse="23" to-verse="25">Summarium I</unit>
+      <unit from-verse="23" to-verse="25">Wunder-Summarium I</unit>
     </chapter>
     <unit from-chapter="5" from-verse="1" to-chapter="7" to-verse="29">Bergpredigt<!-- wird gängig auch bis 8,1 gezogen -->
 </unit>
@@ -119,7 +122,7 @@
     <unit from-chapter="9" from-verse="36" to-chapter="11" to-verse="1">Aussendung der Jünger</unit>
     <chapter n="9">
       <unit from-verse="1" to-verse="8">Die Heilung eines Gelähmten</unit>
-      <unit from-verse="35" to-verse="35">Summarium II</unit>
+      <unit from-verse="35" to-verse="35">Wunder-Summarium II</unit>
       <unit from-verse="36" to-verse="38">Jesu Erbarmen über das Volk</unit>
     </chapter>
     <unit from-chapter="10" from-verse="5" to-chapter="11" to-verse="1">Aussendungsrede</unit>
@@ -255,8 +258,8 @@
       <unit from-verse="22" to-verse="26">Die Heilung eines Blinden</unit>
       <unit from-verse="27" to-verse="30">Das Bekenntnis des Petrus</unit>
       <unit from-verse="31" to-verse="33">Die erste Ankündigung von Jesu Leiden und Auferstehung</unit>
-      <unit from-verse="34" to-verse="38">Von der Nachfolge</unit>
     </chapter>
+    <unit from-chapter="8" from-verse="34" to-chapter="9" to-verse="1">Von der Nachfolge</unit>
     <chapter n="9">
       <unit from-verse="1" to-verse="1">...</unit>
       <unit from-verse="2" to-verse="13">Die Verklärung Jesu</unit>
@@ -631,7 +634,7 @@
       <unit from-verse="1" to-verse="10">Maria Magdalena und die Jünger am leeren Grab</unit>
       <unit from-verse="11" to-verse="18">Erscheinung vor Maria Magdalena</unit>
       <unit from-verse="19" to-verse="23">Die Vollmacht der Jünger</unit>
-      <unit from-verse="24" to-verse="31">Ungläubiger Thomas, Zweck des Evangeliums (1. Evangelienschluss)</unit>      
+      <unit from-verse="24" to-verse="31">Ungläubiger Thomas, Zweck des Evangeliums (1. Evangelienschluss)</unit>
     </chapter>
     <chapter n="21">
       <unit from-verse="1" to-verse="25">Nachtragskapitel der Redaktion</unit>
@@ -701,8 +704,8 @@
       <unit from-verse="13" to-verse="52">In Antiochia in Pisidien</unit>
     </chapter>
     <chapter n="14">
-      <unit from-verse="1" to-verse="6">In Ikonion</unit>
-      <unit from-verse="8" to-verse="20">In Lystra</unit>
+      <unit from-verse="1" to-verse="6">Paulus in Ikonion</unit>
+      <unit from-verse="8" to-verse="20">Paulus in Lystra</unit>
       <unit from-verse="21" to-verse="28">Die Rückkehr nach Antiochia in Syrien</unit>
     </chapter>
     <chapter n="15">
@@ -712,22 +715,22 @@
       <unit from-verse="36" to-verse="41">Der Beginn der zweiten Missionsreise</unit>
     </chapter>
     <chapter n="16">
-      <unit from-verse="1" to-verse="8">In Kleinasien</unit>
+      <unit from-verse="1" to-verse="8">Paulus in Kleinasien</unit>
       <unit from-verse="9" to-verse="10">Der Ruf nach Makedonien</unit>
-      <unit from-verse="11" to-verse="13">In Philippi</unit>
+      <unit from-verse="11" to-verse="13">Paulus in Philippi</unit>
       <unit from-verse="14" to-verse="15">Die Bekehrung der Lydia</unit>
       <unit from-verse="16" to-verse="22">Die Magd mit dem Wahrsagegeist</unit>
-      <unit from-verse="23" to-verse="40">Paulus und Silas im Gefängnis</unit>      
+      <unit from-verse="23" to-verse="40">Paulus und Silas im Gefängnis</unit>
     </chapter>
     <chapter n="17">
-      <unit from-verse="1" to-verse="9">In Thessalonich</unit>
-      <unit from-verse="10" to-verse="15">In Beröa</unit>
-      <unit from-verse="16" to-verse="34">In Athen</unit></chapter>
+      <unit from-verse="1" to-verse="9">Paulus in Thessalonich</unit>
+      <unit from-verse="10" to-verse="15">Paulus in Beröa</unit>
+      <unit from-verse="16" to-verse="34">Paulus in Athen</unit></chapter>
     <chapter n="18">
-      <unit from-verse="1" to-verse="17">In Korinth</unit>
+      <unit from-verse="1" to-verse="17">Paulus in Korinth</unit>
       <unit from-verse="18" to-verse="22">Die Rückkehr nach Antiochia</unit>
       <unit from-verse="23" to-verse="23">Der Beginn der dritten Missionsreise</unit>
-      <unit from-verse="24" to-verse="28">Apollos in Ephesus</unit>  
+      <unit from-verse="24" to-verse="28">Apollos in Ephesus</unit>
     </chapter>
     <chapter n="19">
       <unit from-verse="1" to-verse="22">Paulus in Ephesus</unit>
@@ -741,7 +744,7 @@
     <chapter n="21">
       <unit from-verse="1" to-verse="14">Von Milet nach Cäsarea</unit>
       <unit from-verse="15" to-verse="26">Die Ankunft in Jerusalem</unit>
-      <unit from-verse="27" to-verse="40">Die Verhaftung des Paulus</unit>     
+      <unit from-verse="27" to-verse="40">Die Verhaftung des Paulus</unit>
     </chapter>
     <chapter n="22">
       <unit from-verse="1" to-verse="22">Die Verteidigungsrede des Paulus</unit>
@@ -773,10 +776,10 @@
       <unit from-verse="11" to-verse="16">Von Malta nach Rom</unit>
       <unit from-verse="17" to-verse="31">Paulus in Rom</unit>
     </chapter>
-      
-      
-        
-    
+
+
+
+
   </book>
   <book name="Röm">
     <unit from-chapter="1" from-verse="18" to-chapter="3" to-verse="20">Die Universalität der Sünde</unit>
@@ -793,7 +796,7 @@
     <unit from-chapter="3" from-verse="21" to-chapter="5" to-verse="21">Die Universalität des Heils</unit>
     <chapter n="3">
       <unit from-verse="1" to-verse="8">Auseinandersetzung mit Einwänden</unit>
-      <unit from-verse="9" to-verse="20">Zusammenfassung</unit>
+      <unit from-verse="9" to-verse="20">Die Sünde aller Menschen vor Gott</unit>
       <unit from-verse="21" to-verse="26">Die Erlösung der Glaubenden durch Jesu Tod</unit>
       <unit from-verse="27" to-verse="31">Das "Gesetz" des Glaubens</unit>
     </chapter>
@@ -820,7 +823,7 @@
     <unit from-chapter="9" from-verse="1" to-chapter="11" to-verse="36">Gerechtigkeit Gottes und Israel</unit>
     <unit from-chapter="9" from-verse="30" to-chapter="10" to-verse="21">Der Ungehorsam des empirischen Israel</unit>
     <chapter n="9">
-      <unit from-verse="1" to-verse="5">Problemanzeige</unit>
+      <unit from-verse="1" to-verse="5">Die bleibende Erwählung Israels</unit>
       <unit from-verse="6" to-verse="13">Kinder der Verheißung</unit>
       <unit from-verse="14" to-verse="29">Gottes Gnadenwahl</unit>
       <unit from-verse="30" to-verse="33">Die Suche nach Gerechtigkeit</unit>
@@ -850,206 +853,205 @@
       <unit from-verse="14" to-verse="13">Schlußparänese</unit>
     </chapter>
     <chapter n="16">
-      <unit from-verse="1" to-verse="24">Postskript</unit>
-      <unit from-verse="25" to-verse="27">Später angefügter Schlußhymnus</unit>
+      <unit from-verse="1" to-verse="24">Empfehlung der Phöbe und Grüße</unit>
+      <unit from-verse="25" to-verse="27">(Später angefügter) Schlußhymnus</unit>
     </chapter>
   </book>
   <book name="1Kor">
     <unit from-chapter="1" from-verse="1" to-chapter="4" to-verse="21">Kreuz und Weisheit / Spaltungen in der Gemeinde</unit>
     <unit from-chapter="1" from-verse="18" to-chapter="2" to-verse="5">Das Wort vom Kreuz als Grundlage christlicher Existenz</unit>
     <chapter n="1">
-    <unit from-verse="4" to-verse="17">Parteiungen in der Gemeinde (Paulus, Kephas, Apollos, Christus)</unit>
+      <unit from-verse="4" to-verse="17">Parteiungen in der Gemeinde (Paulus, Kephas, Apollos, Christus)</unit>
     </chapter>
     <chapter n="2">
-    <unit from-verse="6" to-verse="16">Von der Weisheit Gottes</unit>
+      <unit from-verse="6" to-verse="16">Von der Weisheit Gottes</unit>
     </chapter>
     <chapter n="3">
-    <unit from-verse="1" to-verse="4">Die Unmündigkeit der Korinther</unit>
-    <unit from-verse="5" to-verse="17">Mitarbeiter Gottes</unit>
-    <unit from-verse="18" to-verse="23">Kein Grund zum Rühmen</unit>
+      <unit from-verse="1" to-verse="4">Die Unmündigkeit der Korinther</unit>
+      <unit from-verse="5" to-verse="17">Mitarbeiter Gottes</unit>
+      <unit from-verse="18" to-verse="23">Kein Grund zum Rühmen</unit>
     </chapter>
     <chapter n="4">
-    <unit from-verse="1" to-verse="5">Kein Recht zum Richten</unit>
-    <unit from-verse="6" to-verse="13">Gegen die Überheblichkeit der Korinther</unit>
-    <unit from-verse="14" to-verse="21">Paulus, als Vater der Gemeinde in Korinth</unit>
+      <unit from-verse="1" to-verse="5">Kein Recht zum Richten</unit>
+      <unit from-verse="6" to-verse="13">Gegen die Überheblichkeit der Korinther</unit>
+      <unit from-verse="14" to-verse="21">Paulus, als Vater der Gemeinde in Korinth</unit>
     </chapter>
     <unit from-chapter="5" from-verse="1" to-chapter="6" to-verse="20">Sittliche Missstände in der Gemeinde</unit>
     <chapter n="5">
-    <unit from-verse="1" to-verse="13">Gemeindeausschluss bei einem Fall von Blutschande</unit>
+      <unit from-verse="1" to-verse="13">Gemeindeausschluss bei einem Fall von Blutschande</unit>
     </chapter>
     <chapter n="6">
-    <unit from-verse="1" to-verse="11">Das Prozessieren unter Christen vor heidnischen Gerichten</unit>
-    <unit from-verse="12" to-verse="20">Warnung vor Unzucht / Der Leib als Tempel des Heiligen Geistes</unit>
+      <unit from-verse="1" to-verse="11">Das Prozessieren unter Christen vor heidnischen Gerichten</unit>
+      <unit from-verse="12" to-verse="20">Warnung vor Unzucht / Der Leib als Tempel des Heiligen Geistes</unit>
     </chapter>
     <chapter n="7">
-    <unit from-verse="1" to-verse="40">Von Ehe und Ehelosigkeit</unit>
+      <unit from-verse="1" to-verse="40">Von Ehe und Ehelosigkeit</unit>
     </chapter>
     <unit from-chapter="8" from-verse="1" to-chapter="11" to-verse="1">Grenzen christlicher Freiheit</unit>
     <chapter n="8">
-    <unit from-verse="8" to-verse="13">Vom Essen des Götzenopferfleisches</unit>
+      <unit from-verse="8" to-verse="13">Vom Essen des Götzenopferfleisches</unit>
     </chapter>
     <chapter n="9">
-    <unit from-verse="1" to-verse="27">Das Beispiel des Apostels für den Freiheitsverzicht</unit>
+      <unit from-verse="1" to-verse="27">Das Beispiel des Apostels für den Freiheitsverzicht</unit>
     </chapter>
     <unit from-chapter="10" from-verse="23" to-chapter="11" to-verse="1">Rücksicht auf das Gewissen</unit>
     <chapter n="10">
-    <unit from-verse="1" to-verse="22">Das warnende Beispiel Israels</unit>
+      <unit from-verse="1" to-verse="22">Das warnende Beispiel Israels</unit>
     </chapter>
     <chapter n="11">
-    <unit from-verse="2" to-verse="16">Frauen und Männer im Gottesdienst</unit>
-    <unit from-verse="17" to-verse="34">Missstände bei der Herrenmahlfeier</unit>
+      <unit from-verse="2" to-verse="16">Frauen und Männer im Gottesdienst</unit>
+      <unit from-verse="17" to-verse="34">Missstände bei der Herrenmahlfeier</unit>
     </chapter>
     <unit from-chapter="12" from-verse="1" to-chapter="14" to-verse="40">Rücksicht auf das Gewissen</unit>
     <chapter n="12">
-    <unit from-verse="1" to-verse="11">Viele Gaben - Ein Geist</unit>
-    <unit from-verse="12" to-verse="31">Viele Glieder - Ein Leib</unit>
+      <unit from-verse="1" to-verse="11">Viele Gaben - Ein Geist</unit>
+      <unit from-verse="12" to-verse="31">Viele Glieder - Ein Leib</unit>
     </chapter>
     <chapter n="13">
-    <unit from-verse="1" to-verse="13">Das Hohelied der Liebe (Liebe als höchste Geistesgabe)</unit>
+      <unit from-verse="1" to-verse="13">Das Hohelied der Liebe (Liebe als höchste Geistesgabe)</unit>
     </chapter>
     <chapter n="14">
-    <unit from-verse="1" to-verse="40">Zungenrede und prophetische Rede</unit>
+      <unit from-verse="1" to-verse="40">Zungenrede und prophetische Rede</unit>
     </chapter>
     <chapter n="15">
-    <unit from-verse="1" to-verse="58">Die Auferweckung von den Toten</unit>
-    <unit from-verse="3" to-verse="5">Vorpaulinisches Christusbekenntnis<!-- geht das so? -->
-    <chapter n="16">
-    <unit from-verse="1" to-verse="4">Geldsammlungen für Jerusalem</unit>
-    <unit from-verse="5" to-verse="12">Reisepläne des Apostels</unit>
-    <unit from-verse="13" to-verse="23">Ermahnungen und Grüße</unit>
+      <unit from-verse="1" to-verse="58">Die Auferweckung von den Toten</unit>
+      <unit from-verse="3" to-verse="5">Vorpaulinisches Christusbekenntnis</unit>
     </chapter>
-</unit>
+    <chapter n="16">
+      <unit from-verse="1" to-verse="4">Geldsammlungen für Jerusalem</unit>
+      <unit from-verse="5" to-verse="12">Reisepläne des Apostels</unit>
+      <unit from-verse="13" to-verse="23">Ermahnungen und Grüße</unit>
     </chapter>
   </book>
   <book name="2Kor">
     <unit from-chapter="1" from-verse="12" to-chapter="2" to-verse="4">Gegen den Vorwurf der Unredlichkeit</unit>
     <chapter n="1">
-    <unit from-verse="3" to-verse="11">Lob Gottes für Trost in Bedrängnis</unit>
+      <unit from-verse="3" to-verse="11">Lob Gottes für Trost in Bedrängnis</unit>
     </chapter>
     <unit from-chapter="2" from-verse="12" to-chapter="3" to-verse="3">Der Dienst des Paulus für die Verkündigung Christi</unit>
     <chapter n="2">
-    <unit from-verse="5" to-verse="11">Vergebung für ein Gemeindemitglied</unit>
+      <unit from-verse="5" to-verse="11">Vergebung für ein Gemeindemitglied</unit>
     </chapter>
     <chapter n="3">
-    <unit from-verse="4" to-verse="18">Die Herrlichkeit des Dienstes im Neuen Bund</unit>
+      <unit from-verse="4" to-verse="18">Die Herrlichkeit des Dienstes im Neuen Bund</unit>
     </chapter>
     <chapter n="4">
-    <unit from-verse="1" to-verse="6">Der Auftrag des Paulus</unit>
-    <unit from-verse="7" to-verse="18">Leidensgemeinschaft mit Christus</unit>
-   </chapter>
+      <unit from-verse="1" to-verse="6">Der Auftrag des Paulus</unit>
+      <unit from-verse="7" to-verse="18">Leidensgemeinschaft mit Christus</unit>
+    </chapter>
     <unit from-chapter="5" from-verse="11" to-chapter="6" to-verse="2">Botschafter der Versöhnung</unit>
     <chapter n="5">
-    <unit from-verse="1" to-verse="10">Sehnsucht nach der himmlischen Heimat</unit>
+      <unit from-verse="1" to-verse="10">Sehnsucht nach der himmlischen Heimat</unit>
     </chapter>
     <unit from-chapter="6" from-verse="11" to-chapter="7" to-verse="4">Werbung um die Gemeinde und Warnung vor Götzendienst</unit>
     <chapter n="6">
-    <unit from-verse="3" to-verse="10">Die Bewährung des Apostels in seinem Dienst</unit>
+      <unit from-verse="3" to-verse="10">Die Bewährung des Apostels in seinem Dienst</unit>
     </chapter>
     <chapter n="7">
-    <unit from-verse="5" to-verse="16">Freude über die Umkehr der Gemeinde</unit>
+      <unit from-verse="5" to-verse="16">Freude über die Umkehr der Gemeinde</unit>
     </chapter>
     <chapter n="8">
-    <unit from-verse="1" to-verse="24">Die Geldsammlung für die Gemeinde in Jerusalem</unit>
+      <unit from-verse="1" to-verse="24">Die Geldsammlung für die Gemeinde in Jerusalem</unit>
     </chapter>
     <chapter n="9">
-    <unit from-verse="1" to-verse="15">Der Segen des Gebens</unit>
+      <unit from-verse="1" to-verse="15">Der Segen des Gebens</unit>
     </chapter>
     <chapter n="10">
-    <unit from-verse="1" to-verse="11">Verteidigung des Apostels gegen persönliche Angriffe</unit>
-    <unit from-verse="12" to-verse="18">Der Maßstab für die Beurteilung des Apostels</unit>
+      <unit from-verse="1" to-verse="11">Verteidigung des Apostels gegen persönliche Angriffe</unit>
+      <unit from-verse="12" to-verse="18">Der Maßstab für die Beurteilung des Apostels</unit>
     </chapter>
     <chapter n="11">
-    <unit from-verse="1" to-verse="11">Der Einsatz des Paulus für die Gemeinde</unit>
-    <unit from-verse="12" to-verse="15">Gegen falsche Apostel in Korinth</unit>
-    <unit from-verse="16" to-verse="33">Paulus in der Rolle des Narren</unit>
+      <unit from-verse="1" to-verse="11">Der Einsatz des Paulus für die Gemeinde</unit>
+      <unit from-verse="12" to-verse="15">Gegen falsche Apostel in Korinth</unit>
+      <unit from-verse="16" to-verse="33">Paulus in der Rolle des Narren</unit>
     </chapter>
     <unit from-chapter="12" from-verse="19" to-chapter="13" to-verse="10">Mahnungen für den dritten Besuch des Paulus in Korinth</unit>
     <chapter n="12">
-    <unit from-verse="1" to-verse="10">Offenbarungen des Herrn und die Schwachheit des Paulus</unit>
-    <unit from-verse="11" to-verse="18">Der Dienst des Apostels für seine Gemeinde</unit>
+      <unit from-verse="1" to-verse="10">Offenbarungen des Herrn und die Schwachheit des Paulus</unit>
+      <unit from-verse="11" to-verse="18">Der Dienst des Apostels für seine Gemeinde</unit>
     </chapter>
     <chapter n="13">
-    <unit from-verse="11" to-verse="13">Grüße und Segenswunsch</unit>
+      <unit from-verse="11" to-verse="13">Grüße und Segenswunsch</unit>
     </chapter>
   </book>
   <book name="Gal">
-  <chapter n="1">
-  <unit from-verse="6" to-verse="9">Kein anderes Evangelium als das von Christus</unit>
-  <unit from-verse="10" to-verse="24">Bekehrung und Berufung des Paulus</unit>
-  </chapter>
-  <chapter n="2">
-  <unit from-verse="1" to-verse="10">Apostelkonvent in Jerusalem</unit>
-  <unit from-verse="11" to-verse="21">Antiochenischer Zwischenfall</unit>
-  </chapter>
-  <unit from-chapter="3" from-verse="6" to-chapter="4" to-verse="7">Die Christen sind Gottes Kinder durch den Glauben an Jesus Christus</unit>
-  <chapter n="3">
-  <unit from-verse="1" to-verse="18">Die Gerechtigkeit aus Glauben</unit>
-  <unit from-verse="19" to-verse="24">Der Sinn des Gesetzes</unit>
-  </chapter>
-  <chapter n="4">
-  <unit from-verse="8" to-verse="20">Werbung um die Gemeinden</unit>
-  <unit from-verse="21" to-verse="31">Knechtschaft und Freiheit</unit>
-  </chapter>
-  <chapter n="5">
-  <unit from-verse="1" to-verse="15">Freiheit in Christus</unit>
-  <unit from-verse="16" to-verse="26">Das Leben im Geist</unit>
-  </chapter>
-  <chapter n="6">
-  <unit from-verse="1" to-verse="10">Mahnung zur Brüderlichkeit</unit>
-  <unit from-verse="11" to-verse="18">Eigenhändiger Briefschluss</unit>
-  </chapter>
+    <chapter n="1">
+      <unit from-verse="6" to-verse="9">Kein anderes Evangelium als das von Christus</unit>
+      <unit from-verse="10" to-verse="24">Bekehrung und Berufung des Paulus</unit>
+    </chapter>
+    <chapter n="2">
+      <unit from-verse="1" to-verse="10">Apostelkonvent in Jerusalem</unit>
+      <unit from-verse="11" to-verse="21">Antiochenischer Zwischenfall</unit>
+    </chapter>
+    <unit from-chapter="3" from-verse="6" to-chapter="4" to-verse="7">Die Christen sind Gottes Kinder durch den Glauben an Jesus Christus</unit>
+    <chapter n="3">
+      <unit from-verse="1" to-verse="18">Die Gerechtigkeit aus Glauben</unit>
+      <unit from-verse="19" to-verse="24">Der Sinn des Gesetzes</unit>
+    </chapter>
+    <chapter n="4">
+      <unit from-verse="8" to-verse="20">Werbung um die Gemeinden</unit>
+      <unit from-verse="21" to-verse="31">Knechtschaft und Freiheit</unit>
+    </chapter>
+    <chapter n="5">
+      <unit from-verse="1" to-verse="15">Freiheit in Christus</unit>
+      <unit from-verse="16" to-verse="26">Das Leben im Geist</unit>
+    </chapter>
+    <chapter n="6">
+      <unit from-verse="1" to-verse="10">Mahnung zur Brüderlichkeit</unit>
+      <unit from-verse="11" to-verse="18">Eigenhändiger Briefschluss</unit>
+    </chapter>
   </book>
   <book name="Eph">
     <chapter n="1">
-    <unit from-verse="3" to-verse="14">Lobpreis Gottes für die Erlösung durch Christus</unit>
-    <unit from-verse="15" to-verse="23">Gebet um Erkenntnis der Herrlichkeit Christi</unit>
+      <unit from-verse="3" to-verse="14">Lobpreis Gottes für die Erlösung durch Christus</unit>
+      <unit from-verse="15" to-verse="23">Gebet um Erkenntnis der Herrlichkeit Christi</unit>
     </chapter>
     <chapter n="2">
-    <unit from-verse="1" to-verse="10">Das neue Leben als Geschenk der Gnade</unit>
-    <unit from-verse="11" to-verse="22">Die Einheit der Gemeinde aus Juden und Heiden</unit>
+      <unit from-verse="1" to-verse="10">Das neue Leben als Geschenk der Gnade</unit>
+      <unit from-verse="11" to-verse="22">Die Einheit der Gemeinde aus Juden und Heiden</unit>
     </chapter>
     <chapter n="3">
-    <unit from-verse="1" to-verse="13">Der Auftrag des Paulus für die Heiden</unit>
-    <unit from-verse="14" to-verse="21">Die Fürbitte des Apostels für die Gemeinde</unit>
+      <unit from-verse="1" to-verse="13">Der Auftrag des Paulus für die Heiden</unit>
+      <unit from-verse="14" to-verse="21">Die Fürbitte des Apostels für die Gemeinde</unit>
     </chapter>
     <unit from-chapter="4" from-verse="25" to-chapter="5" to-verse="7">Weisungen für das neue Leben</unit>
     <chapter n="4">
-    <unit from-verse="1" to-verse="16">Die Einheit im Geist und die Vielfalt der Gaben</unit>
-    <unit from-verse="17" to-verse="24">Der alte und der neue Mensch</unit>
+      <unit from-verse="1" to-verse="16">Die Einheit im Geist und die Vielfalt der Gaben</unit>
+      <unit from-verse="17" to-verse="24">Der alte und der neue Mensch</unit>
     </chapter>
     <unit from-chapter="5" from-verse="21" to-chapter="6" to-verse="9">Christliche Haustafel</unit>
     <chapter n="5">
-    <unit from-verse="8" to-verse="20">Das Leben im Licht</unit>
+      <unit from-verse="8" to-verse="20">Das Leben im Licht</unit>
     </chapter>
     <chapter n="6">
-    <unit from-verse="10" to-verse="20">Die Geistliche Waffenrüstung</unit>
-    <unit from-verse="21" to-verse="24">Grüße und Segenswünsche</unit>
+      <unit from-verse="10" to-verse="20">Die Geistliche Waffenrüstung</unit>
+      <unit from-verse="21" to-verse="24">Grüße und Segenswünsche</unit>
     </chapter>
   </book>
   <book name="Phil">
-  <chapter n="1">
-  <unit from-verse="3" to-verse="11">Danke und Fürbitte für die Gemeinde</unit>
-  <unit from-verse="12" to-verse="26">Die Gefangenschaft des Paulus und die Verkündigung des Evangeliums</unit>
-  <unit from-verse="27" to-verse="30">Bereitschaft der Gemeinde zum Leiden für Christus</unit>
+    <chapter n="1">
+      <unit from-verse="3" to-verse="11">Danke und Fürbitte für die Gemeinde</unit>
+      <unit from-verse="12" to-verse="26">Die Gefangenschaft des Paulus und die Verkündigung des Evangeliums</unit>
+      <unit from-verse="27" to-verse="30">Bereitschaft der Gemeinde zum Leiden für Christus</unit>
     </chapter>
     <chapter n="2">
       <unit from-verse="5" to-verse="11">Philipperhymnus</unit><!-- wie umgehen mit Teilen, die hier nicht ganz miterfasst werden; bei einer umfassenden Unit würden sie allerdings dann doppelt auftauchen -->
       <unit from-verse="19" to-verse="30">Sendung des Timotheus und Rückkehr des Epaphroditus</unit>
     </chapter>
     <chapter n="3">
-    <unit from-verse="1" to-verse="11">Warnung vor Rückfall in die Gesetzesgerechtigkeit</unit>
-    <unit from-verse="12" to-verse="21">Siegespreis der himmlischen Berufung Gottes in Christus</unit>
+      <unit from-verse="1" to-verse="11">Warnung vor Rückfall in die Gesetzesgerechtigkeit</unit>
+      <unit from-verse="12" to-verse="21">Siegespreis der himmlischen Berufung Gottes in Christus</unit>
     </chapter>
     <chapter n="4">
-    <unit from-verse="1" to-verse="20">Mahnung zur Einigkeit und zur Freude im Herrn</unit>
-    <unit from-verse="21" to-verse="23">Grüße und Segenswunsch</unit>
+      <unit from-verse="1" to-verse="20">Mahnung zur Einigkeit und zur Freude im Herrn</unit>
+      <unit from-verse="21" to-verse="23">Grüße und Segenswunsch</unit>
     </chapter>
   </book>
   <book name="Kol">
-  <unit from-chapter="1" from-verse="24" to-chapter="2" to-verse="5">Der Apostel als Diener des Evangeliums</unit>
-  <chapter n="1">
-  <unit from-verse="3" to-verse="14">Dank und Fürbitte für die Gemeinde</unit>
-  <unit from-verse="15" to-verse="20">Kolosser-Hymnus</unit><!-- s.o.; Verse 21-23 nicht erfasst -->
+    <unit from-chapter="1" from-verse="24" to-chapter="2" to-verse="5">Der Apostel als Diener des Evangeliums</unit>
+    <chapter n="1">
+      <unit from-verse="3" to-verse="14">Dank und Fürbitte für die Gemeinde</unit>
+      <unit from-verse="15" to-verse="20">Kolosser-Hymnus</unit><!-- s.o.; Verse 21-23 nicht erfasst -->
     </chapter>
     <chapter n="2">
       <unit from-verse="6" to-verse="15">Christus als Grund des Lebens</unit>
@@ -1057,77 +1059,77 @@
     </chapter>
     <unit from-chapter="3" from-verse="18" to-chapter="4" to-verse="1">Christliche Haustafel</unit>
     <chapter n="3">
-    <unit from-verse="1" to-verse="17">Der alte und der neue Mensch</unit>
+      <unit from-verse="1" to-verse="17">Der alte und der neue Mensch</unit>
     </chapter>
     <chapter n="4">
-    <unit from-verse="2" to-verse="6">Ermahnung zum Gebet und zum rechten Wort</unit>
-    <unit from-verse="7" to-verse="18">Grüße und Segenswunsch</unit>
+      <unit from-verse="2" to-verse="6">Ermahnung zum Gebet und zum rechten Wort</unit>
+      <unit from-verse="7" to-verse="18">Grüße und Segenswunsch</unit>
     </chapter>
   </book>
   <book name="1Thess">
-  <chapter n="1">
-  <unit from-verse="2" to-verse="10">Der Vorbildliche Glaube der Gemeinde</unit>
-  </chapter>
+    <chapter n="1">
+      <unit from-verse="2" to-verse="10">Der Vorbildliche Glaube der Gemeinde</unit>
+    </chapter>
     <chapter n="2">
       <unit from-verse="1" to-verse="12">Der Apostel über die Gründung der Gemeinde</unit>
       <unit from-verse="13" to-verse="20">Die Aufnahme des Evangeliums in Bedrängnis</unit>
     </chapter>
     <chapter n="3">
-    <unit from-verse="1" to-verse="13">Die Sendung des Timotheus</unit>
+      <unit from-verse="1" to-verse="13">Die Sendung des Timotheus</unit>
     </chapter>
     <chapter n="4">
-    <unit from-verse="1" to-verse="12">Ermahnung zur Heiligung</unit>
-    <unit from-verse="13" to-verse="18">Von der Auferstehung der Toten / die Entschlafenen</unit>
+      <unit from-verse="1" to-verse="12">Ermahnung zur Heiligung</unit>
+      <unit from-verse="13" to-verse="18">Von der Auferstehung der Toten / die Entschlafenen</unit>
     </chapter>
     <chapter n="5">
-    <unit from-verse="1" to-verse="11">Der Tag des Herrn</unit>
-    <unit from-verse="12" to-verse="28">Ermahnungen und Grüße</unit>
+      <unit from-verse="1" to-verse="11">Der Tag des Herrn</unit>
+      <unit from-verse="12" to-verse="28">Ermahnungen und Grüße</unit>
     </chapter>
   </book>
   <book name="2Thess">
-  <chapter n="1">
-  <unit from-verse="2" to-verse="12">Die Bedrängnis der Gemeinde und das gerechte Gericht Gottes</unit>
-  </chapter>
+    <chapter n="1">
+      <unit from-verse="2" to-verse="12">Die Bedrängnis der Gemeinde und das gerechte Gericht Gottes</unit>
+    </chapter>
     <chapter n="2">
       <unit from-verse="1" to-verse="12">Der Widersacher Christi</unit>
       <unit from-verse="13" to-verse="17">Mahnung zur Standfestigkeit</unit>
     </chapter>
     <chapter n="3">
-    <unit from-verse="1" to-verse="5">Wünsche des Apostels</unit>
-    <unit from-verse="6" to-verse="15">Warnung vor Müßiggang</unit>
-    <unit from-verse="16" to-verse="18">Friedenswunsch und Gruß</unit>
+      <unit from-verse="1" to-verse="5">Wünsche des Apostels</unit>
+      <unit from-verse="6" to-verse="15">Warnung vor Müßiggang</unit>
+      <unit from-verse="16" to-verse="18">Friedenswunsch und Gruß</unit>
     </chapter>
-    </book>
-    <book name="1Tim">
-  <chapter n="1">
-  <unit from-verse="3" to-verse="11">Gegen falsche Gesetzeslehrer</unit>
-  <unit from-verse="12" to-verse="20">Lobpreis der göttlichen Barmherzigkeit</unit>
-  </chapter>
+  </book>
+  <book name="1Tim">
+    <chapter n="1">
+      <unit from-verse="3" to-verse="11">Gegen falsche Gesetzeslehrer</unit>
+      <unit from-verse="12" to-verse="20">Lobpreis der göttlichen Barmherzigkeit</unit>
+    </chapter>
     <chapter n="2">
       <unit from-verse="1" to-verse="7">Das Gemeindegebet</unit>
       <unit from-verse="8" to-verse="15">Männer und Frauen im Gottesdienst</unit>
     </chapter>
     <chapter n="3">
-    <unit from-verse="1" to-verse="13">Bischofs- und Diakonenamt</unit>
-    <unit from-verse="14" to-verse="16">Christushymnus<!-- eigentlich nur ein Vers -->
+      <unit from-verse="1" to-verse="13">Bischofs- und Diakonenamt</unit>
+      <unit from-verse="14" to-verse="16">Christushymnus<!-- eigentlich nur ein Vers -->
 </unit>
-<unit from-chapter="4" from-verse="1" to-chapter="5" to-verse="2">Der Dienst der Timotheus</unit>
+      <unit from-chapter="4" from-verse="1" to-chapter="5" to-verse="2">Der Dienst der Timotheus</unit>
     </chapter>
     <chapter n="4">
-    <unit from-verse="1" to-verse="5">Falsche Enthaltsamkeit</unit>
+      <unit from-verse="1" to-verse="5">Falsche Enthaltsamkeit</unit>
     </chapter>
     <chapter n="5">
-    <unit from-verse="1" to-verse="11">Von den Witwen</unit>
-    <unit from-verse="17" to-verse="25">Von den Vorstehern der Gemeinde</unit>
+      <unit from-verse="1" to-verse="11">Von den Witwen</unit>
+      <unit from-verse="17" to-verse="25">Von den Vorstehern der Gemeinde</unit>
     </chapter>
     <chapter n="6">
-    <unit from-verse="1" to-verse="2">Von den Sklaven</unit>
-    <unit from-verse="3" to-verse="12">Mahnung an Timotheus</unit>
-    <unit from-verse="13" to-verse="16">(Ordinations-)bekenntnis</unit>
+      <unit from-verse="1" to-verse="2">Von den Sklaven</unit>
+      <unit from-verse="3" to-verse="12">Mahnung an Timotheus</unit>
+      <unit from-verse="13" to-verse="16">(Ordinations-)bekenntnis</unit>
     </chapter>
   </book>
   <book name="2Tim">
-  <chapter n="1">
+    <chapter n="1">
       <unit from-verse="3" to-verse="18">Treue zum Evangelium</unit>
     </chapter>
     <chapter n="2">
@@ -1135,16 +1137,16 @@
       <unit from-verse="14" to-verse="26">Warnung vor unnützem Streit</unit>
     </chapter>
     <chapter n="3">
-    <unit from-verse="1" to-verse="9">Der Verfall der Frömmigkeit in der Endzeit</unit>
+      <unit from-verse="1" to-verse="9">Der Verfall der Frömmigkeit in der Endzeit</unit>
       <unit from-verse="10" to-verse="17">Timotheus als Nachfolger des Apostels / Die Bedeutung der Heiligen Schrift</unit>
     </chapter>
     <chapter n="4">
-    <unit from-verse="1" to-verse="8">Treue bis zum Ende / Testament des Paulus</unit>
+      <unit from-verse="1" to-verse="8">Treue bis zum Ende / Testament des Paulus</unit>
       <unit from-verse="9" to-verse="22">Der Apostel und seine Mitarbeiter</unit>
     </chapter>
   </book>
   <book name="Tit">
-  <chapter n="1">
+    <chapter n="1">
       <unit from-verse="5" to-verse="9">Einsetzung der Ältesten</unit>
       <unit from-verse="10" to-verse="16">Gegen die kretischen Irrlehrer</unit>
     </chapter>
@@ -1153,12 +1155,13 @@
       <unit from-verse="11" to-verse="15">Die heilsame Gnade</unit>
     </chapter>
     <chapter n="3">
-    <unit from-verse="1" to-verse="11">Das Leben in der Welt</unit>
+      <unit from-verse="1" to-verse="11">Das Leben in der Welt</unit>
       <unit from-verse="12" to-verse="15">Aufträge und Grüße</unit>
     </chapter>
-    </book><!-- Philemon nur mit Versen -->
-    <book name="1Petr">
-  <chapter n="1">
+  </book>
+  <!-- Philemon nur mit Versen -->
+  <book name="1Petr">
+    <chapter n="1">
       <unit from-verse="3" to-verse="12">Lebendige Hoffnung (Wiedergeburt)</unit>
       <unit from-verse="13" to-verse="25">Geheiligtes Leben</unit>
     </chapter>
@@ -1166,19 +1169,19 @@
     <chapter n="2">
       <unit from-verse="1" to-verse="10">Das neue Gottesvolk (Heiliges Priestertum)</unit>
       <unit from-verse="11" to-verse="12">Das Verhalten in der Welt</unit>
-      </chapter>
+    </chapter>
     <chapter n="3">
-    <unit from-verse="18" to-verse="22">Die Herrschaft Christi über alle</unit>
+      <unit from-verse="18" to-verse="22">Die Herrschaft Christi über alle</unit>
     </chapter>
     <chapter n="4">
-    <unit from-verse="1" to-verse="11">Vom Leiden und Leben des Christen</unit>
+      <unit from-verse="1" to-verse="11">Vom Leiden und Leben des Christen</unit>
       <unit from-verse="12" to-verse="19">Vom Ausharren in der Verfolgung</unit>
     </chapter>
     <chapter n="5">
-    <unit from-verse="1" to-verse="9">Mahnungen an die Ältesten und die Gemeinde</unit>
+      <unit from-verse="1" to-verse="9">Mahnungen an die Ältesten und die Gemeinde</unit>
       <unit from-verse="10" to-verse="14">Segenswunsch und Grüße</unit>
     </chapter>
-    </book>
+  </book>
   <book name="2Petr">
     <chapter n="1">
       <unit from-verse="3" to-verse="15">Mahnung zu christlichem Leben</unit>
@@ -1205,7 +1208,7 @@
     </chapter>
     <chapter n="3">
       <unit from-verse="1" to-verse="24">Die Herrlichkeit der Gotteskindschaft</unit>
-      </chapter>
+    </chapter>
     <chapter n="4">
       <unit from-verse="1" to-verse="6">Der Geist der Wahrheit und der Geist des Irrtums</unit>
       <unit from-verse="7" to-verse="21">Die Liebe Gottes und die Liebe untereinander</unit>
@@ -1215,44 +1218,45 @@
       <unit from-verse="6" to-verse="12">Gottes Zeugnis von seinem Sohn</unit>
       <unit from-verse="13" to-verse="17">Bitte und Fürbitte</unit>
       <unit from-verse="18" to-verse="21">Die Bewahrung in Christus</unit>
-    </chapter><!-- 2Joh und 3Joh haben nur ein Kapitel -->
+    </chapter>
+    <!-- 2Joh und 3Joh haben nur ein Kapitel -->
   </book>
   <book name="Hebr">
-  <chapter n="1">
-  <unit from-verse="1" to-verse="4">Gottes endgültiges Reden durch den Sohn</unit>
-  <unit from-verse="5" to-verse="14">Der Sohn höher als die Engel</unit>
-  </chapter>
-  <chapter n="2">
-  <unit from-verse="1" to-verse="4">Hören auf das Wort</unit>
-  <unit from-verse="5" to-verse="18">Die Erniedrigung und Erhöhung Christi</unit>
-  </chapter>
-  <chapter n="3">
-  <unit from-verse="1" to-verse="6">Christus höher als Mose</unit>
-  <unit from-verse="7" to-verse="19">Der Weg der Väter und die Ruhe bei Gott</unit>
-  </chapter>
-  <unit from-chapter="4" from-verse="14" to-chapter="5" to-verse="10">Christus der große Hohepriester</unit>
-  <chapter n="4">
-  <unit from-verse="1" to-verse="13">Die verheißene Gottesruhe</unit>
-  </chapter>
-  <unit from-chapter="5" from-verse="11" to-chapter="6" to-verse="20">Feste Speise statt Milch / Ablehnung der zweiten Buße</unit>
-  <chapter n="5"></chapter>
-  <chapter n="6"></chapter>
-  <unit from-chapter="7" from-verse="1" to-chapter="10" to-verse="18">Hohepriester-Christologie</unit>
-  <chapter n="7"></chapter>
-  <chapter n="8"></chapter>
-  <chapter n="9"></chapter>
-  <unit from-chapter="10" from-verse="19" to-chapter="13" to-verse="21">Mahnung zur Bewährung des Glaubens (peroratio)</unit>
+    <chapter n="1">
+      <unit from-verse="1" to-verse="4">Gottes endgültiges Reden durch den Sohn</unit>
+      <unit from-verse="5" to-verse="14">Der Sohn höher als die Engel</unit>
+    </chapter>
+    <chapter n="2">
+      <unit from-verse="1" to-verse="4">Hören auf das Wort</unit>
+      <unit from-verse="5" to-verse="18">Die Erniedrigung und Erhöhung Christi</unit>
+    </chapter>
+    <chapter n="3">
+      <unit from-verse="1" to-verse="6">Christus höher als Mose</unit>
+      <unit from-verse="7" to-verse="19">Der Weg der Väter und die Ruhe bei Gott</unit>
+    </chapter>
+    <unit from-chapter="4" from-verse="14" to-chapter="5" to-verse="10">Christus der große Hohepriester</unit>
+    <chapter n="4">
+      <unit from-verse="1" to-verse="13">Die verheißene Gottesruhe</unit>
+    </chapter>
+    <unit from-chapter="5" from-verse="11" to-chapter="6" to-verse="20">Feste Speise statt Milch / Ablehnung der zweiten Buße</unit>
+    <chapter n="5"/>
+    <chapter n="6"/>
+    <unit from-chapter="7" from-verse="1" to-chapter="10" to-verse="18">Hohepriester-Christologie</unit>
+    <chapter n="7"/>
+    <chapter n="8"/>
+    <chapter n="9"/>
+    <unit from-chapter="10" from-verse="19" to-chapter="13" to-verse="21">Mahnung zur Bewährung des Glaubens (peroratio)</unit>
     <chapter n="10">
-    <unit from-verse="19" to-verse="39">Das Bekenntnis der Hoffnung und das Gericht Gottes</unit>
+      <unit from-verse="19" to-verse="39">Das Bekenntnis der Hoffnung und das Gericht Gottes</unit>
     </chapter>
     <chapter n="11">
-    <unit from-verse="1" to-verse="39">Der Weg des Glaubens seit der Schöpfung</unit>
+      <unit from-verse="1" to-verse="39">Der Weg des Glaubens seit der Schöpfung</unit>
     </chapter>
     <chapter n="12">
-    <unit from-verse="1" to-verse="29">Der Weg des Glaubens seit Christus</unit>
+      <unit from-verse="1" to-verse="29">Der Weg des Glaubens seit Christus</unit>
     </chapter>
     <chapter n="13">
-    <unit from-verse="1" to-verse="19">Abschließende Ermahnungen</unit>
+      <unit from-verse="1" to-verse="19">Abschließende Ermahnungen</unit>
       <unit from-verse="20" to-verse="25">Segenswunsch und Grüße</unit>
     </chapter>
   </book>
@@ -1265,11 +1269,11 @@
     <chapter n="2">
       <unit from-verse="1" to-verse="13">Kein Ansehen der Person in der Gemeinde</unit>
       <unit from-verse="14" to-verse="26">Glaube ohne Werke ist tot</unit>
-      </chapter>
+    </chapter>
     <chapter n="3">
       <unit from-verse="1" to-verse="12">Die Macht der Zunge</unit>
       <unit from-verse="13" to-verse="18">Die Weisheit von oben</unit>
-      </chapter>
+    </chapter>
     <chapter n="4">
       <unit from-verse="1" to-verse="12">Warnung vor Unfriede</unit>
       <unit from-verse="13" to-verse="17">Warnung vor Selbstsicherheit</unit>
@@ -1279,50 +1283,51 @@
       <unit from-verse="7" to-verse="12">Mahnung zur Geduld</unit>
       <unit from-verse="13" to-verse="18">Das Gebet für die Kranken</unit>
       <unit from-verse="19" to-verse="20">Verantwortung für die Irrenden</unit>
-    </chapter><!-- Jud hat nur ein Kapitel -->
+    </chapter>
+    <!-- Jud hat nur ein Kapitel -->
   </book>
   <book name="Offb">
     <chapter n="1">
       <unit from-verse="1" to-verse="20">Bucheinleitung und eröffnende Vision</unit>
-      </chapter>
+    </chapter>
     <unit from-chapter="2" from-verse="1" to-chapter="3" to-verse="22">Die sieben Sendschreiben</unit>
-    <chapter n="2"></chapter>
-    <chapter n="3"></chapter>
+    <chapter n="2"/>
+    <chapter n="3"/>
     <unit from-chapter="4" from-verse="1" to-chapter="22" to-verse="5">Visionen des Johannes</unit>
     <unit from-chapter="4" from-verse="1" to-chapter="5" to-verse="14">Thronsaalvision</unit>
-    <chapter n="4"></chapter>
-    <chapter n="5"></chapter>
+    <chapter n="4"/>
+    <chapter n="5"/>
     <unit from-chapter="6" from-verse="1" to-chapter="8" to-verse="1">Die sieben Siegel</unit>
-    <chapter n="6"></chapter>
-    <chapter n="7"></chapter>
+    <chapter n="6"/>
+    <chapter n="7"/>
     <unit from-chapter="8" from-verse="2" to-chapter="11" to-verse="19">Die sieben Posaunen</unit>
-    <chapter n="8"></chapter>
-    <chapter n="9"></chapter>
-    <chapter n="10"></chapter>
-    <chapter n="11"></chapter>
+    <chapter n="8"/>
+    <chapter n="9"/>
+    <chapter n="10"/>
+    <chapter n="11"/>
     <unit from-chapter="12" from-verse="1" to-chapter="13" to-verse="18">Die Gegner Gottes und der Gemeinde (Die Frau und der Drache / Die beiden Tiere)</unit>
-    <chapter n="12"></chapter>
-    <chapter n="13"></chapter>
+    <chapter n="12"/>
+    <chapter n="13"/>
     <chapter n="14">
-    <unit from-verse="1" to-verse="20">Das Lamm und die Geretteten</unit>
+      <unit from-verse="1" to-verse="20">Das Lamm und die Geretteten</unit>
     </chapter>
     <unit from-chapter="15" from-verse="1" to-chapter="16" to-verse="21">Die sieben Schalen</unit>
-    <chapter n="15"></chapter>
-    <chapter n="16"></chapter>
+    <chapter n="15"/>
+    <chapter n="16"/>
     <unit from-chapter="17" from-verse="1" to-chapter="19" to-verse="10">Strafgericht über die Hure Babylon</unit>
-    <chapter n="17"></chapter>
-    <chapter n="18"></chapter>
+    <chapter n="17"/>
+    <chapter n="18"/>
     <unit from-chapter="19" from-verse="11" to-chapter="22" to-verse="5">Endereignisse</unit>
-    <chapter n="19"></chapter>
+    <chapter n="19"/>
     <chapter n="20">
-    <unit from-verse="1" to-verse="6">Das tausendjährige Reich</unit>
-    <unit from-verse="7" to-verse="10">Der letzte Kampf</unit>
-    <unit from-verse="11" to-verse="15">Das Weltgericht</unit>
+      <unit from-verse="1" to-verse="6">Das tausendjährige Reich</unit>
+      <unit from-verse="7" to-verse="10">Der letzte Kampf</unit>
+      <unit from-verse="11" to-verse="15">Das Weltgericht</unit>
     </chapter>
     <unit from-chapter="21" from-verse="1" to-chapter="22" to-verse="5">Das neue Jerusalem</unit>
-    <chapter n="21"></chapter>
+    <chapter n="21"/>
     <chapter n="22">
-    <unit from-verse="6" to-verse="21">Buchschluss / Das Kommen des Herrn</unit>
+      <unit from-verse="6" to-verse="21">Buchschluss / Das Kommen des Herrn</unit>
     </chapter>
   </book>
 </units>
