@@ -9,14 +9,19 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 declare variable $bible := doc("data/bible_structure.xml");
 declare variable $no_conv := doc("data/converted/noesselt.xml");
 declare variable $gr_conv := doc("data/converted/griesbach.xml");
+declare variable $gr_full := doc("data/griesbach_full.xml");
 declare variable $le_conv := doc("data/converted/less.xml");
 declare variable $te_conv := doc("data/converted/teller.xml");
 declare variable $st_conv := doc("data/converted/steinbart.xml");
 declare variable $sa_conv := doc("data/converted/sack.xml");
 
+declare variable $gr_om := $gr_full//tei:rdg[@type="om"]//preceding-sibling::tei:lem//tei:citedRange;
+declare variable $gr_pt := $gr_full//tei:rdg[@type="pt"]//tei:citedRange;
+declare variable $gr_ptl := $gr_full//tei:rdg[@type="ptl"]//tei:citedRange;
+
 
 (: Zwischenformat generieren :)
-doc("data/sack_full_11-06-2021.xml") => bdn:convert()
+(: doc("data/griesbach_full.xml") => bdn:convert() :)
 
 
 (: a) Verweishäufigkeiten und Verwendungskontexte von biblischen Sinneinheiten :)
@@ -44,7 +49,14 @@ doc("data/sack_full_11-06-2021.xml") => bdn:convert()
 
 (: c) Bibelstellen und Textvarianz :)
 
-(: crit:window($gr_conv) :)
+crit:window($gr_conv)
+
+(: Abfrage für @type="om", @type="pt" und @type="ptl" :)
+(: Ergebnis lässt sich mit bdn:citedRange nicht verarbeiten :)
+
+(: $gr_full//tei:rdg[@type="om"]//preceding-sibling::tei:lem//tei:citedRange :)  (: = Variable "$gr_om" :)
+(: $gr_full//tei:rdg[@type="pt"]//tei:citedRange :) (: = Variable "$gr_pt" :)
+(: $gr_full//tei:rdg[@type="ptl"]//tei:citedRange :) (: = Variable "$gr_ptl" :)
 
 
 (: HTML-Dokumentation erzeugen :)
