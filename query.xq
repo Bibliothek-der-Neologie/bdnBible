@@ -52,7 +52,7 @@ declare variable $gr_ptl := $gr_full//tei:rdg[@type="ptl"]//tei:citedRange;
 crit:window($gr_conv)
 
 (: Abfrage für @type="om", @type="pt" und @type="ptl" :)
-(: Ergebnis lässt sich mit bdn:citedRange nicht verarbeiten :)
+(: Ergebnis ist mit bdn:citedRange nicht zu verarbeiten :)
 
 (: $gr_full//tei:rdg[@type="om"]//preceding-sibling::tei:lem//tei:citedRange :)  (: = Variable "$gr_om" :)
 (: $gr_full//tei:rdg[@type="pt"]//tei:citedRange :) (: = Variable "$gr_pt" :)
