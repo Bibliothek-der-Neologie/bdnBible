@@ -17,19 +17,24 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 :)
 declare function units:equalunits($units, $bible)
 {
+  file:write('data/units_equal.xml',
+  <units>{
   for $u in $units//unit
-  let $from-book := ($u/@from-book, $u/ancestor::book/@name)[1]
-  let $from-chapter := ($u/@from-chapter, $u/ancestor::chapter/@n/data())[1]
-  let $from-verse := $u/@from-verse
-  let $to-book := ($u/@to-book, $u/ancestor::book/@name)[1]
-  let $to-chapter :=  ($u/@to-chapter, $u/ancestor::chapter/@n/data())[1] 
-  let $to-verse := $u/@to-verse 
+    let $from-book := ($u/@from-book, $u/ancestor::book/@name)[1]
+    let $from-chapter := ($u/@from-chapter, $u/ancestor::chapter/@n/data())[1]
+    let $from-verse := $u/@from-verse
+    let $to-book := ($u/@to-book, $u/ancestor::book/@name)[1]
+    let $to-chapter :=  ($u/@to-chapter, $u/ancestor::chapter/@n/data())[1] 
+    let $to-verse := $u/@to-verse 
   
-  let $verse-count := fn:sum(
+    let $verse-count := fn:sum(
       for $n in ( $from-chapter to $to-chapter ) (: ($from-chapter + 1) to ($to-chapter - 1) wird [noch] nicht akzeptiert. :)
       return  $bible//tei:bibl[@ana = $from-book]/tei:biblScope[@n = $n]/@to/data() )
-  return <unit from-book="{$from-book}" from-chapter="{$from-chapter}" from-verse="{$from-verse}" to-book="{$to-book}" to-chapter="{$to-chapter}" to-verse="{$to-verse}"
-    verses="{$verse-count}">{$u/data()}</unit>
+    return 
+      <unit from-book="{$from-book}" from-chapter="{$from-chapter}" from-verse="{$from-verse}" 
+              to-book="{$to-book}" to-chapter="{$to-chapter}" to-verse="{$to-verse}"
+              verses="{$verse-count}">{$u/data()}</unit>
+  }</units>)
 };
 
 
