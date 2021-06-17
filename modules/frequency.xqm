@@ -135,15 +135,20 @@ map {
 :
 :)
 
-declare function freq:table2($doc, $bible){
+declare function freq:table2($doc as item()){
+let $bible := doc("../data/bible_structure.xml")
 let $books := $bible//tei:bibl/@ana
 let $max-chapters := max($bible//tei:bibl/@n)
-return
+let $filename := "output/freq_table2_"||fn:lower-case(substring($doc//edition, 1, 2))||".html"
+return file:write( $filename , 
  <html>
     <head>
         <title>Bibelstellenstatistik</title>
     </head>
     <body>
+      <div>
+      <p>Bibelstellenstatistik: {$doc//edition/data()}</p>
+</div>
    <table>
   <tr>
     <td>Kap.</td>
@@ -160,13 +165,15 @@ return
        <td>{$n}</td>
         { 
           for $book in $books
-          where freq:test-book($book, $doc) = 1
-          return <td>{freq:bible-book-stats($book, $n, $doc)}</td>}
+          let $stats := freq:bible-book-stats($book, $n, $doc)
+          let $color := "background-color: hsl(200, 80%, "||100 - $stats||"%);" 
+          where freq:test-book($book, $doc) = 1 (: $stats > 0 :)
+          return <td style="{$color}">{$stats}</td>}
     </tr>}  
 </table>
    </body>
 </html>
-};
+)};
 
 
 (:~

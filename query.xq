@@ -9,7 +9,6 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 declare variable $bible := doc("data/bible_structure.xml");
 declare variable $no_conv := doc("data/converted/noesselt.xml");
 declare variable $gr_conv := doc("data/converted/griesbach.xml");
-
 declare variable $le_conv := doc("data/converted/less.xml");
 declare variable $te_conv := doc("data/converted/teller.xml");
 declare variable $st_conv := doc("data/converted/steinbart.xml");
@@ -23,7 +22,7 @@ declare variable $gr_ptl := $gr_full//tei:rdg[@type="ptl"]//tei:citedRange;
 
 
 (: Zwischenformat generieren :)
-doc("data/griesbach_full.xml") => bdn:convert()
+(: doc("data/griesbach_full.xml") => bdn:convert() :)
 
 
 (: a) Verweishäufigkeiten und Verwendungskontexte von biblischen Sinneinheiten :)
@@ -40,15 +39,15 @@ doc("data/griesbach_full.xml") => bdn:convert()
 
 (: b) Bibelstellendichte und relative Häufigkeiten :)
 
-(: Ausgabe der Referenzhäufigkeit für jedes biblische Buch :)
-(: freq:table2($gr_conv, $bible) :)
-
-
 (: freq:table_all($st_conv, $bible) :) 
 
 (: freq:table_spec($te_conv, $bible, "Röm") :)
 
 (: freq:count_spec($gr_conv, "Röm") :)
+
+(: Ausgabe der Referenzhäufigkeit für jedes biblische Buch :)
+freq:table2($st_conv)
+
 
 
 (: c) Bibelstellen und Textvarianz :)
