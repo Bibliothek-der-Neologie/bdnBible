@@ -23,13 +23,13 @@ declare variable $gr_ptl := $gr_full//tei:rdg[@type="ptl"]//tei:citedRange;
 
 
 (: Zwischenformat generieren :)
-(: doc("data/griesbach_full.xml") => bdn:convert() :)
+doc("data/griesbach_full.xml") => bdn:convert()
 
 
 (: a) Verweishäufigkeiten und Verwendungskontexte von biblischen Sinneinheiten :)
 
-(: Bibelstellen den Sinneinheiten zuordnen :)
-(: units:listitems($gr_conv) :) 
+(: Datei units_equal.xml aktualisieren :)
+(: units:equalunits(doc("data/units.xml"), doc("data/bible_structure.xml")) :)
 
 (: Auflistung aller im Band vorkommenden Sinneinheiten inkl. entsprechender Refs :)
 (: units:listitems($gr_conv) => units:group() :) 
@@ -40,7 +40,9 @@ declare variable $gr_ptl := $gr_full//tei:rdg[@type="ptl"]//tei:citedRange;
 
 (: b) Bibelstellendichte und relative Häufigkeiten :)
 
+(: Ausgabe der Referenzhäufigkeit für jedes biblische Buch :)
 (: freq:table2($gr_conv, $bible) :)
+
 
 (: freq:table_all($st_conv, $bible) :) 
 
@@ -51,7 +53,7 @@ declare variable $gr_ptl := $gr_full//tei:rdg[@type="ptl"]//tei:citedRange;
 
 (: c) Bibelstellen und Textvarianz :)
 
-crit:window($gr_conv)
+(: crit:window($gr_conv) :)
 
 (: Abfrage für @type="om", @type="pt" und @type="ptl" :)
 (: Ergebnis lässt sich mit bdn:citedRange nicht verarbeiten :)
