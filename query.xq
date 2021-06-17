@@ -9,12 +9,14 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 declare variable $bible := doc("data/bible_structure.xml");
 declare variable $no_conv := doc("data/converted/noesselt.xml");
 declare variable $gr_conv := doc("data/converted/griesbach.xml");
-declare variable $gr_full := doc("data/griesbach_full.xml");
+
 declare variable $le_conv := doc("data/converted/less.xml");
 declare variable $te_conv := doc("data/converted/teller.xml");
 declare variable $st_conv := doc("data/converted/steinbart.xml");
 declare variable $sa_conv := doc("data/converted/sack.xml");
 
+(: Variablen für Modul 3 -> auslagern in modules/crit.xqm? :)
+declare variable $gr_full := doc("data/griesbach_full.xml");
 declare variable $gr_om := $gr_full//tei:rdg[@type="om"]//preceding-sibling::tei:lem//tei:citedRange;
 declare variable $gr_pt := $gr_full//tei:rdg[@type="pt"]//tei:citedRange;
 declare variable $gr_ptl := $gr_full//tei:rdg[@type="ptl"]//tei:citedRange;

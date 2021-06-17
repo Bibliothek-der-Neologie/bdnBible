@@ -31,3 +31,21 @@ declare function crit:window($doc)
   <bibl>{($start-bibl/ref, $next-bibl/ref, $start-bibl/profile)}</bibl>
   
 };
+
+(:~
+: Idee: Dynamisches "textkritisches" Bibelstellenregister auf der Basis des
+: Zwischenformats
+: - Tabelle: Bibelreferenzen | textkritisches Profil | Textstelle der Edition | evtl. Kurzhinweis
+: - Sortieroption: Wiedergabe nach der Bibelreihenfole (data/bible_structure.xml)
+: - Filteroption: diejenigen Bibelreferenzen, die nicht in allen / nur in bestimmten Auflagen vorkommen
+: - Highlight-Option: evtl. Hervorhebung bestimmter exegetisch oder dogmatisch relevanter Bibelstellen (evtl. erweitertes Markup der units.xml)
+:
+: @version 0.1 (2021-xx-xx)
+: @author ...
+:
+:)
+
+declare function crit:register( $doc as item() ) as item()
+{
+  (: ... :)   
+};
