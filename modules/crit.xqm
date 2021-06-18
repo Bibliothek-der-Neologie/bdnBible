@@ -111,11 +111,11 @@ declare function crit:register_table ( $doc ){
   return file:write( $filename,
     <html>
       <head>
-        <title>Bibelstellenregister</title>
+        <title>Textkritisches Bibelstellenregister</title>
       </head>
       <body>
         <div>
-          <p>Bibelstellenregister: {$doc//edition/data()}</p>
+          <p>Textkritisches Bibelstellenregister: {$doc//edition/data()}</p>
         </div>
         <table>{
          
