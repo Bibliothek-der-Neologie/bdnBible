@@ -72,8 +72,8 @@ declare function bdn:data ($node as node()*) as node() {
  : @author Marco Stallmann, Uwe Sikora
  :)
 declare function bdn:edition ($node as node()*) as node()* {
-  if ($node/tei:title/@type="column-title") 
-  then element {"edition"} {$node/tei:title[@type="column-title"]/text()}
+  if ($node//@type="column-title") 
+  then element {"edition"} {$node/descendant-or-self::tei:title[@type="column-title"]/text()}
   else ()
 };
 
@@ -179,13 +179,16 @@ declare function bdn:bibl ( $node ) {
  : @author Marco Stallmann, Uwe Sikora
  :)
 declare function bdn:profile( $bibl ) as element( profile ) {
+  let $listWit := $bibl/root()//tei:listWit
+  return
   element {"profile"} {    
-    for $witness in $bibl/root()//tei:listWit/tei:witness
-    return 
-      element {"wit"} {
+    if ( $listWit/tei:witness/@n = "base-text" )
+    then for $witness in $listWit/tei:witness
+      return element {"wit"} {
         attribute {"in"} { $witness/@xml:id },
         attribute {"is"} { bdn:is-in( $bibl, $witness ) }
         }
+    else "Kein Leittext definiert!" 
   }
 };
 
@@ -200,7 +203,7 @@ declare function bdn:profile( $bibl ) as element( profile ) {
  : 
  : @version 0.2 (2020-12-01)
  : @author Marco Stallmann
- : @note (MS): bdn:is-in scheint zu funktionieren. Ergebnis prüfen!
+ : @note (MS): bdn:is-in funktioniert für alle Bände außer Bahrdt/Semler (keine Varianten / Leitauflage)
  :)
 declare function bdn:is-in($bible-ref, $w) 
 {
@@ -223,9 +226,8 @@ declare function bdn:is-in($bible-ref, $w)
 (:~
  : Konvertiert n-Wert eines tei:citedRange in ein Element ref
  : 
- : @version 0.2 (2020-12-01)
+ : @version 0.3 (2021-06-18)
  : @author Marco Stallmann
- : @note (MS): Todo: Wiederholtes fn:tokenize über let vermeiden.
  :)
 declare function bdn:citedRange_n ( $n ) {
  element {"ref"} {

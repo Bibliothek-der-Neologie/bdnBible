@@ -1,0 +1,289 @@
+<data>
+  <edition>Bahrdt/Semler, Glaubensbekenntnisse,
+                        1779–1792</edition>
+  <listWit>
+    <witness id="a" lem="false"/>
+    <witness id="b" lem="false"/>
+    <witness id="c" lem="false"/>
+    <witness id="d" lem="false"/>
+    <witness id="e" lem="false"/>
+    <witness id="f" lem="false"/>
+    <witness id="z" lem="false"/>
+  </listWit>
+  <div type="preface" id="bs_preface_print" words="286"/>
+  <div type="contents" id="" words="1"/>
+  <div type="introduction" id="bs_introduction_print" words="6840"/>
+  <div type="editorial" id="bs_editorial" words="1508"/>
+  <div type="dedication" id="bs_a_dc" words="245"/>
+  <div type="chapter" id="bs_a_1" words="6022">
+    <div type="" id="" words="1080">
+      <bibl>
+        <ref book="Joh" chapter="10" verse=""/>
+        <profile>
+          <wit in="a" is="true"/>
+          <wit in="b" is="true"/>
+          <wit in="c" is="true"/>
+          <wit in="d" is="true"/>
+          <wit in="e" is="true"/>
+          <wit in="f" is="true"/>
+          <wit in="z" is="true"/>
+        </profile>
+      </bibl>
+    </div>
+  </div>
+  <div type="preface" id="bs_b_pf_1" words="3212"/>
+  <div type="preface" id="bs_b_pf_2" words="3806"/>
+  <div type="chapter" id="bs_b_1" words="39744">
+    <bibl>
+      <ref book="Röm" chapter="5" verse=""/>
+      <profile>
+        <wit in="a" is="true"/>
+        <wit in="b" is="true"/>
+        <wit in="c" is="true"/>
+        <wit in="d" is="true"/>
+        <wit in="e" is="true"/>
+        <wit in="f" is="true"/>
+        <wit in="z" is="true"/>
+      </profile>
+    </bibl>
+    <bibl>
+      <ref book="2Petr" chapter="1" verse="5"/>
+      <profile>
+        <wit in="a" is="true"/>
+        <wit in="b" is="true"/>
+        <wit in="c" is="true"/>
+        <wit in="d" is="true"/>
+        <wit in="e" is="true"/>
+        <wit in="f" is="true"/>
+        <wit in="z" is="true"/>
+      </profile>
+    </bibl>
+    <bibl>
+      <ref book="Hebr" chapter="9" verse="14"/>
+      <profile>
+        <wit in="a" is="true"/>
+        <wit in="b" is="true"/>
+        <wit in="c" is="true"/>
+        <wit in="d" is="true"/>
+        <wit in="e" is="true"/>
+        <wit in="f" is="true"/>
+        <wit in="z" is="true"/>
+      </profile>
+    </bibl>
+    <bibl>
+      <ref book="Hebr" chapter="13" verse="20"/>
+      <profile>
+        <wit in="a" is="true"/>
+        <wit in="b" is="true"/>
+        <wit in="c" is="true"/>
+        <wit in="d" is="true"/>
+        <wit in="e" is="true"/>
+        <wit in="f" is="true"/>
+        <wit in="z" is="true"/>
+      </profile>
+    </bibl>
+    <bibl>
+      <ref book="Joh" chapter="10" verse=""/>
+      <profile>
+        <wit in="a" is="true"/>
+        <wit in="b" is="true"/>
+        <wit in="c" is="true"/>
+        <wit in="d" is="true"/>
+        <wit in="e" is="true"/>
+        <wit in="f" is="true"/>
+        <wit in="z" is="true"/>
+      </profile>
+    </bibl>
+    <bibl>
+      <ref book="Joh" chapter="10" verse=""/>
+      <profile>
+        <wit in="a" is="true"/>
+        <wit in="b" is="true"/>
+        <wit in="c" is="true"/>
+        <wit in="d" is="true"/>
+        <wit in="e" is="true"/>
+        <wit in="f" is="true"/>
+        <wit in="z" is="true"/>
+      </profile>
+    </bibl>
+    <bibl>
+      <ref book="Joh" chapter="10" verse="24"/>
+      <profile>
+        <wit in="a" is="true"/>
+        <wit in="b" is="true"/>
+        <wit in="c" is="true"/>
+        <wit in="d" is="true"/>
+        <wit in="e" is="true"/>
+        <wit in="f" is="true"/>
+        <wit in="z" is="true"/>
+      </profile>
+    </bibl>
+    <bibl>
+      <ref book="Röm" chapter="2" verse="12"/>
+      <profile>
+        <wit in="a" is="true"/>
+        <wit in="b" is="true"/>
+        <wit in="c" is="true"/>
+        <wit in="d" is="true"/>
+        <wit in="e" is="true"/>
+        <wit in="f" is="true"/>
+        <wit in="z" is="true"/>
+      </profile>
+    </bibl>
+    <bibl>
+      <ref book="Ex" chapter="20" verse="5"/>
+      <profile>
+        <wit in="a" is="true"/>
+        <wit in="b" is="true"/>
+        <wit in="c" is="true"/>
+        <wit in="d" is="true"/>
+        <wit in="e" is="true"/>
+        <wit in="f" is="true"/>
+        <wit in="z" is="true"/>
+      </profile>
+    </bibl>
+    <bibl>
+      <ref book="Num" chapter="8" verse=""/>
+      <profile>
+        <wit in="a" is="true"/>
+        <wit in="b" is="true"/>
+        <wit in="c" is="true"/>
+        <wit in="d" is="true"/>
+        <wit in="e" is="true"/>
+        <wit in="f" is="true"/>
+        <wit in="z" is="true"/>
+      </profile>
+    </bibl>
+    <bibl>
+      <ref book="Num" chapter="9" verse=""/>
+      <profile>
+        <wit in="a" is="true"/>
+        <wit in="b" is="true"/>
+        <wit in="c" is="true"/>
+        <wit in="d" is="true"/>
+        <wit in="e" is="true"/>
+        <wit in="f" is="true"/>
+        <wit in="z" is="true"/>
+      </profile>
+    </bibl>
+    <bibl>
+      <ref book="2Tim" chapter="3" verse="16"/>
+      <profile>
+        <wit in="a" is="true"/>
+        <wit in="b" is="true"/>
+        <wit in="c" is="true"/>
+        <wit in="d" is="true"/>
+        <wit in="e" is="true"/>
+        <wit in="f" is="true"/>
+        <wit in="z" is="true"/>
+      </profile>
+    </bibl>
+  </div>
+  <div type="chapter" id="bs_c_1" words="1427"/>
+  <div type="chapter" id="bs_d_1" words="4060"/>
+  <div type="chapter" id="bs_d_2" words="2800"/>
+  <div type="chapter" id="bs_d_3" words="4467"/>
+  <div type="chapter" id="bs_d_4" words="3231">
+    <bibl>
+      <ref book="Gal" chapter="4" verse="3"/>
+      <profile>
+        <wit in="a" is="true"/>
+        <wit in="b" is="true"/>
+        <wit in="c" is="true"/>
+        <wit in="d" is="true"/>
+        <wit in="e" is="true"/>
+        <wit in="f" is="true"/>
+        <wit in="z" is="true"/>
+      </profile>
+    </bibl>
+    <bibl>
+      <ref book="1Kor" chapter="1" verse="31"/>
+      <profile>
+        <wit in="a" is="true"/>
+        <wit in="b" is="true"/>
+        <wit in="c" is="true"/>
+        <wit in="d" is="true"/>
+        <wit in="e" is="true"/>
+        <wit in="f" is="true"/>
+        <wit in="z" is="true"/>
+      </profile>
+    </bibl>
+  </div>
+  <div type="chapter" id="bs_d_5" words="2632"/>
+  <div type="chapter" id="bs_d_6" words="2508"/>
+  <div type="chapter" id="bs_d_7" words="2241"/>
+  <div type="chapter" id="bs_d_ps" words="1216"/>
+  <div type="chapter" id="bs_e_1" words="4508">
+    <div type="section" id="" words="876"/>
+    <div type="section" id="" words="2572"/>
+    <div type="section" id="" words="199"/>
+  </div>
+  <div type="preface" id="bs_f_pf" words="4508"/>
+  <div type="corrigenda" id="bs_f_corr_1" words="12"/>
+  <div type="chapter" id="bs_f_1" words="77324">
+    <bibl>
+      <ref book="Joh" chapter="4" verse=""/>
+      <profile>
+        <wit in="a" is="true"/>
+        <wit in="b" is="true"/>
+        <wit in="c" is="true"/>
+        <wit in="d" is="true"/>
+        <wit in="e" is="true"/>
+        <wit in="f" is="true"/>
+        <wit in="z" is="true"/>
+      </profile>
+    </bibl>
+    <bibl>
+      <ref from-book="2Petr" from-chapter="1" from-verse="5" to-book="2Petr" to-chapter="1" to-verse="ff"/>
+      <profile>
+        <wit in="a" is="true"/>
+        <wit in="b" is="true"/>
+        <wit in="c" is="true"/>
+        <wit in="d" is="true"/>
+        <wit in="e" is="true"/>
+        <wit in="f" is="true"/>
+        <wit in="z" is="true"/>
+      </profile>
+    </bibl>
+  </div>
+  <div type="part" id="bs_z_1" words="2007" column-title="Rezension zu Semlers Antwort in der AdB, 1780">
+    <bibl>
+      <ref book="Gal" chapter="4" verse="3"/>
+      <profile>
+        <wit in="a" is="true"/>
+        <wit in="b" is="true"/>
+        <wit in="c" is="true"/>
+        <wit in="d" is="true"/>
+        <wit in="e" is="true"/>
+        <wit in="f" is="true"/>
+        <wit in="z" is="true"/>
+      </profile>
+    </bibl>
+    <bibl>
+      <ref book="Gal" chapter="4" verse="5"/>
+      <profile>
+        <wit in="a" is="true"/>
+        <wit in="b" is="true"/>
+        <wit in="c" is="true"/>
+        <wit in="d" is="true"/>
+        <wit in="e" is="true"/>
+        <wit in="f" is="true"/>
+        <wit in="z" is="true"/>
+      </profile>
+    </bibl>
+    <bibl>
+      <ref book="1Kor" chapter="1" verse="31"/>
+      <profile>
+        <wit in="a" is="true"/>
+        <wit in="b" is="true"/>
+        <wit in="c" is="true"/>
+        <wit in="d" is="true"/>
+        <wit in="e" is="true"/>
+        <wit in="f" is="true"/>
+        <wit in="z" is="true"/>
+      </profile>
+    </bibl>
+  </div>
+  <div type="editorial-notes" id="" words="209"/>
+  <div type="index" id="" words="118"/>
+</data>

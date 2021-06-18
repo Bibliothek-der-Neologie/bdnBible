@@ -22,7 +22,7 @@ declare variable $gr_ptl := $gr_full//tei:rdg[@type="ptl"]//tei:citedRange;
 
 
 (: Zwischenformat generieren :)
-(: doc("data/griesbach_full.xml") => bdn:convert() :)
+(: doc("data/steinbart_full.xml") => bdn:convert() :)
 
 
 (: a) Verweishäufigkeiten und Verwendungskontexte von biblischen Sinneinheiten :)
