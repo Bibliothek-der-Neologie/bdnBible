@@ -46,7 +46,7 @@ declare variable $gr_ptl := $gr_full//tei:rdg[@type="ptl"]//tei:citedRange;
 (: freq:count_spec($gr_conv, "Röm") :)
 
 (: Ausgabe der Referenzhäufigkeit für jedes biblische Buch :)
-freq:table2($st_conv)
+(: freq:table2($st_conv) :)
 
 
 
@@ -60,6 +60,10 @@ freq:table2($st_conv)
 (: $gr_full//tei:rdg[@type="om"]//preceding-sibling::tei:lem//tei:citedRange :)  (: = Variable "$gr_om" :)
 (: $gr_full//tei:rdg[@type="pt"]//tei:citedRange :) (: = Variable "$gr_pt" :)
 (: $gr_full//tei:rdg[@type="ptl"]//tei:citedRange :) (: = Variable "$gr_ptl" :)
+
+(: crit:register($te_conv) :)
+crit:register_table($te_conv)
+
 
 
 (: HTML-Dokumentation erzeugen :)
