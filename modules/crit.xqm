@@ -36,7 +36,7 @@ declare function crit:window($doc)
 : - Filteroption: diejenigen Bibelreferenzen, die nicht in allen / nur in bestimmten Auflagen vorkommen // Veränderungen in bestimmten Auflagen
 : - Highlight-Option: evtl. Hervorhebung bestimmter exegetisch oder dogmatisch relevanter Bibelstellen (evtl. erweitertes Markup der units.xml)
 :
-: @version 0.1 (2021-xx-xx)
+: @version 0.1 (2021-06-18)
 : @author ...
 :
 :)
@@ -51,6 +51,16 @@ declare function crit:register( $doc )
     }
 };
 
+(:~
+: Textstelle der Edition 
+:
+: Todo: Ggf. umstellen auf Kolumnentitel?
+:
+: @version 0.1 (2021-06-18)
+: @author ...
+:
+:)
+
 declare function crit:bibl-places ( $doc ){
   element {"bibls"} { for $bibl in $doc//bibl 
     return element { "bibl" } {
@@ -60,19 +70,40 @@ declare function crit:bibl-places ( $doc ){
    }
 };
 
-declare function crit:sort-chapter( $doc, $ana ){
-  let $bibls := $doc//bibl[./ref/@*[1] = $ana]
-  for $bibl in $bibls
-  order by $bibl/ref[1]/fn:number(@chapter), $bibl/ref[1]/fn:number(@verse)
-  return $bibl
-};
-
+(:~
+: Nur Bibelreferenzen mit mindestens einem @is = "false" (also textkritisch relevante)
+:
+: @version 0.1 (2021-06-18)
+: @author ...
+:
+:)
 declare function crit:filter ( $doc ) {
   element {"bibls"} {
     $doc//bibl[.//profile/wit/@is = "false"]
   }
 };
 
+(:~
+: Sortierung nach Bibel-Reihenfolge
+:
+: @version 0.1 (2021-06-18)
+: @author ...
+:
+:)
+declare function crit:sort-chapter( $doc, $ana ){
+  let $bibls := $doc//bibl[./ref/@*[1] = $ana]
+  for $bibl in $bibls
+  order by $bibl/ref[1]/@*[2]/fn:number(), $bibl/ref[1]/@*[3]/fn:number()
+  return $bibl
+};
+
+(:~
+: Konversion der Neusortierung in HTML-Tabelle
+:
+: @version 0.1 (2021-06-18)
+: @author ...
+:
+:)
 declare function crit:register_table ( $doc ){
   let $register := crit:register( $doc )
   let $filename := "output/crit_register_"||fn:lower-case(substring($doc//edition, 1, 2))||".html"
@@ -87,28 +118,36 @@ declare function crit:register_table ( $doc ){
           <p>Bibelstellenregister: {$doc//edition/data()}</p>
         </div>
         <table>{
+         
          <tr>
            <td>Bibelreferenzen</td>
-           <td>Ort</td> 
-           {for $wit in $doc//listWit/witness return <td>{$wit/@id/data()}</td>}
+           
+           <td>Ort</td>
+            
+           {for $wit in $doc//listWit/witness return <td>{$wit/@id/data()}</td>}           
          </tr>,
                  
-         for $bibl in $register//bibl return 
+         for $bibl in $register//bibl
+         return 
          <tr>
-           <td>{for $ref in $bibl/ref 
-                return 
-                  if ($ref/@book)                  
-                  then fn:concat($ref/@book, " ", $ref/@chapter, ",", $ref/@verse) 
-                  else fn:concat($ref/@from-book, " ", $ref/@from-chapter, ",", $ref/@from-verse, "–", $ref/@to-verse) 
-                }</td>
-                <td>{$bibl/@place/data()}</td>
-           {
+           <td>{
+             for $ref in $bibl/ref 
+             return 
+               if ($ref/@book)                  
+               then fn:concat($ref/@book, " ", $ref/@chapter, ",", $ref/@verse) 
+               else fn:concat($ref/@from-book, " ", $ref/@from-chapter, ",", $ref/@from-verse, "–", $ref/@to-verse) 
+         }</td>        
+         
+         <td>{$bibl/@place/data()}</td>
+                    
+          {
              for $wit in $bibl//wit 
              return 
-             if ($wit/@is = "true") 
-             then <td style="color:green">✓</td> 
-             else <td style="color:red">x</td> 
-          }               
+               if ($wit/@is = "true") 
+               then <td style="color:green">✓</td> 
+               else <td style="color:red">x</td> 
+          }            
+          
          </tr>
 }			</table>
   </body></html>)
