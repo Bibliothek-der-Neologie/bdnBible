@@ -46,8 +46,8 @@ alternative Möglichkeiten gibt.</td>
       </tr>
     </table>
     <h2>Functions</h2>
-    <a name="compare#2">
-      <h3>compare($collection, $level)</h3>
+    <a name="compare#1">
+      <h3>compare($node)</h3>
     </a>
     <table>
       <tr>
@@ -58,19 +58,10 @@ alternative Möglichkeiten gibt.</td>
           <table>
             <tr>
               <td>
-                <code>$collection</code>
+                <code>$node</code>
               </td>
               <td>
-                <code>node()*</code>
-              </td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>
-                <code>$level</code>
-              </td>
-              <td>
-                <code>item()*</code>
+                <code>item()+</code>
               </td>
               <td></td>
             </tr>
@@ -85,7 +76,7 @@ alternative Möglichkeiten gibt.</td>
           <table>
             <tr>
               <td>
-                <code>item()*</code>
+                <code>item()</code>
               </td>
               <td></td>
             </tr>
@@ -105,6 +96,62 @@ Todo:
 ("then" und "else" sind fast gleich). Verschlankung möglich?
 - Verbesserung der relativen Ausgabe?
 - Datentypen in Funktionsdeklaration ergänzen</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.1 (2020)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>..., Marco Stallmann</td>
+      </tr>
+    </table>
+    <a name="compare_chapter#1">
+      <h3>compare_chapter($node)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$node</code>
+              </td>
+              <td>
+                <code>item()+</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>item()</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>Das gleiche für Chapter-Level!</td>
       </tr>
       <tr>
         <td>
@@ -217,7 +264,7 @@ werden kann (oder doch? andere Lösung?)</td>
           <table>
             <tr>
               <td>
-                <code>item()*</code>
+                <code>empty-sequence()</code>
               </td>
               <td></td>
             </tr>
@@ -249,8 +296,8 @@ alternative Möglichkeiten gibt.</td>
         <td>..., Marco Stallmann</td>
       </tr>
     </table>
-    <a name="find#2">
-      <h3>find($ref, $equalunits)</h3>
+    <a name="find#1">
+      <h3>find($ref)</h3>
     </a>
     <table>
       <tr>
@@ -268,15 +315,6 @@ alternative Möglichkeiten gibt.</td>
               </td>
               <td></td>
             </tr>
-            <tr>
-              <td>
-                <code>$equalunits</code>
-              </td>
-              <td>
-                <code>item()*</code>
-              </td>
-              <td></td>
-            </tr>
           </table>
         </td>
       </tr>
@@ -288,7 +326,7 @@ alternative Möglichkeiten gibt.</td>
           <table>
             <tr>
               <td>
-                <code>item()*</code>
+                <code>item()</code>
               </td>
               <td></td>
             </tr>
@@ -455,8 +493,8 @@ Todo: Geht es ohne diese Hilfsfunktion(en)?</td>
         <td>..., Marco Stallmann</td>
       </tr>
     </table>
-    <a name="listitems#2">
-      <h3>listitems($doc, $equalunits)</h3>
+    <a name="listitems#1">
+      <h3>listitems($doc)</h3>
     </a>
     <table>
       <tr>
@@ -468,15 +506,6 @@ Todo: Geht es ohne diese Hilfsfunktion(en)?</td>
             <tr>
               <td>
                 <code>$doc</code>
-              </td>
-              <td>
-                <code>item()*</code>
-              </td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>
-                <code>$equalunits</code>
               </td>
               <td>
                 <code>item()*</code>

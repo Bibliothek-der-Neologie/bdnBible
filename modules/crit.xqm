@@ -108,7 +108,7 @@ declare function crit:register_table ( $doc ){
   let $register := crit:register( $doc )
   let $filename := "output/crit_register_"||fn:lower-case(substring($doc//edition, 1, 2))||".html"
   
-  return file:write( $filename,
+  return file:write(file:current-dir() || $filename,
     <html>
       <head>
         <title>Textkritisches Bibelstellenregister</title>

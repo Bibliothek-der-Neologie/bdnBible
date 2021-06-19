@@ -130,7 +130,7 @@ declare function bdn:div ($node as node()*) as node()* {
         then attribute {"column-title"}{ $column-title/data() => fn:normalize-space() } 
         else (),                       
       
-        bdn:convert( $node/node() )
+        bdn:passthru( $node )
       }
 };
 

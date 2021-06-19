@@ -1,4 +1,4 @@
-(: xquery version "3.1"; :)
+xquery version "3.1";
 import module namespace bdn = "http://bdn-edition.de/xquery/bdn" at "modules/bdn.xqm";
 import module namespace units = "http://bdn-edition.de/xquery/units" at "modules/units.xqm";
 import module namespace freq = "http://bdn-edition.de/xquery/freq" at "modules/frequency.xqm";

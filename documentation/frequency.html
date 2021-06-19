@@ -24,31 +24,22 @@
         <td>
           <b>Description:</b>
         </td>
-        <td>Erstellt eine HTML-Tabelle auf Basis des konvertierten XML-Dokuments: 
-Für jedes biblische Buch, das in der edierten Quellenschrift vorkommt, wird 
-die Häufigkeit der Bibelreferenz ausgegeben.
+        <td>Zählt die absoluten und relativen Häufigkeiten der Bibelstellen mit Verwendung des Zwischenformats, 
+Kapitelbezeichnungen müssen jedoch aus der unkonvertierten Gesamtdatei gewonnen werden und erstellt eine html-Tabelle 
 
-Dies ist ein anderer Ansatz als der "Bibelstellenspannungsbogen"
-(s. unten freq:table), wo die Häufigkeiten ausgehend von den einzelnen Kapiteln
-der edierten Quellenschrift ermittelt werden.
-
-Überlegung (Hannah): Kombination mit "Spannungsbogen" als weitere Funktion
-
-Todo: 
-- Ergebnis in Datei schreiben (mit file:write ??)
-- Übersichtlichkeit verbessern</td>
+für Griesbach, Steinbart, Sack "chapter", für Teller "letter", für Leß "section", für Nösselt "part"</td>
       </tr>
       <tr>
         <td>
           <b>Version:</b>
         </td>
-        <td>0.1 (2021-02-22)</td>
+        <td>1.2 (2021-05-19)</td>
       </tr>
       <tr>
         <td>
           <b>Author:</b>
         </td>
-        <td>..., Marco Stallmann</td>
+        <td>Hannah Kreß</td>
       </tr>
     </table>
     <h2>Functions</h2>
@@ -184,8 +175,8 @@ To do: JSON Output, XQuery-Application in JavaScript (e.g. XQIB)</td>
         <td>Marco Stallmann</td>
       </tr>
     </table>
-    <a name="table#1">
-      <h3>table($doc)</h3>
+    <a name="count_spec#2">
+      <h3>count_spec($doc, $book)</h3>
     </a>
     <table>
       <tr>
@@ -197,6 +188,15 @@ To do: JSON Output, XQuery-Application in JavaScript (e.g. XQIB)</td>
             <tr>
               <td>
                 <code>$doc</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <code>$book</code>
               </td>
               <td>
                 <code>item()*</code>
@@ -214,7 +214,7 @@ To do: JSON Output, XQuery-Application in JavaScript (e.g. XQIB)</td>
           <table>
             <tr>
               <td>
-                <code>element()</code>
+                <code>item()*</code>
               </td>
               <td></td>
             </tr>
@@ -225,37 +225,26 @@ To do: JSON Output, XQuery-Application in JavaScript (e.g. XQIB)</td>
         <td>
           <b>Description:</b>
         </td>
-        <td>ALTE VERSION! Zählt die absoluten und relativen Häufigkeiten von Bibelreferenzen 
-tei:citedRange in einem gegebenen Dokument (hier: Griesbach-Gesamtdatei). 
-Diese Funktion läuft noch ohne Zwischenformat (bdn.xqm).
+        <td>Erstellt eine map, die als keys, die Kapitelüberschriften, die absoluten Häufigkeiten aller Bibelstellen eines Kapitels 
+und die absoluten Häufigkeiten der Bibelstellen eines bestimmten Buchs innerhalb eines Kapitels enthält
 
-Todo (evtl. hinfällig):
-- Weitere Gliederungsebenen berücksichtigen
-- Für DHd-Bewerbung: (Manuelle) Erarbeitung von Beispielen/Zwischenergebnissen
-  (ggf. mithilfe des Printregisters oder der Oxygen-Suchfunktion)
-- Überprüfung und Präzisierung der Wortzählung (Berücksichtigung 
-  von „rdg“ / „choice“ / … ?)
-- Erarbeitung von Alternativlösungen für die Berechnung von relativen 
-  Häufigkeiten
-- Verbesserung der HTML-Tabellendarstellung / Elementkonstruktion
-- Hinzufügung einer graphischen Darstellung (ggf. Umwandlung in JSON / 
-  Ausgabe mithilfe der Open-Source-Datenvisualisierung Chart.js)</td>
+ToDo: gewünschte Visualisierung</td>
       </tr>
       <tr>
         <td>
           <b>Version:</b>
         </td>
-        <td>0.2 (2021-12-21)</td>
+        <td>1.1 (2021-04-21)</td>
       </tr>
       <tr>
         <td>
           <b>Author:</b>
         </td>
-        <td>Marco Stallmann</td>
+        <td>Hannah Kreß</td>
       </tr>
     </table>
-    <a name="table2#2">
-      <h3>table2($doc, $bible)</h3>
+    <a name="table2#1">
+      <h3>table2($doc)</h3>
     </a>
     <table>
       <tr>
@@ -269,16 +258,7 @@ Todo (evtl. hinfällig):
                 <code>$doc</code>
               </td>
               <td>
-                <code>item()*</code>
-              </td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>
-                <code>$bible</code>
-              </td>
-              <td>
-                <code>item()*</code>
+                <code>item()</code>
               </td>
               <td></td>
             </tr>
@@ -329,6 +309,151 @@ Todo:
           <b>Author:</b>
         </td>
         <td>..., Marco Stallmann</td>
+      </tr>
+    </table>
+    <a name="table_all#2">
+      <h3>table_all($doc, $bible)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$doc</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <code>$bible</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>element()</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>Zählt die absoluten und relativen Häufigkeiten der Bibelstellen mit Verwendung des Zwischenformats, 
+Kapitelbezeichnungen müssen jedoch aus der unkonvertierten Gesamtdatei gewonnen werden und erstellt eine html-Tabelle 
+
+für Griesbach, Steinbart, Sack "chapter", für Teller "letter", für Leß "section", für Nösselt "part"</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>1.2 (2021-05-19)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>Hannah Kreß</td>
+      </tr>
+    </table>
+    <a name="table_spec#3">
+      <h3>table_spec($doc, $bible, $book)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$doc</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <code>$bible</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <code>$book</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>element()</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>Zählt die absoluten und relativen (in Relation zu der Gesamtanzahl aller Bibelstellen in einem Kapitel) Häufigkeiten 
+eines bestimmten Bibelbuchs und erstellt eine html-Tabelle 
+
+für Griesbach, Steinbart, Sack "chapter", für Teller "letter", für Leß "section", für Nösselt "part"</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>1.2 (2021-05-19)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>Hannah Kreß</td>
       </tr>
     </table>
     <a name="test-book#2">
