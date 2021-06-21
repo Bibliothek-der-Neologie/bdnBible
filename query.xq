@@ -22,7 +22,14 @@ declare variable $gr_ptl := $gr_full//tei:rdg[@type="ptl"]//tei:citedRange;
 
 
 (: Zwischenformat generieren :)
-(: doc("data/teller_full.xml") => bdn:convert() :)
+
+(: ... mit textkritischen Profilen :)
+(: doc("data/teller_full.xml") => bdn:convert() :) 
+
+
+(: ... mit Apparaten :)
+(: doc("data/steinbart_full.xml") => bdn:convert1() :) 
+
 
 
 (: a) Verweishäufigkeiten und Verwendungskontexte von biblischen Sinneinheiten :)
@@ -62,7 +69,7 @@ declare variable $gr_ptl := $gr_full//tei:rdg[@type="ptl"]//tei:citedRange;
 (: $gr_full//tei:rdg[@type="ptl"]//tei:citedRange :) (: = Variable "$gr_ptl" :)
 
 (: crit:register($te_conv) :)
-crit:register_table($te_conv)
+crit:register_table($no_conv)
 
 
 

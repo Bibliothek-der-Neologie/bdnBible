@@ -2,8 +2,13 @@ xquery version "3.1";
 module namespace bdn = "http://bdn-edition.de/xquery/bdn";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
+declare function bdn:convert($node)
+{
+  bdn:convert1($node) => bdn:convert2()  
+};
+
 (:~
- : bdn:convert()
+ : bdn:convert1()
  :
  : Converts TEI data into a div-structured set of elements "bibl". Each of these
  : represent a given tei:bibl[@type="biblical-reference"] in the TEI source.
@@ -14,23 +19,21 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
  : @version 0.3 (2021-12-21)
  : @author Marco Stallmann, Uwe Sikora
  :)
-declare function bdn:convert($node as node()*) as item()* {
+declare function bdn:convert1($node as node()*) as item()* {
   typeswitch($node)
   case text() return ()
   case comment() return ()
   case element(tei:TEI) return bdn:data($node)
   case element(tei:title) return bdn:edition($node)
   case element(tei:listWit) return bdn:listWit($node)
-  (: case element(tei:front) return () :)
-  case element(tei:div) return bdn:div($node)  
+  case element(tei:div) return bdn:div($node)
+  case element(tei:app) return bdn:app($node) 
   case element(tei:bibl) return bdn:bibl($node)
-  (: case element(tei:citedRange) return bdn:citedRange($node) :)
-  default return bdn:passthru($node)
+  default return bdn:passthrough($node)
 };
 
-
 (:~
- : bdn:convert > bdn:passthru()
+ : bdn:convert > bdn:passthrough()
  : TEMPLATE: Default function of bdn:convert to return a node's children aka.
  : ignore the node and work on it's children instead.   
  :
@@ -42,9 +45,8 @@ declare function bdn:convert($node as node()*) as item()* {
  : @note (MS): passthru auf Sicht und Kindknoten in der Konversion direkt 
  : ansteuern?
  :)
-declare function bdn:passthru
-  ($nodes as node()*) as item()* {
-  for $node in $nodes/node() return bdn:convert($node)
+declare function bdn:passthrough($nodes as node()*) as item()* {
+  for $node in $nodes/node() return bdn:convert1($node)
 };
 
 
@@ -56,7 +58,7 @@ declare function bdn:passthru
  : @author Marco Stallmann, Uwe Sikora
  :)
 declare function bdn:data ($node as node()*) as node() {
-  element {"data"} { bdn:convert($node/node()) }
+  element {"data"} { bdn:convert1($node/node()) }
 };
 
 
@@ -80,7 +82,7 @@ declare function bdn:edition ($node as node()*) as node()* {
 
 (:~
  : bdn:convert > bdn:listWit()
- : TEMPLATE: node "listWit" of bdn:convert(). It provides all witness-IDs and 
+ : TEMPLATE: node "listWit" of bdn:convert1(). It provides all witness-IDs and 
  : identifies the base-text.   
  :
  : @param $node a set of nodes
@@ -130,7 +132,7 @@ declare function bdn:div ($node as node()*) as node()* {
         then attribute {"column-title"}{ $column-title/data() => fn:normalize-space() } 
         else (),                       
       
-        bdn:passthru( $node )
+        bdn:passthrough( $node )
       }
 };
 
@@ -142,86 +144,42 @@ declare function bdn:div ($node as node()*) as node()* {
  :)
 declare function bdn:word-count ( $node as xs:string? )  as xs:integer {
    tokenize( $node, '\W+' )[. != ''] => fn:count()
- } ; 
-
-(:~
- : Konvertiert tei:bibl und startet bdn:citedRange und bdn:profile
- :
- : @version 0.3 (2021-06-18)
- : @author Marco Stallmann, Uwe Sikora
- :)
-declare function bdn:bibl ( $node ) {
- if ($node/@type = "biblical-reference")
- then
-   if ($node/tei:citedRange/@n)
-   then
-    let $n-values := fn:tokenize($node/tei:citedRange/@n/data(), " ")
-    for $n in $n-values     
-    return 
-      element bibl {
-      bdn:citedRange_n( $n ) , 
-      bdn:profile($node)  
-        }  
-   else 
-    element bibl {
-      bdn:citedRange_ft( $node/tei:citedRange ) , 
-      bdn:profile($node)
-    }
-  else element bibl {"No attribute!"}
+ }; 
+ 
+declare function bdn:app( $node ){
+  if ($node/@type = "structural-variance")
+  then bdn:passthrough( $node )
+  else
+    if ($node//tei:bibl) 
+    then 
+      element {"app"} {      
+        element {"lem"} { bdn:passthrough( $node/tei:lem ) },
+        for $rdg in $node/tei:rdg return
+          element {"rdg"} { 
+            attribute {"wit"} { $rdg/@wit },
+            attribute {"type"} { $rdg/@type },
+            bdn:passthrough( $rdg )}   
+            }  
+    else ()    
 };
 
-
-(:~
- : Erstellt ein textkritisches Profil für ein tei:bibl
- :
- : 
- : @version 0.3 (2020-12-01)
- : @author Marco Stallmann, Uwe Sikora
- :)
-declare function bdn:profile( $bibl ) as element( profile ) {
-  let $listWit := $bibl/root()//tei:listWit
-  return
-  element {"profile"} {    
-    if ( $listWit/tei:witness/@n = "base-text" )
-    then for $witness in $listWit/tei:witness
-      return element {"wit"} {
-        attribute {"in"} { $witness/@xml:id },
-        attribute {"is"} { bdn:is-in( $bibl, $witness ) }
-        }
-    else "Kein Leittext definiert!" 
-  }
-};
-
-
-(:~
- : bdn:is-in()
- : function to check whether a bibel-ref is of a specific witness [?] ...
- :
- : @param $bible-ref a tei:bibl element
- : @param $witness a tei:witness element
- : @return a xsd:boolean (??)
- : 
- : @version 0.2 (2020-12-01)
- : @author Marco Stallmann
- : @note (MS): bdn:is-in funktioniert für alle Bände außer Bahrdt/Semler (keine Varianten / Leitauflage)
- :)
-declare function bdn:is-in($bible-ref, $w) 
-{
-  if ($bible-ref/ancestor::tei:app)
+declare function bdn:bibl( $node ){
+  if ($node/@type = "biblical-reference")  
   then 
-    if ($bible-ref/ancestor::tei:lem)
+    if ($node/tei:citedRange/@n)
     then
-      if ($bible-ref/ancestor::tei:app/tei:rdg[fn:contains(@wit, $w/@xml:id) and not(.//* = $bible-ref)])
-      then "false"
-      else "true"
-    else 
-      if ($bible-ref/ancestor::tei:rdg/@wit/contains(., $w/@xml:id))
-      then "true"   
-      else "false"
-  else "true"   
+      let $n-values := fn:tokenize($node/tei:citedRange/@n/data(), " ")
+      for $n in $n-values return 
+        element {"bibl"} { bdn:citedRange_n( $n ) }  
+    else
+      let $from := $node/tei:citedRange/@from
+      let $to := $node/tei:citedRange/@to
+      return
+        element {"bibl"} { bdn:citedRange_ft( $from, $to ) } 
+          
+  else "Wrong type!"  
+  
 };
-
-
 
 (:~
  : Konvertiert n-Wert eines tei:citedRange in ein Element ref
@@ -244,13 +202,13 @@ declare function bdn:citedRange_n ( $n ) {
  : @version 0.3 (2021-06-18)
  : @author Marco Stallmann
  :)
-declare function bdn:citedRange_ft ( $node  ) {
-  let $from-book := fn:tokenize($node/@from, ":")[1]
-  let $from-chapter := fn:tokenize($node/@from, ":")[2]
-  let $from-verse := fn:tokenize($node/@from, ":")[3]
-  let $to-book := if ( fn:contains($node/@to/data(), "f") ) then $from-book else fn:tokenize($node/@to, ":")[1]
-  let $to-chapter := if ( fn:contains($node/@to/data(), "f") ) then $from-chapter else fn:tokenize($node/@to, ":")[2]
-  let $to-verse := if ( fn:contains($node/@to/data(), "f") ) then $node/@to/data() else fn:tokenize($node/@to, ":")[3]
+declare function bdn:citedRange_ft ( $from, $to  ) {
+  let $from-book := fn:tokenize($from, ":")[1]
+  let $from-chapter := fn:tokenize($from, ":")[2]
+  let $from-verse := fn:tokenize($from, ":")[3]
+  let $to-book := if ( fn:contains($to/data(), "f") ) then $from-book else fn:tokenize($to, ":")[1]
+  let $to-chapter := if ( fn:contains($to/data(), "f") ) then $from-chapter else fn:tokenize($to, ":")[2]
+  let $to-verse := if ( fn:contains($to/data(), "f") ) then $to/data() else fn:tokenize($to, ":")[3]
   return element {"ref"} {
     attribute {"from-book"} {$from-book},
     attribute {"from-chapter"} {$from-chapter},
@@ -260,3 +218,83 @@ declare function bdn:citedRange_ft ( $node  ) {
     attribute {"to-verse"} {$to-verse}
   }
 };
+
+
+declare function bdn:convert2($node )  {
+  typeswitch( $node )
+  case element(data) return (: "data" :) bdn:self($node)
+  case element(edition) return $node
+  case element(listWit) return $node
+  case element(div) return bdn:self($node)
+  case element(bibl) return bdn:profile($node)
+  default return bdn:passthrough2($node)
+};
+
+declare function bdn:self($node){  
+  element {$node/name()} {
+    for $att in $node/@* 
+    return attribute {$att/name()} {$att/data()},
+    for $nod in $node/node() return bdn:convert2($nod)
+  }
+};
+
+declare function bdn:passthrough2($nodes as node()*) as item()* {
+  for $node in $nodes/node() return bdn:convert2($node)
+};
+
+(:~
+ : Erstellt ein textkritisches Profil
+ :
+ : @param $bibl Bibelreferenz
+ : 
+ : @version 0.3 (2020-12-01)
+ : @author Marco Stallmann, Uwe Sikora
+ :)
+declare function bdn:profile( $bibl ) {
+  let $listWit := $bibl/root()//listWit  
+  return
+  element {"bibl"} {
+    $bibl/ref, element {"profile"} {    
+      if ( $listWit/witness/@lem = "true" )
+      then 
+        for $w in $listWit/witness/@id
+        return element {"wit"} {
+          attribute {"in"} { $w },
+          attribute {"is"} { bdn:is-in( $bibl, $w ) }
+        }
+      else "Kein Leittext definiert!" 
+    }
+  }
+  
+};
+
+
+(:~
+ : bdn:is-in()
+ : function to check whether a bibel-ref is of a specific witness [?] ...
+ :
+ : @param $bible-ref a tei:bibl element
+ : @param $witness a tei:witness element
+ : @return a xsd:boolean (??)
+ : 
+ : @version 0.2 (2020-12-01)
+ : @author Marco Stallmann
+ : @note (MS): bdn:is-in funktioniert für alle Bände außer Bahrdt/Semler (keine Varianten / Leitauflage)
+ :)
+declare function bdn:is-in($bibl, $w) 
+{
+  let $listWit := $bibl/root()//listWit
+  let $app := $bibl/ancestor::app
+  return
+  if (fn:empty($app))
+  then "true"
+  else
+    if ($bibl/parent::rdg[contains(./@wit, $w)])
+    then "true"
+    else (: im lem! :)
+        if (not($app[1]/rdg[contains(@wit, $w)])) (: im lem :)
+        then "true"
+        else "false"
+      
+};
+
