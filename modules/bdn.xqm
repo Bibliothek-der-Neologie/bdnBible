@@ -2,21 +2,30 @@ xquery version "3.1";
 module namespace bdn = "http://bdn-edition.de/xquery/bdn";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
-declare function bdn:convert($node)
+(:~
+ : Wendet convert1 und convert2 hintereinander an auf
+ :
+ : @param $node ... eine TEI/XML-Datei
+ : 
+ : @version 0.3 (2021-06-21)
+ : @author Marco Stallmann
+ :)
+declare function bdn:convert( $node )
 {
   bdn:convert1($node) => bdn:convert2()  
 };
 
 (:~
- : bdn:convert1()
+ : Die Funktion konvertiert ...
  :
- : Converts TEI data into a div-structured set of elements "bibl". Each of these
- : represent a given tei:bibl[@type="biblical-reference"] in the TEI source.
- : It has two child elements: 1) "ref" contains Information about the biblical 
- : Metadata which is contained in tei:citedRange, 2) "profile" gives information
- : about the text versions, the biblical references do appear in (tei:app).
- : 
- : @version 0.3 (2021-12-21)
+ : @param $node ... eine TEI/XML-Datei
+ :
+ : in ein div-strukturierte Liste von bibl-Elementen, die jeweils ein gegebenes
+ : Element tei:bibl[@type="biblical-reference"] im TEI-Quellentext repräsentieren.
+ : Die Informationen zur Bibelreferenz werden in einem "ref" wiedergegeben.
+ : Die textkritischen Apparate bleiben in dieser Konversion noch erhalten. 
+ :
+ : @version 0.4 (2021-06-21)
  : @author Marco Stallmann, Uwe Sikora
  :)
 declare function bdn:convert1($node as node()*) as item()* {
@@ -30,6 +39,26 @@ declare function bdn:convert1($node as node()*) as item()* {
   case element(tei:app) return bdn:app($node) 
   case element(tei:bibl) return bdn:bibl($node)
   default return bdn:passthrough($node)
+};
+
+(:~
+ : Überführt in der 
+ :
+ : @param $node ... mithile von bdn:convert1 konvertierten TEI/XML-Datei
+ :
+ : ... die textkritischen Apparate in ein textkritisches Profile ("profile").
+ :
+ : @version 0.1 (2021-06-21)
+ : @author Marco Stallmann
+ :)
+declare function bdn:convert2( $node ) {
+  typeswitch( $node )
+  case element(data) return bdn:self($node)
+  case element(edition) return $node
+  case element(listWit) return $node
+  case element(div) return bdn:self($node)
+  case element(bibl) return bdn:profile($node)
+  default return bdn:passthrough2($node)
 };
 
 (:~
@@ -78,7 +107,6 @@ declare function bdn:edition ($node as node()*) as node()* {
   then element {"edition"} {$node/descendant-or-self::tei:title[@type="column-title"]/text()}
   else ()
 };
-
 
 (:~
  : bdn:convert > bdn:listWit()
@@ -202,7 +230,7 @@ declare function bdn:citedRange_n ( $n ) {
  : @version 0.3 (2021-06-18)
  : @author Marco Stallmann
  :)
-declare function bdn:citedRange_ft ( $from, $to  ) {
+declare function bdn:citedRange_ft ( $from, $to ) {
   let $from-book := fn:tokenize($from, ":")[1]
   let $from-chapter := fn:tokenize($from, ":")[2]
   let $from-verse := fn:tokenize($from, ":")[3]
@@ -219,17 +247,12 @@ declare function bdn:citedRange_ft ( $from, $to  ) {
   }
 };
 
-
-declare function bdn:convert2($node )  {
-  typeswitch( $node )
-  case element(data) return (: "data" :) bdn:self($node)
-  case element(edition) return $node
-  case element(listWit) return $node
-  case element(div) return bdn:self($node)
-  case element(bibl) return bdn:profile($node)
-  default return bdn:passthrough2($node)
-};
-
+ (:~
+ : Lässt einen Knoten stehen und übergibt den Inhalt der Konversion.
+ : 
+ : @version 0.3 (2021-06-18)
+ : @author Marco Stallmann
+ :)
 declare function bdn:self($node){  
   element {$node/name()} {
     for $att in $node/@* 
@@ -265,7 +288,6 @@ declare function bdn:profile( $bibl ) {
       else "Kein Leittext definiert!" 
     }
   }
-  
 };
 
 
@@ -273,8 +295,8 @@ declare function bdn:profile( $bibl ) {
  : bdn:is-in()
  : function to check whether a bibel-ref is of a specific witness [?] ...
  :
- : @param $bible-ref a tei:bibl element
- : @param $witness a tei:witness element
+ : @param $bibl a tei:bibl element
+ : @param $w a tei:witness/@xml:id (string)
  : @return a xsd:boolean (??)
  : 
  : @version 0.2 (2020-12-01)
@@ -291,8 +313,8 @@ declare function bdn:is-in($bibl, $w)
   else
     if ($bibl/parent::rdg[contains(./@wit, $w)])
     then "true"
-    else (: im lem! :)
-        if (not($app[1]/rdg[contains(@wit, $w)])) (: im lem :)
+    else (: gilt: $bibl sollte im lem stehen! :)
+        if (not($app[1]/rdg[contains(@wit, $w)]))
         then "true"
         else "false"
       

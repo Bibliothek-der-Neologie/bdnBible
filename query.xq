@@ -69,7 +69,7 @@ declare variable $gr_ptl := $gr_full//tei:rdg[@type="ptl"]//tei:citedRange;
 (: $gr_full//tei:rdg[@type="ptl"]//tei:citedRange :) (: = Variable "$gr_ptl" :)
 
 (: crit:register($te_conv) :)
-crit:register_table($no_conv)
+crit:register_table($te_conv)
 
 
 
