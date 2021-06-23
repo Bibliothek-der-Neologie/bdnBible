@@ -9,7 +9,7 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 : zusammengefasst werden, die im Zwischenformat das gleiche Bibelstellenprofil 
 : aufweisen. Das funktioniert aber noch nicht vollständig ...
 :
-: Todo: Eingrenzen auf Hinzufügungen und Löschungen.
+: Todo:     Eingrenzen auf Hinzufügungen und Löschungen.
 : Fragen:   1.) Texkritik:  Fallen Verse aufgrund einer veränderten Lesart weg? 
 :           2.) Auslegung:  Wo treten über die Auflagen hinweg die größten Veränderungen innerhalb des Werks auf? 
 :                           Hängen diese mit einer veränderten Auslegung bestimmter Verse zusammen?
