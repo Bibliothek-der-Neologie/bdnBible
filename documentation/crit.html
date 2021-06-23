@@ -27,7 +27,12 @@
         <td>Diese Funktion ist ein erster Versuch, die konvertierte XML über ein
 "tumbling window" zu sortieren: Hier sollen alle Bibelstellen
 zusammengefasst werden, die im Zwischenformat das gleiche Bibelstellenprofil 
-aufweisen. Das funktioniert aber noch nicht vollständig ...</td>
+aufweisen. Das funktioniert aber noch nicht vollständig ...
+
+Todo: Eingrenzen auf Hinzufügungen und Löschungen.
+Fragen:   1.) Texkritik:  Fallen Verse aufgrund einer veränderten Lesart weg? 
+2.) Auslegung:  Wo treten über die Auflagen hinweg die größten Veränderungen innerhalb des Werks auf? 
+Hängen diese mit einer veränderten Auslegung bestimmter Verse zusammen?</td>
       </tr>
       <tr>
         <td>
@@ -43,6 +48,301 @@ aufweisen. Das funktioniert aber noch nicht vollständig ...</td>
       </tr>
     </table>
     <h2>Functions</h2>
+    <a name="bibl-places#1">
+      <h3>bibl-places($doc)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$doc</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>element()</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>Textstelle der Edition 
+
+Todo: Ggf. umstellen auf Kolumnentitel?</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.1 (2021-06-18)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>...</td>
+      </tr>
+    </table>
+    <a name="filter#1">
+      <h3>filter($doc)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$doc</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>element()</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>Nur Bibelreferenzen mit mindestens einem @is = "false" (also textkritisch relevante)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.1 (2021-06-18)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>...</td>
+      </tr>
+    </table>
+    <a name="register#1">
+      <h3>register($doc)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$doc</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>Idee: Dynamisches "textkritisches" Bibelstellenregister auf der Basis des: Zwischenformats
+- Tabelle: Bibelreferenzen | textkritisches Profil | Textstelle der Edition (z.B. Kolumnentitel) | evtl. Kurzhinweis
+- Sortieroption: Wiedergabe nach der Bibelreihenfole (data/bible_structure.xml)
+- Filteroption: diejenigen Bibelreferenzen, die nicht in allen / nur in bestimmten Auflagen vorkommen // Veränderungen in bestimmten Auflagen
+- Highlight-Option: evtl. Hervorhebung bestimmter exegetisch oder dogmatisch relevanter Bibelstellen (evtl. erweitertes Markup der units.xml)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.1 (2021-06-18)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>...</td>
+      </tr>
+    </table>
+    <a name="register_table#1">
+      <h3>register_table($doc)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$doc</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>Konversion der Neusortierung in HTML-Tabelle</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.1 (2021-06-18)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>...</td>
+      </tr>
+    </table>
+    <a name="sort-chapter#2">
+      <h3>sort-chapter($doc, $ana)</h3>
+    </a>
+    <table>
+      <tr>
+        <td>
+          <b>Arguments:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>$doc</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <code>$ana</code>
+              </td>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Returns:</b>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>
+                <code>item()*</code>
+              </td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Description:</b>
+        </td>
+        <td>Sortierung nach Bibel-Reihenfolge</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Version:</b>
+        </td>
+        <td>0.1 (2021-06-18)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Author:</b>
+        </td>
+        <td>...</td>
+      </tr>
+    </table>
     <a name="window#1">
       <h3>window($doc)</h3>
     </a>
@@ -87,7 +387,12 @@ aufweisen. Das funktioniert aber noch nicht vollständig ...</td>
         <td>Diese Funktion ist ein erster Versuch, die konvertierte XML über ein
 "tumbling window" zu sortieren: Hier sollen alle Bibelstellen
 zusammengefasst werden, die im Zwischenformat das gleiche Bibelstellenprofil 
-aufweisen. Das funktioniert aber noch nicht vollständig ...</td>
+aufweisen. Das funktioniert aber noch nicht vollständig ...
+
+Todo: Eingrenzen auf Hinzufügungen und Löschungen.
+Fragen:   1.) Texkritik:  Fallen Verse aufgrund einer veränderten Lesart weg? 
+2.) Auslegung:  Wo treten über die Auflagen hinweg die größten Veränderungen innerhalb des Werks auf? 
+Hängen diese mit einer veränderten Auslegung bestimmter Verse zusammen?</td>
       </tr>
       <tr>
         <td>

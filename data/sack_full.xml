@@ -213,7 +213,7 @@
          <div xmlns="http://www.tei-c.org/ns/1.0"
               type="preface"
               xml:id="sack_preface_print"
-              xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3w28r/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+              xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3w28r/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
             <head>Vorwort</head>
             <p>Die „Bibliothek der Neologie“ verfolgt das Ziel, zehn zentrale, in sich
                     geschlossene Texte oder Textsammlungen der den Kernbestand deutscher
@@ -258,7 +258,7 @@
          <div xmlns="http://www.tei-c.org/ns/1.0"
               type="introduction"
               xml:id="sack_introduction"
-              xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3w28q/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+              xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3w28q/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
             <head>Einleitung</head>
             <div>
                <head>I.</head>
@@ -274,7 +274,7 @@
               type="editorial"
               xml:id="sack_editorial"
               subtype="print"
-              xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3w28p/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+              xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3w28p/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
             <head>Editorische Hinweise und Siglen</head>
             <div>
                <head>Die <hi>Bibliothek der Neologie</hi> als Hybrid-Ausgabe</head>
@@ -592,7 +592,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="part"
                     xml:id="sack_1_0"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:257w5/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:257w5/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <app>
                      <lem>
                         <titlePage>
@@ -3498,7 +3498,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_1_1"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz7x/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz7x/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="75" edRef="#a"/>
                      <pb edRef="#b" n="69" type="sp"/>
@@ -3746,7 +3746,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_1_2"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz7z/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz7z/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb edRef="#b" n="75"/>
                      <choice>
@@ -3940,7 +3940,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_1_3"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz80/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz80/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb n="86" edRef="#a"/>
                      <choice>
@@ -4051,7 +4051,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_1_4"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz81/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz81/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <choice>
                         <orig>Vierte Betrachtung.</orig>
@@ -4458,7 +4458,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="part"
                     xml:id="sack_2_0"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz83/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz83/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <div>
                      <app>
                         <lem>
@@ -4557,7 +4557,7 @@
                   <div xmlns="http://www.tei-c.org/ns/1.0"
                        type="chapter"
                        xml:id="sack_2_1"
-                       xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz84/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                       xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz84/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                      <head>
                         <choice>
                            <orig>Erste Betrachtung.</orig>
@@ -5256,7 +5256,7 @@
                   <div xmlns="http://www.tei-c.org/ns/1.0"
                        type="chapter"
                        xml:id="sack_2_2"
-                       xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz85/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                       xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz85/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                      <div>
                         <head>
                            <pb n="23" edRef="#a"/>
@@ -6505,7 +6505,7 @@
                   <div xmlns="http://www.tei-c.org/ns/1.0"
                        type="chapter"
                        xml:id="sack_2_3"
-                       xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz86/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                       xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz86/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                      <head>
                         <pb n="50" edRef="#a"/>
                         <choice>
@@ -7045,7 +7045,7 @@
                   <div xmlns="http://www.tei-c.org/ns/1.0"
                        type="chapter"
                        xml:id="sack_2_4"
-                       xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz87/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                       xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz87/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                      <head>
                         <pb n="63" edRef="#a"/>
                         <choice>
@@ -7477,7 +7477,7 @@
                   <div xmlns="http://www.tei-c.org/ns/1.0"
                        type="chapter"
                        xml:id="sack_2_5"
-                       xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz88/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                       xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz88/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                      <head>
                         <pb n="75" edRef="#a"/>
                         <choice>
@@ -8687,7 +8687,7 @@
                   <div xmlns="http://www.tei-c.org/ns/1.0"
                        type="chapter"
                        xml:id="sack_2_6"
-                       xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz89/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                       xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz89/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                      <head>
                         <pb n="103" edRef="#a"/>
                         <choice>
@@ -9848,7 +9848,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="part"
                     xml:id="sack_3_0"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8c/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8c/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <app>
                      <lem>
                         <titlePage>
@@ -9916,7 +9916,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_3_1"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8c/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8c/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="5" edRef="#a"/>
                      <pb n="183" edRef="#b"/>
@@ -10544,7 +10544,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_3_2"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8d/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8d/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="23" edRef="#a"/>
                      <choice>
@@ -10965,7 +10965,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_3_3"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8f/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8f/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="35" edRef="#a"/>
                      <choice>
@@ -11563,7 +11563,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_3_4"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8g/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8g/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="50" edRef="#a"/>
                      <choice>
@@ -12657,7 +12657,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_3_5"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8h/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8h/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="78" edRef="#a"/>
                      <choice>
@@ -13219,7 +13219,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_3_6"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8j/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8j/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="94" edRef="#a"/>
                      <choice>
@@ -13952,7 +13952,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_3_7"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8k/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8k/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="114" edRef="#a"/>
                      <choice>
@@ -14567,7 +14567,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="part"
                     xml:id="sack_4_0"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8n/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8n/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <div>
                      <app>
                         <lem>
@@ -14684,7 +14684,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_4_1"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8n/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8n/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="5" edRef="#a"/>
                      <pb n="277" edRef="#b"/>
@@ -15183,7 +15183,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_4_2"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8p/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8p/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="16" edRef="#a"/>
                      <choice>
@@ -15793,7 +15793,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_4_3"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8q/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8q/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="29" edRef="#a"/>
                      <choice>
@@ -16741,7 +16741,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_4_4"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8r/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8r/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="48" edRef="#a"/>
                      <choice>
@@ -17956,7 +17956,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_4_5"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8s/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8s/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="70" edRef="#a"/>
                      <choice>
@@ -19031,7 +19031,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_4_6"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8t/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8t/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="93" edRef="#a"/>
                      <pb n="344" edRef="#b"/>
@@ -20763,7 +20763,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_4_7"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8v/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8v/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="128" edRef="#a"/>
                      <pb n="370" edRef="#b"/>
@@ -21593,7 +21593,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_4_8"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8w/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8w/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="143" edRef="#a"/>
                      <choice>
@@ -21900,7 +21900,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="part"
                     xml:id="sack_5_0"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8z/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8z/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <app>
                      <lem>
                         <titlePage>
@@ -21963,7 +21963,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_5_1"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8z/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz8z/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb edRef="#a" type="sp" n="5"/>
                      <pb n="389" edRef="#b"/>
@@ -22513,7 +22513,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_5_2"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz90/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz90/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb edRef="#a" type="sp" n="19"/>
                      <choice>
@@ -22881,7 +22881,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_5_3"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz91/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz91/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb edRef="#a" type="sp" n="29"/>
                      <pb n="406" edRef="#b"/>
@@ -24213,7 +24213,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_5_4"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz92/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz92/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb n="59" edRef="#a" type="sp"/>
                      <choice>
@@ -24444,7 +24444,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_5_5"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz93/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz93/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb n="67" type="sp" edRef="#a"/>
                      <choice>
@@ -25233,7 +25233,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_5_6"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz94/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz94/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb n="92" edRef="#a" type="sp"/>
                      <choice>
@@ -25626,7 +25626,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_5_7"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz95/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz95/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb n="103" type="sp" edRef="#a"/>
                      <choice>
@@ -26094,7 +26094,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_5_8"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz96/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz96/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb n="115" type="sp" edRef="#a"/>
                      <choice>
@@ -26464,7 +26464,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="part"
                     xml:id="sack_6_0"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz98/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz98/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <app>
                      <lem>
                         <titlePage>
@@ -26531,7 +26531,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_6_1"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz98/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz98/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb edRef="#a" type="sp" n="5"/>
                      <pb n="475" edRef="#b"/>
@@ -26974,7 +26974,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_6_2"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz99/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz99/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb n="17" type="sp" edRef="#a"/>
                      <choice>
@@ -27397,7 +27397,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_6_3"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz9b/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz9b/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb n="26" type="sp" edRef="#a"/>
                      <pb n="490" edRef="#b"/>
@@ -28249,7 +28249,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_6_4"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz9c/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz9c/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="42" edRef="#a"/>
                      <choice>
@@ -29653,7 +29653,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_6_5"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz9d/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz9d/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb n="71" type="sp" edRef="#a"/>
                      <choice>
@@ -31999,7 +31999,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_6_6"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz9f/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz9f/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="101" edRef="#a"/>
                      <choice>
@@ -34124,7 +34124,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_6_7"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz9g/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz9g/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="136" edRef="#a"/>
                      <choice>
@@ -35096,7 +35096,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_6_8"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz9h/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bz9h/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="155" edRef="#a"/>
                      <choice>
@@ -35289,7 +35289,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="part"
                     xml:id="sack_7_0"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzbp/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzbp/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <app>
                      <lem>
                         <titlePage>
@@ -35438,7 +35438,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_7_1"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzbq/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzbq/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb edRef="#a" type="sp" n="7"/>
                      <pb n="585" edRef="#b"/>
@@ -36481,7 +36481,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_7_2"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzbr/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzbr/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb edRef="#a" type="sp" n="25"/>
                      <choice>
@@ -36985,7 +36985,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_7_3"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzbs/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzbs/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head type="main">
                      <pb edRef="#a" type="sp" n="37"/>
                      <pb n="607" edRef="#b"/>
@@ -37945,7 +37945,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_7_4"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzbt/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzbt/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb edRef="#a" type="sp" n="60"/>
                      <choice>
@@ -38392,7 +38392,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_7_5"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzbv/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzbv/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="70" edRef="#a"/>
                      <choice>
@@ -38787,7 +38787,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_7_6"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzbw/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzbw/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="77" edRef="#a"/>
                      <choice>
@@ -39079,7 +39079,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_7_7"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzbx/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzbx/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="85" edRef="#a"/>
                      <pb n="641" edRef="#b"/>
@@ -40011,7 +40011,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_7_8"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzbz/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzbz/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="98" edRef="#a"/>
                      <choice>
@@ -41139,7 +41139,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_7_9"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzc0/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzc0/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="129" edRef="#a"/>
                      <choice>
@@ -41895,7 +41895,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_7_10"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzc1/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzc1/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb n="146" type="sp" edRef="#a"/>
                      <choice>
@@ -42080,7 +42080,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="part"
                     xml:id="sack_8_1_0"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzc6/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzc6/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <app>
                      <lem>
                         <titlePage>
@@ -42413,7 +42413,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_8_1_1"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzc8/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzc8/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb edRef="#a" type="sp" n="15"/>
                      <pb n="697" edRef="#b"/>
@@ -42574,7 +42574,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_8_1_2"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzc9/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzc9/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb edRef="#a" type="sp" n="20"/>
                      <choice>
@@ -42899,7 +42899,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_8_1_3"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzcb/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzcb/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb n="26" type="sp" edRef="#a"/>
                      <pb n="704" edRef="#b"/>
@@ -43578,7 +43578,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_8_1_4"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzcc/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzcc/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb edRef="#a" type="sp" n="39"/>
                      <choice>
@@ -44347,7 +44347,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_8_2_1"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzcf/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzcf/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb edRef="#a" type="sp" n="65"/>
                      <pb n="733" edRef="#b"/>
@@ -44939,7 +44939,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_8_2_2"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzcg/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzcg/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb edRef="#a" type="sp" n="75"/>
                      <choice>
@@ -45204,7 +45204,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_8_2_3"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzch/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzch/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb edRef="#a" type="sp" n="82"/>
                      <choice>
@@ -45740,7 +45740,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_8_2_4"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzcj/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzcj/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="96" edRef="#a"/>
                      <pb n="755" edRef="#b"/>
@@ -46189,7 +46189,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_8_3_1"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzcm/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzcm/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb edRef="#a" type="sp" n="111"/>
                      <pb n="767" edRef="#b"/>
@@ -46386,7 +46386,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_8_3_2"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzcn/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzcn/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="117" edRef="#a"/>
                      <choice>
@@ -46765,7 +46765,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_8_3_3"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzcp/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzcp/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="129" edRef="#a"/>
                      <choice>
@@ -47682,7 +47682,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_8_3_4"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzcq/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzcq/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="151" edRef="#a"/>
                      <choice>
@@ -48105,7 +48105,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_8_3_5"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzcr/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzcr/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="162" edRef="#a"/>
                      <pb n="802" edRef="#b"/>
@@ -48690,7 +48690,7 @@
                <div xmlns="http://www.tei-c.org/ns/1.0"
                     type="chapter"
                     xml:id="sack_8_3_6"
-                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzcs/data?sessionId=menE0OQ34h93o6sxquOn8boZotXBgvvktdK6DA90K7V2junzSzabFy9Ax2DZ3KszxD1614846762016564">
+                    xml:base="https://textgridlab.org/1.0/tgcrud/rest/textgrid:3bzcs/data?sessionId=XahDWA0LpjgiYOGPwP0pyAlOBLzvCimXEy6HVR2T9enVCUjlLAkB0WF0p3t8vWoi72Q1623431661779728">
                   <head>
                      <pb type="sp" n="177" edRef="#a"/>
                      <pb n="813" edRef="#b"/>
