@@ -19,16 +19,17 @@
   <unit from-book="Jes" from-chapter="49" from-verse="1" to-book="Jes" to-chapter="49" to-verse="6" verses="26">Zweites Gottesknechtslied</unit>
   <unit from-book="Jes" from-chapter="50" from-verse="4" to-book="Jes" to-chapter="50" to-verse="9" verses="11">Drittes Gottesknechtslied</unit>
   <unit from-book="Jes" from-chapter="52" from-verse="13" to-book="Jes" to-chapter="53" to-verse="12" verses="27">Viertes Gottesknechtslied</unit>
-  <unit from-book="Mt" from-chapter="1" from-verse="1" to-book="Mt" to-chapter="4" to-verse="22" verses="90">Vorgeschichte (Jesu Herkunft, Geburt, Taufe und Versuchung)</unit>
+  <unit from-book="Mt" from-chapter="1" from-verse="1" to-book="Mt" to-chapter="2" to-verse="25" verses="48">Vorgeschichte(n) (Jesu Herkunft und Geburt)</unit>
   <unit from-book="Mt" from-chapter="1" from-verse="1" to-book="Mt" to-chapter="1" to-verse="25" verses="25">Jesu Stammbaum ("Urkunde des Ursprungs")</unit>
   <unit from-book="Mt" from-chapter="1" from-verse="18" to-book="Mt" to-chapter="1" to-verse="25" verses="25">Jesu Geburt</unit>
   <unit from-book="Mt" from-chapter="2" from-verse="1" to-book="Mt" to-chapter="2" to-verse="12" verses="23">Die Weisen aus dem Morgenland</unit>
   <unit from-book="Mt" from-chapter="2" from-verse="13" to-book="Mt" to-chapter="2" to-verse="15" verses="23">Die Flucht nach Ägypten</unit>
   <unit from-book="Mt" from-chapter="2" from-verse="16" to-book="Mt" to-chapter="2" to-verse="18" verses="23">Der Kindermord des Herodes</unit>
   <unit from-book="Mt" from-chapter="2" from-verse="19" to-book="Mt" to-chapter="2" to-verse="23" verses="23">Die Rückkehr aus Ägypten</unit>
+  <unit from-book="Mt" from-chapter="3" from-verse="1" to-book="Mt" to-chapter="4" to-verse="11" verses="42">Vorbereitung der Wirksamkeit Jesu (Jesu Taufe und Versuchung)</unit>
   <unit from-book="Mt" from-chapter="3" from-verse="1" to-book="Mt" to-chapter="3" to-verse="12" verses="17">Johannes der Täufer</unit>
   <unit from-book="Mt" from-chapter="3" from-verse="13" to-book="Mt" to-chapter="3" to-verse="17" verses="17">Jesu Taufe</unit>
-  <unit from-book="Mt" from-chapter="4" from-verse="23" to-book="Mt" to-chapter="9" to-verse="35" verses="208">Jesus als der Messias des Wortes (Berpredigt) und der Tat (Wundererzählungen)</unit>
+  <unit from-book="Mt" from-chapter="4" from-verse="12" to-book="Mt" to-chapter="9" to-verse="35" verses="208">Jesu Wirksamkeit als Messias des Wortes (Berpredigt) und der Tat (Wundererzählungen)</unit>
   <unit from-book="Mt" from-chapter="4" from-verse="1" to-book="Mt" to-chapter="4" to-verse="11" verses="25">Jesu Versuchung</unit>
   <unit from-book="Mt" from-chapter="4" from-verse="12" to-book="Mt" to-chapter="4" to-verse="17" verses="25">Der Beginn des Wirkens Jesu in Galiläa</unit>
   <unit from-book="Mt" from-chapter="4" from-verse="18" to-book="Mt" to-chapter="4" to-verse="22" verses="25">Die Berufung der ersten Jünger</unit>
@@ -58,7 +59,7 @@
   <unit from-book="Mt" from-chapter="8" from-verse="18" to-book="Mt" to-chapter="8" to-verse="22" verses="34">Vom Ernst der Nachfolge</unit>
   <unit from-book="Mt" from-chapter="8" from-verse="23" to-book="Mt" to-chapter="8" to-verse="27" verses="34">Die Stillung des Sturms</unit>
   <unit from-book="Mt" from-chapter="8" from-verse="28" to-book="Mt" to-chapter="8" to-verse="34" verses="34">Die Heilung von zwei besessenen Gadarenern</unit>
-  <unit from-book="Mt" from-chapter="9" from-verse="36" to-book="Mt" to-chapter="11" to-verse="1" verses="110">Aussendung der Jünger</unit>
+  <unit from-book="Mt" from-chapter="9" from-verse="36" to-book="Mt" to-chapter="11" to-verse="30" verses="110">Aussendung der Jünger und Abschluss der ersten Wirksamkeit Jesu</unit>
   <unit from-book="Mt" from-chapter="9" from-verse="1" to-book="Mt" to-chapter="9" to-verse="8" verses="38">Die Heilung eines Gelähmten</unit>
   <unit from-book="Mt" from-chapter="9" from-verse="9" to-book="Mt" to-chapter="9" to-verse="13" verses="38">Die Berufung des Matthäus und das Mahl mit den Zöllnern</unit>
   <unit from-book="Mt" from-chapter="9" from-verse="14" to-book="Mt" to-chapter="9" to-verse="17" verses="38">Die Frage nach dem Fasten</unit>
@@ -74,10 +75,10 @@
   <unit from-book="Mt" from-chapter="10" from-verse="27" to-book="Mt" to-chapter="10" to-verse="33" verses="42">Menschenfurcht und Gottesfurcht</unit>
   <unit from-book="Mt" from-chapter="10" from-verse="34" to-book="Mt" to-chapter="10" to-verse="39" verses="42">Entzweiungen um Jesu willen</unit>
   <unit from-book="Mt" from-chapter="10" from-verse="40" to-book="Mt" to-chapter="10" to-verse="42" verses="42">Aufnahme um Jesu willen</unit>
-  <unit from-book="Mt" from-chapter="11" from-verse="2" to-book="Mt" to-chapter="16" to-verse="20" verses="241">Das Entstehen der Gemeinde in der Auseinandersetzung um das Wesen Jesu</unit>
   <unit from-book="Mt" from-chapter="11" from-verse="2" to-book="Mt" to-chapter="11" to-verse="19" verses="30">Anfrage des Täufers und Antwort Jesu</unit>
   <unit from-book="Mt" from-chapter="11" from-verse="20" to-book="Mt" to-chapter="11" to-verse="24" verses="30">Weheruf über galiläische Städte</unit>
   <unit from-book="Mt" from-chapter="11" from-verse="25" to-book="Mt" to-chapter="11" to-verse="30" verses="30">Jesu Lobpreis ("Werberede"); Der Heilandsruf</unit>
+  <unit from-book="Mt" from-chapter="12" from-verse="1" to-book="Mt" to-chapter="16" to-verse="12" verses="211">Die Ablehnung und der Widerstreit um Jesus als Messias</unit>
   <unit from-book="Mt" from-chapter="12" from-verse="1" to-book="Mt" to-chapter="12" to-verse="50" verses="50">Die Lehre Jesu im Widerstreit (Streitgespräche)</unit>
   <unit from-book="Mt" from-chapter="12" from-verse="1" to-book="Mt" to-chapter="12" to-verse="8" verses="50">Das Ährenraufen am Sabbat</unit>
   <unit from-book="Mt" from-chapter="12" from-verse="9" to-book="Mt" to-chapter="12" to-verse="14" verses="50">Die Heilung eines Mannes am Sabbat</unit>
@@ -108,6 +109,7 @@
   <unit from-book="Mt" from-chapter="15" from-verse="21" to-book="Mt" to-chapter="15" to-verse="28" verses="39">Gespräch mit der kanaanäischen Frau</unit>
   <unit from-book="Mt" from-chapter="15" from-verse="29" to-book="Mt" to-chapter="15" to-verse="31" verses="39">Weitere Heilungen</unit>
   <unit from-book="Mt" from-chapter="15" from-verse="32" to-book="Mt" to-chapter="15" to-verse="38" verses="39">Die Speisung der Viertausend</unit>
+  <unit from-book="Mt" from-chapter="16" from-verse="13" to-book="Mt" to-chapter="20" to-verse="34" verses="154">Der Weg zur Passion ("Gemeindefragen")</unit>
   <unit from-book="Mt" from-chapter="16" from-verse="1" to-book="Mt" to-chapter="16" to-verse="4" verses="28">Die Zeichenforderungen der Pharisäer</unit>
   <unit from-book="Mt" from-chapter="16" from-verse="5" to-book="Mt" to-chapter="16" to-verse="12" verses="28">Warnung vor der Lehre der Pharisäer und Sadduzäer</unit>
   <unit from-book="Mt" from-chapter="16" from-verse="13" to-book="Mt" to-chapter="16" to-verse="20" verses="28">Petrusbekenntnis und Felswort (Schlüsselgewalt)</unit>
@@ -180,6 +182,8 @@
   <unit from-book="Mt" from-chapter="28" from-verse="11" to-book="Mt" to-chapter="28" to-verse="15" verses="20">Gerücht der Soldaten, Jesu Leichnam sei von den Jüngern gestohlen worden (Betrugstheorie)</unit>
   <unit from-book="Mt" from-chapter="28" from-verse="16" to-book="Mt" to-chapter="28" to-verse="20" verses="20">Erscheinung vor den Jüngern</unit>
   <unit from-book="Mt" from-chapter="28" from-verse="18" to-book="Mt" to-chapter="28" to-verse="20" verses="20">Missionsbefehl</unit>
+  <unit from-book="Mk" from-chapter="1" from-verse="14" to-book="Mk" to-chapter="8" to-verse="26" verses="323">Wirksamkeit Jesu innerhalb und außerhalb Galiläas</unit>
+  <unit from-book="Mk" from-chapter="1" from-verse="16" to-book="Mk" to-chapter="4" to-verse="34" verses="149">Wirksamkeit Jesu von Kafarnaum aus</unit>
   <unit from-book="Mk" from-chapter="1" from-verse="1" to-book="Mk" to-chapter="1" to-verse="1" verses="45">Überschrift</unit>
   <unit from-book="Mk" from-chapter="1" from-verse="2" to-book="Mk" to-chapter="1" to-verse="8" verses="45">Johannes der Täufer</unit>
   <unit from-book="Mk" from-chapter="1" from-verse="2" to-book="Mk" to-chapter="1" to-verse="13" verses="45">Jesu Taufe und Versuchung</unit>
@@ -197,6 +201,7 @@
   <unit from-book="Mk" from-chapter="3" from-verse="20" to-book="Mk" to-chapter="3" to-verse="21" verses="35">Jesus und seine Verwandten</unit>
   <unit from-book="Mk" from-chapter="3" from-verse="22" to-book="Mk" to-chapter="3" to-verse="30" verses="35">Jesus und die Dämonen</unit>
   <unit from-book="Mk" from-chapter="3" from-verse="31" to-book="Mk" to-chapter="3" to-verse="35" verses="35">Jesu wahre Verwandte</unit>
+  <unit from-book="Mk" from-chapter="4" from-verse="35" to-book="Mk" to-chapter="8" to-verse="26" verses="215">Wirksamkeit Jesu vom See Genezareth aus</unit>
   <unit from-book="Mk" from-chapter="4" from-verse="1" to-book="Mk" to-chapter="4" to-verse="2" verses="41">Lehre in Gleichnissen</unit>
   <unit from-book="Mk" from-chapter="4" from-verse="3" to-book="Mk" to-chapter="4" to-verse="9" verses="41">Das Gleichnis vom Sämann</unit>
   <unit from-book="Mk" from-chapter="4" from-verse="10" to-book="Mk" to-chapter="4" to-verse="12" verses="41">Vom Sinn der Gleichnisse</unit>
@@ -222,6 +227,7 @@
   <unit from-book="Mk" from-chapter="8" from-verse="22" to-book="Mk" to-chapter="8" to-verse="26" verses="38">Die Heilung eines Blinden</unit>
   <unit from-book="Mk" from-chapter="8" from-verse="27" to-book="Mk" to-chapter="8" to-verse="30" verses="38">Das Bekenntnis des Petrus</unit>
   <unit from-book="Mk" from-chapter="8" from-verse="31" to-book="Mk" to-chapter="8" to-verse="33" verses="38">Die erste Ankündigung von Jesu Leiden und Auferstehung</unit>
+  <unit from-book="Mk" from-chapter="8" from-verse="27" to-book="Mk" to-chapter="10" to-verse="52" verses="140">Der Weg Jesu nach Jerusalem (Weg zur Passion)</unit>
   <unit from-book="Mk" from-chapter="8" from-verse="34" to-book="Mk" to-chapter="9" to-verse="1" verses="88">Von der Nachfolge</unit>
   <unit from-book="Mk" from-chapter="9" from-verse="2" to-book="Mk" to-chapter="9" to-verse="13" verses="50">Die Verklärung Jesu</unit>
   <unit from-book="Mk" from-chapter="9" from-verse="14" to-book="Mk" to-chapter="9" to-verse="29" verses="50">Die Heilung eines besessenen Knaben</unit>
@@ -236,6 +242,7 @@
   <unit from-book="Mk" from-chapter="10" from-verse="32" to-book="Mk" to-chapter="10" to-verse="34" verses="52">Die dritte Ankündigung von Jesu Leiden und Auferstehung</unit>
   <unit from-book="Mk" from-chapter="10" from-verse="35" to-book="Mk" to-chapter="10" to-verse="45" verses="52">Vom Herrschen und vom Dienen</unit>
   <unit from-book="Mk" from-chapter="10" from-verse="46" to-book="Mk" to-chapter="10" to-verse="52" verses="52">Die Heilung eines Blinden bei Jericho</unit>
+  <unit from-book="Mk" from-chapter="11" from-verse="1" to-book="Mk" to-chapter="12" to-verse="33" verses="77">Auseinandersetzungen in Jerusalem</unit>
   <unit from-book="Mk" from-chapter="11" from-verse="1" to-book="Mk" to-chapter="11" to-verse="11" verses="33">Jesu Einzug in Jerusalem</unit>
   <unit from-book="Mk" from-chapter="11" from-verse="12" to-book="Mk" to-chapter="11" to-verse="26" verses="33">Der verdorrte Feigenbaum. Jesus im Tempel</unit>
   <unit from-book="Mk" from-chapter="11" from-verse="27" to-book="Mk" to-chapter="11" to-verse="33" verses="33">Die Frage nach Jesu Vollmacht</unit>
@@ -245,12 +252,15 @@
   <unit from-book="Mk" from-chapter="12" from-verse="28" to-book="Mk" to-chapter="12" to-verse="34" verses="44">Die Frage nach dem höchsten Gebot</unit>
   <unit from-book="Mk" from-chapter="12" from-verse="38" to-book="Mk" to-chapter="12" to-verse="40" verses="44">Warnung vor den Schriftgelehrten</unit>
   <unit from-book="Mk" from-chapter="12" from-verse="41" to-book="Mk" to-chapter="12" to-verse="44" verses="44">Das Scherflein der Witwe</unit>
+  <unit from-book="Mk" from-chapter="13" from-verse="1" to-book="Mk" to-chapter="13" to-verse="37" verses="37">Endzeitrede</unit>
+  <unit from-book="Mk" from-chapter="13" from-verse="1" to-book="Mk" to-chapter="13" to-verse="37" verses="37">Endzeitrede</unit>
   <unit from-book="Mk" from-chapter="13" from-verse="1" to-book="Mk" to-chapter="13" to-verse="2" verses="37">Das Ende des Tempels</unit>
   <unit from-book="Mk" from-chapter="13" from-verse="3" to-book="Mk" to-chapter="13" to-verse="13" verses="37">Die Vorzeichen</unit>
   <unit from-book="Mk" from-chapter="13" from-verse="14" to-book="Mk" to-chapter="13" to-verse="23" verses="37">Die große Bedrängnis</unit>
   <unit from-book="Mk" from-chapter="13" from-verse="24" to-book="Mk" to-chapter="13" to-verse="27" verses="37">Das Kommen des Menschensohns</unit>
   <unit from-book="Mk" from-chapter="13" from-verse="28" to-book="Mk" to-chapter="13" to-verse="32" verses="37">Vom Zeitpunkt des Endes</unit>
   <unit from-book="Mk" from-chapter="13" from-verse="33" to-book="Mk" to-chapter="13" to-verse="37" verses="37">Mahnung zur Wachsamkeit</unit>
+  <unit from-book="Mk" from-chapter="14" from-verse="1" to-book="Mk" to-chapter="15" to-verse="47" verses="119">Passionsgeschichte</unit>
   <unit from-book="Mk" from-chapter="14" from-verse="1" to-book="Mk" to-chapter="14" to-verse="2" verses="72">Der Plan der Hohenpriester und der Schriftgelehrten</unit>
   <unit from-book="Mk" from-chapter="14" from-verse="3" to-book="Mk" to-chapter="14" to-verse="9" verses="72">Die Salbung in Betanien</unit>
   <unit from-book="Mk" from-chapter="14" from-verse="10" to-book="Mk" to-chapter="14" to-verse="11" verses="72">Der Verrat des Judas</unit>
@@ -264,9 +274,10 @@
   <unit from-book="Mk" from-chapter="15" from-verse="6" to-book="Mk" to-chapter="15" to-verse="20" verses="47">Jesu Verurteilung und Verspottung</unit>
   <unit from-book="Mk" from-chapter="15" from-verse="21" to-book="Mk" to-chapter="15" to-verse="41" verses="47">Jesu Kreuzigung und Tod</unit>
   <unit from-book="Mk" from-chapter="15" from-verse="42" to-book="Mk" to-chapter="15" to-verse="47" verses="47">Jesu Grablegung</unit>
+  <unit from-book="Mk" from-chapter="16" from-verse="1" to-book="Mk" to-chapter="16" to-verse="20" verses="20">Jesu Auferstehung und Missionbefehl</unit>
   <unit from-book="Mk" from-chapter="16" from-verse="1" to-book="Mk" to-chapter="16" to-verse="8" verses="20">Die Botschaft von Jesu Auferstehung</unit>
   <unit from-book="Mk" from-chapter="16" from-verse="9" to-book="Mk" to-chapter="16" to-verse="20" verses="20">Erscheinungen des Auferstandenen und Himmelfahrt</unit>
-  <unit from-book="Lk" from-chapter="1" from-verse="5" to-book="Lk" to-chapter="2" to-verse="52" verses="132">Geburtsgeschichten</unit>
+  <unit from-book="Lk" from-chapter="1" from-verse="5" to-book="Lk" to-chapter="2" to-verse="52" verses="132">Geburtsgeschichten (Vorgeschichten)</unit>
   <unit from-book="Lk" from-chapter="1" from-verse="1" to-book="Lk" to-chapter="1" to-verse="4" verses="80">Proömium</unit>
   <unit from-book="Lk" from-chapter="1" from-verse="5" to-book="Lk" to-chapter="1" to-verse="25" verses="80">Die Ankündigung der Geburt Johannes des Täufers</unit>
   <unit from-book="Lk" from-chapter="1" from-verse="26" to-book="Lk" to-chapter="1" to-verse="38" verses="80">Die Ankündigung der Geburt Jesu</unit>
@@ -312,6 +323,7 @@
   <unit from-book="Lk" from-chapter="8" from-verse="22" to-book="Lk" to-chapter="8" to-verse="25" verses="56">Die Stillung des Sturms</unit>
   <unit from-book="Lk" from-chapter="8" from-verse="26" to-book="Lk" to-chapter="8" to-verse="39" verses="56">Der besessene Gerasener</unit>
   <unit from-book="Lk" from-chapter="8" from-verse="40" to-book="Lk" to-chapter="8" to-verse="56" verses="56">Die Heilung einer blutflüssigen Frau und die Auferweckung der Tochter des Jaïrus</unit>
+  <unit from-book="Lk" from-chapter="9" from-verse="51" to-book="Lk" to-chapter="19" to-verse="27" verses="478">Der Weg Jesu zur Passion (Reisebericht; "Gemeindefragen")</unit>
   <unit from-book="Lk" from-chapter="9" from-verse="51" to-book="Lk" to-chapter="10" to-verse="24" verses="104">Jüngerbelehrung</unit>
   <unit from-book="Lk" from-chapter="9" from-verse="1" to-book="Lk" to-chapter="9" to-verse="6" verses="62">Die Aussendung der Zwölf</unit>
   <unit from-book="Lk" from-chapter="9" from-verse="7" to-book="Lk" to-chapter="9" to-verse="9" verses="62">Herodes Antipas und Jesus</unit>
@@ -356,6 +368,7 @@
   <unit from-book="Lk" from-chapter="13" from-verse="22" to-book="Lk" to-chapter="13" to-verse="30" verses="35">Die enge Pforte und die verschlossene Tür</unit>
   <unit from-book="Lk" from-chapter="13" from-verse="31" to-book="Lk" to-chapter="13" to-verse="33" verses="35">Die Feindschaft des Herodes Antipas</unit>
   <unit from-book="Lk" from-chapter="13" from-verse="34" to-book="Lk" to-chapter="13" to-verse="35" verses="35">Klage über Jerusalem</unit>
+  <unit from-book="Lk" from-chapter="14" from-verse="1" to-book="Lk" to-chapter="17" to-verse="10" verses="135">Belehrungen beim Sabbatmahl</unit>
   <unit from-book="Lk" from-chapter="14" from-verse="1" to-book="Lk" to-chapter="14" to-verse="35" verses="35">Das Wesen der Nachfolge</unit>
   <unit from-book="Lk" from-chapter="14" from-verse="1" to-book="Lk" to-chapter="14" to-verse="6" verses="35">Die Heilung eines Wassersüchtigen am Sabbat</unit>
   <unit from-book="Lk" from-chapter="14" from-verse="7" to-book="Lk" to-chapter="14" to-verse="14" verses="35">Von Rangordnung und Auswahl der Gäste</unit>
@@ -369,6 +382,7 @@
   <unit from-book="Lk" from-chapter="16" from-verse="1" to-book="Lk" to-chapter="16" to-verse="13" verses="31">Vom ungerechten Verwalter</unit>
   <unit from-book="Lk" from-chapter="16" from-verse="14" to-book="Lk" to-chapter="16" to-verse="18" verses="31">Worte an die Pharisäer</unit>
   <unit from-book="Lk" from-chapter="16" from-verse="19" to-book="Lk" to-chapter="16" to-verse="31" verses="31">Vom reichen Mann und armen Lazarus</unit>
+  <unit from-book="Lk" from-chapter="17" from-verse="11" to-book="Lk" to-chapter="19" to-verse="27" verses="128">Belehrungen auf dem Weg nach Jerusalem</unit>
   <unit from-book="Lk" from-chapter="17" from-verse="1" to-book="Lk" to-chapter="17" to-verse="4" verses="37">Warnung vor der Verführung. Von der Vergebung</unit>
   <unit from-book="Lk" from-chapter="17" from-verse="5" to-book="Lk" to-chapter="17" to-verse="6" verses="37">Von der Kraft des Glaubens</unit>
   <unit from-book="Lk" from-chapter="17" from-verse="7" to-book="Lk" to-chapter="17" to-verse="10" verses="37">Von der Pflicht des Knechts</unit>
@@ -382,6 +396,7 @@
   <unit from-book="Lk" from-chapter="18" from-verse="28" to-book="Lk" to-chapter="18" to-verse="30" verses="43">Der Lohn der Nachfolge</unit>
   <unit from-book="Lk" from-chapter="18" from-verse="31" to-book="Lk" to-chapter="18" to-verse="34" verses="43">Die dritte Ankündigung von Jesu Leiden und Auferstehung</unit>
   <unit from-book="Lk" from-chapter="18" from-verse="35" to-book="Lk" to-chapter="18" to-verse="43" verses="43">Die Heilung eines Blinden bei Jericho</unit>
+  <unit from-book="Lk" from-chapter="19" from-verse="28" to-book="Lk" to-chapter="20" to-verse="47" verses="95">Auseinandersetzungen in Jerusalem</unit>
   <unit from-book="Lk" from-chapter="19" from-verse="1" to-book="Lk" to-chapter="19" to-verse="10" verses="48">Zachäus</unit>
   <unit from-book="Lk" from-chapter="19" from-verse="11" to-book="Lk" to-chapter="19" to-verse="27" verses="48">Von den anvertrauten Pfunden</unit>
   <unit from-book="Lk" from-chapter="19" from-verse="28" to-book="Lk" to-chapter="19" to-verse="40" verses="48">Jesu Einzug in Jerusalem</unit>
@@ -393,6 +408,7 @@
   <unit from-book="Lk" from-chapter="20" from-verse="27" to-book="Lk" to-chapter="20" to-verse="40" verses="47">Die Frage nach der Auferstehung</unit>
   <unit from-book="Lk" from-chapter="20" from-verse="41" to-book="Lk" to-chapter="20" to-verse="44" verses="47">Der Sohn Davids</unit>
   <unit from-book="Lk" from-chapter="20" from-verse="45" to-book="Lk" to-chapter="20" to-verse="47" verses="47">Warnung vor den Schriftgelehrten</unit>
+  <unit from-book="Lk" from-chapter="21" from-verse="5" to-book="Lk" to-chapter="21" to-verse="36" verses="38">Endzeitrede</unit>
   <unit from-book="Lk" from-chapter="21" from-verse="1" to-book="Lk" to-chapter="21" to-verse="4" verses="38">Das Scherflein der Witwe</unit>
   <unit from-book="Lk" from-chapter="21" from-verse="5" to-book="Lk" to-chapter="21" to-verse="36" verses="38">Rede von den letzten Dingen</unit>
   <unit from-book="Lk" from-chapter="21" from-verse="5" to-book="Lk" to-chapter="21" to-verse="6" verses="38">Das Ende des Tempels</unit>
@@ -402,7 +418,7 @@
   <unit from-book="Lk" from-chapter="21" from-verse="25" to-book="Lk" to-chapter="21" to-verse="28" verses="38">Das Kommen des Menschensohns</unit>
   <unit from-book="Lk" from-chapter="21" from-verse="29" to-book="Lk" to-chapter="21" to-verse="33" verses="38">Vom Feigenbaum</unit>
   <unit from-book="Lk" from-chapter="21" from-verse="34" to-book="Lk" to-chapter="21" to-verse="38" verses="38">Ermahnung zur Wachsamkeit</unit>
-  <unit from-book="Lk" from-chapter="22" from-verse="1" to-book="Lk" to-chapter="24" to-verse="53" verses="180">Jesu Leiden, Sterben und Auferstehung</unit>
+  <unit from-book="Lk" from-chapter="22" from-verse="1" to-book="Lk" to-chapter="23" to-verse="56" verses="127">Passionsgeschichte</unit>
   <unit from-book="Lk" from-chapter="22" from-verse="3" to-book="Lk" to-chapter="22" to-verse="6" verses="71">Der Verrat des Judas</unit>
   <unit from-book="Lk" from-chapter="22" from-verse="7" to-book="Lk" to-chapter="22" to-verse="23" verses="71">Das Abendmahl</unit>
   <unit from-book="Lk" from-chapter="22" from-verse="24" to-book="Lk" to-chapter="22" to-verse="38" verses="71">Gespräche mit den Jüngern</unit>
@@ -417,10 +433,13 @@
   <unit from-book="Lk" from-chapter="23" from-verse="26" to-book="Lk" to-chapter="23" to-verse="31" verses="56">Jesu Weg nach Golgatha</unit>
   <unit from-book="Lk" from-chapter="23" from-verse="32" to-book="Lk" to-chapter="23" to-verse="49" verses="56">Jesu Kreuzigung und Tod</unit>
   <unit from-book="Lk" from-chapter="23" from-verse="50" to-book="Lk" to-chapter="23" to-verse="56" verses="56">Jesu Grablegung</unit>
+  <unit from-book="Lk" from-chapter="24" from-verse="1" to-book="Lk" to-chapter="24" to-verse="53" verses="53">Jesu Auferstehung und Himmelfahrt</unit>
   <unit from-book="Lk" from-chapter="24" from-verse="1" to-book="Lk" to-chapter="24" to-verse="12" verses="53">Jesu Auferstehung</unit>
   <unit from-book="Lk" from-chapter="24" from-verse="13" to-book="Lk" to-chapter="24" to-verse="35" verses="53">Die Emmausjünger</unit>
   <unit from-book="Lk" from-chapter="24" from-verse="36" to-book="Lk" to-chapter="24" to-verse="49" verses="53">Jesus Erscheinung vor den Jüngern</unit>
   <unit from-book="Lk" from-chapter="24" from-verse="50" to-book="Lk" to-chapter="24" to-verse="53" verses="53">Jesu Himmelfahrt</unit>
+  <unit from-book="Joh" from-chapter="1" from-verse="1" to-book="Joh" to-chapter="1" to-verse="18" verses="51">Logoshymnus (Vorgeschichte)</unit>
+  <unit from-book="Joh" from-chapter="1" from-verse="19" to-book="Joh" to-chapter="12" to-verse="50" verses="586">Das Wirken des Offenbarers vor der Welt</unit>
   <unit from-book="Joh" from-chapter="1" from-verse="1" to-book="Joh" to-chapter="1" to-verse="18" verses="51">Prolog (Logoshymnus)</unit>
   <unit from-book="Joh" from-chapter="1" from-verse="19" to-book="Joh" to-chapter="1" to-verse="34" verses="51">Der Täufer als Zeuge des Offenbarers</unit>
   <unit from-book="Joh" from-chapter="1" from-verse="35" to-book="Joh" to-chapter="1" to-verse="51" verses="51">Jüngerberufungen</unit>
@@ -488,7 +507,7 @@
   <unit from-book="Joh" from-chapter="20" from-verse="11" to-book="Joh" to-chapter="20" to-verse="18" verses="31">Erscheinung vor Maria Magdalena</unit>
   <unit from-book="Joh" from-chapter="20" from-verse="19" to-book="Joh" to-chapter="20" to-verse="23" verses="31">Die Vollmacht der Jünger</unit>
   <unit from-book="Joh" from-chapter="20" from-verse="24" to-book="Joh" to-chapter="20" to-verse="31" verses="31">Ungläubiger Thomas, Zweck des Evangeliums (1. Evangelienschluss)</unit>
-  <unit from-book="Joh" from-chapter="21" from-verse="1" to-book="Joh" to-chapter="21" to-verse="25" verses="25">Nachtragskapitel der Redaktion</unit>
+  <unit from-book="Joh" from-chapter="21" from-verse="1" to-book="Joh" to-chapter="21" to-verse="25" verses="25">Epilog (Nachgeschichte)</unit>
   <unit from-book="Joh" from-chapter="21" from-verse="1" to-book="Joh" to-chapter="21" to-verse="14" verses="25">Erscheinung am See von Tiberias</unit>
   <unit from-book="Joh" from-chapter="21" from-verse="15" to-book="Joh" to-chapter="21" to-verse="23" verses="25">Petrus und der Lieblingsjünger</unit>
   <unit from-book="Joh" from-chapter="21" from-verse="24" to-book="Joh" to-chapter="21" to-verse="24" verses="25">Zeugnis der Redaktion über den Lieblingsjünger</unit>
