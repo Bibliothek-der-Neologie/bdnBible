@@ -133,9 +133,9 @@ declare function crit:register_table ( $doc ){
            <td>{
              for $ref in $bibl/ref 
              return 
-               if ($ref/@book)                  
-               then fn:concat($ref/@book, " ", $ref/@chapter, ",", $ref/@verse) 
-               else fn:concat($ref/@from-book, " ", $ref/@from-chapter, ",", $ref/@from-verse, "–", $ref/@to-verse) 
+               if ($ref/@from-book)                  
+               then fn:concat($ref/@from-book, " ", $ref/@from-chapter, ",", $ref/@from-verse, "–", $ref/@to-verse)                
+               else fn:concat($ref/@to-book, " ", $ref/@to-chapter, ",", $ref/@to-verse) 
          }</td>        
          
          <td>{$bibl/@place/data()}</td>
