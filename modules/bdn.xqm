@@ -61,6 +61,13 @@ declare function bdn:convert2( $node ) {
   default return bdn:passthrough2($node)
 };
 
+declare function bdn:convert_write ( $node ) {
+  let $convert := bdn:convert( $node )
+  let $edition := $convert//edition
+  let $filename := "data/converted/" || fn:lower-case(substring($edition, 1, 2)) ||".xml"    
+  return file:write($filename,  $convert)
+};
+
 (:~
  : bdn:convert > bdn:passthrough()
  : TEMPLATE: Default function of bdn:convert to return a node's children aka.
@@ -217,9 +224,9 @@ declare function bdn:bibl( $node ){
  :)
 declare function bdn:citedRange_n ( $n ) {
  element {"ref"} {
-   attribute {"book"} { fn:tokenize($n, ":")[1] },
-   attribute {"chapter"} { fn:tokenize($n, ":")[2] },
-   attribute {"verse"} { fn:tokenize($n, ":")[3] }
+   attribute {"to-book"} { fn:tokenize($n, ":")[1] },
+   attribute {"to-chapter"} { fn:tokenize($n, ":")[2] },
+   attribute {"to-verse"} { fn:tokenize($n, ":")[3] }
    }
  };
  
@@ -308,15 +315,17 @@ declare function bdn:is-in($bibl, $w)
   let $listWit := $bibl/root()//listWit
   let $app := $bibl/ancestor::app
   return
-  if (fn:empty($app))
+  if ( fn:empty($app) )
   then "true"
-  else
-    if ($bibl/parent::rdg[contains(./@wit, $w)])
-    then "true"
-    else (: gilt: $bibl sollte im lem stehen! :)
-        if (not($app[1]/rdg[contains(@wit, $w)]))
+  else    
+      if ( $bibl/parent::lem or $bibl/parent::div/parent::lem )
+      then 
+        if ( $app/rdg[fn:contains(@wit, $w) and fn:not( fn:deep-equal(.//bibl, $bibl) )] ) 
+        then "false"
+        else "true"
+      else 
+        if ( $app/rdg[fn:contains(@wit, $w)]//bibl[fn:deep-equal(., $bibl)] )
         then "true"
         else "false"
-      
 };
 
