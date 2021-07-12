@@ -42,7 +42,7 @@
       <div type="section" id="section_1_9" words="415"/>
       <div type="section" id="section_1_10" words="188">
         <bibl>
-          <ref book="1Kor" chapter="8" verse="1"/>
+          <ref to-book="1Kor" to-chapter="8" to-verse="1"/>
           <profile>
             <wit in="a" is="true"/>
             <wit in="b" is="true"/>
@@ -52,7 +52,7 @@
       </div>
       <div type="section" id="section_1_11" words="129">
         <bibl>
-          <ref book="Mt" chapter="12" verse="44"/>
+          <ref to-book="Mt" to-chapter="12" to-verse="44"/>
           <profile>
             <wit in="a" is="true"/>
             <wit in="b" is="true"/>
@@ -60,7 +60,7 @@
           </profile>
         </bibl>
         <bibl>
-          <ref book="Mt" chapter="12" verse="45"/>
+          <ref to-book="Mt" to-chapter="12" to-verse="45"/>
           <profile>
             <wit in="a" is="true"/>
             <wit in="b" is="true"/>
@@ -129,7 +129,7 @@
         <div type="section" id="section_1_59" words="145"/>
         <div type="section" id="section_1_60" words="867">
           <bibl>
-            <ref book="Phil" chapter="1" verse="7"/>
+            <ref to-book="Phil" to-chapter="1" to-verse="7"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -137,7 +137,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Phil" chapter="1" verse="29"/>
+            <ref to-book="Phil" to-chapter="1" to-verse="29"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -145,39 +145,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Phil" chapter="4" verse="14"/>
-            <profile>
-              <wit in="a" is="false"/>
-              <wit in="b" is="true"/>
-              <wit in="c" is="true"/>
-            </profile>
-          </bibl>
-          <bibl>
-            <ref book="1Kor" chapter="6" verse="1"/>
-            <profile>
-              <wit in="a" is="false"/>
-              <wit in="b" is="true"/>
-              <wit in="c" is="true"/>
-            </profile>
-          </bibl>
-          <bibl>
-            <ref book="2Kor" chapter="6" verse="14"/>
-            <profile>
-              <wit in="a" is="false"/>
-              <wit in="b" is="true"/>
-              <wit in="c" is="true"/>
-            </profile>
-          </bibl>
-          <bibl>
-            <ref book="Lev" chapter="19" verse="19"/>
-            <profile>
-              <wit in="a" is="false"/>
-              <wit in="b" is="true"/>
-              <wit in="c" is="true"/>
-            </profile>
-          </bibl>
-          <bibl>
-            <ref book="Phil" chapter="4" verse="14"/>
+            <ref to-book="Phil" to-chapter="4" to-verse="14"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -185,7 +153,39 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Phil" chapter="1" verse="21"/>
+            <ref to-book="1Kor" to-chapter="6" to-verse="1"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref to-book="2Kor" to-chapter="6" to-verse="14"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref to-book="Lev" to-chapter="19" to-verse="19"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="true"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref to-book="Phil" to-chapter="4" to-verse="14"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref to-book="Phil" to-chapter="1" to-verse="21"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -209,7 +209,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="4" verse="12"/>
+            <ref to-book="2Kor" to-chapter="4" to-verse="12"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -220,7 +220,7 @@
         <div type="section" id="section_1_61" words="349"/>
         <div type="section" id="section_1_62" words="236">
           <bibl>
-            <ref book="Röm" chapter="9" verse=""/>
+            <ref to-book="Röm" to-chapter="9" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -228,7 +228,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="11" verse="27"/>
+            <ref to-book="1Kor" to-chapter="11" to-verse="27"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -236,7 +236,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="11" verse="29"/>
+            <ref to-book="1Kor" to-chapter="11" to-verse="29"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -244,7 +244,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="3" verse="8"/>
+            <ref to-book="Mt" to-chapter="3" to-verse="8"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -252,7 +252,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="8" verse=""/>
+            <ref to-book="1Kor" to-chapter="8" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -260,7 +260,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="14" verse=""/>
+            <ref to-book="Röm" to-chapter="14" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -268,7 +268,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Apg" chapter="13" verse="29"/>
+            <ref to-book="Apg" to-chapter="13" to-verse="29"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -276,7 +276,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Apg" chapter="1" verse="18"/>
+            <ref to-book="Apg" to-chapter="1" to-verse="18"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -284,7 +284,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="6" verse="45"/>
+            <ref to-book="Joh" to-chapter="6" to-verse="45"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -292,7 +292,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Tim" chapter="3" verse="16"/>
+            <ref to-book="2Tim" to-chapter="3" to-verse="16"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -302,7 +302,7 @@
         </div>
         <div type="section" id="section_1_63" words="488">
           <bibl>
-            <ref book="Röm" chapter="5" verse=""/>
+            <ref to-book="Röm" to-chapter="5" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -310,7 +310,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Eph" chapter="2" verse="3"/>
+            <ref to-book="Eph" to-chapter="2" to-verse="3"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -339,7 +339,7 @@
         <div type="section" id="section_1_76" words="487"/>
         <div type="section" id="section_1_77" words="251">
           <bibl>
-            <ref book="Hebr" chapter="11" verse="1"/>
+            <ref to-book="Hebr" to-chapter="11" to-verse="1"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -347,7 +347,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="7" verse="10"/>
+            <ref to-book="2Kor" to-chapter="7" to-verse="10"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -355,7 +355,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="7" verse="11"/>
+            <ref to-book="2Kor" to-chapter="7" to-verse="11"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -363,7 +363,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="10" verse="4"/>
+            <ref to-book="2Kor" to-chapter="10" to-verse="4"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -371,7 +371,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="9" verse="18"/>
+            <ref to-book="Röm" to-chapter="9" to-verse="18"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -379,7 +379,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="10" verse="24"/>
+            <ref to-book="1Kor" to-chapter="10" to-verse="24"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -387,7 +387,15 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="10" verse="23"/>
+            <ref to-book="1Kor" to-chapter="10" to-verse="23"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref to-book="1Petr" to-chapter="5" to-verse="8"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -395,7 +403,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Petr" chapter="5" verse="8"/>
+            <ref to-book="1Petr" to-chapter="5" to-verse="9"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -403,7 +411,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Petr" chapter="5" verse="9"/>
+            <ref to-book="1Thess" to-chapter="2" to-verse="14"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -411,7 +419,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Thess" chapter="2" verse="14"/>
+            <ref to-book="Röm" to-chapter="9" to-verse="1"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -419,15 +427,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="9" verse="1"/>
-            <profile>
-              <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
-              <wit in="c" is="true"/>
-            </profile>
-          </bibl>
-          <bibl>
-            <ref book="Lk" chapter="18" verse="1"/>
+            <ref to-book="Lk" to-chapter="18" to-verse="1"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -443,7 +443,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Lk" chapter="15" verse="10"/>
+            <ref to-book="Lk" to-chapter="15" to-verse="10"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -459,7 +459,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Eph" chapter="2" verse="1"/>
+            <ref to-book="Eph" to-chapter="2" to-verse="1"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -467,7 +467,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Eph" chapter="2" verse="3"/>
+            <ref to-book="Eph" to-chapter="2" to-verse="3"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -475,7 +475,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="8" verse="33"/>
+            <ref to-book="Röm" to-chapter="8" to-verse="33"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -483,7 +483,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="8" verse="28"/>
+            <ref to-book="Röm" to-chapter="8" to-verse="28"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -491,7 +491,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="10" verse="6"/>
+            <ref to-book="2Kor" to-chapter="10" to-verse="6"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -499,7 +499,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="10" verse="15"/>
+            <ref to-book="2Kor" to-chapter="10" to-verse="15"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -510,7 +510,7 @@
         <div type="section" id="section_1_78" words="59"/>
         <div type="section" id="section_1_79" words="277">
           <bibl>
-            <ref book="Mt" chapter="27" verse="27"/>
+            <ref to-book="Mt" to-chapter="27" to-verse="27"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -518,7 +518,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Phil" chapter="1" verse="13"/>
+            <ref to-book="Phil" to-chapter="1" to-verse="13"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -526,7 +526,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Apg" chapter="19" verse=""/>
+            <ref to-book="Apg" to-chapter="19" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -534,7 +534,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Hebr" chapter="2" verse="5"/>
+            <ref to-book="Hebr" to-chapter="2" to-verse="5"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -544,7 +544,7 @@
         </div>
         <div type="section" id="section_1_80" words="403">
           <bibl>
-            <ref book="Lk" chapter="21" verse="19"/>
+            <ref to-book="Lk" to-chapter="21" to-verse="19"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -552,7 +552,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Lk" chapter="12" verse="21"/>
+            <ref to-book="Lk" to-chapter="12" to-verse="21"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -560,7 +560,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="6" verse="7"/>
+            <ref to-book="Röm" to-chapter="6" to-verse="7"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -568,7 +568,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Kol" chapter="2" verse="20"/>
+            <ref to-book="Kol" to-chapter="2" to-verse="20"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -576,7 +576,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="9" verse="16"/>
+            <ref to-book="1Kor" to-chapter="9" to-verse="16"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -584,7 +584,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="9" verse="17"/>
+            <ref to-book="1Kor" to-chapter="9" to-verse="17"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -592,7 +592,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="9" verse="18"/>
+            <ref to-book="1Kor" to-chapter="9" to-verse="18"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -600,7 +600,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Lk" chapter="6" verse="34"/>
+            <ref to-book="Lk" to-chapter="6" to-verse="34"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -608,7 +608,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="10" verse="29"/>
+            <ref to-book="1Kor" to-chapter="10" to-verse="29"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -616,7 +616,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="10" verse="30"/>
+            <ref to-book="1Kor" to-chapter="10" to-verse="30"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -624,7 +624,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Lk" chapter="1" verse="69"/>
+            <ref to-book="Lk" to-chapter="1" to-verse="69"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -632,7 +632,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="13" verse="14"/>
+            <ref to-book="Röm" to-chapter="13" to-verse="14"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -640,7 +640,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="6" verse="22"/>
+            <ref to-book="Mt" to-chapter="6" to-verse="22"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -648,7 +648,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="6" verse="23"/>
+            <ref to-book="Mt" to-chapter="6" to-verse="23"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -705,7 +705,7 @@
         <div type="section" id="section_1_117" words="164"/>
         <div type="section" id="section_1_118" words="503">
           <bibl>
-            <ref book="1Kor" chapter="7" verse="29"/>
+            <ref to-book="1Kor" to-chapter="7" to-verse="29"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -713,7 +713,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Lk" chapter="11" verse="13"/>
+            <ref to-book="Lk" to-chapter="11" to-verse="13"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -721,7 +721,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Lk" chapter="8" verse="18"/>
+            <ref to-book="Lk" to-chapter="8" to-verse="18"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -729,7 +729,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="24" verse="29"/>
+            <ref to-book="Mt" to-chapter="24" to-verse="29"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -737,7 +737,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="4" verse="9"/>
+            <ref to-book="1Kor" to-chapter="4" to-verse="9"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -745,7 +745,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Joh" chapter="2" verse="20"/>
+            <ref to-book="1Joh" to-chapter="2" to-verse="20"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -840,11 +840,11 @@
         <div type="section" id="section_1_200" words="391"/>
         <div type="section" id="section_a_1_194" words="334">
           <bibl>
-            <ref book="Hebr" chapter="11" verse="11"/>
+            <ref to-book="Hebr" to-chapter="11" to-verse="11"/>
             <profile>
-              <wit in="a" is="false"/>
-              <wit in="b" is="true"/>
-              <wit in="c" is="true"/>
+              <wit in="a" is="true"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="false"/>
             </profile>
           </bibl>
         </div>
@@ -972,7 +972,7 @@
         <div type="section" id="section_2_6" words="276"/>
         <div type="section" id="section_2_7" words="114">
           <bibl>
-            <ref book="1Kor" chapter="4" verse="1"/>
+            <ref to-book="1Kor" to-chapter="4" to-verse="1"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -980,7 +980,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="4" verse="2"/>
+            <ref to-book="1Kor" to-chapter="4" to-verse="2"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -990,7 +990,7 @@
         </div>
         <div type="section" id="section_2_8" words="477">
           <bibl>
-            <ref book="Röm" chapter="14" verse="12"/>
+            <ref to-book="Röm" to-chapter="14" to-verse="12"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -998,7 +998,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="14" verse="22"/>
+            <ref to-book="Röm" to-chapter="14" to-verse="22"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1006,7 +1006,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="14" verse="4"/>
+            <ref to-book="Röm" to-chapter="14" to-verse="4"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1014,7 +1014,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="14" verse="5"/>
+            <ref to-book="Röm" to-chapter="14" to-verse="5"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1022,7 +1022,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Joh" chapter="3" verse="22"/>
+            <ref to-book="1Joh" to-chapter="3" to-verse="22"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1044,7 +1044,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="20" verse="30"/>
+            <ref to-book="Joh" to-chapter="20" to-verse="30"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1052,7 +1052,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="20" verse="31"/>
+            <ref to-book="Joh" to-chapter="20" to-verse="31"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1090,7 +1090,7 @@
         <div type="section" id="section_2_23" words="207"/>
         <div type="section" id="section_2_24" words="155">
           <bibl>
-            <ref book="1Joh" chapter="5" verse="7"/>
+            <ref to-book="1Joh" to-chapter="5" to-verse="7"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1098,7 +1098,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Tim" chapter="3" verse="16"/>
+            <ref to-book="1Tim" to-chapter="3" to-verse="16"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1114,7 +1114,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Apg" chapter="20" verse="28"/>
+            <ref to-book="Apg" to-chapter="20" to-verse="28"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1131,7 +1131,7 @@
         <div type="section" id="section_2_31" words="497"/>
         <div type="section" id="section_2_32" words="310">
           <bibl>
-            <ref book="Lk" chapter="19" verse="38"/>
+            <ref to-book="Lk" to-chapter="19" to-verse="38"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1139,7 +1139,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Lk" chapter="2" verse="14"/>
+            <ref to-book="Lk" to-chapter="2" to-verse="14"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1147,7 +1147,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Offb" chapter="16" verse="18"/>
+            <ref to-book="Offb" to-chapter="16" to-verse="18"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1182,7 +1182,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Tob" chapter="8" verse="3"/>
+            <ref to-book="Tob" to-chapter="8" to-verse="3"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1198,7 +1198,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="12" verse="27"/>
+            <ref to-book="Mt" to-chapter="12" to-verse="27"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1217,7 +1217,7 @@
         <div type="section" id="section_2_43" words="182"/>
         <div type="section" id="section_2_44" words="410">
           <bibl>
-            <ref book="1Kor" chapter="3" verse="22"/>
+            <ref to-book="1Kor" to-chapter="3" to-verse="22"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1251,7 +1251,7 @@
         <div type="section" id="section_2_66" words="373"/>
         <div type="section" id="section_2_67" words="261">
           <bibl>
-            <ref book="Phil" chapter="2" verse="12"/>
+            <ref to-book="Phil" to-chapter="2" to-verse="12"/>
             <profile>
               <wit in="a" is="false"/>
               <wit in="b" is="true"/>
@@ -1259,15 +1259,15 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Phil" chapter="2" verse="12"/>
+            <ref to-book="Phil" to-chapter="2" to-verse="12"/>
             <profile>
               <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
-              <wit in="c" is="true"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="false"/>
             </profile>
           </bibl>
           <bibl>
-            <ref book="Phil" chapter="2" verse="3"/>
+            <ref to-book="Phil" to-chapter="2" to-verse="3"/>
             <profile>
               <wit in="a" is="false"/>
               <wit in="b" is="true"/>
@@ -1275,7 +1275,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Phil" chapter="2" verse="4"/>
+            <ref to-book="Phil" to-chapter="2" to-verse="4"/>
             <profile>
               <wit in="a" is="false"/>
               <wit in="b" is="true"/>
@@ -1283,7 +1283,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Phil" chapter="2" verse="13"/>
+            <ref to-book="Phil" to-chapter="2" to-verse="13"/>
             <profile>
               <wit in="a" is="false"/>
               <wit in="b" is="true"/>
@@ -1291,7 +1291,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Phil" chapter="2" verse="14"/>
+            <ref to-book="Phil" to-chapter="2" to-verse="14"/>
             <profile>
               <wit in="a" is="false"/>
               <wit in="b" is="true"/>
@@ -1299,103 +1299,103 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Phil" chapter="2" verse="3"/>
+            <ref to-book="Phil" to-chapter="2" to-verse="3"/>
             <profile>
               <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref to-book="Phil" to-chapter="2" to-verse="4"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref to-book="Phil" to-chapter="2" to-verse="14"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref to-book="Lk" to-chapter="21" to-verse="19"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="false"/>
               <wit in="c" is="false"/>
             </profile>
           </bibl>
           <bibl>
-            <ref book="Phil" chapter="2" verse="4"/>
+            <ref to-book="Phil" to-chapter="2" to-verse="19"/>
             <profile>
               <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
+              <wit in="b" is="false"/>
               <wit in="c" is="false"/>
             </profile>
           </bibl>
           <bibl>
-            <ref book="Phil" chapter="2" verse="14"/>
+            <ref to-book="Mt" to-chapter="10" to-verse="22"/>
             <profile>
               <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
+              <wit in="b" is="false"/>
               <wit in="c" is="false"/>
             </profile>
           </bibl>
           <bibl>
-            <ref book="Lk" chapter="21" verse="19"/>
+            <ref to-book="Mt" to-chapter="10" to-verse="39"/>
             <profile>
               <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
+              <wit in="b" is="false"/>
               <wit in="c" is="false"/>
             </profile>
           </bibl>
           <bibl>
-            <ref book="Phil" chapter="2" verse="19"/>
+            <ref to-book="1Thess" to-chapter="4" to-verse="4"/>
             <profile>
               <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
+              <wit in="b" is="false"/>
               <wit in="c" is="false"/>
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="10" verse="22"/>
+            <ref to-book="Phil" to-chapter="2" to-verse="3"/>
             <profile>
               <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
-              <wit in="c" is="false"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="true"/>
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="10" verse="39"/>
+            <ref to-book="Phil" to-chapter="2" to-verse="4"/>
             <profile>
               <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
-              <wit in="c" is="false"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="true"/>
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Thess" chapter="4" verse="4"/>
-            <profile>
-              <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
-              <wit in="c" is="false"/>
-            </profile>
-          </bibl>
-          <bibl>
-            <ref book="Phil" chapter="2" verse="3"/>
+            <ref to-book="Phil" to-chapter="2" to-verse="13"/>
             <profile>
               <wit in="a" is="false"/>
-              <wit in="b" is="true"/>
+              <wit in="b" is="false"/>
               <wit in="c" is="true"/>
             </profile>
           </bibl>
           <bibl>
-            <ref book="Phil" chapter="2" verse="4"/>
+            <ref to-book="Phil" to-chapter="2" to-verse="14"/>
             <profile>
-              <wit in="a" is="false"/>
-              <wit in="b" is="true"/>
+              <wit in="a" is="true"/>
+              <wit in="b" is="false"/>
               <wit in="c" is="true"/>
             </profile>
           </bibl>
           <bibl>
-            <ref book="Phil" chapter="2" verse="13"/>
-            <profile>
-              <wit in="a" is="false"/>
-              <wit in="b" is="true"/>
-              <wit in="c" is="true"/>
-            </profile>
-          </bibl>
-          <bibl>
-            <ref book="Phil" chapter="2" verse="14"/>
-            <profile>
-              <wit in="a" is="false"/>
-              <wit in="b" is="true"/>
-              <wit in="c" is="true"/>
-            </profile>
-          </bibl>
-          <bibl>
-            <ref book="1Joh" chapter="5" verse="1"/>
+            <ref to-book="1Joh" to-chapter="5" to-verse="1"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1403,7 +1403,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Phlm" chapter="10" verse=""/>
+            <ref to-book="Phlm" to-chapter="10" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1411,7 +1411,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="5" verse="45"/>
+            <ref to-book="Mt" to-chapter="5" to-verse="45"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1419,7 +1419,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Joh" chapter="3" verse="2"/>
+            <ref to-book="1Joh" to-chapter="3" to-verse="2"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1427,7 +1427,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Gal" chapter="5" verse="11"/>
+            <ref to-book="Gal" to-chapter="5" to-verse="11"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1435,7 +1435,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Gal" chapter="6" verse="12"/>
+            <ref to-book="Gal" to-chapter="6" to-verse="12"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1443,7 +1443,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="1" verse="17"/>
+            <ref to-book="1Kor" to-chapter="1" to-verse="17"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1451,7 +1451,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="1" verse="18"/>
+            <ref to-book="1Kor" to-chapter="1" to-verse="18"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1459,7 +1459,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Joh" chapter="3" verse="9"/>
+            <ref to-book="1Joh" to-chapter="3" to-verse="9"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1467,7 +1467,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Joh" chapter="5" verse="18"/>
+            <ref to-book="1Joh" to-chapter="5" to-verse="18"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1477,7 +1477,7 @@
         </div>
         <div type="section" id="section_2_68" words="516">
           <bibl>
-            <ref book="Phil" chapter="2" verse="7"/>
+            <ref to-book="Phil" to-chapter="2" to-verse="7"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1485,7 +1485,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Phil" chapter="2" verse="8"/>
+            <ref to-book="Phil" to-chapter="2" to-verse="8"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1493,7 +1493,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Gal" chapter="4" verse="13"/>
+            <ref to-book="Gal" to-chapter="4" to-verse="13"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1501,7 +1501,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Gal" chapter="4" verse="3"/>
+            <ref to-book="Gal" to-chapter="4" to-verse="3"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1509,7 +1509,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Gal" chapter="4" verse="9"/>
+            <ref to-book="Gal" to-chapter="4" to-verse="9"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1517,7 +1517,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Hebr" chapter="9" verse="9"/>
+            <ref to-book="Hebr" to-chapter="9" to-verse="9"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1525,7 +1525,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Lk" chapter="1" verse="53"/>
+            <ref to-book="Lk" to-chapter="1" to-verse="53"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1533,7 +1533,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Ri" chapter="11" verse="3"/>
+            <ref to-book="Ri" to-chapter="11" to-verse="3"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1541,7 +1541,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Kol" chapter="2" verse="20"/>
+            <ref to-book="Kol" to-chapter="2" to-verse="20"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1549,7 +1549,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="1" verse="18"/>
+            <ref to-book="1Kor" to-chapter="1" to-verse="18"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1557,7 +1557,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="1" verse="21"/>
+            <ref to-book="1Kor" to-chapter="1" to-verse="21"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1565,7 +1565,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Jes" chapter="10" verse="21"/>
+            <ref to-book="Jes" to-chapter="10" to-verse="21"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1573,7 +1573,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Jes" chapter="10" verse="22"/>
+            <ref to-book="Jes" to-chapter="10" to-verse="22"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1581,7 +1581,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="4" verse="3"/>
+            <ref to-book="2Kor" to-chapter="4" to-verse="3"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1589,7 +1589,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="4" verse="4"/>
+            <ref to-book="2Kor" to-chapter="4" to-verse="4"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1597,7 +1597,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="8" verse="11"/>
+            <ref to-book="1Kor" to-chapter="8" to-verse="11"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1605,7 +1605,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Hebr" chapter="6" verse="6"/>
+            <ref to-book="Hebr" to-chapter="6" to-verse="6"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1613,7 +1613,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Hebr" chapter="6" verse="5"/>
+            <ref to-book="Hebr" to-chapter="6" to-verse="5"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1621,7 +1621,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Hebr" chapter="2" verse="5"/>
+            <ref to-book="Hebr" to-chapter="2" to-verse="5"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1629,7 +1629,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="1" verse="16"/>
+            <ref to-book="Röm" to-chapter="1" to-verse="16"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1637,7 +1637,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Kol" chapter="3" verse="5"/>
+            <ref to-book="Kol" to-chapter="3" to-verse="5"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1645,7 +1645,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="5" verse="29"/>
+            <ref to-book="Mt" to-chapter="5" to-verse="29"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1653,7 +1653,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="5" verse="30"/>
+            <ref to-book="Mt" to-chapter="5" to-verse="30"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1661,7 +1661,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="6" verse="6"/>
+            <ref to-book="Röm" to-chapter="6" to-verse="6"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1669,7 +1669,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="6" verse="12"/>
+            <ref to-book="Röm" to-chapter="6" to-verse="12"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1677,7 +1677,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="8" verse="11"/>
+            <ref to-book="Röm" to-chapter="8" to-verse="11"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1696,11 +1696,11 @@
         <div type="section" id="section_2_77" words="102"/>
         <div type="section" id="section_2_77_zusatz" words="744">
           <bibl>
-            <ref book="Röm" chapter="12" verse="20"/>
+            <ref to-book="Röm" to-chapter="12" to-verse="20"/>
             <profile>
-              <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
-              <wit in="c" is="false"/>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="true"/>
             </profile>
           </bibl>
         </div>
@@ -1717,7 +1717,7 @@
         <div type="section" id="section_2_84" words="218"/>
         <div type="section" id="section_2_85" words="887">
           <bibl>
-            <ref book="1Tim" chapter="3" verse="16"/>
+            <ref to-book="1Tim" to-chapter="3" to-verse="16"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1725,7 +1725,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Joh" chapter="5" verse="7"/>
+            <ref to-book="1Joh" to-chapter="5" to-verse="7"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1733,7 +1733,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="8" verse="11"/>
+            <ref to-book="Röm" to-chapter="8" to-verse="11"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1741,7 +1741,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="27" verse="49"/>
+            <ref to-book="Mt" to-chapter="27" to-verse="49"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1749,7 +1749,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="19" verse="34"/>
+            <ref to-book="Joh" to-chapter="19" to-verse="34"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1757,7 +1757,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Spr" chapter="8" verse="22"/>
+            <ref to-book="Spr" to-chapter="8" to-verse="22"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1765,7 +1765,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Ps" chapter="110" verse="3"/>
+            <ref to-book="Ps" to-chapter="110" to-verse="3"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1773,7 +1773,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="16" verse="18"/>
+            <ref to-book="Mt" to-chapter="16" to-verse="18"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1781,7 +1781,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="16" verse="26"/>
+            <ref to-book="Joh" to-chapter="16" to-verse="26"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1789,7 +1789,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Apg" chapter="3" verse="21"/>
+            <ref to-book="Apg" to-chapter="3" to-verse="21"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1797,7 +1797,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="12" verse="6"/>
+            <ref to-book="Röm" to-chapter="12" to-verse="6"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1805,7 +1805,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="2" verse="14"/>
+            <ref to-book="1Kor" to-chapter="2" to-verse="14"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1846,7 +1846,7 @@
         <div type="section" id="section_2_112" words="569"/>
         <div type="section" id="section_2_113" words="2729">
           <bibl>
-            <ref book="Joh" chapter="14" verse="28"/>
+            <ref to-book="Joh" to-chapter="14" to-verse="28"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1854,7 +1854,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="9" verse=""/>
+            <ref to-book="Röm" to-chapter="9" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1862,7 +1862,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Eph" chapter="5" verse="32"/>
+            <ref to-book="Eph" to-chapter="5" to-verse="32"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1870,7 +1870,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Hebr" chapter="2" verse="16"/>
+            <ref to-book="Hebr" to-chapter="2" to-verse="16"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1878,7 +1878,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Apg" chapter="3" verse="21"/>
+            <ref to-book="Apg" to-chapter="3" to-verse="21"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1905,7 +1905,7 @@
         <div type="section" id="section_2_128" words="2081"/>
         <div type="section" id="section_2_129" words="941">
           <bibl>
-            <ref book="1Tim" chapter="4" verse="5"/>
+            <ref to-book="1Tim" to-chapter="4" to-verse="5"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1921,7 +1921,7 @@
       <div type="section-group" id="section_2_132-143" words="4785">
         <div type="section" id="section_2_132" words="352">
           <bibl>
-            <ref book="Joh" chapter="7" verse="17"/>
+            <ref to-book="Joh" to-chapter="7" to-verse="17"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1929,7 +1929,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="13" verse="12"/>
+            <ref to-book="Mt" to-chapter="13" to-verse="12"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1972,7 +1972,7 @@
         <div type="section" id="section_2_133" words="74"/>
         <div type="section" id="section_2_134" words="307">
           <bibl>
-            <ref book="Joh" chapter="5" verse="23"/>
+            <ref to-book="Joh" to-chapter="5" to-verse="23"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -1980,7 +1980,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="14" verse="28"/>
+            <ref to-book="Joh" to-chapter="14" to-verse="28"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2004,7 +2004,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="6" verse=""/>
+            <ref to-book="Röm" to-chapter="6" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2012,7 +2012,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Jak" chapter="1" verse="25"/>
+            <ref to-book="Jak" to-chapter="1" to-verse="25"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2020,7 +2020,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Jak" chapter="2" verse=""/>
+            <ref to-book="Jak" to-chapter="2" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2028,7 +2028,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Tim" chapter="2" verse="4"/>
+            <ref to-book="1Tim" to-chapter="2" to-verse="4"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2036,7 +2036,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="20" verse="16"/>
+            <ref to-book="Mt" to-chapter="20" to-verse="16"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2047,7 +2047,7 @@
         <div type="section" id="section_2_135" words="235"/>
         <div type="section" id="section_2_136" words="306">
           <bibl>
-            <ref book="Mt" chapter="19" verse="21"/>
+            <ref to-book="Mt" to-chapter="19" to-verse="21"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2055,7 +2055,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Apg" chapter="15" verse="20"/>
+            <ref to-book="Apg" to-chapter="15" to-verse="20"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2063,7 +2063,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="6" verse="25"/>
+            <ref to-book="Mt" to-chapter="6" to-verse="25"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2071,7 +2071,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="3" verse="19"/>
+            <ref to-book="1Kor" to-chapter="3" to-verse="19"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2079,7 +2079,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="7" verse="6"/>
+            <ref to-book="Mt" to-chapter="7" to-verse="6"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2087,7 +2087,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="10" verse="27"/>
+            <ref to-book="Mt" to-chapter="10" to-verse="27"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2106,7 +2106,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Gen" chapter="3" verse="14"/>
+            <ref to-book="Gen" to-chapter="3" to-verse="14"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2114,7 +2114,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Gen" chapter="3" verse="16"/>
+            <ref to-book="Gen" to-chapter="3" to-verse="16"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2138,7 +2138,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Ez" chapter="18" verse="20"/>
+            <ref to-book="Ez" to-chapter="18" to-verse="20"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2146,7 +2146,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Gen" chapter="2" verse="17"/>
+            <ref to-book="Gen" to-chapter="2" to-verse="17"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2154,7 +2154,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Gen" chapter="3" verse="19"/>
+            <ref to-book="Gen" to-chapter="3" to-verse="19"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2162,7 +2162,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Gen" chapter="3" verse="15"/>
+            <ref to-book="Gen" to-chapter="3" to-verse="15"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2170,7 +2170,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Gen" chapter="3" verse="16"/>
+            <ref to-book="Gen" to-chapter="3" to-verse="16"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2178,7 +2178,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Gen" chapter="3" verse="17"/>
+            <ref to-book="Gen" to-chapter="3" to-verse="17"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2186,7 +2186,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Gen" chapter="3" verse="18"/>
+            <ref to-book="Gen" to-chapter="3" to-verse="18"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2194,7 +2194,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Gen" chapter="3" verse="19"/>
+            <ref to-book="Gen" to-chapter="3" to-verse="19"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2202,7 +2202,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Joh" chapter="3" verse="6"/>
+            <ref to-book="1Joh" to-chapter="3" to-verse="6"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2210,7 +2210,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Joh" chapter="3" verse="9"/>
+            <ref to-book="1Joh" to-chapter="3" to-verse="9"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2218,7 +2218,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Joh" chapter="1" verse="8"/>
+            <ref to-book="1Joh" to-chapter="1" to-verse="8"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2226,7 +2226,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Joh" chapter="5" verse="18"/>
+            <ref to-book="1Joh" to-chapter="5" to-verse="18"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2234,7 +2234,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Joh" chapter="3" verse=""/>
+            <ref to-book="1Joh" to-chapter="3" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2242,7 +2242,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Apg" chapter="13" verse="29"/>
+            <ref to-book="Apg" to-chapter="13" to-verse="29"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2250,7 +2250,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Apg" chapter="1" verse="18"/>
+            <ref to-book="Apg" to-chapter="1" to-verse="18"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2268,7 +2268,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="2" verse="26"/>
+            <ref to-book="Röm" to-chapter="2" to-verse="26"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2276,7 +2276,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="2" verse="27"/>
+            <ref to-book="Röm" to-chapter="2" to-verse="27"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2301,7 +2301,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="1" verse="17"/>
+            <ref to-book="Joh" to-chapter="1" to-verse="17"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2325,7 +2325,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Hebr" chapter="8" verse="6"/>
+            <ref to-book="Hebr" to-chapter="8" to-verse="6"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2341,7 +2341,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="8" verse="11"/>
+            <ref to-book="Röm" to-chapter="8" to-verse="11"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2349,7 +2349,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="5" verse="22"/>
+            <ref to-book="Mt" to-chapter="5" to-verse="22"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2357,7 +2357,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="5" verse="4"/>
+            <ref to-book="Joh" to-chapter="5" to-verse="4"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2369,7 +2369,7 @@
         <div type="section" id="section_2_147" words="828"/>
         <div type="section" id="section_2_148" words="723">
           <bibl>
-            <ref book="2Petr" chapter="1" verse="4"/>
+            <ref to-book="2Petr" to-chapter="1" to-verse="4"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2377,7 +2377,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Eph" chapter="5" verse="27"/>
+            <ref to-book="Eph" to-chapter="5" to-verse="27"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2385,7 +2385,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Eph" chapter="5" verse="30"/>
+            <ref to-book="Eph" to-chapter="5" to-verse="30"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2393,7 +2393,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Eph" chapter="2" verse="22"/>
+            <ref to-book="Eph" to-chapter="2" to-verse="22"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2401,7 +2401,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Eph" chapter="4" verse="14"/>
+            <ref to-book="Eph" to-chapter="4" to-verse="14"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2409,7 +2409,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Eph" chapter="3" verse="17"/>
+            <ref to-book="Eph" to-chapter="3" to-verse="17"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2417,7 +2417,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Tim" chapter="1" verse="15"/>
+            <ref to-book="2Tim" to-chapter="1" to-verse="15"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2425,7 +2425,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Kol" chapter="3" verse="16"/>
+            <ref to-book="Kol" to-chapter="3" to-verse="16"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2433,7 +2433,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="12" verse="1"/>
+            <ref to-book="Röm" to-chapter="12" to-verse="1"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2441,7 +2441,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Hebr" chapter="13" verse="15"/>
+            <ref to-book="Hebr" to-chapter="13" to-verse="15"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2449,7 +2449,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Kol" chapter="2" verse="11"/>
+            <ref to-book="Kol" to-chapter="2" to-verse="11"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2457,7 +2457,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="5" verse="12"/>
+            <ref to-book="Röm" to-chapter="5" to-verse="12"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2465,7 +2465,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Gen" chapter="2" verse="17"/>
+            <ref to-book="Gen" to-chapter="2" to-verse="17"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2473,7 +2473,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Gen" chapter="3" verse="19"/>
+            <ref to-book="Gen" to-chapter="3" to-verse="19"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2481,7 +2481,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="8" verse="44"/>
+            <ref to-book="Joh" to-chapter="8" to-verse="44"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2489,7 +2489,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Hebr" chapter="2" verse="14"/>
+            <ref to-book="Hebr" to-chapter="2" to-verse="14"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2497,7 +2497,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Gen" chapter="3" verse=""/>
+            <ref to-book="Gen" to-chapter="3" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2505,7 +2505,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Petr" chapter="5" verse="8"/>
+            <ref to-book="1Petr" to-chapter="5" to-verse="8"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2513,7 +2513,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Petr" chapter="5" verse="9"/>
+            <ref to-book="1Petr" to-chapter="5" to-verse="9"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2529,7 +2529,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="5" verse="22"/>
+            <ref to-book="Joh" to-chapter="5" to-verse="22"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2537,7 +2537,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="5" verse="28"/>
+            <ref to-book="Joh" to-chapter="5" to-verse="28"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2545,7 +2545,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="6" verse="8"/>
+            <ref to-book="Röm" to-chapter="6" to-verse="8"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2553,7 +2553,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="8" verse="10"/>
+            <ref to-book="Röm" to-chapter="8" to-verse="10"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2561,7 +2561,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="8" verse="11"/>
+            <ref to-book="Röm" to-chapter="8" to-verse="11"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2577,7 +2577,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="4" verse="6"/>
+            <ref to-book="2Kor" to-chapter="4" to-verse="6"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2585,7 +2585,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="4" verse="4"/>
+            <ref to-book="2Kor" to-chapter="4" to-verse="4"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2593,7 +2593,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="4" verse="3"/>
+            <ref to-book="2Kor" to-chapter="4" to-verse="3"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2601,7 +2601,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="4" verse="4"/>
+            <ref to-book="2Kor" to-chapter="4" to-verse="4"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2609,7 +2609,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="6" verse="6"/>
+            <ref to-book="Röm" to-chapter="6" to-verse="6"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2617,7 +2617,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="6" verse="12"/>
+            <ref to-book="Röm" to-chapter="6" to-verse="12"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2625,7 +2625,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="6" verse="13"/>
+            <ref to-book="Röm" to-chapter="6" to-verse="13"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2633,7 +2633,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="7" verse="24"/>
+            <ref to-book="Röm" to-chapter="7" to-verse="24"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2641,7 +2641,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Kol" chapter="3" verse="5"/>
+            <ref to-book="Kol" to-chapter="3" to-verse="5"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2649,7 +2649,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="5" verse="29"/>
+            <ref to-book="Mt" to-chapter="5" to-verse="29"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2657,7 +2657,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="5" verse="30"/>
+            <ref to-book="Mt" to-chapter="5" to-verse="30"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2665,7 +2665,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="5" verse="29"/>
+            <ref to-book="Mt" to-chapter="5" to-verse="29"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2673,7 +2673,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="5" verse="30"/>
+            <ref to-book="Mt" to-chapter="5" to-verse="30"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2681,7 +2681,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="5" verse="28"/>
+            <ref to-book="Mt" to-chapter="5" to-verse="28"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2689,7 +2689,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Gen" chapter="3" verse=""/>
+            <ref to-book="Gen" to-chapter="3" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2697,7 +2697,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="8" verse="1"/>
+            <ref to-book="2Kor" to-chapter="8" to-verse="1"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2705,7 +2705,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="8" verse="16"/>
+            <ref to-book="2Kor" to-chapter="8" to-verse="16"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2713,7 +2713,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="9" verse="14"/>
+            <ref to-book="2Kor" to-chapter="9" to-verse="14"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2721,7 +2721,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Hebr" chapter="2" verse="14"/>
+            <ref to-book="Hebr" to-chapter="2" to-verse="14"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2729,7 +2729,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="13" verse="2"/>
+            <ref to-book="Joh" to-chapter="13" to-verse="2"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2737,7 +2737,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Apg" chapter="5" verse="3"/>
+            <ref to-book="Apg" to-chapter="5" to-verse="3"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2745,7 +2745,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="12" verse="7"/>
+            <ref to-book="2Kor" to-chapter="12" to-verse="7"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2753,7 +2753,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Petr" chapter="5" verse="8"/>
+            <ref to-book="1Petr" to-chapter="5" to-verse="8"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2761,7 +2761,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Petr" chapter="5" verse="9"/>
+            <ref to-book="1Petr" to-chapter="5" to-verse="9"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2769,7 +2769,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Apg" chapter="5" verse="4"/>
+            <ref to-book="Apg" to-chapter="5" to-verse="4"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2777,7 +2777,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Apg" chapter="7" verse="51"/>
+            <ref to-book="Apg" to-chapter="7" to-verse="51"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2785,7 +2785,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Apg" chapter="7" verse="52"/>
+            <ref to-book="Apg" to-chapter="7" to-verse="52"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2795,7 +2795,7 @@
         </div>
         <div type="section" id="section_2_149" words="672">
           <bibl>
-            <ref book="Röm" chapter="7" verse="22"/>
+            <ref to-book="Röm" to-chapter="7" to-verse="22"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2803,7 +2803,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="7" verse="23"/>
+            <ref to-book="Röm" to-chapter="7" to-verse="23"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2811,7 +2811,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="5" verse="1"/>
+            <ref to-book="Röm" to-chapter="5" to-verse="1"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2819,15 +2819,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="5" verse="9"/>
-            <profile>
-              <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
-              <wit in="c" is="false"/>
-            </profile>
-          </bibl>
-          <bibl>
-            <ref book="Röm" chapter="5" verse="9"/>
+            <ref to-book="Röm" to-chapter="5" to-verse="9"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2835,7 +2827,15 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="5" verse="10"/>
+            <ref to-book="Röm" to-chapter="5" to-verse="9"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref to-book="Röm" to-chapter="5" to-verse="10"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2843,7 +2843,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="5" verse="9"/>
+            <ref to-book="Röm" to-chapter="5" to-verse="9"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2851,7 +2851,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="5" verse="8"/>
+            <ref to-book="Röm" to-chapter="5" to-verse="8"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2859,7 +2859,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="5" verse="10"/>
+            <ref to-book="Röm" to-chapter="5" to-verse="10"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2867,7 +2867,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="5" verse=""/>
+            <ref to-book="2Kor" to-chapter="5" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2875,7 +2875,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="5" verse="19"/>
+            <ref to-book="2Kor" to-chapter="5" to-verse="19"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2883,15 +2883,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="5" verse="21"/>
-            <profile>
-              <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
-              <wit in="c" is="false"/>
-            </profile>
-          </bibl>
-          <bibl>
-            <ref book="2Kor" chapter="5" verse="21"/>
+            <ref to-book="2Kor" to-chapter="5" to-verse="21"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2899,15 +2891,15 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="5" verse="19"/>
+            <ref to-book="2Kor" to-chapter="5" to-verse="21"/>
             <profile>
-              <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
-              <wit in="c" is="false"/>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="true"/>
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="5" verse="19"/>
+            <ref to-book="2Kor" to-chapter="5" to-verse="19"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2915,7 +2907,15 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="11" verse="15"/>
+            <ref to-book="2Kor" to-chapter="5" to-verse="19"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref to-book="Röm" to-chapter="11" to-verse="15"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2923,15 +2923,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="11" verse="28"/>
-            <profile>
-              <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
-              <wit in="c" is="false"/>
-            </profile>
-          </bibl>
-          <bibl>
-            <ref book="Röm" chapter="11" verse="28"/>
+            <ref to-book="Röm" to-chapter="11" to-verse="28"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2939,7 +2931,15 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="5" verse="10"/>
+            <ref to-book="Röm" to-chapter="11" to-verse="28"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref to-book="Röm" to-chapter="5" to-verse="10"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2947,7 +2947,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Eph" chapter="2" verse="1"/>
+            <ref to-book="Eph" to-chapter="2" to-verse="1"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2955,7 +2955,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Eph" chapter="2" verse="5"/>
+            <ref to-book="Eph" to-chapter="2" to-verse="5"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2963,7 +2963,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Eph" chapter="2" verse="3"/>
+            <ref to-book="Eph" to-chapter="2" to-verse="3"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2971,7 +2971,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Kol" chapter="2" verse="13"/>
+            <ref to-book="Kol" to-chapter="2" to-verse="13"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2979,7 +2979,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="5" verse="45"/>
+            <ref to-book="Mt" to-chapter="5" to-verse="45"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2987,7 +2987,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Joh" chapter="2" verse="29"/>
+            <ref to-book="1Joh" to-chapter="2" to-verse="29"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -2995,7 +2995,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Joh" chapter="4" verse="6"/>
+            <ref to-book="1Joh" to-chapter="4" to-verse="6"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3003,7 +3003,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Joh" chapter="3" verse="1"/>
+            <ref to-book="1Joh" to-chapter="3" to-verse="1"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3011,7 +3011,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="8" verse="17"/>
+            <ref to-book="Röm" to-chapter="8" to-verse="17"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3019,7 +3019,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Petr" chapter="1" verse="4"/>
+            <ref to-book="2Petr" to-chapter="1" to-verse="4"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3027,7 +3027,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="3" verse="3"/>
+            <ref to-book="Joh" to-chapter="3" to-verse="3"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3035,7 +3035,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mk" chapter="10" verse="15"/>
+            <ref to-book="Mk" to-chapter="10" to-verse="15"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3043,7 +3043,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="14" verse="23"/>
+            <ref to-book="Joh" to-chapter="14" to-verse="23"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3051,7 +3051,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="14" verse="22"/>
+            <ref to-book="Joh" to-chapter="14" to-verse="22"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3059,7 +3059,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="14" verse="26"/>
+            <ref to-book="Joh" to-chapter="14" to-verse="26"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3067,7 +3067,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="14" verse="16"/>
+            <ref to-book="Joh" to-chapter="14" to-verse="16"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3075,15 +3075,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="14" verse="17"/>
-            <profile>
-              <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
-              <wit in="c" is="false"/>
-            </profile>
-          </bibl>
-          <bibl>
-            <ref book="Joh" chapter="14" verse="17"/>
+            <ref to-book="Joh" to-chapter="14" to-verse="17"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3091,7 +3083,15 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="15" verse="7"/>
+            <ref to-book="Joh" to-chapter="14" to-verse="17"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref to-book="Joh" to-chapter="15" to-verse="7"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3099,7 +3099,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Kol" chapter="3" verse="16"/>
+            <ref to-book="Kol" to-chapter="3" to-verse="16"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3115,7 +3115,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="15" verse="3"/>
+            <ref to-book="Joh" to-chapter="15" to-verse="3"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3123,7 +3123,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="15" verse="7"/>
+            <ref to-book="Joh" to-chapter="15" to-verse="7"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3141,7 +3141,7 @@
         </div>
         <div type="section" id="section_2_150" words="533">
           <bibl>
-            <ref book="Eph" chapter="2" verse="5"/>
+            <ref to-book="Eph" to-chapter="2" to-verse="5"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3149,7 +3149,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Eph" chapter="2" verse="4"/>
+            <ref to-book="Eph" to-chapter="2" to-verse="4"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3157,7 +3157,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="2" verse="14"/>
+            <ref to-book="1Kor" to-chapter="2" to-verse="14"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3173,7 +3173,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="25" verse="46"/>
+            <ref to-book="Mt" to-chapter="25" to-verse="46"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3181,7 +3181,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mk" chapter="9" verse="46"/>
+            <ref to-book="Mk" to-chapter="9" to-verse="46"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3189,7 +3189,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="15" verse="26"/>
+            <ref to-book="Joh" to-chapter="15" to-verse="26"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3197,7 +3197,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="16" verse="28"/>
+            <ref to-book="Joh" to-chapter="16" to-verse="28"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3205,7 +3205,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="22" verse="37"/>
+            <ref to-book="Mt" to-chapter="22" to-verse="37"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3237,7 +3237,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="6" verse="44"/>
+            <ref to-book="Joh" to-chapter="6" to-verse="44"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3245,7 +3245,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="5" verse=""/>
+            <ref to-book="Röm" to-chapter="5" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3256,7 +3256,7 @@
         <div type="section" id="section_2_151" words="153"/>
         <div type="section" id="section_2_152" words="510">
           <bibl>
-            <ref book="Ijob" chapter="36" verse="10"/>
+            <ref to-book="Ijob" to-chapter="36" to-verse="10"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3264,7 +3264,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Jes" chapter="30" verse="15"/>
+            <ref to-book="Jes" to-chapter="30" to-verse="15"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3272,7 +3272,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Dtn" chapter="30" verse="10"/>
+            <ref to-book="Dtn" to-chapter="30" to-verse="10"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3280,7 +3280,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Phil" chapter="2" verse="12"/>
+            <ref to-book="Phil" to-chapter="2" to-verse="12"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3288,7 +3288,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Petr" chapter="3" verse="15"/>
+            <ref to-book="1Petr" to-chapter="3" to-verse="15"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3296,7 +3296,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Petr" chapter="2" verse="10"/>
+            <ref to-book="2Petr" to-chapter="2" to-verse="10"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3304,7 +3304,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="2" verse="2"/>
+            <ref to-book="1Kor" to-chapter="2" to-verse="2"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3312,7 +3312,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="10" verse="10"/>
+            <ref to-book="2Kor" to-chapter="10" to-verse="10"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3320,7 +3320,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="8" verse="15"/>
+            <ref to-book="Röm" to-chapter="8" to-verse="15"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3328,7 +3328,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="7" verse="14"/>
+            <ref to-book="Röm" to-chapter="7" to-verse="14"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3336,7 +3336,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="8" verse="12"/>
+            <ref to-book="Röm" to-chapter="8" to-verse="12"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3344,7 +3344,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Hebr" chapter="6" verse="4"/>
+            <ref to-book="Hebr" to-chapter="6" to-verse="4"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3352,7 +3352,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Hebr" chapter="6" verse="8"/>
+            <ref to-book="Hebr" to-chapter="6" to-verse="8"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3360,7 +3360,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="19" verse="26"/>
+            <ref to-book="Mt" to-chapter="19" to-verse="26"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3368,7 +3368,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="19" verse="23"/>
+            <ref to-book="Mt" to-chapter="19" to-verse="23"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3376,7 +3376,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="18" verse="36"/>
+            <ref to-book="Joh" to-chapter="18" to-verse="36"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3384,7 +3384,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mk" chapter="1" verse="15"/>
+            <ref to-book="Mk" to-chapter="1" to-verse="15"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3400,7 +3400,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="14" verse="30"/>
+            <ref to-book="Joh" to-chapter="14" to-verse="30"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3408,7 +3408,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="16" verse="33"/>
+            <ref to-book="Joh" to-chapter="16" to-verse="33"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3416,7 +3416,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Lk" chapter="10" verse="18"/>
+            <ref to-book="Lk" to-chapter="10" to-verse="18"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3424,7 +3424,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Lk" chapter="10" verse="19"/>
+            <ref to-book="Lk" to-chapter="10" to-verse="19"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3432,7 +3432,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="16" verse="20"/>
+            <ref to-book="Röm" to-chapter="16" to-verse="20"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3440,7 +3440,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="16" verse="17"/>
+            <ref to-book="Röm" to-chapter="16" to-verse="17"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3448,7 +3448,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="6" verse="39"/>
+            <ref to-book="Joh" to-chapter="6" to-verse="39"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3456,7 +3456,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="6" verse="37"/>
+            <ref to-book="Joh" to-chapter="6" to-verse="37"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3464,7 +3464,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Joh" chapter="2" verse="3"/>
+            <ref to-book="1Joh" to-chapter="2" to-verse="3"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3472,7 +3472,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Joh" chapter="4" verse="6"/>
+            <ref to-book="1Joh" to-chapter="4" to-verse="6"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3480,7 +3480,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="6" verse="25"/>
+            <ref to-book="Mt" to-chapter="6" to-verse="25"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3496,7 +3496,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Lk" chapter="15" verse="10"/>
+            <ref to-book="Lk" to-chapter="15" to-verse="10"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3504,7 +3504,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="3" verse="14"/>
+            <ref to-book="Joh" to-chapter="3" to-verse="14"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3512,7 +3512,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="3" verse="15"/>
+            <ref to-book="Joh" to-chapter="3" to-verse="15"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3520,7 +3520,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="3" verse="16"/>
+            <ref to-book="Joh" to-chapter="3" to-verse="16"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3538,7 +3538,7 @@
         </div>
         <div type="section" id="section_2_153" words="520">
           <bibl>
-            <ref book="Mt" chapter="18" verse="6"/>
+            <ref to-book="Mt" to-chapter="18" to-verse="6"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3546,7 +3546,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="9" verse=""/>
+            <ref to-book="Röm" to-chapter="9" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3554,7 +3554,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Phil" chapter="2" verse="12"/>
+            <ref to-book="Phil" to-chapter="2" to-verse="12"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3570,7 +3570,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="20" verse="22"/>
+            <ref to-book="Joh" to-chapter="20" to-verse="22"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3578,7 +3578,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="20" verse="23"/>
+            <ref to-book="Joh" to-chapter="20" to-verse="23"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3586,7 +3586,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="3" verse="5"/>
+            <ref to-book="2Kor" to-chapter="3" to-verse="5"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3594,7 +3594,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="18" verse="3"/>
+            <ref to-book="Mt" to-chapter="18" to-verse="3"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3618,7 +3618,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="19" verse="23"/>
+            <ref to-book="Mt" to-chapter="19" to-verse="23"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3626,7 +3626,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="19" verse="29"/>
+            <ref to-book="Mt" to-chapter="19" to-verse="29"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3634,7 +3634,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="19" verse="22"/>
+            <ref to-book="Mt" to-chapter="19" to-verse="22"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3642,7 +3642,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="19" verse="21"/>
+            <ref to-book="Mt" to-chapter="19" to-verse="21"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3650,7 +3650,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Tim" chapter="3" verse="16"/>
+            <ref to-book="2Tim" to-chapter="3" to-verse="16"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3658,7 +3658,15 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Tim" chapter="4" verse="16"/>
+            <ref to-book="2Tim" to-chapter="4" to-verse="16"/>
+            <profile>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="true"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref to-book="2Tim" to-chapter="3" to-verse="15"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3666,7 +3674,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Tim" chapter="3" verse="15"/>
+            <ref to-book="Mt" to-chapter="28" to-verse="19"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3674,7 +3682,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="28" verse="19"/>
+            <ref to-book="Mt" to-chapter="28" to-verse="20"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3682,7 +3690,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="28" verse="20"/>
+            <ref to-book="Apg" to-chapter="2" to-verse="37"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3690,7 +3698,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Apg" chapter="2" verse="37"/>
+            <ref to-book="Apg" to-chapter="2" to-verse="38"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3698,15 +3706,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Apg" chapter="2" verse="38"/>
-            <profile>
-              <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
-              <wit in="c" is="true"/>
-            </profile>
-          </bibl>
-          <bibl>
-            <ref book="Apg" chapter="2" verse="42"/>
+            <ref to-book="Apg" to-chapter="2" to-verse="42"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3718,7 +3718,7 @@
       <div type="section-group" id="section_2_154-164" words="4231">
         <div type="section" id="section_2_154" words="1116">
           <bibl>
-            <ref book="Joh" chapter="18" verse="23"/>
+            <ref to-book="Joh" to-chapter="18" to-verse="23"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3726,7 +3726,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Apg" chapter="16" verse="37"/>
+            <ref to-book="Apg" to-chapter="16" to-verse="37"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3750,7 +3750,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mk" chapter="16" verse="16"/>
+            <ref to-book="Mk" to-chapter="16" to-verse="16"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3758,7 +3758,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mk" chapter="16" verse="11"/>
+            <ref to-book="Mk" to-chapter="16" to-verse="11"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3766,7 +3766,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="3" verse="18"/>
+            <ref to-book="Joh" to-chapter="3" to-verse="18"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3774,7 +3774,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="3" verse="19"/>
+            <ref to-book="Joh" to-chapter="3" to-verse="19"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3782,7 +3782,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="20" verse="27"/>
+            <ref to-book="Joh" to-chapter="20" to-verse="27"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3790,7 +3790,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Apg" chapter="19" verse="9"/>
+            <ref to-book="Apg" to-chapter="19" to-verse="9"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3798,7 +3798,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Hebr" chapter="11" verse="1"/>
+            <ref to-book="Hebr" to-chapter="11" to-verse="1"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3806,7 +3806,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mk" chapter="1" verse="15"/>
+            <ref to-book="Mk" to-chapter="1" to-verse="15"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3814,7 +3814,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mk" chapter="16" verse=""/>
+            <ref to-book="Mk" to-chapter="16" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3822,7 +3822,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="28" verse="20"/>
+            <ref to-book="Mt" to-chapter="28" to-verse="20"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3830,7 +3830,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="21" verse="21"/>
+            <ref to-book="Mt" to-chapter="21" to-verse="21"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3846,7 +3846,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="3" verse="16"/>
+            <ref to-book="Joh" to-chapter="3" to-verse="16"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3854,7 +3854,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="3" verse="14"/>
+            <ref to-book="Joh" to-chapter="3" to-verse="14"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3862,7 +3862,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="3" verse="25"/>
+            <ref to-book="Röm" to-chapter="3" to-verse="25"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3870,7 +3870,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Hebr" chapter="11" verse=""/>
+            <ref to-book="Hebr" to-chapter="11" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3878,7 +3878,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="14" verse="2"/>
+            <ref to-book="Röm" to-chapter="14" to-verse="2"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3886,7 +3886,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="14" verse="22"/>
+            <ref to-book="Röm" to-chapter="14" to-verse="22"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3894,7 +3894,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="14" verse="23"/>
+            <ref to-book="Röm" to-chapter="14" to-verse="23"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3918,7 +3918,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="9" verse="16"/>
+            <ref to-book="Joh" to-chapter="9" to-verse="16"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3926,7 +3926,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="15" verse="28"/>
+            <ref to-book="1Kor" to-chapter="15" to-verse="28"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3934,7 +3934,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="3" verse="18"/>
+            <ref to-book="2Kor" to-chapter="3" to-verse="18"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3942,7 +3942,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="4" verse="6"/>
+            <ref to-book="2Kor" to-chapter="4" to-verse="6"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3950,7 +3950,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="16" verse="12"/>
+            <ref to-book="Joh" to-chapter="16" to-verse="12"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3968,7 +3968,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Tob" chapter="8" verse="3"/>
+            <ref to-book="Tob" to-chapter="8" to-verse="3"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3976,7 +3976,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Jes" chapter="13" verse="21"/>
+            <ref to-book="Jes" to-chapter="13" to-verse="21"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3984,7 +3984,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Jes" chapter="13" verse="22"/>
+            <ref to-book="Jes" to-chapter="13" to-verse="22"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -3992,7 +3992,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="8" verse="11"/>
+            <ref to-book="Mt" to-chapter="8" to-verse="11"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4000,7 +4000,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="11" verse="14"/>
+            <ref to-book="Mt" to-chapter="11" to-verse="14"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4008,7 +4008,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="18" verse="10"/>
+            <ref to-book="Mt" to-chapter="18" to-verse="10"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4016,7 +4016,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="7" verse="37"/>
+            <ref to-book="Joh" to-chapter="7" to-verse="37"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4024,7 +4024,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="7" verse="38"/>
+            <ref to-book="Joh" to-chapter="7" to-verse="38"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4032,7 +4032,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="14" verse="30"/>
+            <ref to-book="Joh" to-chapter="14" to-verse="30"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4040,7 +4040,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Petr" chapter="2" verse="4"/>
+            <ref to-book="2Petr" to-chapter="2" to-verse="4"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4048,7 +4048,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Gal" chapter="4" verse=""/>
+            <ref to-book="Gal" to-chapter="4" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4056,7 +4056,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="3" verse="16"/>
+            <ref to-book="Joh" to-chapter="3" to-verse="16"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4064,7 +4064,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Eph" chapter="2" verse="5"/>
+            <ref to-book="Eph" to-chapter="2" to-verse="5"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4072,7 +4072,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="3" verse="23"/>
+            <ref to-book="Röm" to-chapter="3" to-verse="23"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4080,7 +4080,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="3" verse="24"/>
+            <ref to-book="Röm" to-chapter="3" to-verse="24"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4088,7 +4088,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Kol" chapter="1" verse="12"/>
+            <ref to-book="Kol" to-chapter="1" to-verse="12"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4096,7 +4096,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Kol" chapter="1" verse="13"/>
+            <ref to-book="Kol" to-chapter="1" to-verse="13"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4112,7 +4112,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Thess" chapter="1" verse="9"/>
+            <ref to-book="1Thess" to-chapter="1" to-verse="9"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4120,7 +4120,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Thess" chapter="1" verse="10"/>
+            <ref to-book="1Thess" to-chapter="1" to-verse="10"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4128,7 +4128,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Tit" chapter="2" verse="11"/>
+            <ref to-book="Tit" to-chapter="2" to-verse="11"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4136,7 +4136,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Tit" chapter="2" verse="12"/>
+            <ref to-book="Tit" to-chapter="2" to-verse="12"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4144,7 +4144,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Tit" chapter="3" verse="4"/>
+            <ref to-book="Tit" to-chapter="3" to-verse="4"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4152,7 +4152,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Tit" chapter="3" verse="7"/>
+            <ref to-book="Tit" to-chapter="3" to-verse="7"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4160,7 +4160,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="3" verse="11"/>
+            <ref to-book="1Kor" to-chapter="3" to-verse="11"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4168,7 +4168,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Joh" chapter="5" verse="1"/>
+            <ref to-book="1Joh" to-chapter="5" to-verse="1"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4176,7 +4176,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="28" verse="20"/>
+            <ref to-book="Mt" to-chapter="28" to-verse="20"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4187,7 +4187,7 @@
         <div type="section" id="section_2_156" words="270"/>
         <div type="section" id="section_2_157" words="767">
           <bibl>
-            <ref book="Joh" chapter="3" verse="16"/>
+            <ref to-book="Joh" to-chapter="3" to-verse="16"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4195,7 +4195,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="5" verse="8"/>
+            <ref to-book="Röm" to-chapter="5" to-verse="8"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4203,7 +4203,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="4" verse="4"/>
+            <ref to-book="Röm" to-chapter="4" to-verse="4"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4211,7 +4211,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Phlm" chapter="9" verse=""/>
+            <ref to-book="Phlm" to-chapter="9" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4227,7 +4227,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Lk" chapter="1" verse="2"/>
+            <ref to-book="Lk" to-chapter="1" to-verse="2"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4235,7 +4235,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="19" verse="35"/>
+            <ref to-book="Joh" to-chapter="19" to-verse="35"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4243,7 +4243,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="4" verse=""/>
+            <ref to-book="Mt" to-chapter="4" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4251,7 +4251,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Lk" chapter="4" verse=""/>
+            <ref to-book="Lk" to-chapter="4" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4259,7 +4259,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="3" verse="24"/>
+            <ref to-book="Röm" to-chapter="3" to-verse="24"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4275,7 +4275,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="2" verse="7"/>
+            <ref to-book="Röm" to-chapter="2" to-verse="7"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4283,7 +4283,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Eph" chapter="2" verse="10"/>
+            <ref to-book="Eph" to-chapter="2" to-verse="10"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4291,7 +4291,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Eph" chapter="2" verse="13"/>
+            <ref to-book="Eph" to-chapter="2" to-verse="13"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4299,7 +4299,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="8" verse="3"/>
+            <ref to-book="Röm" to-chapter="8" to-verse="3"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4315,7 +4315,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="2" verse="15"/>
+            <ref to-book="Röm" to-chapter="2" to-verse="15"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4323,7 +4323,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="6" verse="29"/>
+            <ref to-book="Joh" to-chapter="6" to-verse="29"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4331,7 +4331,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Eph" chapter="2" verse="15"/>
+            <ref to-book="Eph" to-chapter="2" to-verse="15"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4339,7 +4339,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="6" verse="19"/>
+            <ref to-book="Joh" to-chapter="6" to-verse="19"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4347,7 +4347,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="6" verse="31"/>
+            <ref to-book="Joh" to-chapter="6" to-verse="31"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4355,7 +4355,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Apg" chapter="4" verse="12"/>
+            <ref to-book="Apg" to-chapter="4" to-verse="12"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4363,7 +4363,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Joh" chapter="5" verse="12"/>
+            <ref to-book="1Joh" to-chapter="5" to-verse="12"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4371,7 +4371,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="3" verse="5"/>
+            <ref to-book="Joh" to-chapter="3" to-verse="5"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4379,7 +4379,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Thess" chapter="3" verse="10"/>
+            <ref to-book="2Thess" to-chapter="3" to-verse="10"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4387,7 +4387,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Joh" chapter="1" verse=""/>
+            <ref to-book="2Joh" to-chapter="1" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4395,7 +4395,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="15" verse="28"/>
+            <ref to-book="Mt" to-chapter="15" to-verse="28"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4403,7 +4403,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="15" verse="24"/>
+            <ref to-book="Mt" to-chapter="15" to-verse="24"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4411,7 +4411,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Joh" chapter="9" verse="16"/>
+            <ref to-book="Joh" to-chapter="9" to-verse="16"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4435,7 +4435,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Tim" chapter="3" verse="4"/>
+            <ref to-book="1Tim" to-chapter="3" to-verse="4"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4443,7 +4443,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Tim" chapter="4" verse="10"/>
+            <ref to-book="1Tim" to-chapter="4" to-verse="10"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4451,7 +4451,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Joh" chapter="2" verse="2"/>
+            <ref to-book="1Joh" to-chapter="2" to-verse="2"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4464,7 +4464,7 @@
         <div type="section" id="section_2_160" words="145"/>
         <div type="section" id="section_2_161" words="177">
           <bibl>
-            <ref book="Mt" chapter="26" verse="11"/>
+            <ref to-book="Mt" to-chapter="26" to-verse="11"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4493,7 +4493,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="13" verse="39"/>
+            <ref to-book="Mt" to-chapter="13" to-verse="39"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4501,7 +4501,15 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="13" verse="29"/>
+            <ref to-book="Mt" to-chapter="13" to-verse="29"/>
+            <profile>
+              <wit in="a" is="true"/>
+              <wit in="b" is="false"/>
+              <wit in="c" is="false"/>
+            </profile>
+          </bibl>
+          <bibl>
+            <ref to-book="1Kor" to-chapter="3" to-verse="11"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4509,7 +4517,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="3" verse="11"/>
+            <ref to-book="1Kor" to-chapter="3" to-verse="12"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4517,15 +4525,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="3" verse="12"/>
-            <profile>
-              <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
-              <wit in="c" is="true"/>
-            </profile>
-          </bibl>
-          <bibl>
-            <ref book="1Kor" chapter="3" verse="13"/>
+            <ref to-book="1Kor" to-chapter="3" to-verse="13"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4599,7 +4599,7 @@
       <div type="section-group" id="section_2_176-209" words="12469">
         <div type="section" id="section_2_176" words="377">
           <bibl>
-            <ref book="Joh" chapter="7" verse="17"/>
+            <ref to-book="Joh" to-chapter="7" to-verse="17"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4617,7 +4617,7 @@
         <div type="section" id="section_2_184" words="809"/>
         <div type="section" id="section_2_185" words="368">
           <bibl>
-            <ref book="Mt" chapter="5" verse="17"/>
+            <ref to-book="Mt" to-chapter="5" to-verse="17"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4633,7 +4633,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Mt" chapter="19" verse="21"/>
+            <ref to-book="Mt" to-chapter="19" to-verse="21"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4705,7 +4705,7 @@
         <div type="section" id="section_3_18" words="131"/>
         <div type="section" id="section_3_19" words="633">
           <bibl>
-            <ref book="1Kor" chapter="1" verse=""/>
+            <ref to-book="1Kor" to-chapter="1" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4713,7 +4713,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="2" verse=""/>
+            <ref to-book="1Kor" to-chapter="2" to-verse=""/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4721,7 +4721,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Tim" chapter="4" verse="3"/>
+            <ref to-book="2Tim" to-chapter="4" to-verse="3"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4729,7 +4729,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Tim" chapter="4" verse="4"/>
+            <ref to-book="2Tim" to-chapter="4" to-verse="4"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4752,66 +4752,66 @@
         <div type="section" id="section_3_30" words="345"/>
         <div type="section" id="section_3_31" words="662">
           <bibl>
-            <ref book="Apg" chapter="20" verse="32"/>
+            <ref to-book="Apg" to-chapter="20" to-verse="32"/>
             <profile>
-              <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
               <wit in="c" is="true"/>
             </profile>
           </bibl>
           <bibl>
-            <ref book="Eph" chapter="21" verse="22"/>
+            <ref to-book="Eph" to-chapter="21" to-verse="22"/>
             <profile>
-              <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
               <wit in="c" is="true"/>
             </profile>
           </bibl>
           <bibl>
-            <ref book="Eph" chapter="21" verse="23"/>
+            <ref to-book="Eph" to-chapter="21" to-verse="23"/>
             <profile>
-              <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
               <wit in="c" is="true"/>
             </profile>
           </bibl>
           <bibl>
-            <ref book="Jud" chapter="20" verse=""/>
+            <ref to-book="Jud" to-chapter="20" to-verse=""/>
             <profile>
-              <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
               <wit in="c" is="true"/>
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="14" verse="5"/>
+            <ref to-book="1Kor" to-chapter="14" to-verse="5"/>
             <profile>
-              <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
               <wit in="c" is="true"/>
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="14" verse="26"/>
+            <ref to-book="1Kor" to-chapter="14" to-verse="26"/>
             <profile>
-              <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
               <wit in="c" is="true"/>
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="14" verse="3"/>
+            <ref to-book="1Kor" to-chapter="14" to-verse="3"/>
             <profile>
-              <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
               <wit in="c" is="true"/>
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="14" verse="26"/>
+            <ref to-book="1Kor" to-chapter="14" to-verse="26"/>
             <profile>
-              <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
               <wit in="c" is="true"/>
             </profile>
           </bibl>
@@ -4839,7 +4839,7 @@
         <div type="section" id="section_3_50" words="300"/>
         <div type="section" id="section_3_51" words="599">
           <bibl>
-            <ref book="Jona" chapter="4" verse="10"/>
+            <ref to-book="Jona" to-chapter="4" to-verse="10"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4847,7 +4847,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Jona" chapter="4" verse="11"/>
+            <ref to-book="Jona" to-chapter="4" to-verse="11"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4863,7 +4863,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Tim" chapter="1" verse="15"/>
+            <ref to-book="1Tim" to-chapter="1" to-verse="15"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4871,7 +4871,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Tim" chapter="1" verse="16"/>
+            <ref to-book="1Tim" to-chapter="1" to-verse="16"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4879,7 +4879,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="12" verse="15"/>
+            <ref to-book="Röm" to-chapter="12" to-verse="15"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4887,7 +4887,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Tim" chapter="5" verse="1"/>
+            <ref to-book="1Tim" to-chapter="5" to-verse="1"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4895,7 +4895,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Tim" chapter="5" verse="2"/>
+            <ref to-book="1Tim" to-chapter="5" to-verse="2"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4915,7 +4915,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Kor" chapter="7" verse="23"/>
+            <ref to-book="1Kor" to-chapter="7" to-verse="23"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4935,34 +4935,34 @@
       <div type="section-group" id="section_3_55-67" words="7368">
         <div type="section" id="section_3_55" words="416">
           <bibl>
-            <ref book="1Joh" chapter="2" verse="20"/>
+            <ref to-book="1Joh" to-chapter="2" to-verse="20"/>
             <profile>
-              <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
               <wit in="c" is="true"/>
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Joh" chapter="2" verse="27"/>
+            <ref to-book="1Joh" to-chapter="2" to-verse="27"/>
             <profile>
-              <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
               <wit in="c" is="true"/>
             </profile>
           </bibl>
           <bibl>
-            <ref book="Apg" chapter="10" verse="38"/>
+            <ref to-book="Apg" to-chapter="10" to-verse="38"/>
             <profile>
-              <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
               <wit in="c" is="true"/>
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="1" verse="21"/>
+            <ref to-book="2Kor" to-chapter="1" to-verse="21"/>
             <profile>
-              <wit in="a" is="true"/>
-              <wit in="b" is="true"/>
+              <wit in="a" is="false"/>
+              <wit in="b" is="false"/>
               <wit in="c" is="true"/>
             </profile>
           </bibl>
@@ -4975,7 +4975,7 @@
         <div type="section" id="section_3_61" words="195"/>
         <div type="section" id="section_3_62" words="595">
           <bibl>
-            <ref book="Mt" chapter="9" verse="36"/>
+            <ref to-book="Mt" to-chapter="9" to-verse="36"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4983,7 +4983,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="1Tim" chapter="4" verse="12"/>
+            <ref to-book="1Tim" to-chapter="4" to-verse="12"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -4991,7 +4991,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="Röm" chapter="2" verse="24"/>
+            <ref to-book="Röm" to-chapter="2" to-verse="24"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -5014,7 +5014,7 @@
         <div type="section" id="section_3_71" words="276"/>
         <div type="section" id="section_3_72" words="317">
           <bibl>
-            <ref book="Phil" chapter="1" verse="18"/>
+            <ref to-book="Phil" to-chapter="1" to-verse="18"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>
@@ -5022,7 +5022,7 @@
             </profile>
           </bibl>
           <bibl>
-            <ref book="2Kor" chapter="13" verse="7"/>
+            <ref to-book="2Kor" to-chapter="13" to-verse="7"/>
             <profile>
               <wit in="a" is="true"/>
               <wit in="b" is="true"/>

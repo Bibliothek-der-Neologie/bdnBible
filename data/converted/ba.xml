@@ -1,0 +1,212 @@
+<data>
+  <edition>Bahrdt/Semler, Glaubensbekenntnisse,
+                        1779–1792</edition>
+  <listWit>
+    <witness id="a" lem="false"/>
+    <witness id="b" lem="false"/>
+    <witness id="c" lem="false"/>
+    <witness id="d" lem="false"/>
+    <witness id="e" lem="false"/>
+    <witness id="f" lem="false"/>
+    <witness id="z" lem="false"/>
+  </listWit>
+  <div type="preface" id="bs_preface_print" words="286"/>
+  <div type="contents" id="" words="1"/>
+  <div type="introduction" id="bs_introduction_print" words="6840">
+    <div type="" id="" words="243"/>
+    <div type="" id="" words="2243"/>
+    <div type="" id="" words="2223"/>
+    <div type="" id="" words="1742"/>
+    <div type="" id="" words="389"/>
+  </div>
+  <div type="editorial" id="bs_editorial" words="1508">
+    <div type="" id="" words="140"/>
+    <div type="" id="" words="320"/>
+    <div type="" id="" words="155"/>
+    <div type="" id="" words="265"/>
+    <div type="" id="" words="348"/>
+    <div type="" id="" words="184"/>
+    <div type="" id="" words="92"/>
+    <div type="" id="" words="2"/>
+  </div>
+  <div type="dedication" id="bs_a_dc" words="245"/>
+  <div type="chapter" id="bs_a_1" words="6022">
+    <div type="" id="" words="1080">
+      <bibl>
+        <ref to-book="Joh" to-chapter="10" to-verse=""/>
+        <profile>Kein Leittext definiert!</profile>
+      </bibl>
+    </div>
+  </div>
+  <div type="preface" id="bs_b_pf_1" words="3212"/>
+  <div type="preface" id="bs_b_pf_2" words="3806"/>
+  <div type="chapter" id="bs_b_1" words="39744">
+    <bibl>
+      <ref to-book="Röm" to-chapter="5" to-verse=""/>
+      <profile>Kein Leittext definiert!</profile>
+    </bibl>
+    <bibl>
+      <ref to-book="2Petr" to-chapter="1" to-verse="5"/>
+      <profile>Kein Leittext definiert!</profile>
+    </bibl>
+    <div type="section" id="" words="873"/>
+    <div type="section" id="" words="1250"/>
+    <div type="section" id="" words="2386">
+      <bibl>
+        <ref to-book="Hebr" to-chapter="9" to-verse="14"/>
+        <profile>Kein Leittext definiert!</profile>
+      </bibl>
+      <bibl>
+        <ref to-book="Hebr" to-chapter="13" to-verse="20"/>
+        <profile>Kein Leittext definiert!</profile>
+      </bibl>
+    </div>
+    <div type="section" id="" words="1533"/>
+    <div type="section" id="" words="3890">
+      <bibl>
+        <ref to-book="Joh" to-chapter="10" to-verse=""/>
+        <profile>Kein Leittext definiert!</profile>
+      </bibl>
+      <bibl>
+        <ref to-book="Joh" to-chapter="10" to-verse=""/>
+        <profile>Kein Leittext definiert!</profile>
+      </bibl>
+      <bibl>
+        <ref to-book="Joh" to-chapter="10" to-verse="24"/>
+        <profile>Kein Leittext definiert!</profile>
+      </bibl>
+    </div>
+    <div type="section" id="" words="1755">
+      <bibl>
+        <ref to-book="Röm" to-chapter="2" to-verse="12"/>
+        <profile>Kein Leittext definiert!</profile>
+      </bibl>
+    </div>
+    <div type="section" id="" words="1069">
+      <bibl>
+        <ref to-book="Ex" to-chapter="20" to-verse="5"/>
+        <profile>Kein Leittext definiert!</profile>
+      </bibl>
+    </div>
+    <div type="section" id="" words="645"/>
+    <div type="section" id="" words="412">
+      <bibl>
+        <ref to-book="Num" to-chapter="8" to-verse=""/>
+        <profile>Kein Leittext definiert!</profile>
+      </bibl>
+      <bibl>
+        <ref to-book="Num" to-chapter="9" to-verse=""/>
+        <profile>Kein Leittext definiert!</profile>
+      </bibl>
+    </div>
+    <div type="section" id="" words="5962">
+      <bibl>
+        <ref to-book="2Tim" to-chapter="3" to-verse="16"/>
+        <profile>Kein Leittext definiert!</profile>
+      </bibl>
+    </div>
+  </div>
+  <div type="chapter" id="bs_c_1" words="1427"/>
+  <div type="chapter" id="bs_d_1" words="4060"/>
+  <div type="chapter" id="bs_d_2" words="2800"/>
+  <div type="chapter" id="bs_d_3" words="4467"/>
+  <div type="chapter" id="bs_d_4" words="3231">
+    <bibl>
+      <ref to-book="Gal" to-chapter="4" to-verse="3"/>
+      <profile>Kein Leittext definiert!</profile>
+    </bibl>
+    <bibl>
+      <ref to-book="1Kor" to-chapter="1" to-verse="31"/>
+      <profile>Kein Leittext definiert!</profile>
+    </bibl>
+  </div>
+  <div type="chapter" id="bs_d_5" words="2632"/>
+  <div type="chapter" id="bs_d_6" words="2508"/>
+  <div type="chapter" id="bs_d_7" words="2241"/>
+  <div type="chapter" id="bs_d_ps" words="1216"/>
+  <div type="chapter" id="bs_e_1" words="4508">
+    <div type="section" id="" words="876"/>
+    <div type="section" id="" words="2572"/>
+    <div type="section" id="" words="199"/>
+    <div type="" id="" words="538"/>
+  </div>
+  <div type="preface" id="bs_f_pf" words="4508"/>
+  <div type="corrigenda" id="bs_f_corr_1" words="12"/>
+  <div type="chapter" id="bs_f_1" words="77324">
+    <div type="section" id="bs_f_2" words="1292"/>
+    <div type="section" id="bs_f_3" words="525"/>
+    <div type="section" id="bs_f_4" words="651"/>
+    <div type="section" id="bs_f_5" words="556"/>
+    <div type="section" id="bs_f_6" words="1096"/>
+    <div type="section" id="bs_f_7" words="612"/>
+    <div type="section" id="bs_f_8" words="553"/>
+    <div type="section" id="bs_f_9" words="764"/>
+    <div type="section" id="bs_f_10" words="1305"/>
+    <div type="section" id="bs_f_11" words="1881"/>
+    <div type="section" id="bs_f_12" words="2050"/>
+    <div type="section" id="bs_f_13" words="1306"/>
+    <div type="section" id="bs_f_14" words="3423"/>
+    <div type="section" id="bs_f_15" words="1138"/>
+    <div type="section" id="bs_f_16" words="3725"/>
+    <div type="section" id="bs_f_17" words="1271"/>
+    <div type="section" id="bs_f_18" words="987"/>
+    <div type="section" id="bs_f_19" words="1904"/>
+    <div type="section" id="bs_f_20" words="1944"/>
+    <div type="section" id="bs_f_21" words="2715"/>
+    <div type="section" id="bs_f_22" words="4455"/>
+    <div type="section" id="bs_f_23" words="1888"/>
+    <div type="section" id="bs_f_24" words="971"/>
+    <div type="section" id="bs_f_25" words="2173"/>
+    <div type="section" id="bs_f_26" words="1047"/>
+    <div type="section" id="bs_f_27" words="2100"/>
+    <div type="section" id="bs_f_28" words="849"/>
+    <div type="section" id="bs_f_29" words="2158">
+      <bibl>
+        <ref to-book="Joh" to-chapter="4" to-verse=""/>
+        <profile>Kein Leittext definiert!</profile>
+      </bibl>
+    </div>
+    <div type="section" id="bs_f_30" words="1135"/>
+    <div type="section" id="bs_f_31" words="1639"/>
+    <div type="section" id="bs_f_32" words="1460"/>
+    <div type="section" id="bs_f_33" words="1002"/>
+    <div type="section" id="bs_f_34" words="896"/>
+    <div type="section" id="bs_f_35" words="1776">
+      <bibl>
+        <ref from-book="2Petr" from-chapter="1" from-verse="5" to-book="2Petr" to-chapter="1" to-verse="ff"/>
+        <profile>Kein Leittext definiert!</profile>
+      </bibl>
+    </div>
+    <div type="section" id="bs_f_36" words="1670"/>
+    <div type="section" id="bs_f_37" words="1127"/>
+    <div type="section" id="bs_f_38" words="3770"/>
+    <div type="section" id="bs_f_39" words="2024"/>
+    <div type="section" id="bs_f_40" words="2386"/>
+    <div type="section" id="bs_f_41" words="3346"/>
+    <div type="section" id="bs_f_42" words="1298"/>
+    <div type="section" id="bs_f_43" words="2366"/>
+    <div type="section" id="bs_f_44" words="2106"/>
+    <div type="corrigenda" id="bs_f_corr_2" words="10"/>
+  </div>
+  <div type="part" id="bs_z_1" words="2007" column-title="Rezension zu Semlers Antwort in der AdB, 1780">
+    <bibl>
+      <ref to-book="Gal" to-chapter="4" to-verse="3"/>
+      <profile>Kein Leittext definiert!</profile>
+    </bibl>
+    <bibl>
+      <ref to-book="Gal" to-chapter="4" to-verse="5"/>
+      <profile>Kein Leittext definiert!</profile>
+    </bibl>
+    <bibl>
+      <ref to-book="1Kor" to-chapter="1" to-verse="31"/>
+      <profile>Kein Leittext definiert!</profile>
+    </bibl>
+  </div>
+  <div type="editorial-notes" id="" words="209"/>
+  <div type="index" id="" words="118">
+    <div type="" id="" words="1"/>
+    <div type="" id="" words="1"/>
+    <div type="" id="" words="2"/>
+    <div type="" id="" words="1"/>
+  </div>
+</data>
