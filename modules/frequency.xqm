@@ -40,6 +40,37 @@ return
 </html>
 };
 
+(: Zählt die Anzahl der Bibelstellen pro Lemma bei Teller, setzt sie in Relation zur Wortanzahl des Lemmas und erstellt eine html-Tabelle
+
+: @version 1.0 (2021-07-27)
+: @author Hannah Kreß :)
+
+
+declare function freq:table_teller_entry($doc, $bible) 
+{
+<html>
+<body>
+<table>
+<tr>
+<td>Kapitel</td><td>absolut</td><td>relativ</td></tr>
+
+{
+let $titles := $doc//div[@type = "entry"]/@id
+let $chapters := $doc//div[@type = "entry"]
+let $nr := count($titles)
+for $n in (1 to $nr)
+return
+<tr>
+<td>{data($titles[$n])}</td>
+<td>{count($chapters[$n]//ref)}</td>
+<td>{count($chapters[$n]//ref) div (data($doc//div[@type = "entry"]/@words)[$n])}</td>
+</tr>
+}
+</table>
+</body>
+</html>
+};
+
 
 
 (:~
