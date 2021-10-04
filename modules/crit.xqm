@@ -3,44 +3,20 @@ module namespace crit = "http://bdn-edition.de/xquery/crit";
 declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 
-(:~
-: Diese Funktion ist ein erster Versuch, die konvertierte XML über ein
-: "tumbling window" zu sortieren: Hier sollen alle Bibelstellen
-: zusammengefasst werden, die im Zwischenformat das gleiche Bibelstellenprofil 
-: aufweisen. Das funktioniert aber noch nicht vollständig ...
-:
-: Todo:     Eingrenzen auf Hinzufügungen und Löschungen.
-: Fragen:   1.) Texkritik:  Fallen Verse aufgrund einer veränderten Lesart weg? 
-:           2.) Auslegung:  Wo treten über die Auflagen hinweg die größten Veränderungen innerhalb des Werks auf? 
-:                           Hängen diese mit einer veränderten Auslegung bestimmter Verse zusammen?
-:
-: @version 0.1 (2021-02-23)
-: @author ..., Marco Stallmann
-:
-:)
-
-declare function crit:window($doc)
-{
-  for tumbling window $b in $doc//bibl
-  start $start-bibl
-  next $next-bibl
-  when fn:deep-equal($start-bibl/profile, $next-bibl/profile) = true()
-  return
-  <bibl>{($start-bibl/ref, $next-bibl/ref, $start-bibl/profile)}</bibl>  
-};
 
 (:~
-: Idee: Dynamisches "textkritisches" Bibelstellenregister auf der Basis des: Zwischenformats
+: Dynamisches "textkritisches" Bibelstellenregister auf der Basis des Zwischenformats
 : - Tabelle: Bibelreferenzen | textkritisches Profil | Textstelle der Edition (z.B. Kolumnentitel) | evtl. Kurzhinweis
 : - Sortieroption: Wiedergabe nach der Bibelreihenfole (data/bible_structure.xml)
 : - Filteroption: diejenigen Bibelreferenzen, die nicht in allen / nur in bestimmten Auflagen vorkommen // Veränderungen in bestimmten Auflagen
 : - Highlight-Option: evtl. Hervorhebung bestimmter exegetisch oder dogmatisch relevanter Bibelstellen (evtl. erweitertes Markup der units.xml)
+: 
+: @param $doc Editionsdaten im Zwischenformat
 :
 : @version 0.1 (2021-06-18)
 : @author ...
 :
 :)
-
 declare function crit:register( $doc ) 
 {
   let $bibls-with-places := crit:bibl-places ( $doc )  
@@ -56,11 +32,12 @@ declare function crit:register( $doc )
 :
 : Todo: Ggf. umstellen auf Kolumnentitel?
 :
-: @version 0.1 (2021-06-18)
+: @param $doc Editionsdaten im Zwischenformat
+:
+: @version 1.0 (2021-06-18)
 : @author ...
 :
 :)
-
 declare function crit:bibl-places ( $doc ){
   element {"bibls"} { for $bibl in $doc//bibl 
     return element { "bibl" } {
@@ -72,6 +49,8 @@ declare function crit:bibl-places ( $doc ){
 
 (:~
 : Nur Bibelreferenzen mit mindestens einem @is = "false" (also textkritisch relevante)
+: 
+: @param $doc Editionsdaten im Zwischenformat
 :
 : @version 0.1 (2021-06-18)
 : @author ...
@@ -86,6 +65,8 @@ declare function crit:filter ( $doc ) {
 (:~
 : Sortierung nach Bibel-Reihenfolge
 :
+: @param $doc Editionsdaten im Zwischenformat
+:
 : @version 0.1 (2021-06-18)
 : @author ...
 :
@@ -99,6 +80,8 @@ declare function crit:sort-chapter( $doc, $ana ){
 
 (:~
 : Konversion der Neusortierung in HTML-Tabelle
+:
+: @param $doc Editionsdaten im Zwischenformat
 :
 : @version 0.1 (2021-06-18)
 : @author ...
@@ -152,3 +135,30 @@ declare function crit:register_table ( $doc ){
 }			</table>
   </body></html>)
 };
+
+(:~
+: Diese Funktion ist ein erster Versuch, die konvertierte XML über ein
+: "tumbling window" zu sortieren: Hier sollen alle Bibelstellen
+: zusammengefasst werden, die im Zwischenformat das gleiche Bibelstellenprofil 
+: aufweisen. Das funktioniert aber noch nicht vollständig ...
+:
+: Todo:     Eingrenzen auf Hinzufügungen und Löschungen.
+: Fragen:   1.) Texkritik:  Fallen Verse aufgrund einer veränderten Lesart weg? 
+:           2.) Auslegung:  Wo treten über die Auflagen hinweg die größten Veränderungen innerhalb des Werks auf? 
+:                           Hängen diese mit einer veränderten Auslegung bestimmter Verse zusammen?
+:
+: @version 0.1 (2021-02-23)
+: @author ..., Marco Stallmann
+: @deprecated Ersetzt durch crit:register
+:
+:)
+declare function crit:window($doc)
+{
+  for tumbling window $b in $doc//bibl
+  start $start-bibl
+  next $next-bibl
+  when fn:deep-equal($start-bibl/profile, $next-bibl/profile) = true()
+  return
+  <bibl>{($start-bibl/ref, $next-bibl/ref, $start-bibl/profile)}</bibl>  
+};
+

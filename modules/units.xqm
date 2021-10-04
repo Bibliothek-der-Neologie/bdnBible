@@ -7,13 +7,13 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 : Auflistung aller Entsprechungen zu allen Sinneinheiten in einem Band
 : oder mehreren Bänden (Vers-Evbene)
 :
-: @param $xx_conv ... Zwischenformat
+: @param $xx_conv Editionsdaten im Zwischenformat
 :
 : @version 1.0 (2021)
 : @author Marco Stallmann
 :
 :)
-declare function units:collect_verse($xx_conv)
+declare function units:collect_verse( $xx_conv )
 {
   let $equalunits := doc("../data/units_equal.xml")    
   return element {"units"} {
@@ -40,13 +40,13 @@ declare function units:collect_verse($xx_conv)
 : Auflistung aller Entsprechungen zu allen Sinneinheiten in einem Band
 : oder mehreren Bänden (Kapitelebene)
 :
-: @param $xx_conv ... Zwischenformat
+: @param $xx_conv Editionsdaten im Zwischenformat
 :
 : @version 1.0 (2021)
 : @author Marco Stallmann
 :
 :)
-declare function units:collect_chapter($xx_conv) 
+declare function units:collect_chapter( $xx_conv ) 
 {
   let $equalunits := doc("../data/units_equal.xml")  
   return element {"units"} {
@@ -74,11 +74,14 @@ declare function units:collect_chapter($xx_conv)
 (:~
 : Sucht zu einer gegebenen Sinneinheit alle Entsprechungen im Zwischenformat $xx_conf
 :
+: @param $unit Sinneinheit 
+: @param $xx_conv Editionsdaten im Zwischenformat
+:
 : @version 1.0 (2021)
 : @author Marco Stallmann
 :
 :)
-declare function units:matches($unit, $xx_conv) {
+declare function units:matches( $unit, $xx_conv ) {
   let $unit-from-book := $unit/@from-book
   let $unit-from-chapter := $unit/@from-chapter
   let $unit-from-verse := $unit/@from-verse
@@ -130,13 +133,16 @@ return $matches
 : Stellt die Ergebnisse von units:collect_verse bzw. units:collect_chapter als
 : HTML-Tabelle dar.
 :
+: @param $xx_conv Editionsdaten im Zwischenformat
+: @param $level Vergleichsebene: Kapitel (chapter), Vers (verse) oder Gesamt (all)
+:
 : @version 1.0 (2021)
 : @author Marco Stallmann
 :
 :)
 declare function units:compare($xx_conv as item()+ , $level) {  
   let $filename := 
-    "output/units_table_" || 
+    "../output/units_table_" || 
     fn:string-join(for $data in $xx_conv/data return fn:lower-case(substring($data/edition, 1, 2) 
     || "_")) ||".html" 
   let $collection := 
@@ -185,17 +191,17 @@ declare function units:compare($xx_conv as item()+ , $level) {
 : Elementen "unit" um, die vergleichbar sind. Diese Liste kann in der
 : Funktion units:find zugrundegelegt werden (vgl. dort die Variable "equalunits").
 :
-: Todo: Generell ist im Modul "units" zu überlegen, ob die Hintereinander-
-: schaltung der Funktionen 1) verständlich und 2) zielführend ist oder ob es
-: alternative Möglichkeiten gibt.
+: @param $units Gegebene Sinneinheiten-XML
+: @param $bible Gegebene Bibel-XML (notwendig für Verszählung)
+:
 :
 : @version 0.1 (2020)
 : @author ..., Marco Stallmann
 :
 :)
-declare function units:equalunits($units, $bible)
+declare function units:equalunits( $units, $bible )
 {
-  file:write('data/units_equal.xml',
+  file:write('../data/units_equal.xml',
   element {"units"} {
   for $u in $units//unit
     let $from-book := ($u/@from-book, $u/ancestor::book/@name)[1]
