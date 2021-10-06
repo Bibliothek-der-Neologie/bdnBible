@@ -40,7 +40,7 @@ declare variable $sa_conv := doc("data/converted/sa.xml");
 (: units:collect_verse(($te_conv, gr_conv)) :)
 
 (: HTML-Vergleich (s. output) :)
-units:compare(($gr_conv, $st_conv), "verse") 
+units:compare(($te_conv, $no_conv, $gr_conv, $le_conv, $st_conv, $sa_conv), "verse") 
 
 
 (: b) Bibelstellendichte und relative Häufigkeiten :)

@@ -5,7 +5,7 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 (:~
 : Auflistung aller Entsprechungen zu allen Sinneinheiten in einem Band
-: oder mehreren Bänden (Vers-Evbene)
+: oder mehreren Bänden (Vers-Ebene)
 :
 : @param $xx_conv Editionsdaten im Zwischenformat
 :
@@ -142,7 +142,7 @@ return $matches
 :)
 declare function units:compare($xx_conv as item()+ , $level) {  
   let $filename := 
-    "../output/units_table_" || 
+    "output/units_table_" || 
     fn:string-join(for $data in $xx_conv/data return fn:lower-case(substring($data/edition, 1, 2) 
     || "_")) ||".html" 
   let $collection := 
@@ -201,7 +201,7 @@ declare function units:compare($xx_conv as item()+ , $level) {
 :)
 declare function units:equalunits( $units, $bible )
 {
-  file:write('../data/units_equal.xml',
+  file:write('data/units_equal.xml',(:oder '../data/units_equal.xml':)
   element {"units"} {
   for $u in $units//unit
     let $from-book := ($u/@from-book, $u/ancestor::book/@name)[1]

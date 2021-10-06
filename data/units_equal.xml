@@ -589,10 +589,10 @@
   <unit from-book="Apg" from-chapter="28" from-verse="11" to-book="Apg" to-chapter="28" to-verse="16" verses="31">Von Malta nach Rom</unit>
   <unit from-book="Apg" from-chapter="28" from-verse="17" to-book="Apg" to-chapter="28" to-verse="31" verses="31">Paulus in Rom</unit>
   <unit from-book="Röm" from-chapter="1" from-verse="18" to-book="Röm" to-chapter="3" to-verse="20" verses="92">Die Universalität der Sünde</unit>
-  <unit from-book="Röm" from-chapter="" from-verse="1" to-book="Röm" to-chapter="" to-verse="7" verses="0">Präskript</unit>
-  <unit from-book="Röm" from-chapter="" from-verse="8" to-book="Röm" to-chapter="" to-verse="17" verses="0">Proömium</unit>
-  <unit from-book="Röm" from-chapter="" from-verse="18" to-book="Röm" to-chapter="" to-verse="18" verses="0">Überschrift</unit>
-  <unit from-book="Röm" from-chapter="" from-verse="19" to-book="Röm" to-chapter="" to-verse="32" verses="0">Die Gottlosigkeit und Ungerechtigkeit der Menschen</unit>
+  <unit from-book="Röm" from-chapter="1" from-verse="1" to-book="Röm" to-chapter="1" to-verse="7" verses="32">Präskript</unit>
+  <unit from-book="Röm" from-chapter="1" from-verse="8" to-book="Röm" to-chapter="1" to-verse="17" verses="32">Proömium</unit>
+  <unit from-book="Röm" from-chapter="1" from-verse="18" to-book="Röm" to-chapter="1" to-verse="18" verses="32">Überschrift</unit>
+  <unit from-book="Röm" from-chapter="1" from-verse="19" to-book="Röm" to-chapter="1" to-verse="32" verses="32">Die Gottlosigkeit und Ungerechtigkeit der Menschen</unit>
   <unit from-book="Röm" from-chapter="2" from-verse="12" to-book="Röm" to-chapter="3" to-verse="20" verses="60">Juden und Heiden sind unter der Sünde</unit>
   <unit from-book="Röm" from-chapter="2" from-verse="1" to-book="Röm" to-chapter="2" to-verse="16" verses="29">Das Gericht Gottes ohne Ansehen der Person</unit>
   <unit from-book="Röm" from-chapter="2" from-verse="17" to-book="Röm" to-chapter="2" to-verse="29" verses="29">Fragen an die Juden</unit>
