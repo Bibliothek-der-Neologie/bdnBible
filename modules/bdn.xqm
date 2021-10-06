@@ -5,7 +5,7 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 (:~
  : Wendet convert1 und convert2 hintereinander an auf
  :
- : @param $node ... eine TEI/XML-Datei
+ : @param $node Editionsdaten in XML/TEI
  : 
  : @version 0.3 (2021-06-21)
  : @author Marco Stallmann
@@ -18,7 +18,7 @@ declare function bdn:convert( $node )
 (:~
  : Die Funktion konvertiert ...
  :
- : @param $node ... eine TEI/XML-Datei
+ : @param $node Editionsdaten in XML/TEI
  :
  : in ein div-strukturierte Liste von bibl-Elementen, die jeweils ein gegebenes
  : Element tei:bibl[@type="biblical-reference"] im TEI-Quellentext repräsentieren.
