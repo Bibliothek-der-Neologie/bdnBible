@@ -886,11 +886,12 @@
   </book>
   <book name="Röm">
     <unit from-chapter="1" from-verse="18" to-chapter="3" to-verse="20">Die Universalität der Sünde</unit>
-    <chapter n="1"/>
+    <chapter n="1">
     <unit from-verse="1" to-verse="7">Präskript</unit>
     <unit from-verse="8" to-verse="17">Proömium</unit>
     <unit from-verse="18" to-verse="18">Überschrift</unit>
     <unit from-verse="19" to-verse="32">Die Gottlosigkeit und Ungerechtigkeit der Menschen</unit>
+    </chapter>
     <unit from-chapter="2" from-verse="12" to-chapter="3" to-verse="20">Juden und Heiden sind unter der Sünde</unit>
     <chapter n="2">
       <unit from-verse="1" to-verse="16">Das Gericht Gottes ohne Ansehen der Person</unit>
