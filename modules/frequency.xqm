@@ -6,15 +6,15 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 : Zählt die absoluten und relativen Häufigkeiten der Bibelstellen mit Verwendung des Zwischenformats, 
 : Kapitelbezeichnungen müssen jedoch aus der unkonvertierten Gesamtdatei gewonnen werden und erstellt eine html-Tabelle 
 : 
-: für Griesbach, Steinbart, Sack "chapter", für Teller "letter", für Leß "section", für Nösselt "part"
+: $div := für Griesbach, Steinbart, Sack "chapter", für Teller "letter", für Leß "section", für Nösselt "part"
 :
-: @version 1.2 (2021-05-19)
+: @version 1.3 (2021-11-01)
 : @author Hannah Kreß
 :
 :)
 
 
-declare function freq:table_all($doc, $bible) 
+declare function freq:table_all($doc, $bible, $div) 
 {
 <html>
 <body>
@@ -23,9 +23,9 @@ declare function freq:table_all($doc, $bible)
 <td>Kapitel</td><td>absolut</td><td>relativ</td></tr>
 
 {
-let $titles := $doc//div[@type = "chapter"]/@column-title 
-let $chapters := $doc//div[@type = "chapter"]
-let $words := $doc//div[@type = "chapter"]/@words
+let $titles := $doc//div[@type = $div]/@column-title 
+let $chapters := $doc//div[@type = $div]
+let $words := $doc//div[@type = $div]/@words
 let $nr := count($titles)
 for $n in (1 to $nr)
 return
@@ -42,11 +42,11 @@ return
 
 (: Zählt die Anzahl der Bibelstellen pro Lemma bei Teller, setzt sie in Relation zur Wortanzahl des Lemmas und erstellt eine html-Tabelle
 
-: @version 1.0 (2021-07-27)
+: @version 1.1 (2021-11-01)
 : @author Hannah Kreß :)
 
 
-declare function freq:table_teller_entry($doc, $bible) 
+declare function freq:table_teller_entry($doc, $bible, $div) 
 {
 <html>
 <body>
@@ -55,15 +55,15 @@ declare function freq:table_teller_entry($doc, $bible)
 <td>Kapitel</td><td>absolut</td><td>relativ</td></tr>
 
 {
-let $titles := $doc//div[@type = "entry"]/@id
-let $chapters := $doc//div[@type = "entry"]
+let $titles := $doc//div[@type = $div]/@id
+let $chapters := $doc//div[@type = $div]
 let $nr := count($titles)
 for $n in (1 to $nr)
 return
 <tr>
 <td>{data($titles[$n])}</td>
 <td>{count($chapters[$n]//ref)}</td>
-<td>{count($chapters[$n]//ref) div (data($doc//div[@type = "entry"]/@words)[$n])}</td>
+<td>{count($chapters[$n]//ref) div (data($doc//div[@type = $div]/@words)[$n])}</td>
 </tr>
 }
 </table>
@@ -77,13 +77,13 @@ return
 : Zählt die absoluten und relativen (in Relation zu der Gesamtanzahl aller Bibelstellen in einem Kapitel) Häufigkeiten 
 : eines bestimmten Bibelbuchs und erstellt eine html-Tabelle 
 : 
-: für Griesbach, Steinbart, Sack "chapter", für Teller "letter", für Leß "section", für Nösselt "part"
+: $div := für Griesbach, Steinbart, Sack "chapter", für Teller "letter", für Leß "section", für Nösselt "part"
 :
-: @version 1.2 (2021-05-19)
+: @version 1.3 (2021-11-01)
 : @author Hannah Kreß
 :
 :)
-declare function freq:table_spec($doc, $bible, $book)
+declare function freq:table_spec($doc, $bible, $book, $div)
 {
 <html>
 <body>
@@ -91,8 +91,8 @@ declare function freq:table_spec($doc, $bible, $book)
 <tr>
 <td>Kapitel/{$book}</td><td>absolut</td><td>relativ</td></tr>
 {
-let $titles := $doc//div[@type ="letter"]/@column-title
-let $chapters := $doc//div[@type ="letter"]
+let $titles := $doc//div[@type = $div]/@column-title
+let $chapters := $doc//div[@type = $div]
 let $n_ref := for $c in $chapters return fn:count($c//ref)
 let $nr := count($chapters)
 for $n in (1 to $nr)
@@ -122,15 +122,16 @@ else
 : 
 : ToDo: gewünschte Visualisierung
 :
-: @version 1.1 (2021-04-21)
+: @version 1.2 (2021-11-01)
 : @author Hannah Kreß
 :)
 
 
-(:für Griesbach, Steinbart, Sack "chapter", für Teller "letter", für Leß "section", für Nösselt "part":)
-declare function freq:count_spec($doc, $book) {
-let $chapters := $doc//div[@type ="section"]
-let $titles := data($doc//div[@type ="section"]/@column-title)
+(:$div := für Griesbach, Steinbart, Sack "chapter", für Teller "letter", für Leß "section", für Nösselt "part":)
+declare function freq:count_spec($doc, $book, $div) 
+{
+let $chapters := $doc//div[@type = $div]
+let $titles := data($doc//div[@type = $div]/@column-title)
 let $count := 
 for $c in $chapters return fn:count($c//ref)
 let $count_spec := 
