@@ -41,6 +41,7 @@ return
 };
 
 (: Zählt die Anzahl der Bibelstellen pro Lemma bei Teller, setzt sie in Relation zur Wortanzahl des Lemmas und erstellt eine html-Tabelle
+$div := "entry"
 
 : @version 1.1 (2021-11-01)
 : @author Hannah Kreß :)
