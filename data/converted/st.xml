@@ -7,8 +7,8 @@
     <witness id="d" lem="false"/>
     <witness id="z" lem="false"/>
   </listWit>
-  <div type="" id="" words="4717">
-    <div type="preface" id="st_ed_preface" words="326"/>
+  <div type="" id="" words="4837">
+    <div type="preface" id="st_ed_preface" words="446"/>
     <div type="contents" id="st_ed_toc" words="1"/>
     <div type="introduction" id="st_ed_introduction" words="2368">
       <div type="" id="" words="660"/>
@@ -29,9 +29,9 @@
     </div>
   </div>
   <div type="section-group" id="st_titlepages" words="204" column-title="Titelblätter"/>
-  <div type="section-group" id="st_preface" words="10581">
-    <div type="dedication" id="st_dedication" words="574"/>
-    <div type="preface" id="st_preface_1778" words="3182">
+  <div type="section-group" id="st_preface" words="10379">
+    <div type="dedication" id="st_dedication" words="563"/>
+    <div type="preface" id="st_preface_1778" words="3115">
       <bibl>
         <ref to-book="Joh" to-chapter="10" to-verse="8"/>
         <profile>
@@ -43,7 +43,7 @@
         </profile>
       </bibl>
     </div>
-    <div type="preface" id="st_preface_1780" words="5408">
+    <div type="preface" id="st_preface_1780" words="5300">
       <bibl>
         <ref to-book="1Kor" to-chapter="1" to-verse="22"/>
         <profile>
@@ -56,31 +56,31 @@
       </bibl>
     </div>
   </div>
-  <div type="chapter" id="" words="1508">
-    <div type="section-group" id="st_introduction" words="1508">
-      <div type="section" id="" words="1508" column-title="Einleitung"/>
+  <div type="chapter" id="" words="1476">
+    <div type="section-group" id="st_introduction" words="1476">
+      <div type="section" id="" words="1476" column-title="Einleitung"/>
     </div>
   </div>
-  <div type="chapter" id="" words="2867" column-title="I. Begriff der Seligkeit">
-    <div type="section-group" id="st_I_1-5" words="1377">
-      <div type="section" id="st_section_1" words="301"/>
-      <div type="section" id="" words="116"/>
-      <div type="section" id="" words="400"/>
-      <div type="section" id="" words="199"/>
-      <div type="section" id="" words="361"/>
+  <div type="chapter" id="" words="2792" column-title="I. Begriff der Seligkeit">
+    <div type="section-group" id="st_I_1-5" words="1350">
+      <div type="section" id="st_section_1" words="296"/>
+      <div type="section" id="st_section_2" words="111"/>
+      <div type="section" id="st_section_3" words="392"/>
+      <div type="section" id="st_section_4" words="196"/>
+      <div type="section" id="st_section_5" words="355"/>
     </div>
-    <div type="section-group" id="st_I_6-10" words="1475">
-      <div type="section" id="" words="200"/>
-      <div type="section" id="" words="353"/>
-      <div type="section" id="" words="251"/>
-      <div type="section" id="" words="239"/>
-      <div type="section" id="st_section_10" words="432"/>
+    <div type="section-group" id="st_I_6-10" words="1428">
+      <div type="section" id="st_section_6" words="195"/>
+      <div type="section" id="st_section_7" words="342"/>
+      <div type="section" id="st_section_8" words="243"/>
+      <div type="section" id="st_section_9" words="231"/>
+      <div type="section" id="st_section_10" words="417"/>
     </div>
   </div>
-  <div type="chapter" id="" words="6367" column-title="II. Empfänglichkeit und Anlagen der Menschen zur Seligkeit">
-    <div type="section-group" id="st_II_11-15" words="3113">
-      <div type="section" id="" words="95"/>
-      <div type="section" id="" words="819">
+  <div type="chapter" id="" words="6264" column-title="II. Empfänglichkeit und Anlagen der Menschen zur Seligkeit">
+    <div type="section-group" id="st_II_11-15" words="3065">
+      <div type="section" id="st_section_11" words="94"/>
+      <div type="section" id="st_section_12" words="812">
         <bibl>
           <ref to-book="Ps" to-chapter="33" to-verse="5"/>
           <profile>
@@ -107,7 +107,7 @@
             <wit in="a" is="true"/>
             <wit in="b" is="true"/>
             <wit in="c" is="false"/>
-            <wit in="d" is="true"/>
+            <wit in="d" is="false"/>
             <wit in="z" is="true"/>
           </profile>
         </bibl>
@@ -117,7 +117,7 @@
             <wit in="a" is="true"/>
             <wit in="b" is="true"/>
             <wit in="c" is="false"/>
-            <wit in="d" is="true"/>
+            <wit in="d" is="false"/>
             <wit in="z" is="true"/>
           </profile>
         </bibl>
@@ -127,13 +127,13 @@
             <wit in="a" is="false"/>
             <wit in="b" is="false"/>
             <wit in="c" is="true"/>
-            <wit in="d" is="false"/>
+            <wit in="d" is="true"/>
             <wit in="z" is="false"/>
           </profile>
         </bibl>
       </div>
-      <div type="section" id="st_section_13" words="665"/>
-      <div type="section" id="" words="613">
+      <div type="section" id="st_section_13" words="658"/>
+      <div type="section" id="st_section_14" words="601">
         <bibl>
           <ref to-book="1Joh" to-chapter="4" to-verse="8"/>
           <profile>
@@ -165,7 +165,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="921">
+      <div type="section" id="st_section_15" words="900">
         <bibl>
           <ref to-book="Gal" to-chapter="5" to-verse="17"/>
           <profile>
@@ -178,12 +178,12 @@
         </bibl>
       </div>
     </div>
-    <div type="section-group" id="st_II_16-21" words="3225">
-      <div type="section" id="" words="224"/>
-      <div type="section" id="" words="332"/>
-      <div type="section" id="" words="384"/>
-      <div type="section" id="st_section_19" words="1157"/>
-      <div type="section" id="" words="955">
+    <div type="section-group" id="st_II_16-21" words="3170">
+      <div type="section" id="st_section_16" words="218"/>
+      <div type="section" id="st_section_17" words="323"/>
+      <div type="section" id="st_section_18" words="382"/>
+      <div type="section" id="st_section_19" words="1141"/>
+      <div type="section" id="st_section_20" words="938">
         <bibl>
           <ref to-book="Ex" to-chapter="13" to-verse="12"/>
           <profile>
@@ -225,13 +225,13 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="173"/>
+      <div type="section" id="st_section_21" words="168"/>
     </div>
   </div>
-  <div type="chapter" id="" words="4197" column-title="III. Natürliche Hindernisse der höhern Glückseligkeit">
-    <div type="section-group" id="st_III_22-29" words="4170">
-      <div type="section" id="" words="94"/>
-      <div type="section" id="st_section_23" words="832">
+  <div type="chapter" id="" words="4123" column-title="III. Natürliche Hindernisse der höhern Glückseligkeit">
+    <div type="section-group" id="st_III_22-29" words="4096">
+      <div type="section" id="st_section_22" words="90"/>
+      <div type="section" id="st_section_23" words="817">
         <bibl>
           <ref to-book="Joh" to-chapter="3" to-verse="6"/>
           <profile>
@@ -253,18 +253,18 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="1050"/>
-      <div type="section" id="st_section_25" words="278"/>
-      <div type="section" id="st_section_26" words="530"/>
-      <div type="section" id="st_section_27" words="557"/>
-      <div type="section" id="" words="355"/>
-      <div type="section" id="st_section_29" words="474"/>
+      <div type="section" id="st_section_24" words="1031"/>
+      <div type="section" id="st_section_25" words="271"/>
+      <div type="section" id="st_section_26" words="521"/>
+      <div type="section" id="st_section_27" words="553"/>
+      <div type="section" id="st_section_28" words="347"/>
+      <div type="section" id="st_section_29" words="466"/>
     </div>
   </div>
-  <div type="chapter" id="" words="5716" column-title="IV. Verhältnis des Christentums zur Glückseligkeit">
-    <div type="section-group" id="st_IV_30-35" words="3385">
-      <div type="section" id="st_section_30" words="605"/>
-      <div type="section" id="st_section_31" words="385">
+  <div type="chapter" id="" words="5607" column-title="IV. Verhältnis des Christentums zur Glückseligkeit">
+    <div type="section-group" id="st_IV_30-35" words="3312">
+      <div type="section" id="st_section_30" words="598"/>
+      <div type="section" id="st_section_31" words="374">
         <bibl>
           <ref to-book="Gal" to-chapter="3" to-verse="24"/>
           <profile>
@@ -386,7 +386,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="st_section_32" words="1171">
+      <div type="section" id="st_section_32" words="1154">
         <bibl>
           <ref to-book="Mt" to-chapter="28" to-verse="19"/>
           <profile>
@@ -688,7 +688,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="st_section_33" words="338">
+      <div type="section" id="st_section_33" words="331">
         <bibl>
           <ref to-book="Hebr" to-chapter="10" to-verse="16"/>
           <profile>
@@ -710,8 +710,8 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="st_section_34" words="580"/>
-      <div type="section" id="st_section_35" words="306">
+      <div type="section" id="st_section_34" words="557"/>
+      <div type="section" id="st_section_35" words="298">
         <bibl>
           <ref to-book="1Tim" to-chapter="4" to-verse="8"/>
           <profile>
@@ -744,11 +744,11 @@
         </bibl>
       </div>
     </div>
-    <div type="section-group" id="st_IV_36-40" words="2314">
-      <div type="section" id="st_section_36" words="292"/>
-      <div type="section" id="st_section_37" words="312"/>
-      <div type="section" id="st_section_38" words="704"/>
-      <div type="section" id="st_section_39" words="565">
+    <div type="section-group" id="st_IV_36-40" words="2278">
+      <div type="section" id="st_section_36" words="291"/>
+      <div type="section" id="st_section_37" words="306"/>
+      <div type="section" id="st_section_38" words="690"/>
+      <div type="section" id="st_section_39" words="556">
         <bibl>
           <ref from-book="Joh" from-chapter="14" from-verse="6" to-book="Joh" to-chapter="14" to-verse="f"/>
           <profile>
@@ -830,12 +830,12 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="st_section_40" words="441"/>
+      <div type="section" id="st_section_40" words="435"/>
     </div>
   </div>
-  <div type="chapter" id="" words="27981" column-title="V. Willkürliche Hypothesen">
-    <div type="section-group" id="st_V_41-45" words="3126">
-      <div type="section" id="" words="459">
+  <div type="chapter" id="" words="27658" column-title="V. Willkürliche Hypothesen">
+    <div type="section-group" id="st_V_41-45" words="3069">
+      <div type="section" id="" words="451">
         <bibl>
           <ref from-book="1Tim" from-chapter="1" from-verse="4" to-book="1Tim" to-chapter="1" to-verse="f"/>
           <profile>
@@ -897,7 +897,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="1017">
+      <div type="section" id="" words="1003">
         <bibl>
           <ref to-book="2Sam" to-chapter="24" to-verse="1"/>
           <profile>
@@ -959,15 +959,15 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="927"/>
-      <div type="section" id="" words="533"/>
-      <div type="section" id="" words="190"/>
+      <div type="section" id="" words="916"/>
+      <div type="section" id="st_section_44" words="513"/>
+      <div type="section" id="st_section_45" words="186"/>
     </div>
-    <div type="section-group" id="st_V_46-50" words="2321">
-      <div type="section" id="" words="269"/>
-      <div type="section" id="" words="223"/>
-      <div type="section" id="" words="202"/>
-      <div type="section" id="" words="1031">
+    <div type="section-group" id="st_V_46-50" words="2275">
+      <div type="section" id="st_section_46" words="268"/>
+      <div type="section" id="st_section_47" words="220"/>
+      <div type="section" id="st_section_48" words="202"/>
+      <div type="section" id="st_section_49" words="999">
         <bibl>
           <ref to-book="Röm" to-chapter="5" to-verse="12"/>
           <profile>
@@ -1139,10 +1139,10 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="596"/>
+      <div type="section" id="st_section_50" words="586"/>
     </div>
-    <div type="section-group" id="st_V_51-55" words="3576">
-      <div type="section" id="" words="610">
+    <div type="section-group" id="st_V_51-55" words="3544">
+      <div type="section" id="st_section_51" words="614">
         <bibl>
           <ref to-book="Röm" to-chapter="1" to-verse="18"/>
           <profile>
@@ -1234,9 +1234,9 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="277"/>
-      <div type="section" id="" words="853"/>
-      <div type="section" id="" words="473">
+      <div type="section" id="st_section_52" words="275"/>
+      <div type="section" id="st_section_53" words="837"/>
+      <div type="section" id="st_section_54" words="467">
         <bibl>
           <ref to-book="Phil" to-chapter="2" to-verse="13"/>
           <profile>
@@ -1308,7 +1308,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="1363">
+      <div type="section" id="st_section_55" words="1351">
         <bibl>
           <ref to-book="Röm" to-chapter="5" to-verse=""/>
           <profile>
@@ -1351,9 +1351,9 @@
         </bibl>
       </div>
     </div>
-    <div type="section-group" id="st_V_56-60" words="3753">
-      <div type="section" id="st_section_56" words="676"/>
-      <div type="section" id="" words="301">
+    <div type="section-group" id="st_V_56-60" words="3712">
+      <div type="section" id="st_section_56" words="665"/>
+      <div type="section" id="st_section_57" words="296">
         <bibl>
           <ref to-book="Spr" to-chapter="14" to-verse="34"/>
           <profile>
@@ -1395,7 +1395,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="1929">
+      <div type="section" id="st_section_58" words="1910">
         <bibl>
           <ref to-book="2Kor" to-chapter="7" to-verse="10"/>
           <profile>
@@ -2327,7 +2327,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="431">
+      <div type="section" id="st_section_59" words="426">
         <bibl>
           <ref to-book="Röm" to-chapter="5" to-verse="8"/>
           <profile>
@@ -2349,11 +2349,11 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="416"/>
+      <div type="section" id="st_section_60" words="415"/>
     </div>
-    <div type="section-group" id="st_V_61-65" words="3927">
-      <div type="section" id="" words="973"/>
-      <div type="section" id="" words="607">
+    <div type="section-group" id="st_V_61-65" words="3872">
+      <div type="section" id="st_section_61" words="958"/>
+      <div type="section" id="st_section_62" words="603">
         <bibl>
           <ref to-book="Jes" to-chapter="1" to-verse="10"/>
           <profile>
@@ -2605,7 +2605,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="844">
+      <div type="section" id="st_section_63" words="826">
         <bibl>
           <ref to-book="1Petr" to-chapter="1" to-verse="13"/>
           <profile>
@@ -2687,7 +2687,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="1144">
+      <div type="section" id="st_section_64" words="1135">
         <bibl>
           <ref to-book="Mt" to-chapter="7" to-verse="11"/>
           <profile>
@@ -2719,11 +2719,11 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="st_section_65" words="359"/>
+      <div type="section" id="st_section_65" words="350"/>
     </div>
-    <div type="section-group" id="st_V_66-70" words="2198">
-      <div type="section" id="" words="505"/>
-      <div type="section" id="" words="773">
+    <div type="section-group" id="st_V_66-70" words="2184">
+      <div type="section" id="st_section_66" words="494"/>
+      <div type="section" id="st_section_67" words="774">
         <bibl>
           <ref to-book="Apg" to-chapter="15" to-verse="5"/>
           <profile>
@@ -3225,8 +3225,8 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="173"/>
-      <div type="section" id="" words="425">
+      <div type="section" id="st_section_68" words="170"/>
+      <div type="section" id="st_section_69" words="426">
         <bibl>
           <ref to-book="1Joh" to-chapter="5" to-verse="1"/>
           <profile>
@@ -3408,7 +3408,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="323">
+      <div type="section" id="st_section_70" words="321">
         <bibl>
           <ref from-book="Gal" from-chapter="3" from-verse="23" to-book="Gal" to-chapter="3" to-verse="f"/>
           <profile>
@@ -3461,9 +3461,9 @@
         </bibl>
       </div>
     </div>
-    <div type="section-group" id="st_V_71-75" words="4376">
-      <div type="section" id="" words="1092"/>
-      <div type="section" id="" words="703">
+    <div type="section-group" id="st_V_71-75" words="4341">
+      <div type="section" id="st_section_71" words="1081"/>
+      <div type="section" id="st_section_72" words="699">
         <bibl>
           <ref from-book="1Joh" from-chapter="3" from-verse="21" to-book="1Joh" to-chapter="3" to-verse="24"/>
           <profile>
@@ -3545,8 +3545,8 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="352"/>
-      <div type="section" id="" words="1742">
+      <div type="section" id="st_section_73" words="349"/>
+      <div type="section" id="st_section_74" words="1728">
         <bibl>
           <ref to-book="Esra" to-chapter="7" to-verse="26"/>
           <profile>
@@ -3629,6 +3629,16 @@
         </bibl>
         <bibl>
           <ref to-book="Ps" to-chapter="2" to-verse=""/>
+          <profile>
+            <wit in="a" is="true"/>
+            <wit in="b" is="true"/>
+            <wit in="c" is="false"/>
+            <wit in="d" is="false"/>
+            <wit in="z" is="true"/>
+          </profile>
+        </bibl>
+        <bibl>
+          <ref from-book="Ps" from-chapter="5" from-verse="9" to-book="Ps" to-chapter="5" to-verse="f"/>
           <profile>
             <wit in="a" is="true"/>
             <wit in="b" is="true"/>
@@ -3958,7 +3968,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="487">
+      <div type="section" id="st_section_75" words="484">
         <bibl>
           <ref from-book="Eph" from-chapter="1" from-verse="1" to-book="Eph" to-chapter="3" to-verse="19"/>
           <profile>
@@ -3991,9 +4001,9 @@
         </bibl>
       </div>
     </div>
-    <div type="section-group" id="st_V_76-79" words="4674">
-      <div type="section" id="" words="498"/>
-      <div type="section" id="" words="1208">
+    <div type="section-group" id="st_V_76-79" words="4631">
+      <div type="section" id="st_section_76" words="491"/>
+      <div type="section" id="st_section_77" words="1197">
         <bibl>
           <ref to-book="Röm" to-chapter="12" to-verse="2"/>
           <profile>
@@ -4035,7 +4045,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="2170">
+      <div type="section" id="st_section_78" words="2151">
         <bibl>
           <ref from-book="1Thess" from-chapter="1" from-verse="2" to-book="1Thess" to-chapter="1" to-verse="f"/>
           <profile>
@@ -4257,12 +4267,12 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="798"/>
+      <div type="section" id="st_section_79" words="792"/>
     </div>
   </div>
-  <div type="chapter" id="" words="29647" column-title="VI. System der Glückseligkeitslehre des Christentums">
-    <div type="section-group" id="st_VI_80-85" words="6480">
-      <div type="section" id="st_section_80" words="1363">
+  <div type="chapter" id="" words="29316" column-title="VI. System der Glückseligkeitslehre des Christentums">
+    <div type="section-group" id="st_VI_80-85" words="6388">
+      <div type="section" id="st_section_80" words="1333">
         <bibl>
           <ref from-book="1Kor" from-chapter="9" from-verse="20" to-book="1Kor" to-chapter="9" to-verse="23"/>
           <profile>
@@ -4274,7 +4284,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="st_section_81" words="2166">
+      <div type="section" id="st_section_81" words="2145">
         <bibl>
           <ref from-book="Apg" from-chapter="17" from-verse="24" to-book="Apg" to-chapter="17" to-verse="f"/>
           <profile>
@@ -4556,7 +4566,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="860">
+      <div type="section" id="st_section_82" words="857">
         <bibl>
           <ref from-book="Mt" from-chapter="22" from-verse="37" to-book="Mt" to-chapter="22" to-verse="40"/>
           <profile>
@@ -4768,7 +4778,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="516">
+      <div type="section" id="st_section_83" words="511">
         <bibl>
           <ref to-book="Mk" to-chapter="2" to-verse="27"/>
           <profile>
@@ -4820,7 +4830,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="st_section_84" words="1362">
+      <div type="section" id="st_section_84" words="1344">
         <bibl>
           <ref to-book="Lk" to-chapter="16" to-verse="9"/>
           <profile>
@@ -4862,10 +4872,10 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="215"/>
+      <div type="section" id="st_section_85" words="200"/>
     </div>
-    <div type="section-group" id="st_VI_86-90" words="10952">
-      <div type="section" id="" words="795">
+    <div type="section-group" id="st_VI_86-90" words="10825">
+      <div type="section" id="st_section_86" words="775">
         <bibl>
           <ref to-book="Gen" to-chapter="8" to-verse="21"/>
           <profile>
@@ -4887,7 +4897,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="st_87" words="2519">
+      <div type="section" id="st_section_87" words="2477">
         <bibl>
           <ref to-book="Apg" to-chapter="7" to-verse="22"/>
           <profile>
@@ -4929,7 +4939,7 @@
           </profile>
         </bibl>
         <bibl>
-          <ref to-book="Jes" to-chapter="1" to-verse="15"/>
+          <ref from-book="Jes" from-chapter="1" from-verse="15" to-book="Jes" to-chapter="1" to-verse="f"/>
           <profile>
             <wit in="a" is="false"/>
             <wit in="b" is="false"/>
@@ -4959,7 +4969,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="4103">
+      <div type="section" id="st_section_88" words="4064">
         <bibl>
           <ref to-book="Mt" to-chapter="23" to-verse="2"/>
           <profile>
@@ -5311,6 +5321,26 @@
           </profile>
         </bibl>
         <bibl>
+          <ref to-book="2Petr" to-chapter="1" to-verse="19"/>
+          <profile>
+            <wit in="a" is="false"/>
+            <wit in="b" is="false"/>
+            <wit in="c" is="true"/>
+            <wit in="d" is="true"/>
+            <wit in="z" is="false"/>
+          </profile>
+        </bibl>
+        <bibl>
+          <ref to-book="2Petr" to-chapter="1" to-verse="19"/>
+          <profile>
+            <wit in="a" is="false"/>
+            <wit in="b" is="false"/>
+            <wit in="c" is="true"/>
+            <wit in="d" is="true"/>
+            <wit in="z" is="false"/>
+          </profile>
+        </bibl>
+        <bibl>
           <ref to-book="Mt" to-chapter="10" to-verse="16"/>
           <profile>
             <wit in="a" is="false"/>
@@ -5451,7 +5481,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="2938">
+      <div type="section" id="st_section_89" words="2915">
         <bibl>
           <ref to-book="Joh" to-chapter="1" to-verse="17"/>
           <profile>
@@ -6333,7 +6363,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="st_90" words="597">
+      <div type="section" id="st_section_90" words="594">
         <bibl>
           <ref to-book="Lk" to-chapter="1" to-verse="79"/>
           <profile>
@@ -6654,10 +6684,30 @@
             <wit in="z" is="true"/>
           </profile>
         </bibl>
+        <bibl>
+          <ref to-book="Röm" to-chapter="15" to-verse="1"/>
+          <profile>
+            <wit in="a" is="true"/>
+            <wit in="b" is="false"/>
+            <wit in="c" is="false"/>
+            <wit in="d" is="false"/>
+            <wit in="z" is="false"/>
+          </profile>
+        </bibl>
+        <bibl>
+          <ref to-book="Röm" to-chapter="15" to-verse="2"/>
+          <profile>
+            <wit in="a" is="true"/>
+            <wit in="b" is="false"/>
+            <wit in="c" is="false"/>
+            <wit in="d" is="false"/>
+            <wit in="z" is="false"/>
+          </profile>
+        </bibl>
       </div>
     </div>
-    <div type="section-group" id="st_VI_91-98" words="12198">
-      <div type="section" id="" words="1712">
+    <div type="section-group" id="st_VI_91-98" words="12086">
+      <div type="section" id="st_section_91" words="1697">
         <bibl>
           <ref from-book="Joh" from-chapter="16" from-verse="12" to-book="Joh" to-chapter="16" to-verse="f"/>
           <profile>
@@ -7499,7 +7549,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="2972">
+      <div type="section" id="st_section_92" words="2944">
         <bibl>
           <ref to-book="Mt" to-chapter="5" to-verse=""/>
           <profile>
@@ -7641,7 +7691,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="1341">
+      <div type="section" id="st_section_93" words="1333">
         <bibl>
           <ref to-book="Dan" to-chapter="10" to-verse=""/>
           <profile>
@@ -7793,7 +7843,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="676">
+      <div type="section" id="st_section_94" words="673">
         <bibl>
           <ref from-book="1Kor" from-chapter="13" from-verse="9" to-book="1Kor" to-chapter="13" to-verse="12"/>
           <profile>
@@ -7865,7 +7915,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="2253">
+      <div type="section" id="st_section_95" words="2222">
         <bibl>
           <ref to-book="Röm" to-chapter="14" to-verse="19"/>
           <profile>
@@ -7927,7 +7977,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="1343">
+      <div type="section" id="st_section_96" words="1336">
         <bibl>
           <ref to-book="1Kor" to-chapter="2" to-verse="14"/>
           <profile>
@@ -7949,7 +7999,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="574">
+      <div type="section" id="st_section_97" words="565">
         <bibl>
           <ref from-book="Röm" from-chapter="11" from-verse="33" to-book="Röm" to-chapter="11" to-verse="36"/>
           <profile>
@@ -8001,7 +8051,7 @@
           </profile>
         </bibl>
       </div>
-      <div type="section" id="" words="1327">
+      <div type="section" id="st_section_98" words="1316">
         <bibl>
           <ref to-book="Mt" to-chapter="13" to-verse="29"/>
           <profile>
