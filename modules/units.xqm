@@ -157,7 +157,9 @@ declare function units:compare($xx_conv as item()+ , $level) {
  <html>  
   <head>
     <script src="https://www.j-berkemeier.de/TableSort.js">""</script>
-      </head>
+    <script src="assets/js/custom.js"></script>
+    <link rel="stylesheet" href="assets/css/custom.css"></link>
+  </head>
   <body>   
   <table class="sortierbar">
   <thead>

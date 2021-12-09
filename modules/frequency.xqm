@@ -17,6 +17,10 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 declare function freq:table_all($doc, $bible, $div) 
 {
 <html>
+<head>
+  <script src="assets/js/custom.js"></script>
+  <link rel="stylesheet" href="assets/css/custom.css"></link>
+</head>
 <body>
 <table>
 <tr>

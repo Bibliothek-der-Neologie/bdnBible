@@ -95,6 +95,8 @@ declare function crit:register_table ( $doc ){
     <html>
       <head>
         <title>Textkritisches Bibelstellenregister</title>
+        <script src="assets/js/custom.js"></script>
+        <link rel="stylesheet" href="assets/css/custom.css"></link>
       </head>
       <body>
         <div>
